@@ -1,0 +1,27 @@
+Service
+- La 1 trong 4 components cua Android: Activity, BR, Service, Provider(Media Store)
+- Chay task khong can giao dien, thoi gian dai, chay ngam
+
+vd : FacebookMessenger: lang nghe tin nhan den
+
+-Service khong phai la Thresh, service chay tren MainThresh
+- Do uu tien khi bi kill la thap hon so vs Activity
+- Service co kha nang tu khoi phuc khi bi kill
+
+Co 2 kieu sd service 
+- started service : bat 1 service de thuc hien 1 cong viec, khong con rang buoc vs service
++ thuc hien cac tac vu chay dai va  chay ngam, 
+
+- bound service: mo hinh client-server cua android
+ dung boundService khi co UI 
+
+- Phan loai Service pham vi su dung
+1) Internal service
+2) External service
+
+*** Tim hieu IntentService
+Muon tu stop : stopSelf();
+*) Custom notification Layout
+- Khong luu dc Components cua  andorid
+- Toasty : Custom Toast
+- Android ssp, Android Sdp
