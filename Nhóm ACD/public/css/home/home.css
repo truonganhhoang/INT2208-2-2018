@@ -430,7 +430,7 @@ header .sign a.sign-up {
     color: #32CDFF;
     font-weight: bold;
     line-height: 22.5px;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -443,7 +443,8 @@ header .sign a.sign-up {
 }
 
 .owl-carousel .owl-item div.likes img {
-    width: auto !important;
+    width: 16px !important;
+    display: inline-block;
 }
 
 .slide-deck img {
@@ -498,7 +499,7 @@ header .sign a.sign-up {
     color: #32CDFF;
     font-weight: bold;
     line-height: 22.5px;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -514,6 +515,7 @@ header .sign a.sign-up {
 /* footer */
 .menu {
     color: #c4c4c4;
+    margin-top: 8%;
 }
 
 .menu .link {
