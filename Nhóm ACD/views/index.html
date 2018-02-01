@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Tinycards - FlasCard</title>
     <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/bootstrap.css">
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/library/normalize.css">
+    <link rel="stylesheet" href="../public/css/home/home.css">
+    <link rel="stylesheet" href="../public/css/home/m_home.css">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/library/owl.carousel.min.css">
+    <link rel="stylesheet" href="../public/css/library/owl.theme.default.min.css">
+    <script src="../public/js/jquery-3.3.1.min.js"></script>
+    <script src="../public/js/owl.carousel.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
@@ -40,7 +36,7 @@
 <div class="intro">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4 offset-md-1">
+            <div class="col-12 col-md-4 col-xl-3 offset-md-2">
                 <div class="title">
                     Learning anything with fun flashcards by Doulingo
                 </div>
@@ -52,11 +48,11 @@
     </div>
 </div>
 <div class="login">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 offset-md-3 col-lg-4 col-xl-3 popup-login" style="margin: auto;">
+            <div class="col-12 col-md-6 offset-md-4 col-lg-4 col-xl-4 popup-login" style="margin: auto;">
                 <div class="row">
-                    <img class="cancel" src="../public/image/cancel.png" alt="cancel">
+                    <img class="cancel cancel-log" src="../public/image/cancel.png" alt="cancel">
                     <div class="col-12 col-md-12 title">
                         Log in with your Doulingo account
                     </div>
@@ -67,15 +63,8 @@
                     <div class="w-100"></div>
                     <div class="col-10 col-md-10 offset-md-1 fb-login">Sign in with facebook</div>
                     <div class="w-100"></div>
-                    <!-- div class="or">
-                        <div class="row">
-                            <div class="col-5 col-md-5 line1"></div>
-                            <div class="col-2 col-md-2 text">Or</div>
-                            <div class="col col-md-5 line2"></div>
-                        </div>
-                    </div> -->
-                     <div class="col-12 col-md-12 text">Or</div>
-                    <form action="" class="col-12 col-md-10 offset-md-1">
+                    <div class="col-12 col-md-12 text">Or</div>
+                    <form action="#" class="col-12 col-md-10 offset-md-1">
                         <input type="text" class="username" name="username" placeholder="Email or username">
                         <input type="password" class="password" name="password" placeholder="Password">
                         <div class="forgot col-10 col-md-12 forgot">Forgot password ?</div>
@@ -86,10 +75,29 @@
         </div>
     </div>
 </div>
+<div class="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-4 col-lg-4 col-xl-4 popup-signup">
+                <div class="row">
+                    <img class="cancel cancel-sign" src="../public/image/cancel.png" alt="cancel">
+                    <div class="col-12 col-md-12 title">Create a Doulingo account</div>
+                    <div class="col-12 col-md-12 question">Already have an account?<span>Log in</span></div>
+                    <form action="#" class="col-12 col-md-10 offset-md-1">
+                        <input type="text" class="name" name="name" placeholder="Name">
+                        <input type="email" class="email" name="email" placeholder="Email">
+                        <input type="password" class="password" name="pass" placeholder="Password">
+                        <button type="submit" class="button-signup">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="courses">
     <div class="container-fluid">
         <div class="row">
-            <div class="list-courses col-12 col-md-10 col-lg-8 offset-md-1">
+            <div class="list-courses col-12 col-md-10 col-lg-10 offset-md-1">
                 <div class="row search-create">
                     <div class="col-12 col-sm-8 col-md-5 offset-md-1 search">
                         <div class="row">
@@ -127,171 +135,156 @@
                     <div class="w-100"></div>
                     <div class="col-12 col-md-11 offset-md-1 slide-deck">
                         <div class="row">
-                            <div id="carouselExampleControls" class="carousel slide"
-                                 data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck1.png" width="144" height="166" alt="">
-                                            <p>Football</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>6K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck2.jpg" width="144" height="166" alt="">
-                                            <p>Table of 7</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>10K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck3.jpg" width="144" height="166" alt="">
-                                            <p>Film Director</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>6K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck4.jpg" width="144" height="166" alt="">
-                                            <p>Gizan</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>6K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck5.jpg" width="144" height="166" alt="">
-                                            <p>Spanish Courses</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>6K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck6.png" width="144" height="166" alt="">
-                                            <p>Mexico</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>6K</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck7.png" width="144" height="166" alt="">
-                                            <p>White Bear</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>61K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck8.png" width="144" height="166" alt="">
-                                            <p>Musical</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>9K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck9.png" width="144" height="166" alt="">
-                                            <p>Mathematic</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>8K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck10.png" width="144" height="166" alt="">
-                                            <p>English</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>26K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck11.png" width="144" height="166" alt="">
-                                            <p>Universe</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>20K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck12.png" width="144" height="166" alt="">
-                                            <p>Silk</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>2K</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck13.png" width="144" height="166" alt="">
-                                            <p>Cell Orangeless</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>7K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck14.png" width="144" height="166" alt="">
-                                            <p>Super Bow</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>10K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck15.png" width="144" height="166" alt="">
-                                            <p>Italian</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>21K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck16.png" width="144" height="166" alt="">
-                                            <p>Chess</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>42K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck17.png" width="144" height="166" alt="">
-                                            <p>Chemistry</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>12K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/deck/deck18.png" width="144" height="166" alt="">
-                                            <p>Flamengo</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>26K</span>
-                                            </div>
-                                        </div>
+                            <div class="owl-carousel">
+
+                                <div class="block">
+                                    <img src="../public/image/deck/deck1.png" width="144" height="166" alt="">
+                                    <p>Football</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>6K</span>
                                     </div>
                                 </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck2.jpg" width="144" height="166" alt="">
+                                    <p>Table of 7</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>10K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck3.jpg" width="144" height="166" alt="">
+                                    <p>Film Director</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>6K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck4.jpg" width="144" height="166" alt="">
+                                    <p>Gizan</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>6K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck5.jpg" width="144" height="166" alt="">
+                                    <p>Spanish Courses</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>6K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck6.png" width="144" height="166" alt="">
+                                    <p>Mexico</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>6K</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="block">
+                                    <img src="../public/image/deck/deck7.png" width="144" height="166" alt="">
+                                    <p>White Bear</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>61K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck8.png" width="144" height="166" alt="">
+                                    <p>Musical</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>9K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck9.png" width="144" height="166" alt="">
+                                    <p>Mathematic</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>8K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck10.png" width="144" height="166" alt="">
+                                    <p>English</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>26K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck11.png" width="144" height="166" alt="">
+                                    <p>Universe</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>20K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck12.png" width="144" height="166" alt="">
+                                    <p>Silk</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>2K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck13.png" width="144" height="166" alt="">
+                                    <p>Cell Orangeless</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>7K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck14.png" width="144" height="166" alt="">
+                                    <p>Super Bow</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>10K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck15.png" width="144" height="166" alt="">
+                                    <p>Italian</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>21K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck16.png" width="144" height="166" alt="">
+                                    <p>Chess</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>42K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck17.png" width="144" height="166" alt="">
+                                    <p>Chemistry</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>12K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/deck/deck18.png" width="144" height="166" alt="">
+                                    <p>Flamengo</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>26K</span>
+                                    </div>
+                                </div>
+
                             </div>
-                            <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                                data-slide="prev">
-                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                 <span class="sr-only">Previous</span>
-                             </a>
-                             <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                                data-slide="next">
-                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                 <span class="sr-only">Next</span>
-                             </a>-->
                         </div>
                     </div>
                 </div>
@@ -308,189 +301,174 @@
                     <!-- .slide-trending-->
                     <div class="col-12 col-md-11 offset-md-1 slide-trending">
                         <div class="row">
-                            <div id="carouselExampleControls" class="carousel slide"
-                                 data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend1.jpg" width="144" height="166"
-                                                 alt="">
-                                            <p>Fruit</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>10K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend2.jpg" width="144" height="166"
-                                                 alt="">
-                                            <p>France</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>14K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend3.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Patheon</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>12K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend4.jpg" width="144" height="166"
-                                                 alt="">
-                                            <p>Exercise</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>15K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend5.jpg" width="144" height="166"
-                                                 alt="">
-                                            <p>Earth</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>8K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend6.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Eiffel Tower</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>26K</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend7.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Periodic</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>61K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend8.png" width="144" height="166"
-                                                 alt="">
-                                            <p>America</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>9K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend9.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Mathematic</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>8K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend10.png" width="144" height="166"
-                                                 alt="">
-                                            <p>School</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>26K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend11.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Tower</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>20K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend20.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Univison</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>2K</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend12.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Fire Fox</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>7K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend13.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Blue Bird</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>10K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend14.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Language</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>21K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend15.png" width="144" height="166"
-                                                 alt="">
-                                            <p>La Poste</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>42K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend16.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Mini Craft</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>12K</span>
-                                            </div>
-                                        </div>
-                                        <div class="block">
-                                            <img src="../public/image/trending/trend17.png" width="144" height="166"
-                                                 alt="">
-                                            <p>Jobs</p>
-                                            <div class="likes">
-                                                <img src="../public/image/star.png" alt="star">
-                                                <span>26K</span>
-                                            </div>
-                                        </div>
+                            <div class="owl-carousel">
+
+                                <div class="block">
+                                    <img src="../public/image/trending/trend1.jpg" width="144" height="166"
+                                         alt="">
+                                    <p>Fruit</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>10K</span>
                                     </div>
                                 </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend2.jpg" width="144" height="166"
+                                         alt="">
+                                    <p>France</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>14K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend3.png" width="144" height="166"
+                                         alt="">
+                                    <p>Patheon</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>12K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend4.jpg" width="144" height="166"
+                                         alt="">
+                                    <p>Exercise</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>15K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend5.jpg" width="144" height="166"
+                                         alt="">
+                                    <p>Earth</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>8K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend6.png" width="144" height="166"
+                                         alt="">
+                                    <p>Eiffel Tower</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>26K</span>
+                                    </div>
+                                </div>
+
+                                <div class="block">
+                                    <img src="../public/image/trending/trend7.png" width="144" height="166"
+                                         alt="">
+                                    <p>Periodic</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>61K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend8.png" width="144" height="166"
+                                         alt="">
+                                    <p>America</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>9K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend9.png" width="144" height="166"
+                                         alt="">
+                                    <p>Mathematic</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>8K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend10.png" width="144" height="166"
+                                         alt="">
+                                    <p>School</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>26K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend11.png" width="144" height="166"
+                                         alt="">
+                                    <p>Tower</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>20K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend20.png" width="144" height="166"
+                                         alt="">
+                                    <p>Univison</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>2K</span>
+                                    </div>
+                                </div>
+
+                                <div class="block">
+                                    <img src="../public/image/trending/trend12.png" width="144" height="166"
+                                         alt="">
+                                    <p>Fire Fox</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>7K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend13.png" width="144" height="166"
+                                         alt="">
+                                    <p>Blue Bird</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>10K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend14.png" width="144" height="166"
+                                         alt="">
+                                    <p>Language</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>21K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend15.png" width="144" height="166"
+                                         alt="">
+                                    <p>La Poste</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>42K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend16.png" width="144" height="166"
+                                         alt="">
+                                    <p>Mini Craft</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>12K</span>
+                                    </div>
+                                </div>
+                                <div class="block">
+                                    <img src="../public/image/trending/trend17.png" width="144" height="166"
+                                         alt="">
+                                    <p>Jobs</p>
+                                    <div class="likes">
+                                        <img src="../public/image/star.png" width="16" height="16" alt="likes">
+                                        <span>26K</span>
+                                    </div>
+                                </div>
+
                             </div>
-                            <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                               data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                               data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>-->
                         </div>
                     </div> <!-- End .trending-->
                 </div> <!-- End .list-courses-->

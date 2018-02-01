@@ -35,28 +35,12 @@ header div.row a {
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 576px) {
-    header div.row a {
-        font-size: 12px;
-    }
-}
-
 header .sign a.sign-up {
     display: inline-block;
     background: #fff;
     color: #32CDFF;
     border-radius: 10px;
     padding: 7px;
-}
-
-@media only screen and (max-width: 576px) {
-    header div.row div.sign {
-        text-align: right;
-    }
-
-    header div.row img.text-logo {
-        display: none;
-    }
 }
 
 /* .intro */
@@ -80,17 +64,6 @@ header .sign a.sign-up {
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-    .intro div.title {
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .intro {
-        text-align: center;
-    }
-}
-
 /* .login */
 .login {
     z-index: 99999;
@@ -111,31 +84,6 @@ header .sign a.sign-up {
     opacity: 1 !important;
 }
 
-@media only screen and (max-width: 768px) {
-    .popup-login {
-        margin: auto;
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 780px) {
-    .popup-login {
-        top: -400px;
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    .popup-login {
-        margin: auto;
-        margin-top: -20%;
-        height: 600px;
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
 .popup-login img.cancel {
     position: absolute;
     right: 20px;
@@ -152,7 +100,7 @@ header .sign a.sign-up {
     font-weight: bold;
     line-height: 24px;
     color: #5c5c5c;
-    text-decoration: none solid rgb(137,137,137);
+    text-decoration: none solid rgb(137, 137, 137);
     text-align: center;
     padding-top: 25px;
     margin: auto;
@@ -163,7 +111,7 @@ header .sign a.sign-up {
     font-size: 15px;
     line-height: 24px;
     color: #898989;
-    text-decoration: none solid rgb(137,137,137);
+    text-decoration: none solid rgb(137, 137, 137);
     margin: auto;
     text-align: center;
     margin-top: 15px;
@@ -187,7 +135,7 @@ header .sign a.sign-up {
     font-size: 15px;
     line-height: 24px;
     color: #fff;
-    text-decoration: none solid rgb(255,255,255);
+    text-decoration: none solid rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
     background: #DF360A;
@@ -207,7 +155,7 @@ header .sign a.sign-up {
     font-size: 15px;
     line-height: 24px;
     color: #fff;
-    text-decoration: none solid rgb(255,255,255);
+    text-decoration: none solid rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
     background: #39559F;
@@ -222,24 +170,6 @@ header .sign a.sign-up {
 
 .popup-login div.fb-login:hover {
     opacity: 0.8;
-}
-
-.popup-login .or {
-    margin-top: 10px;
-    display: block;
-}
-
-.popup-login .or .line1 {
-    display: inline-block;
-    width: 36.5%;
-    padding-right: 2%;
-    padding-left: 7%;
-}
-
-.popup-login .or .line2 {
-    display: inline-block;
-    width: 36.5%;
-    padding-left: 2%;
 }
 
 .popup-login .text {
@@ -303,10 +233,95 @@ header .sign a.sign-up {
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 500px) {
-    .popup-login {
-        height: 100vh;
-    }
+/* register */
+.register {
+    height: 0;
+}
+
+.register .popup-signup {
+    z-index: 99999;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 15px #ffffff;
+    height: 437px;
+}
+
+.register .popup-signup img.cancel {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 99999;
+}
+
+.register .popup-signup img.cancel:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.register .popup-signup div.title {
+    font-weight: bold;
+    line-height: 24px;
+    color: #5c5c5c;
+    text-decoration: none solid rgb(137, 137, 137);
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    font-size: 1em;
+}
+
+.register .popup-signup div.question {
+    font-size: 15px;
+    line-height: 24px;
+    color: #898989;
+    text-decoration: none solid rgb(137, 137, 137);
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register .popup-signup div.question span {
+    text-transform: uppercase;
+    color: #32CDFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.register .popup-signup div.question span:hover {
+    text-shadow: -0.5px -0.5px;
+    cursor: pointer;
+}
+
+.popup-signup form {
+    margin-top: 8%;
+}
+
+.register .popup-signup form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c4c4c4;
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 27px;
+    font-weight: 200;
+    width: 100%;
+}
+
+.register .popup-signup form button {
+    border: none;
+    border-radius: 10px;
+    background: #898989;
+    margin-top: 10%;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: not-allowed;
+    width: 100%;
 }
 
 /* .courses .list-courses */
@@ -317,22 +332,7 @@ header .sign a.sign-up {
     z-index: 9999;
     margin: auto;
     margin-top: -630px;
-    height: 100vh;
-}
-
-@media only screen and (min-width: 1600px) {
-    .courses .list-courses {
-        max-width: 1082px !important;
-        width: 1082px;
-        margin-top: -750px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .courses .list-courses {
-        margin-top: 0;
-        z-index: 1;
-    }
+    height: 900px;
 }
 
 /* .courses .search */
@@ -358,25 +358,7 @@ header .sign a.sign-up {
     outline: none;
     padding: 6px 0px;
     display: inline-block;
-    /* width: 200px; */
     max-width: 80%;
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-    .courses .search div.search-title {
-        /* margin-left: 10px; */ margin-bottom: 20px;
-    }
-}
-
-@media only screen and (max-width: 490px) {
-    .courses .search div.search-title {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-
-    .courses .create div.create-title {
-        margin-left: 20px;
-    }
 }
 
 .courses .search div.search-title form {
@@ -393,12 +375,6 @@ header .sign a.sign-up {
 .courses .search div.search-title form img {
     transform: rotate(-45deg);
     display: inline-block;
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
-    .courses .search div.search-title {
-        margin-left: 20px;
-    }
 }
 
 /* .courses .create */
@@ -436,12 +412,6 @@ header .sign a.sign-up {
     opacity: 0.8;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
-    .courses .create div.create-title {
-        margin-left: 15px;
-    }
-}
-
 /* .decks .slide-deck */
 .decks {
     margin-top: 35px;
@@ -472,10 +442,8 @@ header .sign a.sign-up {
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 768px) {
-    .slide-deck {
-        margin-left: 20px;
-    }
+.owl-carousel .owl-item div.likes img {
+    width: auto !important;
 }
 
 .slide-deck img {
@@ -484,13 +452,13 @@ header .sign a.sign-up {
 }
 
 /* .carousel-inner .carousel-item .block */
-.carousel-inner .carousel-item .block {
+.block {
     display: inline-block;
     margin-right: 15px;
     vertical-align: top;
 }
 
-.carousel-inner .carousel-item .block p {
+.block p {
     font-size: 15px;
     line-height: 22.5px;
     color: #5c5c5c;
@@ -499,7 +467,16 @@ header .sign a.sign-up {
     margin-top: 15px;
 }
 
-.carousel-inner .carousel-item .block .likes span {
+.block img {
+    box-shadow: 0 2px 9px rgba(0,0,0,.1);
+    max-width: 160px;
+}
+
+.block likes img {
+    width: 16px !important;
+}
+
+.block .likes span {
     color: #c4c4c4;
 }
 
@@ -527,12 +504,6 @@ header .sign a.sign-up {
 
 .slide-trending {
     margin-top: 15px;
-}
-
-@media only screen and (max-width: 768px) {
-    .slide-trending {
-        margin-left: 20px;
-    }
 }
 
 .slide-trending img {
@@ -572,10 +543,4 @@ header .sign a.sign-up {
     display: inline-block;
     cursor: pointer;
     margin-right: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-    .footer {
-        display: none;
-    }
 }
