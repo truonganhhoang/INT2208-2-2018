@@ -43,6 +43,21 @@ header .sign a.sign-up {
     padding: 7px;
 }
 
+/* .mask */
+.mask {
+    background: gray;
+    z-index: 99998;
+    opacity: 0;
+    visibility: hidden;
+    height: 1000px;
+    top: -60px;
+}
+
+.mask-blur {
+    visibility: visible !important;
+    opacity: 0.4 !important;
+}
+
 /* .intro */
 .intro {
     background: #32CDFF;

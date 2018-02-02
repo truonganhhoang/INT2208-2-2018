@@ -1,8 +1,9 @@
 $(document).ready(function () {
+    // Khi click vao login hoac sign-up thi hien ra cua so tuong ung
     $(document).on('click', 'header .sign-in, header .sign-up', function (event) {
         var view_width = $(window).width();
         if (view_width < 768) {
-            $("header").css("display", "none");
+            $("header .navigation").css("display", "none");
             $(".intro").css("display", "none");
             if ($(this).hasClass('sign-in')) {
                 $(".popup-login").css("display", "block");
@@ -20,23 +21,32 @@ $(document).ready(function () {
             }
         }
 
+        $(".mask").addClass('mask-blur');
+
         $('html, body').css({
             overflow: 'hidden',
             height  : '100%'
         });
     });
 
-    $(document).on("click", ".cancel", function (event) {
+    // Khi an vao nut X, hoac ben ngoai popup thi se an cua so di    
+    $(document).on("click", ".cancel, .mask", function (event) {
         $('html, body').css({
             overflow: 'visible'
         });
 
+        $(".mask").removeClass('mask-blur');
+
         var view_width = $(window).width();
         if (view_width < 768) {
-            $("header").css("display", "block");
+            $("header .navigation").css("display", "flex");
             $(".intro").css("display", "block");
 
-            if ($(this).hasClass('cancel-log')) {
+            if ($(this).hasClass('mask')) {
+                $(".popup-login").css("display", "none");
+                $(".popup-signup").css("display", "none");
+            }
+            else if ($(this).hasClass('cancel-log')) {
                 $(".popup-login").css("display", "none");
             }
             else {
@@ -44,7 +54,15 @@ $(document).ready(function () {
             }
         }
         else {
-            if ($(this).hasClass('cancel-log')) {
+            if ($(this).hasClass('mask')) {
+                if ($(".popup-login").hasClass('alert-popup')) {
+                    $(".popup-login").removeClass('alert-popup');
+                }
+                else if ( $(".popup-signup").hasClass('alert-popup')) {
+                    $(".popup-signup").removeClass('alert-popup');
+                }
+            }
+            else if ($(this).hasClass('cancel-log')) {
                 $(".popup-login").removeClass('alert-popup');
             }
             else {
