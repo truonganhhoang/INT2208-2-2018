@@ -1,128 +1,56 @@
 @media only screen and (max-width: 576px) {
-	header div.row a {
-        font-size: 12px;
-    }
+	header .logo, header div.form-search form, header div.link-header a span  {
+		display: none;
+	}
 
-    header div.row div.sign {
-        text-align: right;
-    }
+	header div.form-search {
+		background: #32CDFF;
+	}
 
-    header div.row img.text-logo {
-        display: none;
-    }
+	header div.form-search img {
+		margin-top: 15px;
+	}
 
-    .popup-signup {
-        height: 100vh !important;
-    }
+	header form {
+		margin-right: 25px;
+	}
 
+	header div {
+		text-align: right;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-	.intro div.title {
-        text-align: center;
-        margin-top: 50px;
-    }
+	header div.link-header a span {
+		font-size: 12px;
+	}
 
-    .intro {
-        text-align: center;
-    }
-
-    .popup-login {
-        margin: auto;
-        display: none;
-    }
-
-    .popup-signup {
-        margin: auto;
-        display: none;
-    }
-
-    .courses .list-courses {
-        margin-top: 0;
-        z-index: 1;
-        height: 1000px;
-    }
-
-    .slide-deck {
-        margin-left: 20px;
-    }
-
-    .slide-trending {
-        margin-left: 20px;
-    }
-
-    .nav-bar {
-        display: none;
-    }
+	header div.link-header.profile span {
+		margin-left: -5px;
+	}
+	section {
+		padding-top: 55px;
+	}
 }
 
-@media only screen and (min-width: 780px) {
-	.popup-login {
-        top: -400px;
-        opacity: 0;
-        visibility: hidden;
-    }
+@media only screen and (min-width: 960px) {
+	header div.home {
+		text-align: right;
+	}
 
-    .popup-signup {
-        top: -900px;
-        opacity: 0;
-        visibility: hidden;
-    }
+	header div.profile {
+		margin-left: -8%;
+	}
 }
 
-@media only screen and (min-width: 1600px) {
-	.popup-login {
-        margin: auto;
-        margin-top: -20%;
-        height: 600px;
-        width: 500px !important;
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    .popup-signup {
-        margin: auto;
-        margin-top: -20%;
-        opacity: 0;
-        visibility: hidden;
-    }
-
-    .courses .list-courses {
-        max-width: 1082px !important;
-        width: 1082px;
-        margin-top: -750px;
-    }
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+	header div.form-search form input {
+		width: 75px;
+	}
 }
 
-@media only screen and (max-width: 500px) {
-	.popup-login {
-        height: 100vh;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-	.courses .search div.search-title {
-        margin-bottom: 20px;
-    }
-}
-
-@media only screen and (max-width: 490px) {
-	.courses .search div.search-title {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-
-    .courses .create div.create-title {
-        margin-left: 20px;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1920px) {
-	.courses .search div.search-title {
-        margin-left: 20px;
-    }
-
-    .courses .create div.create-title {
-        margin-left: 15px;
-    }
+@media only screen and (max-width: 1024px) {
+	header .logo .text-logo {
+		display: none;
+	}
 }

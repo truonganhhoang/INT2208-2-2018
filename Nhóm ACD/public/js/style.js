@@ -71,6 +71,11 @@ $(document).ready(function () {
         }
     });
 
+    $("button.button-login").click(function(event) {
+         window.location.href = 'home.html';
+         return false;
+    });
+
     $('.owl-carousel').owlCarousel({
         loop           : true,
         responsiveClass: true,
