@@ -31,4 +31,14 @@ $(document).ready(function() {
             }
         }
     })
+
+    $(".row.follow .find").click(function(event) {
+        $(".mask").addClass('mask-blur');
+        $(".row.loading").css("display", "flex");
+
+        $('html, body').css({
+            overflow: 'hidden',
+            height  : '100%'
+        });
+    });
 });

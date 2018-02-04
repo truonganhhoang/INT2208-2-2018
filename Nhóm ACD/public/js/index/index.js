@@ -98,7 +98,6 @@ $(document).ready(function () {
             },
             1000: {
                 items: 6,
-               /* nav  : true*/
                 loop : false,
                 margin: 20
             }

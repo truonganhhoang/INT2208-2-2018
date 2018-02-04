@@ -31,6 +31,35 @@
 	section {
 		padding-top: 55px;
 	}
+
+	.nav-bar {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.row.loading div.icon-loading {
+		height: 100vh;
+		margin-top: -1060px;
+		padding-top: 30%;
+    	padding-left: 25%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.row.loading div.icon-loading {
+		padding-top: 45vh;
+	}
+
+	section .wrapper .favorites .no-favo {
+		text-align: left;
+		font-size: 12px;
+	}
+
+	section .wrapper .follow .find {
+		margin-top: 15px;
+		height: 30px;
+	}
 }
 
 @media only screen and (min-width: 960px) {
@@ -52,5 +81,11 @@
 @media only screen and (max-width: 1024px) {
 	header .logo .text-logo {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	section .wrapper .slide .image-slide {
+		margin-left: -30px;
 	}
 }
