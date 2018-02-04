@@ -1,0 +1,563 @@
+* {
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* header */
+header {
+    background: #32CDFF;
+    height: 60px;
+    position: fixed;
+    z-index: 10000;
+    width: 100vw;
+}
+
+header div.logo {
+    padding-left: 9%;
+}
+
+header div.row img {
+    margin-top: 15px;
+}
+
+header div.row div.sign {
+    padding-top: 10px
+}
+
+header div.row a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .sign a.sign-up {
+    display: inline-block;
+    background: #fff;
+    color: #32CDFF;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+/* .mask */
+.mask {
+    background: gray;
+    z-index: 99998;
+    opacity: 0;
+    visibility: hidden;
+    height: 1000px;
+    top: -60px;
+}
+
+.mask-blur {
+    visibility: visible !important;
+    opacity: 0.4 !important;
+}
+
+/* .intro */
+.intro {
+    background: #32CDFF;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.intro div.title {
+    font-size: 20px;
+    line-height: 31px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: left;
+}
+
+.intro div.row img {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* .login */
+.login {
+    z-index: 99999;
+    /* display:  none; */
+}
+
+.popup-login {
+    z-index: 99999;
+    background: #fff;
+    border-radius: 18px;
+    height: 530px;
+    box-shadow: 0px 15px #ffffff;
+    margin: auto;
+}
+
+.alert-popup {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.popup-login img.cancel {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 99999;
+}
+
+.popup-login img.cancel:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.popup-login div.title {
+    font-weight: bold;
+    line-height: 24px;
+    color: #5c5c5c;
+    text-decoration: none solid rgb(137, 137, 137);
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    font-size: 1em;
+}
+
+.popup-login div.question {
+    font-size: 15px;
+    line-height: 24px;
+    color: #898989;
+    text-decoration: none solid rgb(137, 137, 137);
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.popup-login div.question span {
+    text-transform: uppercase;
+    color: #32CDFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.popup-login div.question span:hover {
+    text-shadow: -0.5px -0.5px;
+    cursor: pointer;
+}
+
+.popup-login div.google-login {
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    background: #DF360A;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.popup-login div.google-login:hover {
+    opacity: 0.8;
+}
+
+.popup-login div.fb-login {
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    background: #39559F;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 0;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+    /* margin: auto; */
+}
+
+.popup-login div.fb-login:hover {
+    opacity: 0.8;
+}
+
+.popup-login .text {
+    display: inline-block;
+    text-align: center;
+    font-size: 21px;
+    color: #898989;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.popup-login form {
+    margin-top: 5%;
+}
+
+.popup-login form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #32CDFF;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.popup-login form div.forgot {
+    text-transform: uppercase;
+    color: #32CDFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.popup-login form div.forgot:hover {
+    opacity: 1 !important;
+    text-shadow: -0.5px -0.5px;
+}
+
+.popup-login form button.button {
+    text-transform: uppercase;
+    background: #32CDFF;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.popup-login form button.button:hover {
+    opacity: 0.8;
+}
+
+/* register */
+.register {
+    height: 0;
+}
+
+.register .popup-signup {
+    z-index: 99999;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 15px #ffffff;
+    height: 437px;
+}
+
+.register .popup-signup img.cancel {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 99999;
+}
+
+.register .popup-signup img.cancel:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.register .popup-signup div.title {
+    font-weight: bold;
+    line-height: 24px;
+    color: #5c5c5c;
+    text-decoration: none solid rgb(137, 137, 137);
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    font-size: 1em;
+}
+
+.register .popup-signup div.question {
+    font-size: 15px;
+    line-height: 24px;
+    color: #898989;
+    text-decoration: none solid rgb(137, 137, 137);
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register .popup-signup div.question span {
+    text-transform: uppercase;
+    color: #32CDFF;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.register .popup-signup div.question span:hover {
+    text-shadow: -0.5px -0.5px;
+    cursor: pointer;
+}
+
+.popup-signup form {
+    margin-top: 8%;
+}
+
+.register .popup-signup form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c4c4c4;
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 27px;
+    font-weight: 200;
+    width: 100%;
+}
+
+.register .popup-signup form button {
+    border: none;
+    border-radius: 10px;
+    background: #898989;
+    margin-top: 10%;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: not-allowed;
+    width: 100%;
+}
+
+/* .courses .list-courses */
+.courses .list-courses {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .04);
+    z-index: 9999;
+    margin: auto;
+    margin-top: -630px;
+    height: 900px;
+}
+
+/* .courses .search */
+.courses .search {
+    margin-top: 15px;
+}
+
+.courses .search img.search_icon {
+    margin-top: 15px;
+}
+
+.courses .search div.search-title span {
+    display: block;
+    font-size: 1.25em;
+    color: #5C5C5C;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.courses .search div.search-title input {
+    color: #898989;
+    background: #e8e8e8;
+    outline: none;
+    padding: 6px 0px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.courses .search div.search-title form {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    outline: none;
+    display: block;
+    padding: 6px;
+    background: #E8E8E8;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.courses .search div.search-title form img {
+    transform: rotate(-45deg);
+    display: inline-block;
+}
+
+/* .courses .create */
+.courses .create {
+    margin-top: 20px;
+}
+
+.courses .create img.create_icon {
+    margin-top: 15px;
+}
+
+.courses .create div.create-title span {
+    color: #5C5C5C;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.courses .create div.create-title div {
+    border: 1px solid #32CDFF;
+    border-radius: 10px;
+    display: block;
+    padding: 12px;
+    background: #32CDFF;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.courses .create div.create-title div:hover {
+    opacity: 0.8;
+}
+
+/* .decks .slide-deck */
+.decks {
+    margin-top: 35px;
+}
+
+.decks .title {
+    font-size: 20px;
+    line-height: 37.5px;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+.decks .see-all {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #32CDFF;
+    font-weight: bold;
+    line-height: 22.5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.see-all:hover {
+    text-shadow: -0.5px -0.5px;
+}
+
+.slide-deck {
+    margin-top: 15px;
+}
+
+.owl-carousel .owl-item div.likes img {
+    width: 16px !important;
+    display: inline-block;
+}
+
+.slide-deck img {
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* .carousel-inner .carousel-item .block */
+.block {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.block p {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #5c5c5c;
+    font-weight: 600;
+    width: 144px;
+    margin-top: 15px;
+}
+
+.block img {
+    box-shadow: 0 2px 9px rgba(0,0,0,.1);
+    max-width: 160px;
+}
+
+.block likes img {
+    width: 16px !important;
+}
+
+.block .likes span {
+    color: #c4c4c4;
+}
+
+/* .trending */
+.trending {
+    margin-top: 20px;
+}
+
+.trending .title {
+    font-size: 20px;
+    line-height: 37.5px;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+.trending .see-all {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #32CDFF;
+    font-weight: bold;
+    line-height: 22.5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slide-trending {
+    margin-top: 15px;
+}
+
+.slide-trending img {
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* footer */
+.menu {
+    color: #c4c4c4;
+    margin-top: 8%;
+}
+
+.menu .link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 15px;
+    color: #c4c4c4;
+    text-decoration: none solid rgb(196, 196, 196);
+    font-size: 15px;
+    line-height: 22.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .lang {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #32cdff;
+    cursor: pointer;
+}
+
+.menu .lang img {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
