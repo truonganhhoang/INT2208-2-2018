@@ -71,6 +71,11 @@ $(document).ready(function () {
         }
     });
 
+    $("button.button-login").click(function(event) {
+         window.location.href = 'home.html';
+         return false;
+    });
+
     $('.owl-carousel').owlCarousel({
         loop           : true,
         responsiveClass: true,
@@ -93,7 +98,6 @@ $(document).ready(function () {
             },
             1000: {
                 items: 6,
-               /* nav  : true*/
                 loop : false,
                 margin: 20
             }
