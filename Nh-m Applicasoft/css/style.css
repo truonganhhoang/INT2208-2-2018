@@ -1,0 +1,80 @@
+body {
+	font-family: Tahoma;
+	font-size: 15px;
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#demo ul li {
+    height: 12px;
+    width: 12px;
+    border-radius: 30px;
+}
+#demo ul li:hover {
+	background: red none repeat scroll 0 0;
+    height: 12px;
+    width: 12px;
+}
+.sub-footer-content {
+	background: url(../images/sub-footer.jpg);
+	background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 65px;
+    text-align: center;
+    color: #fff;
+}
+.register-options .btn-dkthi {
+	width: 260px;
+    height: 40px;
+    border-radius: 50px;
+}
+.register-options {
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 50px;
+	width: 260px
+}
+.site-info{
+	background: #262827;
+	color: #fff;
+	padding-top: 45px;
+    padding-bottom: 15px;
+}
+.site-info a {
+    color: #ababab;
+}
+
+#selectbasic{
+	height: 34px;
+}
+.portfolio-item{
+	margin: 0 0 30px;
+}
+.caption-content img{
+	border: 2px solid #000;
+}
+.portfolio-link img{
+	opacity: 0.3;
+}
+.portfolio-link img:hover{
+	opacity: 1;
+}
+h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background: gray;
+	text-decoration-style: initial !important;
+}
