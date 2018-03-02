@@ -1,5 +1,5 @@
-var MEMBER_API = "https://youtube-api-challenger.appspot.com/members";
-var LOGIN_API = "https://youtube-api-challenger.appspot.com/authentication";
+//API urls 
+
 
 var usernameInput = document.forms["sign-up-form"]["username"];
 var passwordInput = document.forms["sign-up-form"]["password"];;

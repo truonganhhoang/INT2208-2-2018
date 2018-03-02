@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 function loadvideo(keyword) {
     $.ajax({
-        url: "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&videoEmbeddable=true&videoSyndicated=true&maxResults=12&part=snippet&key=AIzaSyAwUjk3CwtXCiB_W6Xi0colfOKPgm90hHc",
+        url: "",
         type: 'GET',
         success: function (response) {
             console.log("Success");
