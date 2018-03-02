@@ -13,12 +13,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/time.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  
+  <style>
+      body { background-image: url("image/luyentap.jpg") }
+      a { font-size: 20px; }
+  </style>
 </head>
-
+  
 <body>
-  <header>
+  
+    <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -52,32 +57,59 @@
 
     </header>
     <section>
-    <h1>Bài 5:Chương 2 - Số liền trước, số liền sau phạm vi 20</h1>
-    <h2 class="type">Điền số thích hợp vào ô trống</h2>
+        <router-outlet></router-outlet><count-question-detail _nghost-c3="">
+    <section>
+    <h1>Bài 1 - Chương 5: Xem giờ</h1>
+    <h2 class="type">Chọn đáp án đúng.</h2>
     <div class="container">
         <div class="row">
+            <div class="col-sm-1"></div>
 
-            <div class="col-md-6">
+            <div class="col-sm-10">
+                <div id="tableCheck">
+                    <table>
+                        <tr>
+                            <th>Câu 1</th>
+                            <th>Câu 2</th>
+                            <th>Câu 3</th>
+                            <th>Câu 4</th>
+                            <th>Câu 5</th>
+                        </tr>
+                        <tr>
+                            <td id="0"></td>
+                            <td id="1"></td>
+                            <td id="2"></td>
+                            <td id="3"></td>
+                            <td id="4"></td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
                 <div class="panel panel-body panel-primary" id="divQues">
-
-
                     <div *ngIf="showAns">
-                        <h2>{{_nameQues}} {{_num}}</h2>
+                        <h2 class="type"> Đồng hồ chỉ ??? </h2>
+                        <img src=image/clock.png/>
                         <br>
-                        <h2>{{_nameAns}} <input type="text" #result id="ketqua"> </h2>
-                        <div id="submit_ans">
-                            <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
-                        </div>
+                        <form class="form-inline">
+                            <button type="button" #vl1 value={{clocks[x].ans_A}} (click)="checkAns(vl1.value)">10 giờ 10 phút</button>
+                            <button type="button" #vl2 value={{clocks[x].ans_B}} (click)="checkAns(vl2.value)">2 giờ 50 phút</button>
+                            <button type="button" #vl3 value={{clocks[x].ans_C}} (click)="checkAns(vl3.value)">3 giờ kém 10 phút</button>
+
+                        </form>
                     </div>
                     
-
                 </div>
-
             </div>
-            
         </div>
     </div>
 </section>
+  </count-question-detail>
+    </section>
+
+    
+
 </body>
 
-</html>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
+
+</body>
