@@ -181,14 +181,20 @@ section .wrapper .follow .find {
     font-weight: bold;
 }
 
-.trending .see-all {
+.see-all a {
     text-transform: uppercase;
     font-size: 15px;
     color: #32CDFF;
     font-weight: bold;
     line-height: 22.5px;
-    text-align: center;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.see-all a:hover {
+    text-shadow: -0.5px -0.5px;
+    color: #32CDFF !important;
+    text-decoration: none !important;
 }
 
 .see-all:hover {
