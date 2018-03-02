@@ -22,46 +22,44 @@
     <script src="../public/js/home_page/home.js"></script>
 </head>
 <body>
-<header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-2 col-md-3 logo">
-                <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
-                <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
-            </div>
-            <div class="form-search col-3 col-sm-4 col-md-2 order-2 order-sm-1 order-md-1">
-                <img src="../public/image/search-45deg.png" alt="search">
-                <form action="#" class="col-12 col-sm-4 col-md-3 search-header">
-                    <input type="text" name="search" placeholder="Search">
-                </form>
-            </div>
-            <div class="home col-3 col-sm-2 col-md-2 offset-md-1 link-header order-1 order-sm-2 order-md-2">
-                <a href="index.html" class="">
-                    <div class="icon">
-                        <img src="../public/image/home.png" alt="home">
-                        <span>Home</span>
-                    </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand ml-md-5" href="lesson.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0 mr-auto ml-lg-5">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-5">
+            <li class="nav-item active mr-1">
+                <a class="nav-link" href="home.html">
+                    <img src="../public/image/home.png" alt="home" class="mr-1">
+                    <span>Home</span>
+                    <span class="sr-only">(current)</span>
                 </a>
-            </div>
-            <div class="create col-3 col-sm-2 col-md-2 link-header order-3">
-                <a href="create.html" class="">
-                    <div class="icon">
-                        <img src="../public/image/plus.png" alt="home">
-                        <span>Create</span>
-                    </div>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="#">
+                    <img src="../public/image/plus.png" alt="home" class="mr-1">
+                    <span>Create</span>
                 </a>
-            </div>
-            <div class="profile col-3 col-sm-2 col-md-2 link-header order-4">
-                <a href="profile.html" class="">
-                    <div class="icon">
-                        <img src="../public/image/profile.png" alt="profile">
-                        <span>Profile</span>
-                    </div>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="profile.html">
+                    <img src="../public/image/profile.png" alt="home" class="mr-1">
+                    <span>Profile</span>
                 </a>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
-</header>
+</nav>
 <div class="container-fluid">
     <div class="row">
         <div class="mask col-12 col-md-12"></div>
@@ -285,11 +283,11 @@
 </section>
 <div class="container">
     <div class="row loading">
-    <div class="col-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 icon-loading">
-        <img src="../public/image/home_page/planet-earth.png" alt="Loading">
-        <span>Loading...</span>
+        <div class="col-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 icon-loading">
+            <img src="../public/image/home_page/planet-earth.png" alt="Loading">
+            <span>Loading...</span>
+        </div>
     </div>
-</div>
 </div>
 <div class="container nav-bar">
     <div class="row">

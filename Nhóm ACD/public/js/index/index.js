@@ -21,8 +21,6 @@ $(document).ready(function () {
             }
         }
 
-        $(".mask").addClass('mask-blur');
-
         $('html, body').css({
             overflow: 'hidden',
             height  : '100%'
@@ -34,8 +32,6 @@ $(document).ready(function () {
         $('html, body').css({
             overflow: 'visible'
         });
-
-        $(".mask").removeClass('mask-blur');
 
         var view_width = $(window).width();
         if (view_width < 768) {
@@ -91,7 +87,8 @@ $(document).ready(function () {
             },
             768 : {
                 items: 4,
-                nav  : false
+                nav  : false,
+                margin: 10
             },
             992 : {
             	item: 5

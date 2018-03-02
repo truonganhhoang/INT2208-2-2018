@@ -1,0 +1,45 @@
+* {
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: #f7f7f7 !important;
+}
+
+/* nav */
+nav.navbar {
+    background: #32CDFF !important;
+}
+
+ul li a.nav-link {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul li a.nav-link span {
+    vertical-align: middle;
+}
+
+.wrapper {
+	height: 3800px;
+	background: #fff;
+	box-shadow: 0 0 25px 0 rgba(0,0,0,.04);
+}
+
+div.name-item {
+	font-size: 21px;
+	color: #5c5c5c;
+}
+
+div.details {
+	color: #898989;
+	font-size: 15px;
+}
+
+img {
+	object-fit: cover;
+	box-shadow: 0 2px 9px rgba(0,0,0,.1);
+}

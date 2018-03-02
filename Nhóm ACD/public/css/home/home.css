@@ -7,86 +7,23 @@ body {
     background: #f7f7f7 !important;
 }
 
-/* header */
-header {
-    background: #32CDFF;
-    height: 60px;
-    position: fixed;
-    z-index: 4000;
-    width: 100vw;
+/* nav */
+
+nav.navbar {
+    background: #32CDFF !important;
 }
 
-header div.logo {
-    padding-left: 9%;
-}
-
-header div.row img {
-    margin-top: 10px;
-}
-
-header div.form-search {
-    background: #6FDCFF;
-    height: 45px;
-    border-radius: 15px;
-    margin-top: 7px;
-}
-
-header div.form-search img {
-    margin-top: 0px;
-    display: inline-block;
-}
-
-header div.form-search form {
-    display: inline-block;
-}
-
-header form input {
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    background: #6FDCFF;
-    color: #5C5C5C;
+ul li a.nav-link {
     text-transform: uppercase;
-    padding-top: 12px;
-    width: 100px;
+    color: #fff !important;
+    font-weight: bold;
     font-size: 14px;
 }
 
-header div.link-header {
-    padding-top: 12px;
+ul li a.nav-link span {
+    vertical-align: middle;
 }
 
-header div.link-header.create {
-    padding-top: 15px;
-}
-
-header div.link-header.profile {
-    padding-top: 7px;
-}
-
-header div.link-header a {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-}
-
-header div.link-header div.icon {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-header div.link-header a img {
-    display: inline-block;
-}
-
-header div.link-header a span {
-    display: inline-block;
-    margin-left: 5px;
-    vertical-align: bottom;
-    font-size: 12px;
-}
 
 /* .mask */
 .mask {
