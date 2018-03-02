@@ -1,0 +1,109 @@
+
+
+body {
+	background: #f7f7f7;
+}
+
+.navbar-brand.logo {
+  
+  margin-right: 0px!important;
+  
+}
+
+
+.navbar-brand.tinycards {
+  margin-left: 2px;
+}
+
+.menu {
+
+    background-color: #32cdff !important;
+
+}
+
+.btn.btn-primary.search {
+    margin-right: 457px;
+}
+
+.btn.btn-default.navbar-btn.signup {
+    background: white;
+    color: #32cdff;
+}
+
+.img-fluid.d-block.anhTieuDe {
+    border-radius: 45px;
+    height: 343px;
+}
+
+.display-1.tieuDe {
+    font-size: 31px;
+    text-align: center;
+}
+
+.gioiThieu {
+    font-size: 12px;
+}
+
+.img-fluid.d-block.logoNho {
+    width: 22px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline !important;
+}
+
+.col-sm-8.sao {
+    padding-left: 104px;
+}			
+
+.col-sm-2.col-md-2.link {
+    color: #95e5ff;
+    border: 1px solid #95e5ff;
+    border-radius: 9px;
+}
+
+.row.yeuThich {
+    border: 1px solid #32cdff;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+
+.col-md-3.col-xs-4.col-sm-4.khoa {
+  background: #80808033;
+  padding-top: 57px;
+  margin-top: 24px;
+  margin-right: 0px;
+  border-radius: 31px;
+  height: 250px;
+  padding-left: 46px;
+}
+
+.img-fluid.d-block.hinhanh1 {
+    height: 221px;
+    width: 194px;
+    border-radius: 27px;
+    margin-top: 20px;
+}
+
+
+.py-5.bg-dark.text-white.footer {
+  background: #f7f7f7 !important;
+}
+ul.lists li {
+  list-style: none;
+  float: left;
+  color: gray;
+  margin-right: 51px;
+}
+
+.co {
+    height: 14px;
+    width: 16px;
+    border-radius: 50%;
+}
+
+.row.cot2 {
+    background: white;
+    border-radius: 20px;
+    padding: 19px;
+}
