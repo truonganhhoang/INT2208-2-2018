@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Khóa học - MEMRISE</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style>
+                .lang-learn{
+                    width: 20%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                footer{
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                categories-list {
+    				background-color: #fff;
+    				border-radius: 5px;
+    				-webkit-box-shadow: rgba(0,0,0,0.08) 0 1px 2px;
+    				box-shadow: rgba(0,0,0,0.08) 0 1px 2px;
+    				border: 1px solid #e4e4e4;
+    				list-style: none;
+    				padding-left: 0;
+    				margin: 0;
+    				margin-bottom: 20px;
+    				display: block;
+    				border: 1px solid #e4e4e4;
+				}
+   </style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./pageHome.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                    <li role="presentation" class="active"><a href="./pageHome.html">Trang chủ</a></li>
+                    <li role="presentation"><a href="./coursespage.html">Khóa học</a></li>
+                    <li role="presentation"><a href="#">Nhóm</a></li>
+                    <li role="presentation" class="danger"><a href="./proPage.html">Đăng kí gói Pro</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">Hồ sơ</a></li>
+                        <li><a href="#">Cài đặt</a></li>
+                        <li><a href="#">Đăng xuất</a></li>
+                    </li>
+             </ul>
+        </div>
+    </nav>
+     <div id="content" class="">
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 ">
+            <p>
+              <strong>Tôi nói:</strong><br>
+            </p>
+            <div class="btn-group filter-source">
+              <button class="btn dropdown-body" data-toggle="dropdown">
+
+                <img class="flag-circle" src="./image/english.jpg" alt="">
+
+                English
+              </button>
+              <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href=""> <img src="" alt=""> 
+                  Armenian
+                </a> 
+              </li>
+              <li><a href=""> <img src="" alt=""> 
+                Afrikaans
+              </a> 
+            </li>
+            <li><a href=""> <img src="" alt=""> 
+              Albanian
+            </a> 
+          </li>
+          <li><a href=""> <img src="" alt=""> 
+            American Sign Language (ASL)
+          </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+          Ancient Greek
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Arabic
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Azerbaijani
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Basque
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Bengali
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Belarusian
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Bosnian
+        </a> 
+        </li>
+        <li><a href=""> <img src="" alt=""> 
+            Burmese
+        </a> 
+        </li>
+        </ul>
+    </div>
+    <br>
+    <h3 class="category-header">Danh mục hàng đầu</h3>
+	<ul class="categories-list" data-role="tree-navigation">
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/english/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/en.png" alt="" />
+                Tiếng Anh
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/french/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-02_copy.png" alt="" />
+                Tiếng Pháp
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/spanish-spain/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-03_copy.png" alt="" />
+                Tiếng Tây Ban Nha (Tây Ban Nha)
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/japanese-4/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/DemoFlags-09_copy.png" alt="" />
+                Tiếng Nhật
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/german-2/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/german.png" alt="" />
+                Tiếng Đức
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/korean/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/korean-flag.png" alt="" />
+                Tiếng Hàn
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/chinese-simplified/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/DemoFlags-01.png" alt="" />
+                Tiếng Trung (Giản thể)
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/italian/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-06_copy.png" alt="" />
+                Tiếng Ý
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/russian/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-20_copy.png" alt="" />
+                Tiếng Nga
+            </a>
+        </li>
+    
+        <li class="">
+            <a data-category-leaf href="/courses/english/spanish-mexico/">
+                <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/MEX.png" alt="" />
+                Tiếng Tây Ban Nha (Mexico)
+            </a>
+        </li>
+    
+	</ul>
+
+    <div class="col-sm-12 col-md-9">
+        <h2 class="">Courses by the Memrise Community</h2>  
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="panel panel-default">
+               <div class="panel-body">
+                    <table class="table table-hover">
+                        <tbody>
+                            <td width="100">
+                                <a href="https://www.memrise.com/home/"><img src="./image/memrise-small.png"></a><br><br>
+                                <a href="https://www.facebook.com/memrise"><img src="./image/fmem.png"></a>
+                                <a href="https://twitter.com/memrise"><img src="./image/tmem.png"></a>
+                                <a href="https://www.instagram.com/memrise/"><img src="./image/scmem.png"></a><br></br>
+                                <button>
+                                    <img src="./image/quocky.png">
+                                    Tôi nói : <b>Tiếng Việt</b>
+                                </button>
+                            </td>
+                            <td width="100">
+                                <b>MEMRISE</b><br></br>
+                                Giới thiệu<br>
+                                Khóa học<br>
+                                Liên hệ<br>
+                                Đội ngũ<br>
+                                Cơ hội làm việc<br>
+                                Press<br>
+                                Điều khoản sử dụng<br>
+                                Chính sách bảo mật<br>
+                            </td>
+                            <td width="100">
+                                <b>MORE</b><br></br>
+                                Blog<br>
+                                Enginering Blog<br>
+                                Diễn đàn<br>
+                                Giáo viên<br>
+                                Membus<br></br>
+                                <b>HELP</b><br></br>
+                                Câu hỏi thường gặp & trợ giúp<br>
+                            </td>
+                            <td width="100">
+                                <b>BROWSE COURSES</b><br></br>
+                                Ngoại ngữ<br>
+                                Nghệ thuật & văn học <br>
+                                Toán học & khoa học<br>
+                                Thế giới tự nhiên<br>
+                                Lịch sử & địa lý <br>
+                                Chuyên môn & nghề nghiệp<br>
+                                Giải trí<br>
+                                Khoa học thường thức<br>
+                            </td>
+                        </tbody>
+                    </table>
+               </div>
+               <div class="panel-footer">
+                    © 2018 Copyright: DDTANK
+               </div>
+        </div>   
+    </div>
+</body>
