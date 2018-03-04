@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tinycards - FlasCard</title>
+    <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../public/css/library/normalize.css">
+    <link rel="stylesheet" href="../public/css/profile/profile_style.css">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+
+    <script src="../public/js/library/jquery-3.3.1.min.js"></script>
+    <script src="../public/js/library/owl.carousel.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand ml-md-5" href="lesson.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0 mr-auto ml-lg-5">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-5">
+            <li class="nav-item active mr-1">
+                <a class="nav-link" href="home.html">
+                    <img src="../public/image/home.png" alt="home" class="mr-1">
+                    <span>Home</span>
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="#">
+                    <img src="../public/image/plus.png" alt="home" class="mr-1">
+                    <span>Create</span>
+                </a>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="profile.html">
+                    <img src="../public/image/profile.png" alt="home" class="mr-1">
+                    <span>Profile</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="wrapper col-12 col-md-12">
+            <div class="row">
+                <div class="avatar col-2 col-md-2 mt-3 mt-md-5 ml-1 ml-md-4">
+                    <img width="130" height="130" src="../public/image/Wakabayashi_genzo.png" alt="avatar"
+                         class="rounded-circle">
+                </div>
+                <div class="activity col-12 col-md-9 mt-3 mt-md-5 ml-md-5">
+                    <ul class="nav nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                               role="tab" aria-controls="pills-home" aria-selected="true">Decks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                               role="tab" aria-controls="pills-profile" aria-selected="false">Followers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                               role="tab" aria-controls="pills-contact" aria-selected="false">Following</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content pb-5 pb-md-0" id="pills-tabContent">
+                        <div class="tab-pane fade show active text-center font-weight-bold" id="pills-home" role="tabpanel"
+                             aria-labelledby="pills-home-tab">This user has no decks.
+                        </div>
+                        <div class="tab-pane fade text-center font-weight-bold" id="pills-profile" role="tabpanel"
+                             aria-labelledby="pills-profile-tab">This user has no followers yet.
+                        </div>
+                        <div class="tab-pane fade text-center font-weight-bold" id="pills-contact" role="tabpanel"
+                             aria-labelledby="pills-contact-tab">This user isn't following anyone.
+                        </div>
+                    </div>
+                </div>
+                <div class="username col-12 col-md-4 ml-1 ml-md-0 mt-2 mt-md-4 ">Wakabayashi Genzo</div>
+                <div class="w-100"></div>
+                <div class="settings col-5 col-md-2 ml-1 ml-md-0 mt-4 pt-2 pb-2 pl-4">
+                    <img width="23" height="23" src="../public/image/settings.png" alt="settings">
+                    <span class="ml-2">Settings</span>
+                </div>
+                <div class="share col-2 col-md-1 ml-1 mt-4 pt-2 pb-2 pl-4">
+                  <img width="23" height="23" src="../public/image/share.png" alt="share" class="ml-md-2">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ul class="nav justify-content-center mt-5 footer">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Terms</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Facebook</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Twitter</a>
+    </li>
+    <li class="nav-item">
+        <img src="../public/image/united-states.png" alt="english" class="ml-3">
+        <span class="ml-2">English</span>
+    </li>
+</ul>
+
+</div>
+</body>
+</html>
