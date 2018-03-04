@@ -1,0 +1,55 @@
+.navigation-bar{
+  height: 60px;
+  background-color: #32cdff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 100;
+}
+
+.ruler{
+  margin: auto;
+  position: relative;
+  width: 1082px;
+}
+
+.favicon{
+  margin-left: 80px;
+  position: relative;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.searchbox{
+  display: inline-block;
+  left: 255px;
+  max-width: 320px;
+  position: absolute;
+  text-align: right;
+  top: 5px;
+  width: 320px;
+}
+
+.search{
+  height: 20px;
+  right: 5px;
+  position: absolute;
+  top: 8px;
+  width: 30px;
+}
+
+.full-name{
+  margin-top: -15px;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.user{
+  height: 30px;
+  margin-right: 10px;
+}

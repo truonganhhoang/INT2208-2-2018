@@ -1,0 +1,110 @@
+body{
+  background-color: #f7f7f7;
+  color: #5c5c5c;
+  font-family: "Belgrano", Monaco, monospace;
+  line-height: 1.5;
+  margin: 80px 0px 0px;
+}
+
+.content{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,.04);
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 30px;
+  max-width: 776px;
+  vertical-align: top;
+  width: 776px;
+}
+
+.subject{
+  display: inline-block;
+  text-align: left;
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 600px;
+}
+
+.subject-image{
+  border-radius: 30px;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,.04);
+  display: inline-block;  
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 250px;
+}
+
+.subject-name{
+  margin-top: 150px;
+  text-align: center;
+  width: 250px;
+  color: #5c5c5c;
+}
+
+.tab{
+  border-bottom: 1px solid #e8e8e8;
+  text-align: left;
+}
+
+.all-tab{
+  color: #c4c4c4;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 64px;
+  padding: 25px 0 10px;
+  text-transform: uppercase;
+}
+
+.active-tab{
+  border-bottom: 4px solid #32cdff;
+  color: #32cdff;
+  margin-bottom: -2px;
+}
+
+.lesson{
+  padding: 32px 0;
+  position: relative;
+  text-align: left;
+  margin-left: 52px;
+  position: relative;
+}
+
+.chapter{
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 166px;
+  margin: 10px 20px 50px 0px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 144px;
+}
+
+.level{
+  position: absolute;
+  top: 66px;
+  color: #5c5c5c;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.lock{
+  background-color: #eef1f4;
+  border-radius: 18px;
+  cursor: default;
+  height: 178px;
+  text-align: center;
+  vertical-align: top;
+  width: 144px;
+}
+
+.lock img{
+  margin-top: 24px;
+}
