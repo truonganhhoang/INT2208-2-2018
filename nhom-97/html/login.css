@@ -1,0 +1,132 @@
+body{
+  background-color: #32cdff;
+  font-family: "Belgrano", Monaco, monospace;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #fff;
+  color: #32cdff;
+}
+
+.login{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-body{
+  background-color: #fff;
+  margin: auto;
+  padding: 15px 30px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 18px;
+}
+
+.login-input-info{
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.doulingo-account{
+  margin-top: 15px;
+  color: #5c5c5c;
+  font-size: 19px;
+  text-align: center;
+}
+
+.not{
+  text-align: center;
+  color: #898989;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.signup{
+  background: none;
+  border: none;
+  color: #32cdff;
+  padding: 6px 5px 4px;
+  cursor: pointer;
+}
+
+.select-signin{
+  margin-top: 10px;
+  display: flex;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  min-width: 300px;
+}
+
+.selection{
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  font-size: 18px;
+  display: flex;
+}
+
+.separation{
+  flex-grow: 1;
+  min-height: 10px;
+}
+
+.google{
+  background-color: #df360a;
+}
+
+.fb{
+  background: #39559f;
+}
+
+.signin{
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 12px 25px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.or{
+  border-bottom: 1px solid #e8e8e8;
+  margin: 50px 0;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.o{
+  background-color: #fff;
+  color: #898989;
+  font-family: DINNextRoundedLTPro-Medium,sans-serif;
+  font-size: 21px;
+  left: 160px;
+  padding: 0 10px;
+  position: absolute;
+  top: -12px;
+}
+
+input{
+  margin-top: 10px;
+}
+
+.forgot{
+  text-align: center;
+  display: block;
+}
+
+.btn-login{
+  background-color: #32cdff;
+  border-radius: 18px;
+  color: #fff;
+  width: 100%;
+  margin: 10px 0px;
+}
