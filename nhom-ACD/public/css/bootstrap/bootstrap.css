@@ -8827,6 +8827,14 @@ button.bg-dark:focus {
   color: #007bff !important;
 }
 
+.text-blue {
+  color: #32CDFF !important;
+}
+
+.bg-blue {
+  background: #32CDFF !important;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #0062cc !important;
 }

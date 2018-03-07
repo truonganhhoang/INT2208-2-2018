@@ -1,70 +1,27 @@
 $(document).ready(function () {
     // Khi click vao login hoac sign-up thi hien ra cua so tuong ung
-    $(document).on('click', 'header .sign-in, header .sign-up', function (event) {
-        var view_width = $(window).width();
-        if (view_width < 768) {
-            $("header .navigation").css("display", "none");
-            $(".intro").css("display", "none");
-            if ($(this).hasClass('sign-in')) {
-                $(".popup-login").css("display", "block");
-            }
-            else {
-                $(".popup-signup").css("display", "block");
-            }
+    $(document).on('click', '.sign-in, .sign-up', function (event) {
+        if ($(this).hasClass('sign-in')) {
+            $(".login").removeClass('d-none');
         }
-        else {
-            if ($(this).hasClass('sign-in')) {
-                $(".popup-login").addClass('alert-popup');
-            }
-            else {
-                $(".popup-signup").addClass('alert-popup');
-            }
+        else if ($(this).hasClass('sign-up')) {
+            $(".register").removeClass('d-none');
         }
 
-        $('html, body').css({
+       /* $('html, body').css({
             overflow: 'hidden',
             height  : '100%'
-        });
+        });*/
     });
 
     // Khi an vao nut X, hoac ben ngoai popup thi se an cua so di    
-    $(document).on("click", ".cancel, .mask", function (event) {
+    $(document).on("click", "button.close", function (event) {
         $('html, body').css({
             overflow: 'visible'
         });
 
-        var view_width = $(window).width();
-        if (view_width < 768) {
-            $("header .navigation").css("display", "flex");
-            $(".intro").css("display", "block");
-
-            if ($(this).hasClass('mask')) {
-                $(".popup-login").css("display", "none");
-                $(".popup-signup").css("display", "none");
-            }
-            else if ($(this).hasClass('cancel-log')) {
-                $(".popup-login").css("display", "none");
-            }
-            else {
-                $(".popup-signup").css("display", "none");
-            }
-        }
-        else {
-            if ($(this).hasClass('mask')) {
-                if ($(".popup-login").hasClass('alert-popup')) {
-                    $(".popup-login").removeClass('alert-popup');
-                }
-                else if ( $(".popup-signup").hasClass('alert-popup')) {
-                    $(".popup-signup").removeClass('alert-popup');
-                }
-            }
-            else if ($(this).hasClass('cancel-log')) {
-                $(".popup-login").removeClass('alert-popup');
-            }
-            else {
-                $(".popup-signup").removeClass('alert-popup');
-            }
-        }
+        $(".login").addClass('d-none');
+        $(".register").addClass('d-none');
     });
 
     $("button.button-login").click(function(event) {
@@ -79,16 +36,18 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         responsive     : {
             0   : {
-                items: 2
+                items: 2,
+                margin: 15
             },
             576 : {
                 items: 4,
-                nav  : false
+                nav  : false,
+                margin: 20
             },
             768 : {
                 items: 4,
                 nav  : false,
-                margin: 10
+                margin: 25
             },
             992 : {
             	item: 5
@@ -96,7 +55,7 @@ $(document).ready(function () {
             1000: {
                 items: 6,
                 loop : false,
-                margin: 20
+                margin: 30
             }
         }
     })
