@@ -7,33 +7,13 @@ body {
     background: #f7f7f7 !important;
 }
 
+input, button {
+    border: none;
+    outline: none;
+}
+
 @media only screen and (max-width: 768px) {
     nav.navbar {
         display: none;
     }
-}
-
-
-.wrapper {
-    height: 604px;
-}
-
-.process {
-    background: #eef1f4;
-    height: 8px;
-}
-
-.card {
-    height: 323px;
-}
-
-.continue {
-    outline: none;
-    border: none;
-    height: 35px;
-}
-
-.continue button {
-    outline: none;
-    border: none;
 }

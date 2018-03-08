@@ -16,10 +16,10 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand ml-md-5" href="lesson.html">
+<nav class="navbar navbar-expand-lg navbar-light bg-blue w-100" style="z-index: 9999;">
+    <a class="navbar-brand ml-md-5 text-white font-weight-bold" href="lesson.html">
         <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
-        <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
+        TinyCards
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,20 +34,20 @@
             <li class="nav-item active mr-1">
                 <a class="nav-link" href="home.html">
                     <img src="../public/image/home.png" alt="home" class="mr-1">
-                    <span>Home</span>
+                    <span class="text-white font-weight-bold text-uppercase">Home</span>
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
                 <a class="nav-link" href="#">
                     <img src="../public/image/plus.png" alt="home" class="mr-1">
-                    <span>Create</span>
+                    <span class="text-white font-weight-bold text-uppercase">Create</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
                 <a class="nav-link" href="profile.html">
                     <img src="../public/image/profile.png" alt="home" class="mr-1">
-                    <span>Profile</span>
+                    <span class="text-white font-weight-bold text-uppercase">Profile</span>
                 </a>
             </li>
         </ul>
@@ -61,7 +61,7 @@
                     <img width="130" height="130" src="../public/image/Wakabayashi_genzo.png" alt="avatar"
                          class="rounded-circle">
                 </div>
-                <div class="activity col-12 col-md-9 mt-3 mt-md-5 ml-md-5">
+                <div class="activity col-12 col-md-9 mt-3 mt-md-5 ml-md-5 bg-white rounded">
                     <ul class="nav nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
@@ -88,41 +88,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="username col-12 col-md-4 ml-1 ml-md-0 mt-2 mt-md-4 ">Wakabayashi Genzo</div>
+                <div class="username col-12 col-md-4 ml-1 ml-md-0 mt-2 mt-md-4 font-weight-bold ml-1 ml-md-4 text-left">Wakabayashi Genzo</div>
                 <div class="w-100"></div>
-                <div class="settings col-5 col-md-2 ml-1 ml-md-0 mt-4 pt-2 pb-2 pl-4">
+                <div class="settings col-5 col-md-2 ml-1 ml-md-0 mt-4 pt-2 pb-2 pl-4 border border-blue rounded">
                     <img width="23" height="23" src="../public/image/settings.png" alt="settings">
-                    <span class="ml-2">Settings</span>
+                    <span class="ml-2 font-weight-bold text-uppercase text-blue">Settings</span>
                 </div>
-                <div class="share col-2 col-md-1 ml-1 mt-4 pt-2 pb-2 pl-4">
-                  <img width="23" height="23" src="../public/image/share.png" alt="share" class="ml-md-2">
-                </div>
+              <!--   <div class="share col-2 col-md-1 ml-1 pl-0">
+                <img width="23" height="23" src="../public/image/share.png" alt="share" class="ml-md-2 mx-auto d-block">
+              </div> -->
             </div>
         </div>
     </div>
 </div>
 
-<ul class="nav justify-content-center mt-5 footer">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">About</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Support</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Terms</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Facebook</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Twitter</a>
-    </li>
-    <li class="nav-item">
-        <img src="../public/image/united-states.png" alt="english" class="ml-3">
-        <span class="ml-2">English</span>
-    </li>
-</ul>
+<div class="container nav-bar">
+    <div class="row">
+        <div class="col-md-12 mx-auto mb-5 mt-5 text-center">
+            <nav class="menu">
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="#">About</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://support.duolingo.com">Support</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://www.duolingo.com/terms">Terms</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://www.duolingo.com/">Doulingo</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://www.facebook.com/tinycards">Facebook</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://twitter.com/tinycardsapp">Twitter</a>
+                <div class="lang d-inline-block">
+                    <img src="../public/image/united-states.png" alt="english"/>
+                    <span class="text-secondary text-uppercase font-weight-bold">English</span>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
 
 </div>
 </body>

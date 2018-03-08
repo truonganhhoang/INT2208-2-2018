@@ -7,27 +7,11 @@ body {
     background: #f7f7f7 !important;
 }
 
-/* nav */
-nav.navbar {
-    background: #32CDFF !important;
-}
-
-ul.navbar-nav li a.nav-link {
-    text-transform: uppercase;
-    color: #fff !important;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-ul.navbar-nav li a.nav-link span {
-    vertical-align: middle;
-}
-
-.avatar img {
+img {
     object-fit: cover;
 }
 
-.activity {
+./* activity {
     background: #fff;
     border-radius: 10px;
 }
@@ -72,7 +56,7 @@ ul.navbar-nav li a.nav-link span {
 
 
 
-/* footer */
+footer
 ul.nav.justify-content-center li.nav-item a.nav-link {
   text-transform: uppercase;
   font-weight: bold;  
@@ -84,10 +68,10 @@ ul.nav.justify-content-center li.nav-item span {
   font-weight: bold;  
   color: #c4c4c4;
   vertical-align: middle;
-}
+} */
 
 @media only screen and (max-width: 812px) {
-  ul.footer {
+  .nav-bar {
       display: none;
   }
 }

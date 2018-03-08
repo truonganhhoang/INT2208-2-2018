@@ -161,7 +161,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #32CDFF;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -3906,7 +3906,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #32CDFF !important;
 }
 
 .nav-fill .nav-item {
@@ -6204,6 +6204,10 @@ button.bg-dark:focus {
 
 .border-primary {
   border-color: #007bff !important;
+}
+
+.border-blue {
+  border-color: #32CDFF !important;
 }
 
 .border-secondary {
