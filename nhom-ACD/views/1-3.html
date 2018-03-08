@@ -64,17 +64,13 @@
     <div class="container mt-5 " >
         <div class="row">
             <div class="col-9 col-md-3 mx-auto " >
-                <div class="card" style="height: 300px;" >
-                    <div class="card-block text-center">
-                        <a href="#">
-                            <img src="../public/image/moutain.png" alt="logo">
-                                <div>
-                                    <b class="text-secondary">
-                                        CHOOSE COVER(OPTIONAL)
-                                    </b>            
-                                </div>
-                        </a>
-                    </div>
+                <div class="card position-relative" style="height: 300px;" >
+                    <a href="#">
+                        <div class="position-absolute d-block text-center" style="right:50%; top:50%; transform: translate(50%, -50%);">
+                                <img src="../public/image/moutain.png" alt="logo">
+                                <b class="text-secondary d-block text-center"> CHOOSE COVER(OPTIONAL)</b>
+                        </div>
+                    </a>
                 </div>
                 <div class="deck-input">
                     <input type="text" placeholder="Enter title" maxlength="50" class="bg-secondary border-0 w-100 my-2" >
@@ -103,23 +99,28 @@
                 <div class="card " style="padding:15% 2%;">
                     <div class="row align-items-center" >
                         <div class="col-1"> <b class="text-secondary">1</b></div>
-                        <div class="col-5 h-100">
-                            <div class="border text-center" style="height: 250px;" >
-                            <div class=" text-center">
-                                    <h3><a href="" class="text-secondary">Font</a></h3>
-                                </div> 
-                            </div>
+                        <div class="col-5">
+                            <div class="border position-relative" style="height: 250px;" >
+                                <a href="#">
+                                    <div class=" position-absolute text-secondary" style="top:50%; right:50%;  transform: translate(50%, -50%);"> 
+                                        <h3>Font</h3>
+                                           
+                                    </div>
+                                </a>    
+                            </div> 
                         </div>
                         <div class="col-5">
                                 <div class="border" style="height: 250px;">
-                                    <div class=" text-center">
-                                        <h3><a href="" class="text-secondary">Back</a></h3>
-                                    </div> 
+                                    <a href="#">
+                                        <div class=" position-absolute text-secondary" style="top:50%; right:50%;  transform: translate(50%, -50%);"> 
+                                            <h3>Back</h3>                       
+                                        </div>
+                                    </a>   
+                                </div>
                         </div>
-                        </div>
-                        <div class="col-1 ">
+                        <div class="col-1 mt-5 mt-md-0 mx-auto px-0">
                                 <a href="#">
-                                    <img src="../public/image/add.png" width="70px">
+                                    <img src="../public/image/add.png" width="50px">
                                 </a>
                             </div>
                     </div>
