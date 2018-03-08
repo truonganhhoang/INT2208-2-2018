@@ -17,7 +17,7 @@ body {
 
 .menu {
 
-    background-color: #32cdff !important;
+    background-color: #32CDFF!important;
 
 }
 
@@ -107,3 +107,9 @@ ul.lists li {
     border-radius: 20px;
     padding: 19px;
 }
+
+.btn.btn-primary.search {
+    background: #f8f9fa;
+    color: black;
+}
+
