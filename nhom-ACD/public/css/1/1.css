@@ -6,8 +6,17 @@ body {
     font-size: 100%;
 }
 
+input, button {
+    border: none;
+    outline: none;
+}
+
 img {
     object-fit: cover;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -16,193 +25,38 @@ img {
     }
 }
 
-/* .login */
-.login {
-    z-index: 99999;
-}
-
 .popup-login {
     z-index: 99999;
-    box-shadow: 0px 15px #ffffff;
 }
 
-
-.popup-login img.cancel:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-
-.popup-login div.question span:hover {
-    text-shadow: -0.5px -0.5px;
-    cursor: pointer;
-}
 
 .popup-login div.google-login {
-    text-decoration: none solid rgb(255, 255, 255);
     background: #df360a;
-    cursor: pointer;
-}
-
-.popup-login div.google-login:hover {
-    opacity: 0.8;
 }
 
 .popup-login div.fb-login {
-    text-decoration: none solid rgb(255, 255, 255);
     background: #39559F;
-}
-
-.popup-login div.fb-login:hover {
-    opacity: 0.8;
-}
-
-.popup-login .text {
-
-}
-
-.popup-login form input {
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #32CDFF;
-}
-
-.popup-login form div.forgot {
-    cursor: pointer;
-}
-
-.popup-login form div.forgot:hover {
-    opacity: 1 !important;
-    text-shadow: -0.5px -0.5px;
-}
-
-.popup-login form button.button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.popup-login form button.button:hover {
-    opacity: 0.8;
-}
-
-/* register */
-.register {
-    height: 0;
 }
 
 .register .popup-signup {
     z-index: 99999;
-    box-shadow: 0px 15px #ffffff;
 }
 
-.register .popup-signup img.cancel {
-    position: absolute;
-    z-index: 99999;
-}
-
-.register .popup-signup img.cancel:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-.register .popup-signup div.title {
-    text-decoration: none solid rgb(137, 137, 137);
-}
-
-.register .popup-signup div.question {
-    text-decoration: none solid rgb(137, 137, 137);
-}
-
-.register .popup-signup div.question span:hover {
-    text-shadow: -0.5px -0.5px;
-    cursor: pointer;
-}
-
-
-.register .popup-signup form input {
-    border: none;
-    outline: none;
-}
 
 .register .popup-signup form button {
     border: none;
     cursor: not-allowed;
 }
 
-/* .courses .list-courses */
-
-.courses .search div.search-title input {
-    outline: none;
-}
-
 .courses .search div.search-title form {
     border: 1px solid #E8E8E8;
-    outline: none;
 }
 
 .courses .search div.search-title form img {
     transform: rotate(-45deg);
-    display: inline-block;
 }
-
-/* .courses .create */
 
 .courses .create div.create-title div {
     border: 1px solid #32CDFF;
-    cursor: pointer;
 }
 
-.courses .create div.create-title div:hover {
-    opacity: 0.8;
-}
-
-/* .decks .slide-deck */
-.see-all a {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.see-all a:hover {
-    text-shadow: -0.5px -0.5px;
-    text-decoration: none !important;
-}
-
-.owl-carousel .owl-item div.likes img {
-    width: 16px !important;
-    display: inline-block;
-}
-
-/* .carousel-inner .carousel-item .block */
-
-.block img {
-    box-shadow: 0 2px 9px rgba(0,0,0,.1);
-}
-
-.block .likes img {
-    width: 16px !important;
-}
-
-
-/* .trending */
-
-.trending .see-all {
-    cursor: pointer;
-}
-
-.slide-trending img {
-    object-fit: cover;
-}
-
-/* footer */
-.menu .link {
-    text-decoration: none solid rgb(196, 196, 196);
-}
-
-.menu .lang {
-    cursor: pointer;
-}
-
-.menu .lang img {
-    cursor: pointer;
-}

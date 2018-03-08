@@ -20,7 +20,7 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-blue w-100 position-fixed" style="z-index: 9999;">
     <a class="navbar-brand ml-md-5" href="lesson.html">
         <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
         <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
@@ -38,39 +38,42 @@
             <li class="nav-item active mr-1">
                 <a class="nav-link" href="home.html">
                     <img src="../public/image/home.png" alt="home" class="mr-1">
-                    <span>Home</span> 
+                    <span class="text-uppercase font-weight-bold text-white">Home</span> 
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
                 <a class="nav-link" href="#">
                     <img src="../public/image/plus.png" alt="home" class="mr-1">
-                    <span>Create</span>
+                    <span class="text-uppercase font-weight-bold text-white">Create</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
                 <a class="nav-link" href="profile.html">
                     <img src="../public/image/profile.png" alt="home" class="mr-1">
-                    <span>Profile</span>
+                    <span class="text-uppercase font-weight-bold text-white">Profile</span>
                 </a>
             </li>
         </ul>
     </div>
 </nav>
+<div class="w-100"></div>
 <!-- End header -->
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5">
+        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white">
             <div class="row">
-                <div class="process col-10 col-md-10 offset-1 offset-md-1 mt-4">
-                   <!--  <img src="../public/image/cancel.png" alt="quit"> -->
+                <button type="button" class="close mt-4 pt-3 ml-auto" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="process col-10 col-md-10 mx-auto bg-secondary mt-5">
                 </div>
             </div>
             <div class="row">
-                <div class="title col-10 col-md-3 mx-auto mt-5">New Card</div>
+                <div class="title col-10 col-md-3 mx-auto mt-5 text-center text-warning h4 font-weight-bold">New Card</div>
             </div>
             <div class="row">
-                <div class="card col-10 col-md-3 mx-auto mt-4 rounded"></div>
+                <div class="card col-10 col-md-3 mx-auto mt-4 rounded pointer"></div>
             </div>
             <!-- <div class="row">
                 <div class="continue col-10 col-md-3 mx-auto mt-4 pt-1">
@@ -78,7 +81,7 @@
                 </div>
             </div> -->
             <div class="row">
-                <div class="how-to-flip col-10 col-md-3 mx-auto mt-3">
+                <div class="how-to-flip col-10 col-md-3 mx-auto mt-3 text-center text-secondary font-weight-bold">
                     Click card or press Space to flip
                 </div>
             </div>

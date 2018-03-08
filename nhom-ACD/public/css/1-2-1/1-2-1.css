@@ -7,29 +7,14 @@ body {
     background: #f7f7f7 !important;
 }
 
-/* nav */
-nav.navbar {
-    background: #32CDFF !important;
+@media only screen and (max-width: 768px) {
+    nav.navbar {
+        display: none;
+    }
 }
 
-ul li a.nav-link {
-    text-transform: uppercase;
-    color: #fff !important;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-ul li a.nav-link span {
-    vertical-align: middle;
-}
 
 .wrapper {
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
-    margin: auto;
-    overflow-x: hidden;
-    overflow-y: auto;
     height: 604px;
 }
 
@@ -38,42 +23,17 @@ ul li a.nav-link span {
     height: 8px;
 }
 
-.title {
-    color: #ffc615;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-}
-
 .card {
-    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
     height: 323px;
-    border-radius: 10px;
 }
 
 .continue {
     outline: none;
     border: none;
-    background: #32CDFF;
-    text-align: center;
-    border-radius: 5px;
     height: 35px;
 }
 
 .continue button {
     outline: none;
     border: none;
-    background: #32CDFF;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
-}
-
-.how-to-flip {
-	text-align: center;
-	color: #c4c4c4;
-	font-weight: bold;
-	font-size: 16px;
 }

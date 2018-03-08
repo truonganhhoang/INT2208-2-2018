@@ -8,10 +8,10 @@ $(document).ready(function () {
             $(".register").removeClass('d-none');
         }
 
-       /* $('html, body').css({
+        $('html, body').css({
             overflow: 'hidden',
             height  : '100%'
-        });*/
+        });
     });
 
     // Khi an vao nut X, hoac ben ngoai popup thi se an cua so di    
@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
     $("button.button-login").click(function(event) {
-         window.location.href = 'home.html';
+         window.location.href = '1-1.html';
          return false;
     });
 
@@ -37,25 +37,27 @@ $(document).ready(function () {
         responsive     : {
             0   : {
                 items: 2,
-                margin: 15
+                margin: 5,
             },
             576 : {
-                items: 4,
+                items: 3,
                 nav  : false,
                 margin: 20
             },
             768 : {
-                items: 4,
+                items: 3,
                 nav  : false,
-                margin: 25
-            },
-            992 : {
-            	item: 5
+                margin: 10
             },
             1000: {
-                items: 6,
+                items: 5,
                 loop : false,
                 margin: 30
+            },
+            1366: {
+                items: 6,
+                loop : false,
+                margin: 40
             }
         }
     })

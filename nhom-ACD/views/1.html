@@ -18,12 +18,12 @@
             crossorigin="anonymous"></script>
     <script src="../public/js/1/1.js"></script>
 </head>
-<body class="bg-light">
+<body class="bg-secondary">
 <!-- header -->
 <nav class="navbar fixed-top navbar-light bg-blue">
-  <a class="navbar-brand ml-1 ml-md-5 font-weight-bold" href="1.html" style="color: #fff;"> 
-    <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
-    TinyCards
+    <a class="navbar-brand ml-1 ml-md-5 font-weight-bold" href="1.html" style="color: #fff;">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        TinyCards
     </a>
     <div class="sign d-flex justy-content-end mr-5">
         <a href="#" class="sign-in text-uppercase font-weight-bold mr-md-3 mr-2 mr-md-3 text-white">Login</a>
@@ -32,7 +32,7 @@
 </nav>
 </div>
 <!-- end header -->
-<div class="intro pt-5 mt-5 mb-5 bg-blue">
+<div class="intro pt-5 mt-5 bg-blue">
     <div class="container-fluid">
         <div class="row">
             <div class="col-10 col-md-4 pt-5 ml-md-auto ml-5 pb-5">
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-<div class="login d-none align-top">
+<div class="login d-none align-top" style="margin-top: -400px;">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 col-xl-4 popup-login mx-auto text-center rounded bg-white">
@@ -59,19 +59,28 @@
                         Log in with your Doulingo account
                     </div>
                     <div class="col-12 col-md-12 question ml-auto">
-                        Don't have an account?<span class="ml-1">Sign up</span>
+                        Don't have an account?<span class="ml-1 text-blue">Sign up</span>
                     </div>
-                    <div class="col-10 col-md-10 mx-auto google-login pt-2 pb-2 mt-3 text-uppercase font-weight-bold rounded text-white">Sign in with google</div>
+                    <div class="col-10 col-md-10 mx-auto google-login pt-2 pb-2 mt-3 text-uppercase font-weight-bold rounded text-white pointer">
+                        Sign in with google
+                    </div>
                     <div class="w-100"></div>
-                    <div class="col-10 col-md-10 mx-auto fb-login pt-2 pb-2 mt-3 text-uppercase font-weight-bold rounded text-white">Sign in with facebook</div>
+                    <div class="col-10 col-md-10 mx-auto fb-login pt-2 pb-2 mt-3 text-uppercase font-weight-bold rounded text-white pointer">
+                        Sign in with facebook
+                    </div>
                     <div class="w-100"></div>
                     <div class="col-12 col-md-12 text mt-3 mb-2">Or</div>
                     <form action="#" class="col-12 col-md-10 offset-md-1">
-                        <input type="text" class="username" name="username" placeholder="Email or username">
+                        <input type="text" class="username border-bottom" name="username" placeholder="Email or username">
                         <div class="w-100 mt-2 mb-2"></div>
-                        <input type="password" class="password" name="password" placeholder="Password">
+                        <input type="password" class="password border-bottom" name="password" placeholder="Password">
+                        <div class="w-100"></div>
                         <div class="forgot col-10 col-md-12 forgot text-center mt-3 mb-3">Forgot password ?</div>
-                        <button type="submit" class="button-login col-10 col-md-10 mx-auto pt-2 pb-2 rounded button text-white text-uppercase font-weight-bold bg-blue">Login</button>
+                        <div class="w-100"></div>
+                        <button type="submit"
+                                class="button-login col-10 col-md-10 mx-auto pt-2 pb-2 rounded button text-white text-uppercase font-weight-bold bg-blue pointer">
+                            Login
+                        </button>
                     </form>
                 </div>
             </div>
@@ -79,22 +88,27 @@
     </div>
 </div>
 
-<div class="register d-none">
+<div class="register d-none align-top">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 mx-auto col-lg-4 col-xl-4 popup-signup text-center rounded bg-white">
+            <div class="col-12 col-md-6 mx-auto col-lg-4 col-xl-4 popup-signup text-center rounded bg-white" style="margin-top: -400px; height: 320px;">
                 <div class="row">
                     <button type="button" class="close ml-auto" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <div class="col-12 col-md-12 title font-weight-bold mt-2">Create a Doulingo account</div>
-                    <div class="col-12 col-md-12 question mt-2">Already have an account?<span class="ml-1">Log in</span></div>
+                    <div class="col-12 col-md-12 question mt-2">Already have an account?<span class="ml-1 text-blue">Log in</span>
+                    </div>
                     <form action="#" class="col-12 col-md-10 mx-auto mt-3">
                         <input type="text" class="name mb-3 border-bottom" name="name" placeholder="Name">
+                        <div class="w-100"></div>
                         <input type="email" class="email mb-3 border-bottom" name="email" placeholder="Email">
+                        <div class="w-100"></div>
                         <input type="password" class="password mb-3 border-bottom" name="pass" placeholder="Password">
                         <div class="w-100"></div>
-                        <button type="submit" class="button-signup mt-3 mb-3 pt-2 pb-2 w-50 rounded text-white">Sign Up</button>
+                        <button type="submit" class="button-signup mt-3 mb-3 pt-2 pb-2 w-50 rounded text-white">Sign
+                            Up
+                        </button>
                     </form>
                 </div>
             </div>
@@ -116,7 +130,8 @@
                                 <div class="w-100"></div>
                                 <form action="#" class="mt-3 w-100 d-inline-block rounded">
                                     <img src="../public/image/search.png" alt="search">
-                                    <input class="pt-2 pb-2 w-75 text-secondary" style="border: none;" type="text" placeholder="e.g., Spanish, History...">
+                                    <input class="pt-2 pb-2 w-75 text-secondary" type="text"
+                                           placeholder="e.g., Spanish, History...">
                                 </form>
                             </div>
                         </div>
@@ -128,7 +143,9 @@
                             </div>
                             <div class="col-8 col-sm-9 col-md-8 create-title ml-3 ml-md-2">
                                 <span class="font-weight-bold text-uppercase text-secondary">Create your own</span>
-                                <div class="pt-2 pb-2 font-weight-bold text-uppercase text-center pl-2 mt-3 text-white rounded bg-blue">Create</div>
+                                <div class="pt-2 pb-2 font-weight-bold text-uppercase text-center pl-2 mt-3 text-white rounded bg-blue pointer">
+                                    Create
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -138,7 +155,7 @@
                         Decks we love
                     </div>
                     <div class="col-6 col-md-3 offset-md-5 see-all text-center font-weight-bold mt-5 mb-3">
-                       <a href="1-5.html" class="text-uppercase text-blue">See All</a>
+                        <a href="1-5.html" class="text-uppercase text-blue">See All</a>
                     </div>
                     <div class="w-100"></div>
                     <div class="col-12 col-md-10 offset-md-1 slide-deck">
@@ -146,7 +163,8 @@
                             <div class="owl-carousel">
 
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck1.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck1.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Football</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -154,7 +172,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck2.jpg" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck2.jpg" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Table of 7</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -162,7 +181,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck3.jpg" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck3.jpg" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Film Director</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -170,7 +190,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck4.jpg" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck4.jpg" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Gizan</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -178,7 +199,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck5.jpg" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck5.jpg" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Spanish Courses</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -186,7 +208,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck6.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck6.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Mexico</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -196,7 +219,8 @@
 
 
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck7.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck7.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">White Bear</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -204,7 +228,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck8.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck8.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Musical</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -212,7 +237,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck9.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck9.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Mathematic</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -220,7 +246,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck10.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck10.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">English</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -228,7 +255,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck11.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck11.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Universe</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -236,7 +264,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck12.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck12.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Silk</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -244,7 +273,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck13.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck13.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Cell Orangeless</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -252,7 +282,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck14.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck14.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Super Bow</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -260,7 +291,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck15.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck15.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Italian</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -268,7 +300,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck16.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck16.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Chess</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -276,7 +309,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck17.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck17.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Chemistry</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -284,7 +318,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/deck/deck18.png" width="144" height="166" alt="">
+                                    <img class="rounded pointer" src="../public/image/deck/deck18.png" width="144"
+                                         height="166" alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Flamengo</p>
                                     <div class="likes">
                                         <img src="../public/image/star.png" width="16" height="16" alt="likes">
@@ -311,7 +346,8 @@
                         <div class="row">
                             <div class="owl-carousel">
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend1.jpg" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend1.jpg" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Fruit</p>
                                     <div class="likes">
@@ -320,7 +356,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend2.jpg" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend2.jpg" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">France</p>
                                     <div class="likes">
@@ -329,7 +366,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend3.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend3.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Patheon</p>
                                     <div class="likes">
@@ -338,7 +376,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend4.jpg" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend4.jpg" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Exercise</p>
                                     <div class="likes">
@@ -347,7 +386,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend5.jpg" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend5.jpg" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Earth</p>
                                     <div class="likes">
@@ -356,7 +396,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend6.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend6.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Eiffel Tower</p>
                                     <div class="likes">
@@ -366,7 +407,8 @@
                                 </div>
 
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend7.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend7.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Periodic</p>
                                     <div class="likes">
@@ -375,7 +417,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend8.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend8.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">America</p>
                                     <div class="likes">
@@ -384,7 +427,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend9.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend9.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Mathematic</p>
                                     <div class="likes">
@@ -393,7 +437,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend10.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend10.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">School</p>
                                     <div class="likes">
@@ -402,7 +447,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend11.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend11.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Tower</p>
                                     <div class="likes">
@@ -411,7 +457,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend20.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend20.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Univison</p>
                                     <div class="likes">
@@ -420,8 +467,9 @@
                                     </div>
                                 </div>
 
-                                <div class="rounded" class="block">
-                                    <img class="rounded" src="../public/image/trending/trend12.png" width="144" height="166"
+                                <div class="block">
+                                    <img class="rounded pointer" src="../public/image/trending/trend12.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Fire Fox</p>
                                     <div class="likes">
@@ -430,7 +478,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend13.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend13.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Blue Bird</p>
                                     <div class="likes">
@@ -439,7 +488,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend14.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend14.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Language</p>
                                     <div class="likes">
@@ -448,7 +498,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend15.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend15.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">La Poste</p>
                                     <div class="likes">
@@ -457,7 +508,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend16.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend16.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Mini Craft</p>
                                     <div class="likes">
@@ -466,7 +518,8 @@
                                     </div>
                                 </div>
                                 <div class="block">
-                                    <img class="rounded" src="../public/image/trending/trend17.png" width="144" height="166"
+                                    <img class="rounded pointer" src="../public/image/trending/trend17.png" width="144"
+                                         height="166"
                                          alt="">
                                     <p class="font-weight-bold mt-2 text-secondary">Jobs</p>
                                     <div class="likes">
@@ -488,10 +541,13 @@
             <nav class="menu">
                 <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="#">About</a>
                 <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://support.duolingo.com">Support</a>
-                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://www.duolingo.com/terms">Terms</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://www.duolingo.com/terms">Terms</a>
                 <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://www.duolingo.com/">Doulingo</a>
-                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://www.facebook.com/tinycards">Facebook</a>
-                <a class="link text-secondary font-weight-bold text-uppercase mr-3" href="https://twitter.com/tinycardsapp">Twitter</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://www.facebook.com/tinycards">Facebook</a>
+                <a class="link text-secondary font-weight-bold text-uppercase mr-3"
+                   href="https://twitter.com/tinycardsapp">Twitter</a>
                 <div class="lang d-inline-block">
                     <img src="../public/image/united-states.png" alt="english"/>
                     <span class="text-secondary text-uppercase font-weight-bold">English</span>

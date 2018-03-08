@@ -8915,6 +8915,10 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 @media print {
   *,
   *::before,
