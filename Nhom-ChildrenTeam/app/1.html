@@ -52,27 +52,32 @@
 
     </header>
     <section>
-            <img src="./image/home.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-8 col-sm-4">
-                    <h3>Học bài</h3>
-                    <p><strong>Chứa các chương theo chương trình học.</strong></p>
-                    <p><strong>Mỗi chương chứa các bài học phục vụ cho việc tự luyện của học sinh.</strong></p>
+    <h1>Bài 5:Chương 2 - Số liền trước, số liền sau phạm vi 20</h1>
+    <h2 class="type">Điền số thích hợp vào ô trống</h2>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="panel panel-body panel-primary" id="divQues">
+
+
+                    <div *ngIf="showAns">
+                        <h2>{{_nameQues}} {{_num}}</h2>
+                        <br>
+                        <h2>{{_nameAns}} <input type="text" #result id="ketqua"> </h2>
+                        <div id="submit_ans">
+                            <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
+                        </div>
+                    </div>
+                    
+
                 </div>
-                <div class="col-sm-4">
-                    <h3>Kiểm tra</h3>
-                    <p><strong>Kiểm tra lại kiến thức đã học trên lớp.</strong></p>
-                    <p><strong>Nhằm rèn luyện kỹ năng làm bài cho học sinh.</strong></p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Giải trí</h3>
-                    <p><strong>Bao gồm các mẩu truyện và video hữa ích với trẻ.</strong></p>
-                    <p><strong>Phụ huynh có thể tham khảo chức năng này để rèn kỹ năng cho trẻ.</strong></p>
-                </div>
+
             </div>
+            
         </div>
-    </section>
+    </div>
+</section>
 </body>
 
 </html>
