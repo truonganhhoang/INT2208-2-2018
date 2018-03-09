@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tinycards - FlasCard</title>
+    <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../public/css/library/normalize.css">
+    <link rel="stylesheet" href="../public/css/1-4-1/1-4-1.css">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+
+    <script src="../public/js/library/jquery-3.3.1.min.js"></script>
+    <script src="../public/js/library/owl.carousel.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+            <script src="../public/js/1-4-1/1-4-1.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-blue w-100" style="z-index: 9999;">
+    <a class="navbar-brand ml-md-5" href="1-2.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <span class="text-white font-weight-bold">TinyCards</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0 mr-auto ml-lg-5">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-5">
+            <li class="nav-item active mr-1">
+                <a class="nav-link" href="1-1.html">
+                    <img src="../public/image/home.png" alt="home" class="mr-1">
+                    <span class="text-uppercase font-weight-bold text-white">Home</span>
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="1-3.html">
+                    <img src="../public/image/plus.png" alt="home" class="mr-1">
+                    <span class="text-uppercase font-weight-bold text-white">Create</span>
+                </a>
+            </li>
+            <li class="nav-item mr-1">
+                <a class="nav-link" href="1-4.html.html">
+                    <img src="../public/image/profile.png" alt="home" class="mr-1">
+                    <span class="text-uppercase font-weight-bold text-white">Profile</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3 col-md-3 nav-bar mt-5">
+            <div id="profile" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Edit Profile</div>
+            <div id="settings" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Account Settings</div>
+            <div id="notifications" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Notifications</div>
+            <div id="feedback" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Send Feedback</div>
+            <div id="sign-out" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Sign out</div>
+        </div>
+
+        <div class="profile col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded" style="height: 400px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Name</div>
+                <div class="w-100"></div>
+                <input type="text" name="name" class="border-bottom w-75 text-dark mt-2" placeholder="Wakabayashi Genzo">
+                <!-- <img width="130" height="130" src="../public/image/Wakabayashi_genzo.png" alt="avatar"
+                         class="rounded-circle"> -->
+                <div class="w-100"></div>
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">username</div>
+                <div class="w-100"></div>
+                <input type="text" name="username" class="border-bottom w-75 text-dark mt-2" placeholder="Genzo">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">Bio</div>
+                <input type="text" name="bio" class="border-bottom w-75 text-dark mt-2" placeholder="">
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
+
+        <div class="settings col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Email</div>
+                <div class="w-100"></div>
+                <input type="email" name="email" class="border-bottom w-75 text-dark mt-2" placeholder="Wakabayashi@gmail.com">
+                <div class="w-100"></div>
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">Password</div>
+                <div class="w-100"></div>
+                <input type="password" name="password" class="border-bottom w-25 text-dark mt-2" value="Oroza tsubasa">
+                <span class="d-inline-block text-blue font-weight-bold ml-1 ml-md-5 pointer">Change</span>
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
+
+        <div class="notifications col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Daily practice reminders</div>
+                <div class="w-100"></div>
+                <div class="h6 text-dark font-weight-bold mt-4">Receive daily practice reminder emails</div>
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
+
+        <div class="feedback col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Have feedback? we'd love to hear it!</div>
+                <div class="w-100"></div>
+                <input type="text" name="feedback" class="border-bottom w-100 text-dark mt-2">
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
