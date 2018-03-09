@@ -2,7 +2,7 @@
 Công nghệ phần mềm 2 - 2018
 Nhóm 4T
 Bài tập lớn
-
+Thành viên: Đặng Quang Tường, Nguyễn Văn Tuyền, Trần Văn Tuấn, Hoàng Đức Tuấn
 
 *Bỏ phần đăng nhập, đăng ký, tìm thẻ, tạo thẻ mới.
 *Chỉ cho học các thẻ có sẵn và có hạn chế số thẻ. 
