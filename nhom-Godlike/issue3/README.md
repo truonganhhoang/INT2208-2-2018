@@ -1,0 +1,1 @@
+ë mçi thÓ lo¹i ViÖt Nam, US-UK, K-POP, bän em t¹m thêi chØ cho 1 bµi h¸t ®Çu tiªn cã thÓ ph¸t b»ng c¸ch sö dông html tÜnh ®Ó lµm vİ dô, sau nµy bän em sÏ hoµn thiÖn thªm b»ng c¸ch lËp tr×nh.
