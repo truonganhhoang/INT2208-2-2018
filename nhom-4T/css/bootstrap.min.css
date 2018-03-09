@@ -568,7 +568,7 @@ pre code {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-right: 0px;
-	margin-left: 60px
+	margin-left: 60px;
 }
 
 .no-gutters {
@@ -1109,7 +1109,8 @@ pre code {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 33.333333%;
 		flex: 0 0 33.333333%;
-		max-width: 30.333333%
+		max-width: 28%;
+		margin-left: 5%
 	}
 
 	.col-md-5 {
