@@ -5,4 +5,4 @@
 - Phạm Tuấn Dũng
 - Lê Văn Duy
 # Link SEMAT bài tập tuần 5
-[http://bit.ly/2oWFBiN]
+http://bit.ly/2oWFBiN
