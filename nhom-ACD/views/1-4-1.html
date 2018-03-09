@@ -14,11 +14,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+            <script src="../public/js/1-4-1/1-4-1.js"></script>
 </head>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand ml-md-5" href="lesson.html">
+<nav class="navbar navbar-expand-lg navbar-light bg-blue w-100" style="z-index: 9999;">
+    <a class="navbar-brand ml-md-5" href="1-2.html">
         <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
-        <img src="../public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
+        <span class="text-white font-weight-bold">TinyCards</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,22 +32,22 @@
         </form>
         <ul class="navbar-nav mr-5">
             <li class="nav-item active mr-1">
-                <a class="nav-link" href="home.html">
+                <a class="nav-link" href="1-1.html">
                     <img src="../public/image/home.png" alt="home" class="mr-1">
-                    <span>Home</span>
+                    <span class="text-uppercase font-weight-bold text-white">Home</span>
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="1-3.html">
                     <img src="../public/image/plus.png" alt="home" class="mr-1">
-                    <span>Create</span>
+                    <span class="text-uppercase font-weight-bold text-white">Create</span>
                 </a>
             </li>
             <li class="nav-item mr-1">
-                <a class="nav-link" href="profile.html">
+                <a class="nav-link" href="1-4.html.html">
                     <img src="../public/image/profile.png" alt="home" class="mr-1">
-                    <span>Profile</span>
+                    <span class="text-uppercase font-weight-bold text-white">Profile</span>
                 </a>
             </li>
         </ul>
@@ -54,96 +55,68 @@
 </nav>
 
 <div class="container">
-    <div class="d-flex flex-row mt-5">
-        <ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
-            <li class="nav-item mb-0 mb-md-4">
-                <a href="#lorem" class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" role="tab" aria-controls="lorem">Edit Profile</a>
-            </li>
-            <li class="nav-item mb-0 mb-md-4">
-                <a href="#ipsum" class="nav-link font-weight-bold text-uppercase" data-toggle="tab" role="tab" aria-controls="ipsum">Settings</a>
-            </li>
-            <li class="nav-item mb-0 mb-md-4">
-                <a href="#dolor" class="nav-link font-weight-bold text-uppercase" data-toggle="tab" role="tab" aria-controls="dolor">Notifications</a>
-            </li>
-            <li class="nav-item mb-0 mb-md-4">
-                <a href="#sit-amet" class="nav-link font-weight-bold text-uppercase" data-toggle="tab" role="tab" aria-controls="sit-amet">Feedback</a>
-            </li>
-            <li class="nav-item mb-md-4">
-                <a href="#sit-amet" class="nav-link font-weight-bold text-uppercase" data-toggle="tab" role="tab" aria-controls="sit-amet">Sign Out</a>
-            </li>
-        </ul>
-        <div class="tab-content ml-5">
-            <div class="tab-pane fade show active" id="lorem" role="tabpanel">
-                <h1>Lorem</h1>
+    <div class="row">
+        <div class="col-3 col-md-3 nav-bar mt-5">
+            <div id="profile" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Edit Profile</div>
+            <div id="settings" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Account Settings</div>
+            <div id="notifications" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Notifications</div>
+            <div id="feedback" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Send Feedback</div>
+            <div id="sign-out" class="tab active text-uppercase font-weight-bold mb-4 text-secondary pointer">Sign out</div>
+        </div>
 
-                <p>Aenean sed lacus id mi scelerisque tristique. Nunc sed ex sed turpis fringilla aliquet in in neque.
-                    Praesent posuere, neque rhoncus sollicitudin fermentum, erat ligula volutpat dui, nec dapibus ligula
-                    lorem ac mauris. Etiam et leo venenatis purus pharetra dictum.</p>
+        <div class="profile col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded" style="height: 400px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Name</div>
+                <div class="w-100"></div>
+                <input type="text" name="name" class="border-bottom w-75 text-dark mt-2" placeholder="Wakabayashi Genzo">
+                <!-- <img width="130" height="130" src="../public/image/Wakabayashi_genzo.png" alt="avatar"
+                         class="rounded-circle"> -->
+                <div class="w-100"></div>
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">username</div>
+                <div class="w-100"></div>
+                <input type="text" name="username" class="border-bottom w-75 text-dark mt-2" placeholder="Genzo">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">Bio</div>
+                <input type="text" name="bio" class="border-bottom w-75 text-dark mt-2" placeholder="">
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
 
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin
-                    tempor mi ut risus laoreet molestie. Duis augue risus, fringilla et nibh ac, convallis cursus purus.
-                    Suspendisse potenti. Praesent pretium eros eleifend posuere facilisis. Proin ut magna vitae nulla
-                    suscipit eleifend. Ut bibendum pulvinar sapien, vel tristique felis scelerisque et. Sed elementum
-                    sapien
-                    magna, placerat interdum lacus placerat ut. Integer varius, ligula bibendum laoreet sollicitudin,
-                    eros
-                    metus fringilla lectus, quis consequat nisl nibh ut nisi. Aenean dignissim, nibh ac fermentum
-                    condimentum, ante nisl rutrum sapien, at commodo eros sapien vulputate arcu. Fusce neque leo,
-                    blandit
-                    nec lectus eu, vestibulum commodo tellus. Aliquam sem libero, tristique at condimentum ac, luctus
-                    nec
-                    nulla.</p>
-            </div>
-            <div class="tab-pane fade" id="ipsum" role="tabpanel">
-                <h1>Ipsum</h1>
+        <div class="settings col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Email</div>
+                <div class="w-100"></div>
+                <input type="email" name="email" class="border-bottom w-75 text-dark mt-2" placeholder="Wakabayashi@gmail.com">
+                <div class="w-100"></div>
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-4">Password</div>
+                <div class="w-100"></div>
+                <input type="password" name="password" class="border-bottom w-25 text-dark mt-2" value="Oroza tsubasa">
+                <span class="d-inline-block text-blue font-weight-bold ml-1 ml-md-5 pointer">Change</span>
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
 
-                <p>Aenean pharetra risus quis placerat euismod. Praesent mattis lorem eget massa euismod sollicitudin.
-                    Donec
-                    porta nulla ut blandit vehicula. Mauris sagittis lorem nec mauris placerat, et molestie elit
-                    vehicula.
-                    Donec libero ex, condimentum et mi dapibus, euismod ornare ligula.</p>
+        <div class="notifications col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Daily practice reminders</div>
+                <div class="w-100"></div>
+                <div class="h6 text-dark font-weight-bold mt-4">Receive daily practice reminder emails</div>
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
+        </div>
 
-                <p>In faucibus tempus ante, et tempor magna luctus id. Ut a maximus ipsum. Duis eu velit nec libero
-                    pretium
-                    pellentesque. Maecenas auctor hendrerit pulvinar. Donec sed tortor interdum, sodales elit vel,
-                    tempor
-                    turpis. In tristique vestibulum eros vel congue. Vivamus maximus posuere fringilla. Nullam in est
-                    commodo, tristique ligula eu, tincidunt enim. Duis iaculis sodales lectus vitae cursus.</p>
-            </div>
-            <div class="tab-pane fade" id="dolor" role="tabpanel">
-                <h1>Dolor</h1>
-
-                <p>Ut eget lectus tristique, tempus purus sit amet, porta augue. Mauris lobortis sem nec augue ultricies
-                    blandit. Nullam sed sem venenatis, pretium urna eget, scelerisque dolor. Morbi nec volutpat leo,
-                    quis
-                    faucibus tortor. Aenean vel rutrum mauris. Pellentesque lectus massa, tincidunt quis leo non,
-                    sodales
-                    sagittis nulla. Proin interdum est at nulla laoreet, pulvinar pretium nisl rutrum. In vel elit a
-                    risus
-                    rhoncus accumsan vulputate non sapien. Sed et rhoncus velit. Nunc commodo augue fermentum, hendrerit
-                    neque at, ullamcorper arcu. Nulla tincidunt orci a lectus efficitur elementum. Donec molestie urna
-                    vestibulum augue placerat faucibus. In vitae orci vel mauris cursus viverra ac sit amet nisl.
-                    Phasellus
-                    odio tortor, ullamcorper eget ullamcorper eget, molestie eget justo. Integer elementum purus eget
-                    arcu
-                    fermentum tincidunt. Nullam erat tellus, dictum sit amet nisi eu, rutrum fermentum odio.</p>
-            </div>
-            <div class="tab-pane fade" id="sit-amet" role="tabpanel">
-                <h1>Sit Amet</h1>
-
-                <p>Aliquam hendrerit nunc vitae nisi efficitur, eu porta sem aliquam. Aenean tincidunt mi sed mi sodales
-                    bibendum. Proin dolor ipsum, mollis venenatis velit eu, iaculis laoreet mi. Mauris eget egestas
-                    felis,
-                    sit amet finibus nunc. Aliquam non dui sit amet erat auctor mollis ac eget ante. Quisque at quam
-                    augue.
-                    Nulla dignissim, augue nec cursus consequat, mi nulla efficitur augue, vel fringilla turpis quam eu
-                    nunc. Quisque rutrum vehicula lacus sodales molestie. Mauris vel felis sit amet erat maximus cursus
-                    ut a
-                    velit. In hac habitasse platea dictumst. Vestibulum vel neque sit amet nisl finibus fermentum.</p>
-            </div>
+        <div class="feedback col-7 col-md-8 mt-5 ml-5 ml-md-0 bg-white tab-pane rounded d-none" style="height: 300px;">
+            <form action="" class="pl-2 pl-md-5">
+                <div class="h6 text-secondary text-uppercase font-weight-bold mt-5">Have feedback? we'd love to hear it!</div>
+                <div class="w-100"></div>
+                <input type="text" name="feedback" class="border-bottom w-100 text-dark mt-2">
+                <div class="w-100"></div>
+                <button type="submit" class="bg-blue text-uppercase font-weight-bold text-light mt-4 rounded pointer pt-2 pb-2">Save Changes</button>
+            </form>
         </div>
     </div>
-
 </div>
 </body>
 </html>
