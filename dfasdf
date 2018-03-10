@@ -1,0 +1,356 @@
+[33mcommit ab7c5fdff4f268df313d9ec5cc3e7389b7d57a88[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6678715 fc57bc7
+Author: Flashxu98 <35458527+Flashxu98@users.noreply.github.com>
+Date:   Wed Mar 7 22:58:31 2018 +0700
+
+    Merge pull request #3 from leluongtuananh/master
+    
+    a
+
+[33mcommit fc57bc7cf5c9b6c11dd0f6dca3d22faf33a65388[m
+Merge: 1ea7e38 de21168
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Wed Mar 7 22:55:48 2018 +0700
+
+     update
+
+[33mcommit 1ea7e38314204afecf7281e8dc57fa3bfa891d49[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Wed Mar 7 22:51:28 2018 +0700
+
+    update by tuan anh
+
+[33mcommit de21168c6490197f78442da2dd0a48d8b96d3f6b[m
+Merge: 9b2621c 6678715
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Wed Mar 7 21:23:31 2018 +0700
+
+    Merge pull request #9 from Flashxu98/master
+    
+    change file 1-7
+
+[33mcommit 6678715fbd4de2a45b3b1835d2786947496415ba[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Wed Mar 7 21:17:24 2018 +0700
+
+    change file 1-7
+
+[33mcommit 9b2621c875b332238ad9b796cde437c23e2094c8[m
+Merge: 0d5d551 4d25b3a
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Wed Mar 7 20:15:33 2018 +0700
+
+    Merge pull request #8 from Flashxu98/master
+    
+    change 1-9
+
+[33mcommit 4d25b3a208cad13aea616bd3fee4b4b89f2dabf0[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Wed Mar 7 20:11:12 2018 +0700
+
+    change file 1-9
+
+[33mcommit d13e9cda1490c04064da49035ae203cfbe310440[m
+Merge: edd2395 0d5d551
+Author: Flashxu98 <35458527+Flashxu98@users.noreply.github.com>
+Date:   Tue Mar 6 22:46:23 2018 +0700
+
+    Merge pull request #2 from leluongtuananh/master
+    
+    Ok i saw it , man
+
+[33mcommit 0d5d55137ddd2a80b8c4e7d00b359b61bd17259e[m
+Merge: c8b60c4 eb67708
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Tue Mar 6 22:30:40 2018 +0700
+
+    Merge pull request #7 from ndc251198/master
+    
+    xoa file css va sua lai 1-8
+
+[33mcommit eb67708ec8cdeef4ab146ba15c11857a0705832b[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Tue Mar 6 20:16:28 2018 +0700
+
+    Add files via upload
+
+[33mcommit 7649df3fb3c6b67699b341410a249f15e8e6c87d[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Tue Mar 6 20:16:05 2018 +0700
+
+    Delete 1-8.html
+
+[33mcommit c7e6b5f8e81796614f920344fc092d83675a8507[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Tue Mar 6 20:15:46 2018 +0700
+
+    Delete 1.8.css
+
+[33mcommit edd239558c588535797f103bba3ce47dfbe2d499[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sat Mar 3 10:40:23 2018 +0700
+
+    Update Css3 week 1 and 2
+
+[33mcommit c8b60c4b131a7e2c4d1eaf341f50d5824b7fb9c9[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Fri Mar 2 22:18:13 2018 +0700
+
+     cap nhat du an tinycard
+
+[33mcommit 82edf6d94277034d8d5726df599df4375fa45495[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Thu Mar 1 22:44:56 2018 +0700
+
+    thay file 1-10 thanh1-7
+
+[33mcommit bbc9e7faa2cb4f978efba860af8a4e51ddffd948[m
+Merge: c601d10 919778f
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Thu Mar 1 11:01:56 2018 +0700
+
+    Merge pull request #6 from Flashxu98/master
+    
+    upload again
+
+[33mcommit 919778f7626ea13e11206002c673db58e84b69b5[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Thu Mar 1 10:57:05 2018 +0700
+
+    push again
+
+[33mcommit 2bccca990287be83892f497e05e77ea64fae2e23[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Thu Mar 1 10:45:43 2018 +0700
+
+    Update file HTML cho nhom
+
+[33mcommit c601d1080889660f6dbe01408b965b57fb1fabba[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Thu Mar 1 08:52:34 2018 +0700
+
+    cap nhat tien do
+
+[33mcommit 9d0b4a529a52e4b43267d69c0c80bdb6bf260a88[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Mon Feb 5 10:51:53 2018 +0700
+
+    chinh pull request
+
+[33mcommit b137827c166d13d13199ae22923ffda5a0a798b6[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sun Feb 4 21:17:05 2018 +0700
+
+    xoa file thua
+
+[33mcommit 74496d4ecd65262f9e494d06829e1bbe180e784b[m
+Merge: f16cacd 486c2ef
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sun Feb 4 21:07:29 2018 +0700
+
+    Merge branch 'master' of https://github.com/leluongtuananh/INT2208-2-2018
+
+[33mcommit f16cacd1c5fa9e8a3ba38c9aea6aa923899dadfa[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sun Feb 4 21:06:51 2018 +0700
+
+    update 2
+
+[33mcommit 486c2ef17260be26ca2cfb464a7dbd9818c7ed47[m
+Merge: bf36cd0 88c85ef
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Sun Feb 4 15:05:51 2018 +0700
+
+    Merge pull request #4 from Flashxu98/master
+    
+    add image
+
+[33mcommit 88c85ef2b3e63e40cdfe9e816777346659bd73d8[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sun Feb 4 15:01:31 2018 +0700
+
+    add image
+
+[33mcommit bf36cd06e53df42d39d8939a27b4d337faec71ae[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sun Feb 4 14:59:17 2018 +0700
+
+    update
+
+[33mcommit 5e43dad67f11f9f2b1194a87486cf02237cad040[m
+Merge: 937e059 a17ccbe
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Sun Feb 4 14:49:21 2018 +0700
+
+    Merge pull request #3 from Flashxu98/master
+    
+    toi là xuan
+
+[33mcommit a17ccbe8025abd3a5432866cc47d6e3aa49eb352[m
+Merge: 0229360 154e965
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sun Feb 4 14:45:13 2018 +0700
+
+    commit by Phung Dinh Xuan
+
+[33mcommit 154e96561967019075d344c6a9d7efb192b95e3d[m
+Merge: 7297049 937e059
+Author: Flashxu98 <35458527+Flashxu98@users.noreply.github.com>
+Date:   Sun Feb 4 14:40:48 2018 +0700
+
+    Merge pull request #1 from leluongtuananh/master
+    
+    a
+
+[33mcommit 0229360a82cb1bb21f9f57ff652d63b4b66baa23[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sun Feb 4 14:33:02 2018 +0700
+
+    toi lam cach nay xem sao
+
+[33mcommit 7297049bb9e5adf35ddd4b1ef9509c834bf2e0cb[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sun Feb 4 14:27:29 2018 +0700
+
+    thu lai nha
+
+[33mcommit d15ee5208cb37e4b99b6a96522b7d0e62cca7f94[m
+Author: Flashxu <dinhxuan9807@gmail.com>
+Date:   Sun Feb 4 14:13:21 2018 +0700
+
+    toi làm dc co cai ak
+
+[33mcommit 937e0597044b841172e8d918158d2c8289536174[m
+Merge: 0373c84 1ed7524
+Author: leluongtuananh <32769169+leluongtuananh@users.noreply.github.com>
+Date:   Sun Feb 4 12:02:36 2018 +0700
+
+    Merge pull request #1 from ndc251198/master
+    
+    nguyen duc cong updates files(about)
+
+[33mcommit 1ed7524a8be57fb58e687d9175a2d23ea5aac971[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Sun Feb 4 11:55:44 2018 +0700
+
+    Add files via upload
+
+[33mcommit 1ecff442688159b9f6aa8aed6847cb978e676bd1[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Sun Feb 4 11:53:58 2018 +0700
+
+    Delete text.txt
+
+[33mcommit b07513b6494b3323ff2865d14bc9a77b7aef675d[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Sun Feb 4 11:53:46 2018 +0700
+
+    Add files via upload
+
+[33mcommit 463201b6cb0012c30ffdb12380868e6625908a3e[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Sun Feb 4 11:53:33 2018 +0700
+
+    Create text.txt
+
+[33mcommit 512df16b2078c2aca0f4f8222c954834b3728330[m
+Author: Nguyễn Đức Công <35475197+ndc251198@users.noreply.github.com>
+Date:   Sun Feb 4 11:53:08 2018 +0700
+
+    Add files via upload
+
+[33mcommit 0373c8437bba3930cce836994a1970b1a7763610[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sun Feb 4 11:00:54 2018 +0700
+
+    cap nhat tien do
+
+[33mcommit e8391a349e388d0654c092caa8b13d089b3a703d[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Sat Feb 3 22:01:57 2018 +0700
+
+    khoi tao
+
+[33mcommit f655fcaa759736d746cf572d4e351a641d613d3d[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Fri Jan 26 19:51:36 2018 +0700
+
+    Cập nhật tiến độ HTML5 và git &github
+
+[33mcommit 981d61e3e73e5c0458cb6921046d6cd9955f5d67[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Fri Jan 26 19:47:45 2018 +0700
+
+    xoa tat ca
+
+[33mcommit bbbf9cb54216b977535a13619bfd9b4db75be6f4[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Thu Jan 25 16:46:36 2018 +0700
+
+    back lai
+
+[33mcommit ce650a86c089d688de8b9277a99c9e64f3630d4b[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Thu Jan 25 16:04:12 2018 +0700
+
+    update : HTML5 week 1
+
+[33mcommit dff90972133d094be7d7133284491159c8184b50[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Thu Jan 25 16:02:54 2018 +0700
+
+    delede
+
+[33mcommit 42545057a8052d958f83001e5ca2decbab896258[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Thu Jan 25 15:47:11 2018 +0700
+
+    Update : HTML5 week 1
+
+[33mcommit 6686bcd0914f00a1975d08f3727a9b6f53776b4a[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Wed Jan 24 19:54:45 2018 +0700
+
+    cap nhat tien do khoa HTML5 tuan thu 1(rename)
+
+[33mcommit 6b2a8c8c7ae6f56850cd0a2ed923242cfbc3a8b0[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Wed Jan 24 19:38:27 2018 +0700
+
+    cap nhat tien do tuan thu 1 khoa hoc HTML
+
+[33mcommit 53aeddbed8b1715854cf337f4689b806687b6f0c[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Wed Jan 24 10:50:15 2018 +0700
+
+    Completed git and github
+
+[33mcommit 7fa3c9d57f15440abf7c48d2268ab5d817488abe[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Fri Jan 19 20:47:03 2018 +0700
+
+    20%
+
+[33mcommit 215a53d518bdb9c653f1dff42630a77c0f456377[m
+Author: leluongtuananh <leluongtuananh98@gmail.com>
+Date:   Thu Jan 18 10:57:36 2018 +0700
+
+    make new folder
+
+[33mcommit 7f1278a1048be01d6edfbc9b0569a33dc0f67aa1[m
+Author: Flashxu98 <35458527+Flashxu98@users.noreply.github.com>
+Date:   Thu Jan 18 10:52:34 2018 +0700
+
+    information
+
+[33mcommit 3416cffe40f4d00bef79b34645223383d7ad7780[m
+Author: Flashxu98 <dinhxuan9807@gmail.com>
+Date:   Thu Jan 18 10:31:21 2018 +0700
+
+    test add fiel
+
+[33mcommit 59a644c03386594c092878dc6f6059d3856ef32c[m
+Author: Hoàng Trương <truonganhhoang@gmail.com>
+Date:   Wed Jan 17 16:47:05 2018 +0700
+
+    Create README.md
