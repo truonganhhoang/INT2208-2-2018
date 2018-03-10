@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Học toán Online</title>
+  <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/1.1.1.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <style>
+      body { background-image: url("image/luyentap.jpg") }
+      a { font-size: 20px; }
+  </style>
+</head>
+  
+<body>
+  
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" routerlink="/home" routerlinkactive="active-link" ng-reflect-router-link="/home" ng-reflect-router-link-active="active-link" href="/home"><span aria-hidden="true" class="glyphicon glyphicon-education"></span> MathFun</a>
+                </div>
+
+                
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li><a routerlink="/luyentap" routerlinkactive="active" ng-reflect-router-link="/luyentap" ng-reflect-router-link-active="active" href="/luyentap" class="">Luyện tập</a></li>
+                        <li><a routerlink="/kiemtra" routerlinkactive="active" ng-reflect-router-link="/kiemtra" ng-reflect-router-link-active="active" href="/kiemtra">Kiểm tra</a></li>
+                        <li><a routerlink="/kynangsong" routerlinkactive="active" ng-reflect-router-link="/kynangsong" ng-reflect-router-link-active="active" href="/kynangsong">Giải Trí</a></li>
+
+                    </ul>
+
+                    <form class="navbar-form navbar-right ng-untouched ng-pristine ng-valid" novalidate="">
+                        <button class="btn btn-success" type="submit">
+                            <span aria-hidden="true" class="glyphicon glyphicon-user"></span> Đăng nhập</button>
+                        <button class="btn btn-danger" type="submit">
+                            <span aria-hidden="true" class="glyphicon glyphicon-pencil"></span> Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section>
+        <router-outlet></router-outlet><count-question-detail _nghost-c3="">
+    <section>
+    <h1>Bài 1 - Chương 1: Các số trong phạm vi 10</h1>
+    <h2 class="type">Điền số thích hợp vào ô trống.</h2>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+                
+                <div class="panel panel-body panel-primary" id="divQues">
+                   <div>
+                        
+                        <h3><strong>Có bao nhiêu nải chuối xuất hiện trên hình? </strong></h3>
+                        <div id="getImgQues"><img src="./image/3naichuoi.png"></div>
+                        <div id="ans">
+                            <input id="ketqua" style="text-align: center" type="text">
+                        </div>
+                        <div id="submit_ans">
+                            <button id="kiemtra" type="button">Kiểm tra</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div class="col-sm-4">
+                
+                <h2 class="type1"><strong>Số sao đạt được </strong></h2>
+                <br>
+                <div class="panel panel-body panel-primary" id="panel_star">
+                    <div id="starAward">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  </count-question-detail>
+    </section>
+
+    <footer class="navbar-fixed">
+        <div class="row>">
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <br>
+                
+                <p><strong>Copyright @ H3T 2017 Đại học Công Nghệ - Đại học Quốc Gia Hà Nội</strong></p>
+                <h4><a routerlink="/phanhoi" routerlinkactive="active" ng-reflect-router-link="/phanhoi" ng-reflect-router-link-active="active" href="/phanhoi">Phản hồi</a></h4>
+                
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script>
+
+</body>

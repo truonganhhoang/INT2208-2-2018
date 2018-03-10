@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thi bang lai xe</title>
+<meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>  
+        <header>
+        <img class="img-fluid" src="../images/banner1.png" alt="">
+        <div class="intro-text">
+        </div>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark box-shadow">
+                <img src="../images/logo.png" style="width: 30px;height: 30px;">
+            <h5 class="my-0 mr-md-auto font-weight-normal" style="color: white">&nbsp;&nbsp;ASP.com</h5>
+            <form class="form-inline" action="#">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-light action" href="#">Home</a>
+                <a class="p-2 text-light" href="#">De thi</a>
+                <a class="p-2 text-light" href="#">On tap</a>
+                <a class="p-2 text-light" href="#">Dang ky</a>
+            </nav>
+        </div>
+    </header>
+        <form class="form-horizontal">
+            <fieldset>
+                <legend class="text-center">
+                    <strong>TỜ KHAI ĐĂNG KÍ HỒ SƠ THI BẰNG LÁI XE</strong>
+                </legend>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Họ và Tên:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="Nguyễn Văn A" class="form-control input-md" required="">
+                        <span class="help-block">(Ghi đầy đủ Họ tên tiếng Việt có dấu)</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Ngày sinh:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="dd/mm/yy" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Giới tính:</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline">
+                        <input type="radio" name="radios" id="radios-0" value="1"><!-- react-text: 132 -->Nữ<!-- /react-text -->
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radios" id="radios-1" value="2"><!-- react-text: 135 -->Nam<!-- /react-text -->
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="radios" id="radios-2" value="3"><!-- react-text: 138 -->Khác<!-- /react-text -->
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Số CMND/Hộ chiếu:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="123456789" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Ngày cấp:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="dd/mm/yy" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Địa chỉ:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Điện thoại:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="" class="form-control input-md" required="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Email:</label>
+                    <div class="col-md-4">
+                        <input type="text" id="textinput" name="textinput" placeholder="" class="form-control input-md">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Địa điểm thi:</label>
+                    <div class="col-md-4">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                            <option value="1">Hà Nội</option>
+                            <option value="2">Đà Nẵng</option>
+                            <option value="3">Thành phố Hồ Chí Minh</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Ảnh làm thẻ</label>
+                    <div class="col-md-4">
+                        <input type="file" id="filebutton" name="filebutton" class="input-file">
+                        <span class="help-block">(Chọn ảnh chân dung trong vòng 6 tháng trở lại đây)</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Phương thức thanh toán:</label>
+                    <div class="col-md-4">
+                        <select id="selectbasic" name="selectbasic" class="form-control">
+                            <option value="1">Tiền mặt</option>
+                            <option value="2">Thẻ</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">
+                        
+                    </label>
+                    <div class="col-md-4">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1"><!-- react-text: 182 -->Tôi đồng ý với các<!-- /react-text -->
+                            <a href="#condition"> điều khoản     </a><!-- react-text: 184 -->dịch vụ<!-- /react-text -->
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <button id="singlebutton" name="singlebutton" class="btn btn-success">
+                            <a href="/success"><a>Đăng ký</a></a>
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="footer-infor-column-01">
+                            <p><strong>Danh mục</strong></p>
+                            <p><a href="">Thi bằng lái xe A1</a></p>
+                            <p><a href="">Thi bằng lái A2</a></p>
+                            <p><a href="">Làm bằng lái xe máy</a></p>
+                            <p><a href="">Đổi giấy phép lái xe</a></p>
+                            <p><a href="h">Đề thi bằng lái xe</a></p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="footer-infor-column-02">
+                            <p><strong>Chia sẻ kinh nghiệm</strong></p>
+                            <p><a href="">Mẹo thi bằng lái xe A1</a></p>
+                            <p><a href="">Những câu hỏi thường gặp</a></p>
+                            <p><a href="">Kiến thức</a></p>
+                            <p><a href="">Tra cứu lịch thi</a></p>
+                            <p><a href="">Thi thử bằng lái xe A1</a></p>
+                            <p><a href="">Thanh toán Online</a></p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="footer-infor-column-03">
+                            <p>
+                                <strong>Liên hệ</strong>
+                            </p>
+                            <p>
+                                <strong>Hệ thống đăng ký 
+                                    <span style="color: #ffffff;">
+                                        <a style="color: #ffffff;" href="">thi bằng lái xe máy</a>
+                                    </span> tại Hà Nội</strong></p>
+                            <p>
+                                <i class="fa fa-map-marker" style="color: #0088cc;border-color: #0088cc;"></i>
+                                <span style="color: #ababab;">Văn phòng 1:</span>&nbsp;144 Xuan thuy Cau Giay Ha Noi
+                            </p>
+                            <p>
+                                <i class="fa fa-phone" style="color: #0088cc; border-color: #0088cc;"></i>
+                                <span style="color: #ababab;">Tư vấn dịch vụ:</span> 
+                                <a href="tel:">01694728855</a> - 
+                                <a href="tel:">xxx</a>(24/24)
+                            </p>
+                            <p>
+                                <i class="fa fa-users" style="color: #0088cc; border-color: #0088cc;"></i> 
+                                <span style="color: #ababab;">Hỗ trợ khách hàng:</span>&nbsp;
+                                <a href="tel:0975224497">0975 224 497</a>&nbsp;(24/24)
+                            </p>
+                            <p>
+                                <i class="fa fa-phone-square" style="color: #0088cc; border-color: #0088cc;"></i> 
+                                <span style="color: #999999;">Số máy lẻ:</span> 
+                                <a href="tel:01694728855">0169 472 8855</a> - Fax: 043282618
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope" style="color: #0088cc; border-color: #0088cc;"></i>
+                                <span style="color: #999999;">&nbsp;Email:</span> ASG.com@gmail.com
+                            </p>
+                            <p>
+                                <em>
+                                    <span style="color: #ababab;">Làm việc từ 8h00 – 18h00 các ngày từ thứ 2 đến Chủ Nhật</span>
+                                </em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+      </footer>
+</body>
+</html>
