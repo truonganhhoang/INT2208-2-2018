@@ -1,0 +1,69 @@
+.navbar-default .navbar-brand {
+	margin-top: -16px;
+    margin-bottom: 28px;
+}
+.navbar-brand>img {
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.navbar-default {
+	background-color: #32cdff;
+}
+.form-control {
+	margin-top: 5px;
+}
+.nav {
+	padding-top: 20px;
+}
+a{
+	padding:25px;
+	color: #DCDCDC;
+}
+.glyphicon-home:before {
+	margin-right: 5px;
+}
+.glyphicon-plus:before {
+	margin-right: 5px;
+}
+.glyphicon-user:before {
+	margin-right: 5px;
+}
+* {
+	font-weight: bold;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	color: white;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	padding-left: 200px;
+}
+.col-md-12 {
+	margin-top: 20px;
+}
+.tong {
+	padding: 20px 0;
+	border-bottom: 1px solid #CDCDCD;
+}
+.truong h3{
+	font-weight: bold;
+	margin-left: 70px;
+}
+.son {
+	padding-left: 320px;
+}
+.ndt {
+	margin-top: 70px;
+}
+.btn-info {
+	margin-top: 40px;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-12 {
+    margin-top: 0px;
+}
