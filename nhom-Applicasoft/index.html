@@ -2,34 +2,43 @@
 <html>
 <head>
     <title>Thi bang lai xe</title>
-<meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>  
         
-    <header>
+   <header>
         <img class="img-fluid" src="images/banner1.png" alt="">
-        <div class="intro-text">
-        </div>
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark box-shadow">
-                <img src="images/logo.png" style="width: 30px;height: 30px;">
+            <img src="images/logo.png" style="height: 40px;width: 40px;">
             <h5 class="my-0 mr-md-auto font-weight-normal" style="color: white">&nbsp;&nbsp;ASP.com</h5>
             <form class="form-inline" action="#">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <input class="form-control mr-sm-1" type="text" placeholder="Search">
                 <button class="btn btn-success" type="submit">Search</button>
             </form>
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-light action" href="#">Home</a>
-                <a class="p-2 text-light" href="#">De thi</a>
-                <a class="p-2 text-light" href="#">On tap</a>
-                <a class="p-2 text-light" href="#">Dang ky</a>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <ul class="navbar-nav">
+        <li class="nav-item">
+                  <a class="nav-link active" href="">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dethi/">Đề thi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dangky/">Đăng ký</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="ontap/">Ôn tập</a>
+                </li>
+              </ul>
             </nav>
+
         </div>
     </header>
         <div id="demo" class="carousel slide container" data-ride="carousel" >
@@ -65,48 +74,37 @@
                 <a class="carousel-control-next" href="#demo" data-slide="next">
                   <span class="carousel-control-next-icon"></span>
                 </a>
-        </div>
+        </div><hr/>
         <div class="container">
-            <h2 class="text-center">Danh mục</h2>
-            <div class="row">
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-                    <img class="img-fluid image" src="images/de-thi.jpg" alt="">
-                    <h3 class="text">DE THI</h3>
+            <h1 class="text-center">DANH MỤC</h1>
+            <hr/>
+            <div class="row">   
+            <div class="col-sm-6 portfolio-item">
+                <a class="portfolio-link" href="dethi">
+                    <img class="img-fluid image rounded" src="images/de-thi.jpg" alt="">
+                    <h3 class="text">ĐỀ THI</h3>
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <div class="col-sm-6 portfolio-item">
+                <a class="portfolio-link" href="ontap/">
                     <img class="img-fluid" src="images/on-tap.jpg" alt="">
-                    <h3 class="text">ON TAP</h3>
+                    <h3 class="text">ÔN TẬP</h3>
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="col-sm-6 portfolio-item">
+                <a class="portfolio-link" href="dangky/">
                     <img class="img-fluid" src="images/dangky.png" alt="">
-                    <h3 class="text">DANG KY</h3>
+                    <h3 class="text">ĐĂNG KÝ</h3>
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-                    <img class="img-fluid" src="images/meo.jpg" alt="">
-                    <h3 class="text">MEO</h3>
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+            <div class="col-sm-6 portfolio-item">
+                <a class="portfolio-link" href="#lienhe">
                     <img class="img-fluid" src="images/contact.jpg" alt="">
-                    <h3 class="text">CONTACT</h3>
-                </a>
-            </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-                    <img class="img-fluid" src="images/news.jpg" rel="bookmark" alt="">
-                    <h3 class="text">NEWS</h3>
+                    <h3 class="text">LIÊN HỆ</h3>
                 </a>
             </div>
         </div>
-        </div>
+        </div><hr>
         <div class="sub-footer-content">
         <h2>Nghiên cứu đủ rồi, đăng ký thi ngay thôi</h2>       
         <div class="register2">
@@ -125,7 +123,7 @@
                 <option value="tayho"> Tây Hồ</option>
                 <option value="thanhxuan"> Thanh Xuân</option>
             </select>
-            <a href="#  " rel="nofollow"><button type="button" class="btn btn-success btn-dkthi" data-toggle="modal" data-target="#myModal">Đăng Ký Thi</button></a>
+            <a href="# " rel="nofollow"><button type="button" class="btn btn-success btn-dkthi" data-toggle="modal" data-target="#myModal">Đăng Ký Thi</button></a>
         </div>
     </div>
     <footer id="colophon" class="site-footer" role="contentinfo">
@@ -158,7 +156,7 @@
                     <div class="col-md-6 col-xs-12">
                         <div class="footer-infor-column-03">
                             <p>
-                                <strong>Liên hệ</strong>
+                                <strong id="lienhe">Liên hệ</strong>
                             </p>
                             <p>
                                 <strong>Hệ thống đăng ký 
@@ -167,7 +165,7 @@
                                     </span> tại Hà Nội</strong></p>
                             <p>
                                 <i class="fa fa-map-marker" style="color: #0088cc;border-color: #0088cc;"></i>
-                                <span style="color: #ababab;">Văn phòng 1:</span>&nbsp;144 Xuan thuy Cau Giay Ha Noi
+                                <span style="color: #ababab;">Văn phòng 1:</span>&nbsp;144 Xuân Thuỷ, Cầu Giấy, Hà Nội.
                             </p>
                             <p>
                                 <i class="fa fa-phone" style="color: #0088cc; border-color: #0088cc;"></i>
@@ -187,7 +185,7 @@
                             </p>
                             <p>
                                 <i class="fa fa-envelope" style="color: #0088cc; border-color: #0088cc;"></i>
-                                <span style="color: #999999;">&nbsp;Email:</span> ASG.com@gmail.com
+                                <span style="color: #999999;">&nbsp;Email:</span> <a href="mailto:ASG.com@gmail.com">ASG.com@gmail.com</a>
                             </p>
                             <p>
                                 <em>
