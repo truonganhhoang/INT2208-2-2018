@@ -1,5 +1,7 @@
 alert("Trang web đang xây dựng, trong lúc tang gia bối rối có gì sơ xuất, gia đình xin được lượng thứ");
 function inputEmail(){
+	
+		
     document.getElementById("table1").innerHTML +=
     	'<tr>'+
     		'<td>'+

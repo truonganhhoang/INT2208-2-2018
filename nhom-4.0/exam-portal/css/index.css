@@ -14,9 +14,6 @@ a {
     text-decoration: none;
     color: #3B8BBA;
 }
-p{
-    word-wrap: break-word;
-}
 a:hover,
 a:visited {
     color: #265778;
@@ -61,8 +58,8 @@ a:visited {
 }
 #header {
     float: right;
-    background-color: #9AD5F9;
-    width: 100%;
+    color: #9AD5F9;
+    width: auto;
     bottom: 200px;
 
 }
@@ -101,7 +98,8 @@ a:visited {
     display: block;
 }
 .floating-icon {
-    display: inline-block;
-    width: 33%;
+    display: block;
+    float: left;
+    width: 33.3333333%;
     
 }
