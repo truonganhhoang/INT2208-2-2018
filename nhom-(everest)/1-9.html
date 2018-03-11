@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Tinycards</title>
-  <link rel="shortcut icon" type="image/png" href="https://d17u0960v8a9bp.cloudfront.net/image/5c826d3d048819c3fc25ddaea0697433.png">
+<meta charset="UTF-8">
+<title>ACCOUNT</title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" type="text/css" href="Css/style1.Css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -17,59 +15,17 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-</style>
 
 </head>
 <body>
-	<nav class="navbar navbar-toggleable-md navbar-dark bg-info ">
+<nav class="navbar navbar-toggleable-md navbar-dark bg-dark ">
   	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   	</button>
   	
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" class ="container">
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent" class ="container">
   	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-6 push-2">
   		<form class="form-inline my-2 my-lg-0">
   			<a class="navbar-brand" href="1.html"><img src="https://d17u0960v8a9bp.cloudfront.net/192x192.png" width="30" height="30" class="d-inline-block align-top" alt="icon">TinyCards</a>
@@ -92,149 +48,156 @@ body {font-family: Arial;}
     </ul>
 	</div>
   </div>
-</nav>
+</nav> <!-- ket thuc the nav --> 
 
 
-<div class="container" >
-
+<div class="container ">	
+	<div class="row ">
+		<br>
+		<br>
+	</div>
 	<div class="row">
-	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-3" style ="margin-top:40px; margin-right:40px">
-      <div class="col-lg-8 push-2">
-        <img class="card-img-center img-thumbnail rounded-circle"src="https://s3.amazonaws.com/duolingo-images/avatar/default_2/xlarge" alt="Card image cap" >
-      </div>
-  		<div class="card-block text-center">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-12">
-				<h5 >User name</h5>
-				<h6 class="card-title">Following:0</h6>
-			</div>
-			<hr>
-    	<a href="#" class="btn btn-default" style="margin-right:10px;  border-style: solid;
-    border-color: #32cdff; border-width:2px"><img src="images/setting.png" width="20" height="20" class="d-inline-block align-top" alt="icon" style="margin-right:3px">Setting</a>
+		<div class=" col-lg-4">
+			<div class="card-blockquote text-center" >
+				<div class="row">
+					<div class=" col-lg-6 push-3">
+					  	<img class="card-img-top img-thumbnail rounded-circle" src="https://s3.amazonaws.com/duolingo-images/avatar/default_2/xlarge" alt="Card image">
+					</div>
+				</div> <!-- end img -->
+			 	<div class="card-body"> 
+			 	<h4 class="card-title">User Name</h4>
+			 	<div class="row ">
+			 		<div class=" col-lg-6 push-1">
+			 		  	<a href="#follower">Follower: 0</a>
+			 		</div><div class="col-lg-6 pull-1">
+			 		  	<a href="#">Following: 0</a>
+			 		</div>
+			 	</div>
+				<hr>
+			    <div class="row">
+			    	<div class="col-xs-6 col-sm-6 col-md-6col-lg-6 push-1">
+			    	  	<a href="#" class="btn btn-outline-info">SETTING</a>
+			    	</div><div class="col-lg-6 pull-1">
+			    	  	<a href="#" class="btn btn-outline-info">SHARE</a>
+			    	</div>
+			    </div>
+			  </div>
+			</div> <!-- end card -->
+		</div> <!-- end col - 3 -->
+		
+		<div class="col-lg-8 " >
+			<ul class="nav nav-tabs" role="tablist">
+			    <li class="nav-item">
+			      <a class="nav-link active" data-toggle="tab" href="#decks">DECKS</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" data-toggle="tab" href="#follower">FOLLOWERS</a>
+			    </li>
+			    <li class="nav-item">
+			      <a class="nav-link" data-toggle="tab" href="#following">FOLLOWING</a>
+			    </li>
+			 </ul> <!-- end nav-tap -->
 
-    <a href="#" class="btn btn-default" style="margin-right:10px;  border-style: solid;
-    border-color: #32cdff; border-width:2px">Share</a>
-  		</div>
-	     
-	     </div>
+			<div class="tab-content im">
+			    <div id="decks" class="container tab-pane active"><br>
+					<div class="container">
+						<div class="row">
+							<div class="col-4">
+								<div class="card-warning card-block card text-{1:center|right}">
+								<img src="images/flashcard.png" class="img-fluid">
+								<br>
+								<br>
+								<a href="1-7.html" class="btn btn-secondary">Go </a>
+								</div>
+							</div>
+							<div class="col-lg-4">
+							  	<a href="">Hoa Quả</a>
+							  	<p>Chủ đề hoa quả nói về các loại quả</p>
+							</div>
+						</div><!--  end row -->
+						<br>
 
+						<div class="row">
+							<div class="col-4">
+								<div class="card-warning card-block card text-{1:center|right}">
+								<img src="images/2.png" class="img-fluid">
+								<br>
+								<br>
+								<a href="1-7.html" class="btn btn-secondary">Go </a>
+								</div>
+							</div>
+							<div class="col-lg-4">
+							  	<a href="">Đồ ăn</a>
+							  	<p>chủ đề đồ ăn nói về ẩm thực Việt Nam</p>
+							</div>
+						</div><!--  end row -->
+						<br>
+						<div class="row">
+							<div class="col-4">
+								<div class="card-warning card-block card text-{1:center|right}">
+								<img src="images/1.png" class="img-fluid">
+								<br>
+								<br>
+								<a href="1-7.html" class="btn btn-secondary">Go </a>
+								</div>
+							</div>
+							<div class="col-lg-4">
+							  	<a href="">Con người</a>
+							  	<p>chủ đề con người nói về lịch sự loài người</p>
+							</div>
+						</div><!--  end row -->
+						<br>
 
-       <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-8 " style= "margin-top : 40px ; ">
-          
+					</div><!-- end container 2 -->
+			    </div>
+			    <div id="follower" class="container tab-pane fade"><br>
+			      <h6 >This user has no followers yet.</h6>
+			    </div>
+			    <div id="following" class="container tab-pane fade"><br>
+			      <h6>This user isn't following anyone.</h6>
+			    </div>
+			  </div>
+			</div> <!-- end tap panes -->
 
-        <div class="tab" style="background: #69919e;">
-          <button class="tablinks" onclick="openCity(event, 'decks')">DECKS</button>
-          <button class="tablinks" onclick="openCity(event, 'follower')">FOLLOWER</button>
-          <button class="tablinks" onclick="openCity(event, 'following')">FOLLOWING</button>
-        </div>
+		</div> <!-- end col-9 -->
+	</div> <!-- end row  -->
 
-        <div id="decks" class="tabcontent" style = "background:#eaeaf1">
-
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col -3">
-                <img class="card-img-center img-thumbnail" src="https://d9np3dj86nsu2.cloudfront.net/image/36125d06520a2f6acdae39d1221e5ca8" width = 100%;>
-              </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col -3">
-                <div class="container">
-                  <div class="row"><a href="" class="">test</a></div>
-                  <div class="row"><a href="" class="">example</a></div>
-                </div>
-              </div>
-            </div>
-
-             <div class="row" style="margin-top:10px">
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-3">
-                <img class="card-img-center img-thumbnail" src="http://static.lananhedu.com/5093/news/2017/09/04/parts-of-the-body-girl-1504500415.jpg" width = 100%;class ="img-thumbnail" >
-              </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-3">
-                <div class="container">
-                  <div class="row"><a href="" class="">Bộ phận cơ thể</a></div>
-                  <div class="row"><a href="" class="">example</a></div>
-                </div>
-              </div>
-            </div>
-
-             <div class="row" style="margin-top:10px">
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-3">
-                <img class="card-img-center img-thumbnail"  src="http://static.hdonline.vn/i/resources/new/post/screen/2017/05/10/7a82ef234711f7b599de364e47cc08b2_60e466b3-5f22-4316-a630-507399e19290jpg.jpg" width = 100%; >
-              </div>
-              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-3">
-                <div class="container">
-                  <div class="row"><a href="" class="">girls</a></div>
-                  <div class="row"><a href="" class="">example</a></div>
-                </div>
-              </div>
-            </div>
-
-
-
-          </div>
-        </div>
-
-        <div id="follower" class="tabcontent text-center" style = "background:#eaeaf1">
-          
-        <p>This user has no followers yet. </p> 
-      </div>
-
-      <div id="following" class="tabcontent text-center" style = "background:#eaeaf1">
-        <p>This user isn't following anyone.</p>
-      </div>
-
-      <script>
-      function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-              tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-              tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-        </script>
-
-        
-
-       </div>
-
-    </div>
-
-</div>
 <div class="container">
-  
-    <div id="footer" style="margin-top:150px;margin-bottom:30px; font-size : 30px ">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      
+	<div class="row">
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+    <div id="footer bottom" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar ">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item " style="margin:8px">
+          <li class="nav-item ">
             <a class="nav-link" href="https://support.duolingo.com/hc/en-us">Support <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item" style="margin:8px" >
+          <li class="nav-item"  >
             <a class="nav-link" href="https://www.duolingo.com/terms">Term</a>
           </li>
-          <li class="nav-item" style="margin:8px">
+          <li class="nav-item" >
             <a class="nav-link" href="https://www.duolingo.com/">Duligo</a>
           </li>
-          <li class="nav-item"  style="margin:8px">
+          <li class="nav-item"  >
             <a class="nav-link" href="https://www.facebook.com/tinycards">Facebook</a>
           </li>
-          <li class="nav-item"  style="margin:8px">
+          <li class="nav-item"  >
             <a class="nav-link" href="https://twitter.com/tinycardsapp">Twitter</a>
           </li>
         </ul>
       </div>
     </nav>  
-    
   </div>
-</div>
 
+	
+</div> <!-- ket thuc container ngoai cung --> 
 
 
 </body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link REL="SHORTCUT ICON" HREF="pic/icon.png">
+    <meta name="keyword" content="thi,khoa hoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css">
+    <link rel="stylesheet" href="css/floating-icon.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+</head>
+    
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Portal-exam</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="allCourses.html">All Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Your Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="AboutUs.html"> About us</a>
+                </li>
+            </ul>
+            <!-- 2 nut Sign in - Sign up -->
+            <a class="btn navbar-btn ml-2 text-white btn-primary" href="signIn.html"><i class="fa d-inline fa-lg fa-user-circle-o"></i> Sign in</a>
+            <a class="btn navbar-btn ml-2 text-white btn-primary" href="signUp.html"><i class="fa d-inline fa-lg fa-user-circle-o"></i> Sign up</a>
+            <!--End-->
+        </div>
+    </div>
+</nav>
+
+
+<div class="py-5 text-white opaque-overlay" style="background-image: url(&quot;https://pingendo.github.io/templates/sections/assets/cover_restaurant.jpg&quot;);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-gray-dark">Sign up</h1>
+               <!--<p class="lead mb-4">Complete all the fields below to send us a message</p> -->
+                <form class="" method="post" action="https://formspree.io/">
+
+                    <div class="form-group"> <label>User name</label>
+                        <input type="text" name="user_name" class="form-control" placeholder="Enter user name"> </div>
+                    <!--<div class="form-group"> <label>Email address</label>
+                        <input type="email" name="email" class="form-control" placeholder="Enter email"> </div>-->
+                    <div class="form-group"> <label>Password</label>
+                        <input type="password" name="password" class="form-control" placeholder="Password"> </div>
+                    <div class="form-group"> <label>Retype password</label>
+                        <input type="password" name="password" class="form-control" placeholder="Retype Password"> </div>
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+                    <p class="change_link">
+                        Already a member?
+                        <a href="signIn.html" class="to_register">Sign In.</a>
+                    </p> 
+                </form>
+
+
+
+                <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="true"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+
+            <div class="p-4 col-md-6">
+                <h2 class="mb-4 text-secondary">Mapsite</h2>
+                <ul class="list-unstyled">
+                    <a href="index.html" class="text-white">Home</a>
+                    <br>
+                    <a href="AboutUs.html" class="text-white">About us</a>
+                    <br>
+
+            </div>
+            <div class="p-4 col-md-6">
+                <h2 class="mb-4">Contact</h2>
+                <p>
+                    <a href="google.com" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-phone"></i>+18008198 </a>
+                </p>
+                <p>
+                    <a href="google.com" class="text-white"><i class="fa d-inline mr-3 text-secondary fa-envelope-o"></i>4.0.com</a>
+                </p>
+                <p>
+                    <a href="google.com" class="text-white" target="_blank"><i class="fa d-inline mr-3 fa-map-marker text-secondary"></i>144 Xuân Thủy, Cầu Giấy, Hà Nội</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
