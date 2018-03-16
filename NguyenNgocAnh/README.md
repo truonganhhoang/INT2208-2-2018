@@ -1,2 +1,0 @@
-# NguyenNgocAnh
-Study

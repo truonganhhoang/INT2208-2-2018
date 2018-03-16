@@ -1,0 +1,39 @@
+* {
+    font-family: 'Signika', sans-serif;
+}
+
+.row.loading div.icon-loading img {
+    margin-right: 10px;
+    border-top: 3px solid #32CDFF;
+    border-bottom: 3px solid #32CDFF;
+    border-left: 3px solid #32CDFF;
+    border-right: 3px solid green;
+    padding: 10px;
+    border-radius: 100%;
+    animation: spinner 2.5s forwards;
+}
+
+.row.loading div.icon-loading span {
+    color : #5c5c5c;
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(720deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(720deg);
+    }
+}
+
