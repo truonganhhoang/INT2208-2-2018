@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Video</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link rel="icon" type="image/png" href="../img/icon.png" width="35" height="35">
+  <link href="../css/portfolio-item.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/hovereffect.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html" id="page-name"><img id="logo" src="../img/logo.png" widht="40" height="24"> MyTube</a>
+      <div class="input-group input-group-sm sm-3 col-6" id="search-box">
+        <input type="text" class="form-control" placeholder="Tìm kiếm mọi video bạn cần ở đây" id="keyword">
+        <div class="input-group-append">
+          <button class="btn btn-success" type="button" id="search-button">Tìm kiếm</button>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trang chủ
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#signInModal">Đăng nhập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Đăng ký</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Modal Sign In -->
+  <div class="modal fade" id="signInModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content animate">
+        <div class="modal-header">
+          <h4 class="modal-title text-center">Đăng nhập</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="form-group">
+            <label>
+              <b>Tài khoản</b>
+            </label>
+            <input type="text" class="form-control" placeholder="Nhập tên tài khoản" name="usernameLogin" required>
+
+            <label>
+              <b>Mật khẩu</b>
+            </label>
+            <input type="password" class="form-control" placeholder="Nhập mật khẩu" name="passwordLogin" required>
+
+            <button class="btn btn-success" id="btnSignIn">Đăng nhập</button>
+            <label>
+              <input type="checkbox" checked="checked" id="remeberMeCheckBox"> Ghi nhớ thông tin tài khoản của bạn
+            </label>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Sign up -->
+  <div class="modal fade" id="signUpModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content animate">
+        <div class="modal-header">
+          <h4 class="modal-title text-center fontT">
+            <b>Đăng ký</b>
+          </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form" name="sign-up-form">
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">Tài khoản</label>
+              <div class="col-sm-12">
+                <input type="text" id="username" name="username" placeholder="Nhập tên tài khoản" class="form-control" autofocus>
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Mật khẩu</label>
+              <div class="col-sm-12">
+                <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="re-password" class="col-sm-3 control-label">Nhập lại mật khẩu</label>
+              <div class="col-sm-12">
+                <input type="password" id="re-password" name="re-password" placeholder="Nhập lại mật khẩu" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="firstName" class="col-sm-3 control-label">Họ tên</label>
+              <div class="col-sm-12">
+                <input type="text" id="firstName" name="fullname" placeholder="Nhập họ tên của bạn" class="form-control text-capitalize">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-12">
+                <input type="email" id="email" name="email" placeholder="Nhập Email" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birthDate" class="col-sm-3 control-label">Ngày sinh</label>
+              <div class="col-sm-12">
+                <input type="date" id="birthDate" name="birthDate" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-lg-3">Giới tính</label>
+              <div class="col-sm-5">
+                <select name="gender" class="form-control">
+                  <option value="0">Nam</option>
+                  <option value="1">Nữ</option>
+                  <option value="-1" selected>Không xác định</option>
+                </select>
+              </div>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <div class="col-sm-9 col-sm-offset-3 col-lg-2">
+                <button type="button" class="btn btn-primary" id="sign-up-button">Tạo tài khoản</button>
+              </div>
+            </div>
+          </form>
+          <!-- /form -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <div class="row">
+
+
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+
+        <div class="card mt-4">
+          <iframe src="https://i.ytimg.com/vi/vCIc1g_4JWM/maxresdefault.jpg" width="1000" height="450" frameborder="0" id="video-frame" allowfullscreen></iframe>
+          <div class="card-body">
+            <h3 class="card-title" id="video-title">PHÍA SAU MỘT CÔ GÁI - SOOBIN HOÀNG SƠN</h3>
+
+            <!-- <a href="#" class="btn btn-danger">SUBSCRIBE</a> -->
+          </div>
+        </div>
+        <!-- /.card -->
+
+        <div class="card card-outline-secondary my-4">
+          <div class="card-header">
+            <h3 id="channel-title" style="display:inline-block;">Channel</h3>
+            <!-- <button type="button" class="btn btn-danger float-right" style="display:inline-block;">ĐĂNG KÝ</button> -->
+          </div>
+          <div class="card-body">
+            <p class="card-text" id="video-description">Phía Sau Một Cô Gái - Soobin Hoàng Sơn (Official Music Video 4K + Lyrics) Link Mp3 : https://mp3.zing.vn/bai-hat/Phia-Sau-Mot-Co-Gai-Soobin-Hoang-Son/ZW78U908.html</p>
+            <small class="text-muted"></small>
+            <hr>
+          </div>
+        </div>
+        <!-- /.card -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+      <div class="col-lg-3">
+        <h3 class="my-4" style="font-family: Roboto; color: #808080">Video được đề xuất cho bạn</h3>
+        <div id="related-videos">
+              <a href="watch.html">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/vCIc1g_4JWM/maxresdefault.jpg" alt="">
+              <h6 class="text-center related-video-title">PHÍA SAU MỘT CÔ GÁI - Soobin Hoàng Sơn</h6>
+              </a>
+              <hr>
+              <a href="watch.html">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/j__Q13iAxNk/maxresdefault.jpg" alt="">
+              <h6 class="text-center related-video-title">Phía Sau Một Cô Gái - Soobin Hoàng Sơn</h6>
+              </a>
+              <hr>
+              <a href="watch.html">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/JUCQ2R3OvzY/maxresdefault.jpg" alt="">
+              <h6 class="text-center related-video-title">Phía sau một cô gái - Hoa Vinh</h6>
+              </a>
+              <hr>
+              <a href="watch.html">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/vCIc1g_4JWM/maxresdefault.jpg" alt="">
+              <h6 class="text-center related-video-title">[Karaoke] Phía sau một cô gái - Soobin Hoàng Sơn</h6>
+              </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; MyTube 2018</p>
+      <p class="m-0 text-center text-white">Powered by Nguyen Duc Manh - NS Team - 320 Studios</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
