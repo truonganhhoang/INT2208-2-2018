@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <title>Tinycards</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#card").flip();
+    });
+    </script>
+    
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+        <img src="tinycards.png" width="50"></img><b>Tinycards</b>
+    </nav>
+<br><br>
+<!-- -->
+<!-- Container -->
+<div class="containter">
+    <div align="center">
+            <h3>Click to Open!</h3> <br>
+            <div id="card"> 
+                <div class="front"> 
+                    <img src="house/house_1.jpg" height="400" width="600" onclick=$("#card").flip()></img>
+                </div> 
+                <div class="back">
+                 <h3><b>  Kitchen </b></h3>
+                </div> 
+            </div>
+            <br>   
+            <a href="house_2.html" class="btn btn-primary">Next card</a>            
+    </div>
+    
+</div>
+
+<!-- Page Content -->
+
+
+</body>
+
+</html>
