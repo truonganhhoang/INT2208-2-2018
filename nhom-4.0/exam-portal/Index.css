@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.254em;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #3B8BBA;
+}
+a:hover,
+a:visited {
+    color: #265778;
+}
+/*==Lên khung cho website==*/
+#container {
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+#menu {
+    position: fixed;/* Giúp thanh menu đứng cố định trên trang*/
+    height: 100%;
+    background-color: #191818;
+    width: 150px;
+    left: 0;
+}
+#search {
+    
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li {
+    line-height: 2.9em;
+    height: 2.9em;
+}
+#menu li a {
+    display: block;
+    color: #fff;
+    padding: 0 1em;
+    border-bottom: 1px solid #333;
+}
+#menu li:hover {
+    background-color: #454545;
+}
+#content {
+    padding: 1em ;
+}
+#header {
+    float: right;
+    color: #9AD5F9;
+    width: auto;
+    bottom: 200px;
+
+}
+.section-banner{
+    text-align: center;
+}
+.row {
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.row .col {
+    float: left;
+    width: 48.5%;
+    margin-right: 2.99%;
+}
+#createbutton {
+    flex : 2;
+    
+}
+.row .col:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+#footer{
+    width: auto;
+    bottom: 200px;
+    text-align:start;
+}
+
+.closed {
+    display: none;
+}
+.show {
+    display: block;
+}
+.floating-icon {
+    display: inline;
+    float: left;
+    width: 33%;
+    
+}

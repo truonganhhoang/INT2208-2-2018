@@ -1,0 +1,91 @@
+@media only screen and (max-width: 576px) {
+	header .logo, header div.form-search form, header div.link-header a span  {
+		display: none;
+	}
+
+	header div.form-search {
+		background: #32CDFF;
+	}
+
+	header div.form-search img {
+		margin-top: 15px;
+	}
+
+	header form {
+		margin-right: 25px;
+	}
+
+	header div {
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	header div.link-header a span {
+		font-size: 12px;
+	}
+
+	header div.link-header.profile span {
+		margin-left: -5px;
+	}
+	section {
+		padding-top: 55px;
+	}
+
+	.nav-bar {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.row.loading div.icon-loading {
+		height: 100vh;
+		margin-top: -1060px;
+		padding-top: 30%;
+    	padding-left: 25%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.row.loading div.icon-loading {
+		padding-top: 45vh;
+	}
+
+	section .wrapper .favorites .no-favo {
+		text-align: left;
+		font-size: 12px;
+	}
+
+	section .wrapper .follow .find {
+		margin-top: 15px;
+		height: 30px;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	header div.home {
+		text-align: right;
+	}
+
+	header div.profile {
+		margin-left: -8%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+	header div.form-search form input {
+		width: 75px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	header .logo .text-logo {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	section .wrapper .slide .image-slide {
+		margin-left: -30px;
+	}
+}
