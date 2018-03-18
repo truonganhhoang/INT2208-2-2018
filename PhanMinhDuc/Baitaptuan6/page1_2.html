@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MEMRISE</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+    <style>
+    /*.lang-learn{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    categories-list {
+        background-color: #fff;
+        border-radius: 5px;
+        -webkit-box-shadow: rgba(0,0,0,0.08) 0 1px 2px;
+        box-shadow: rgba(0,0,0,0.08) 0 1px 2px;
+        border: 1px solid #e4e4e4;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        display: block;
+        border: 1px solid #e4e4e4;
+    }*/
+    .flag-circle{
+        height:20px;
+        width:20px
+    }
+</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1_0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li role="presentation" class="active"><a href="./page1_0.html">Trang chủ</a></li>
+                <li role="presentation"><a href="page1_2.html">Khóa học</a></li>
+                <li role="presentation"><a href="#">Nhóm</a></li>
+                <li role="presentation" class="danger"><a href="page1_3.html">Đăng kí gói Pro</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Hồ sơ</a></li>
+                            <li><a href="#">Cài đặt</a></li>
+                            <li><a href="#">Đăng xuất</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+              <div class="col-xs-5 col-sm-12 col-md-6">
+                <h1 class="page-breadcrumb">Courses
+
+                </h1>
+            </div>
+            <div class="col-xs-7 col-sm-3 col-md-3">
+                <a href="" class="button green">
+                  Create a course
+              </a>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-3">
+
+
+            <form id="search_form" action="" method="GET">
+              <div class="input-group">
+                <input id="search_string"
+                name="q"
+                type="text"
+                placeholder="Search....."
+
+                >
+                <button type="submit" class="btn-default btn-ico">
+                  <span class="ico ico-search"></span>
+              </button>
+          </div>
+      </form> 
+  </div>
+</div>
+
+
+<div id="content" class="">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-3 ">
+        <p>
+          <strong>I speak:</strong><br>
+      </p>
+      <div class="btn-group filter-source">
+          <button class="btn dropdown-body" data-toggle="dropdown">
+
+            <img class="flag-circle" src="image/en (2).png" alt="">
+
+            English
+        </button>
+        <button class="btn dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href=""> <img class="flag-circle" src="image\armenian.png" alt=""> 
+              Armenian
+          </a> 
+      </li>
+      <li><a href=""> <img class="flag-circle" src="image\Afrikaans.png" alt=""> 
+        Afrikaans
+    </a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\albanian.png" alt=""> 
+  Albanian
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\sign-american.png" alt=""> 
+    American Sign Language (ASL)
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\Ancient-Greek.png" alt=""> 
+  Ancient Greek
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\arabic.png" alt=""> 
+    Arabic
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\azerbaijini.png" alt=""> 
+  Azerbaijani
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\DemoFlags-38_copy.png" alt=""> 
+    Basque
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\DemoFlags-61_copy.png" alt=""> 
+  Bengali
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\belarus.png" alt=""> 
+  Belarusian
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\DemoFlags-71_copy.png" alt=""> 
+  Bosnian
+</a> 
+</li>
+<li><a href=""> <img class="flag-circle" src="image\burmese.png" alt=""> 
+  Burmese
+</a> 
+</li>
+</ul>
+</div>
+<br>
+<h3>Top Categories</h3>
+<ul>
+  <li class="">
+    <a href=""> <img src="" alt="">
+      English
+  </a>
+</li>
+<li class="">
+    <a href=""> <img src="" alt="">
+      French
+  </a>
+</li>
+<li class="">
+    <a href=""> <img src="" alt="">
+      Spain
+  </a>
+</li>
+<li class="">
+    <a href=""> <img src="" alt="">
+      Japanese
+  </a>
+</li>
+<li class="">
+    <a href=""> <img src="" alt="">
+      German
+  </a>
+</li>
+<li class="">
+    <a href=""> <img src="" alt="">
+      Korean
+  </a>
+</li>
+</ul>
+<h3>All Categories</h3>
+<ul>
+  <li class="">
+    <a href="">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      Languages
+  </a>
+  <ul>
+      <li>
+        <a href=""> All Languages</a>
+    </li>
+    <li><a href=""><span class="glyphicon glyphicon-chevron-right"></span> European</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-sm-12 col-md-9">
+  <h2 class="">Courses by the Memrise Community</h2>  <div class="row">
+    
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+     
+</body>
