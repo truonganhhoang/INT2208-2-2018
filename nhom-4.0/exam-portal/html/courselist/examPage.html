@@ -9,10 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script src="../../../js/data.js"></script>
-    
+    <script src="./../js/type1.js"></script>
     <title>Exam - Week 1</title>
-    <link REL="SHORTCUT ICON" HREF="../../../images/icon.png">
+    <link REL="SHORTCUT ICON" HREF="../images/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css">
 
@@ -23,12 +22,12 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
     <div class="container">
-        <a class="navbar-brand" href="../../../index.html">Portal-exam</a>
+        <a class="navbar-brand" href="../index.html">Portal-exam</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../../courses.html">All Courses</a>
+                    <a class="nav-link" href="courses.html">All Courses</a>
                 </li>
             </ul>
         </div>
@@ -48,40 +47,37 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 border border-dark p-0 m-0 bg-light">
-              <h1 class="text-center display-3 text-primary" id="tenmon"></h1>
-              <p class="text-center display-4" id="time"></p>
-                
+              <h1 class="text-center display-3 text-primary"></h1>
+              <p class="text-center display-4">Bài thi môn học: Kỳ 1 - 2018</p>
             </div>
           </div>
           <div class="row"> </div>
         </div>
       </div>
     <!-- -->
-    <div style="text-align: center;">
-      <div id="timer"></div>
+    <div>
+      <div id="#timer">Bộ đếm giờ ở đây</div>
     </div>
     <!--Bai thi-->
     <div class="py-5">
-        <form id="test">
-            <div class="container">
-              <div class="row">
-                <div class="col-4">
-                  <ul class="nav nav-pills flex-column bg-info" id="list"></ul>
-                </div>
-                <div class="col-8 bg-light">
-                  
-                  <div class="tab-content" id="quests">
-
-                  </div> 
-
-                </div>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <ul class="nav nav-pills flex-column bg-info" id="list"></ul>
             </div>
-            <br>
-            <div style="text-align: center;">
-                <input class="btn btn-lg btn-primary" onclick="mark()" type="submit" value= "Nộp bài">
+            <div class="col-8 bg-light">
+              <form>
+              <div class="tab-content" id="quests">
+                
+              </div> 
+            </form>
             </div>
-        </form>
+          </div>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <a class="btn btn-lg btn-primary" href="mark.html" type="submit">Nộp bài </a>
+        </div>
       </div>
     <!-- /.row -->
 

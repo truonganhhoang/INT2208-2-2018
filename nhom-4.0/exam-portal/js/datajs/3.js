@@ -8,76 +8,59 @@ var quest = [
     //6.đáp án
 	[
 		1,
-        "Lệnh jmp tagname có chức năng gì",
-		"Xóa bộ nhớ ở thanh ghi tagname",
-		"Nhảy đến câu lệnh ở vị trí tagname",
-		"Lệnh sai cú pháp",
-		"Chuyển vị trí thanh ghi đến thanh ghi tagname",
-		"B"
+		"Triết học có chức năng cơ bản nào ?",
+		"Chức năng thế giới quan",
+		"Chức năng phương pháp luận chung nhất.",
+		"Cả a và b",
+		"Không có câu trả lời đúng",
+		"C"
+	],
+	[	
+		1,
+		"Nguồn gốc của chủ nghĩa duy tâm ?",
+		"Do hạn chế của nhận thức con người về thế giới.",
+		"Sự phân chia giai cấp và sự tách rời đối lập giữa lao động trí óc và lao động chân tay trong xã hội có giai cấp đối kháng",
+		"Cả a và b",
+		"Khác",
+		"C"
+	],
+	[	
+		1,
+		"Trong xã hội có giai cấp, triết học:",
+		"Cũng có tính giai cấp.",
+		"Không có tính giai cấp.",
+		"Chỉ triết học phương tây mới có tính giai cấp.",
+		"Tùy từng học thuyết cụ thể.",
+		"A"
 	],
 	[
-		4,
-        "Đổi giá trị 987 ra dãy 16 bit",
-		"0000001111011011",
-		"0000111101101100",
-		"0011110110110000",
-		"1111011011000000",
-        "A"
+		1,
+		"Chọn luận điểm thể hiện lập trường triết học duy tâm lịch sử.",
+		"Quan hệ sản xuất mang tính chất vật chất.",
+		"Yếu tố kinh tề quyết định lịch sử.",
+		"Sự vận đồng, phát triển của xã hội, suy cho đến cùng là do tư tưởng của con người quyết định.",
+		"Kiến trúc thượng tầng chỉ đóng vai trò thụ động trong lịch sử.",
+		"C"
 	],
 	[
-        2,
-		"Cờ nào cho biết kết quả thanh ghi âm",
-		"CF = 0",
-		"ZF = 1",
-		"OF = 1",
-		"SF = 1",
+		1,
+		"Nhận định sau đây thuộc lập trường triết học nào ?\n\"Nhân tố kinh tế là nhân tố quyết định duy nhất trong lịch sử.\"",
+		"Chủ nghĩa duy vậy biện chứng.",
+		"Chủ nghĩa duy tâm chủ quan.",
+		"Chủ nghĩa duy tâm khách quan.",
+		"Chủ nghĩa duy vật tầm thường.",
 		"D"
 	],
-    [
-        1,
-        "Thành phần quan trọng nhất của máy tính số là",
-        "Bộ nhớ trong",
-        "CPU",
-        "Bộ nhớ ngoài",
-        "Các thiết bị vào/ra dữ liệu",
-        "B"
-    ],
-    [
-        1,
-        "Hoạt động đa nhiệm trong PC được hiểu là",
-        "Các nhiệm vụ được thực hiện song song tại cùng một thời điểm",
-        "Các nhiệm vụ được thực hiện xen kẽ nhau",
-        "Các nhiệm vụ được thực hiện tuần tự, thực hiện xong nhiệm vụ này rồi chuyển sang thực hiện nhiệm vụ khác",
-        "CPU có thể thực hiện được nhiều nhiệm vụ",
-        "B"
-    ],
-    [
-        1,
-        "Trong cơ chế quản lý bộ nhớ trong chế độ thực ES: OFFSET trỏ tới",
-        "Ô nhớ trong đoạn mã lệnh",
-        "Ô nhớ trong đoạn dữ liệu",
-        "Ô nhớ trong đoạn mở rộng",
-        "Ô nhớ trong đoạn ngăn xếp",
-        "C"
-    ],
-    [
-        1,
-        "Khi thiết kế một máy tính trong một số trường hợp đặc biệt có thể bỏ qua (các) thành phần sau",
-        "Bộ nhớ(ROM, RAM)",
-        "CPU",
-        "Thiết bị nhập dữ liệu",
-        "ROM",
-        "C"
-    ],
-    [
-        1,
-        "Trong máy tính số, bộ nhớ SRAM được coi là",
-        "Bộ nhớ bán dẫn tĩnh",
-        "Bộ nhớ bán dẫn động",
-        "Bộ nhớ Cache",
-        "Bộ nhớ bán dẫn",
-        "A"
-    ]
+	[
+		1,
+		"Phép biện chứng cổ đại là",
+		"Biện chứng duy tâm.",
+		"Biện chứng ngây thơ, chất phác.",
+		"Biện chứng duy vật khoa học.",
+		"Biện chứng chủ quan.",
+		"B"
+	]
+	
 ], typeArr = [quest[0][0]], i;
 //console.log(typeArr);
 // lấy thành công mảng

@@ -1,25 +1,5 @@
 //alert("Hi");
 
-window.onload=function(){
-    var min = 90;
-    var sec = 50;
-    setInterval(function(){
-	   	if (min != 0 || sec !=0){
-	   		console.log("here");
-	        document.getElementById("timer").innerHTML = "Thời gian làm bài còn "+ min +":" + sec ;
-	        sec-=1;
-	        if(min>0){
-		       	if(sec < 0){
-		       		min-=1;
-			        sec = 59;
-			    }		
-		    }
-	    }
-	    else{
-		    document.getElementById("timer").innerHTML = "<h1> Đã hết giờ làm bài</h1>";         
-	    }
-    },1000);
-}
 
 
 function render(){
@@ -73,15 +53,7 @@ function uncheckedAll(){
 	}
 }
 */
-function getQuest(a){
-	 return "Câu "+a+": Trái đất có hình gì:<br>"+
-	 		//"<input type=\"radio\" name=\"choice"+a+"\" style=\"display:none\" value=\"N/A\"><br>"+
-			"<input type=\"radio\" name=\"choice"+a+"\"  value=\"A\">Tròn<br>"+
-			"<input type=\"radio\" name=\"choice"+a+"\"  value=\"B\">Vuông<br>"+
-			"<input type=\"radio\" name=\"choice"+a+"\"  value=\"C\">Méo<br>"+
-			"<input type=\"radio\" name=\"choice"+a+"\"  value=\"D\">Dài<br>"
-			;
-}
+
 /*
 function getFooter(){
 		
@@ -107,3 +79,5 @@ function genFooter(){
 	return seq;
 }
 */
+
+

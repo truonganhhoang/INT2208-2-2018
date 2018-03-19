@@ -7,77 +7,51 @@ var quest = [
     //2345.A B C D
     //6.đáp án
 	[
-		1,
-        "Lệnh jmp tagname có chức năng gì",
-		"Xóa bộ nhớ ở thanh ghi tagname",
-		"Nhảy đến câu lệnh ở vị trí tagname",
-		"Lệnh sai cú pháp",
-		"Chuyển vị trí thanh ghi đến thanh ghi tagname",
-		"B"
-	],
-	[
-		4,
-        "Đổi giá trị 987 ra dãy 16 bit",
-		"0000001111011011",
-		"0000111101101100",
-		"0011110110110000",
-		"1111011011000000",
-        "A"
-	],
-	[
-        2,
-		"Cờ nào cho biết kết quả thanh ghi âm",
-		"CF = 0",
-		"ZF = 1",
-		"OF = 1",
-		"SF = 1",
-		"D"
-	],
-    [
         1,
-        "Thành phần quan trọng nhất của máy tính số là",
-        "Bộ nhớ trong",
-        "CPU",
-        "Bộ nhớ ngoài",
-        "Các thiết bị vào/ra dữ liệu",
+        "Kiểu thiết bị nào hỗ trợ cả kết nối Wireless và Wired (có nối dây)?",
+        "Wireless LAN Access Point",
+        "Wireless LAN media center",
+        "Wireless LAN router",
+        "Wireless LAN repeater",
         "B"
     ],
     [
         1,
-        "Hoạt động đa nhiệm trong PC được hiểu là",
-        "Các nhiệm vụ được thực hiện song song tại cùng một thời điểm",
-        "Các nhiệm vụ được thực hiện xen kẽ nhau",
-        "Các nhiệm vụ được thực hiện tuần tự, thực hiện xong nhiệm vụ này rồi chuyển sang thực hiện nhiệm vụ khác",
-        "CPU có thể thực hiện được nhiều nhiệm vụ",
+        "Kiểu antenna của Wireless LAN là?",
+        "Parabolic Dish",
+        "Ground plane",
+        "Yagi",
+        "Omni-directional",
+        "D"
+    ],
+    [
+        1,
+        "Cơ chế lọc địa chỉ MAC hiện thực việc bảo mật trong các Wireless LAN như thế nào?",
+        "Các Switch WLAN thực hiện lọc địa chỉ MAC để xác định người dùng đã đăng nhập vào mạng",
+        "Wireless router thực hiện lọc địa chỉ MAC, bỏ qua yêu cầu kiểm tra ISP",
+        "Access Point thực hiện lọc địa chỉ MAC để ngăn chặn các phần cứng chưa hợp pháp truy cập vào mạng",
+        "Các client thực hiện lọc địa chỉ MAC để theo dõi các Access Point đã kết nối",
+        "C"
+    ],
+    [
+        1,
+        "Khi một Wireless LAN 802.11a chỉ gồm có các trạm client dùng Wireless, ta nói mạng này hoạt động như một nhóm dịch vụ cơ sở ________",
+        "Bị động",
+        "Độc lập",
+        "Chế độ tiết kiệm năng lượng",
+        "Hạ tầng mạng",
         "B"
     ],
     [
         1,
-        "Trong cơ chế quản lý bộ nhớ trong chế độ thực ES: OFFSET trỏ tới",
-        "Ô nhớ trong đoạn mã lệnh",
-        "Ô nhớ trong đoạn dữ liệu",
-        "Ô nhớ trong đoạn mở rộng",
-        "Ô nhớ trong đoạn ngăn xếp",
-        "C"
-    ],
-    [
-        1,
-        "Khi thiết kế một máy tính trong một số trường hợp đặc biệt có thể bỏ qua (các) thành phần sau",
-        "Bộ nhớ(ROM, RAM)",
-        "CPU",
-        "Thiết bị nhập dữ liệu",
-        "ROM",
-        "C"
-    ],
-    [
-        1,
-        "Trong máy tính số, bộ nhớ SRAM được coi là",
-        "Bộ nhớ bán dẫn tĩnh",
-        "Bộ nhớ bán dẫn động",
-        "Bộ nhớ Cache",
-        "Bộ nhớ bán dẫn",
+        "Các mạng WiMAX có thể dùng những tần số nào?",
+        "3,3 – 3,6 GHz và 2,5 – 2,.9 GHz",
+        "5,2 – 5,3 GHz và 2,5 – 2,.9 GHz",
+        "902 - 903 MHz và 2,5 – 2,.9 GHz",
+        "5,2 – 5,3 GHz và 902 - 903 MHz",
         "A"
     ]
+    
 ], typeArr = [quest[0][0]], i;
 //console.log(typeArr);
 // lấy thành công mảng

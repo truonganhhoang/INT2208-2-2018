@@ -9,13 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script src="../../../js/data.js"></script>
-    
-    <title>Exam - Week 1</title>
+
+    <title></title>
     <link REL="SHORTCUT ICON" HREF="../../../images/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css">
-
+    <script type="text/javascript" src="../../../js/data.js"></script>
 </head>
 
 <body>
@@ -30,68 +29,69 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../../courses.html">All Courses</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutUs1.html"> About us</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 
 
-
-
-<header>
-</header>
-
 <!-- Page Content -->
 <div class="container">
-  <!-- Index -->
-    <div class="p-0 m-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 border border-dark p-0 m-0 bg-light">
-              <h1 class="text-center display-3 text-primary" id="tenmon"></h1>
-              <p class="text-center display-4" id="time"></p>
-                
+
+    <h1 class="my-4" id = "subject"></h1>
+
+    <!-- User info -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="well well-sm">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4" id="ava"></div>
+                        <div class="col-sm-6 col-md-8">
+                            <h4 id="sjC"></h4>
+                            <i>Khả dụng với:</i>
+                            <ul id="schoolId"></ul>
+                            
+                            <p id="provider"></p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Liên hệ </button>
+                                <div class="dropdown-menu" >
+                                  <a class="dropdown-item" id="fb" href="">Facebook</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="https://github.com/Gou-Opa/exam-portal">Github</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" id="link" href=""></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="row"> </div>
         </div>
-      </div>
-    <!-- -->
-    <div style="text-align: center;">
-      <div id="timer"></div>
     </div>
-    <!--Bai thi-->
-    <div class="py-5">
-        <form id="test">
-            <div class="container">
-              <div class="row">
-                <div class="col-4">
-                  <ul class="nav nav-pills flex-column bg-info" id="list"></ul>
-                </div>
-                <div class="col-8 bg-light">
-                  
-                  <div class="tab-content" id="quests">
-
-                  </div> 
-
-                </div>
+    <!-- -->
+    <!--Tab list-->
+        <div class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <ul class="nav nav-pills flex-column bg-info" id="listTime"></ul>
+              </div>
+              <div class="col-8 bg-light">
+                <div class="tab-content" id="listDiscription"></div>
               </div>
             </div>
-            <br>
-            <div style="text-align: center;">
-                <input class="btn btn-lg btn-primary" onclick="mark()" type="submit" value= "Nộp bài">
-            </div>
-        </form>
-      </div>
+          </div>
+        </div>
     <!-- /.row -->
-
-    <!-- -->
-
-    
 </div>
-<hr>
 <!-- /.container -->
-
+<hr>
 <!-- Footer -->
 
     <div class="bg-dark text-white">
@@ -100,9 +100,9 @@
                 <div class="p-4 col-md-6">
                     <h2 class="mb-4 text-secondary">Mapsite</h2>
                     <ul class="list-unstyled">
-                        <a href="../index.html" class="text-white">Home</a>
+                        <a href="index.html" class="text-white">Home</a>
                         <br>
-                        <a href="aboutUs1.html" class="text-white">About us</a>
+                        <a href="AboutUs.html" class="text-white">About us</a>
                     </ul>
                 </div>
                 <div class="p-4 col-md-6">
@@ -121,8 +121,6 @@
 
         </div>
     </div>
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
