@@ -1,4 +1,4 @@
-﻿Bài tập tuần 6: Trần Văn Trung(Mã SV: 16022389)
+﻿Bài tập tuần 6: Trần Văn Phương(Mã SV: 16021326)
 
 
 -Chọn file  1st.html  để bắt đầu
