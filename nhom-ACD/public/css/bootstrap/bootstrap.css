@@ -41,6 +41,11 @@
   box-sizing: border-box;
 }
 
+input, button {
+  outline: none !important;
+  border: none !important; 
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -161,7 +166,7 @@ sup {
 }
 
 a {
-  color: #32CDFF;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -3906,7 +3911,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #32CDFF !important;
+  background-color: #007bff;
 }
 
 .nav-fill .nav-item {
@@ -6085,7 +6090,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #f7f7f7 !important;
+  background-color: #6c757d !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6204,10 +6209,6 @@ button.bg-dark:focus {
 
 .border-primary {
   border-color: #007bff !important;
-}
-
-.border-blue {
-  border-color: #32CDFF !important;
 }
 
 .border-secondary {
@@ -8828,15 +8829,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5c5c5c !important;
-}
-
-.text-blue {
-  color: #32CDFF !important;
-}
-
-.bg-blue {
-  background: #32CDFF !important;
+  color: #007bff !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -8844,7 +8837,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #c4c4c4 !important;
+  color: #6c757d !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {

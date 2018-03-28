@@ -10,6 +10,11 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <style>
+        img {
+            object-fit: cover !important;
+        }
+    </style>
     <script>
         $(document).ready(function() {
             $('#card').flip();
@@ -20,11 +25,12 @@
             });
 
             $("#btn-continue").click(function(event) {
-                window.location.href = '1-3.html';
+                window.location.href = '2-5.html';
                 return false;
             });
         });
     </script>
+    
 </head>
 <body class="bg-light">
 <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
@@ -45,11 +51,11 @@
             <div class="row">
                 <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
                     <div class="front">
-                        <img src="../public/image/lesson1/dortmund.png" alt="Chelsea" class="rounded w-100 h-100" style="">
+                        <img src="../public/image/lesson2/theMoon.png" alt="The Moon" class="rounded w-100 h-100" style="">
                     </div>
                     <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
                         <div class="w-100 pt-2"></div>
-                        <span class="align-middel pt-5 d-block">Dortmund</span>
+                        <span class="align-middel pt-5 d-block">The Moon</span>
                     </div>
                 </div>
             </div>
