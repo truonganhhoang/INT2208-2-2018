@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <title>Tinycards</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#card1").flip();
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $("#card2").flip();
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $("#card3").flip();
+    });
+    </script>
+    
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+        <img src="tinycards.png" width="50"></img><b>Tinycards</b>
+    </nav>
+<br><br>
+<!-- -->
+<!-- Container -->
+<div class="containter">
+    <div align="center">
+            <h3>Choose the correct answer!</h3> <br>
+
+            <div class="row mx-auto">
+                <div class="col-lg-4 mx-auto">
+                    <img src="flag/japan.jpg" height="300"></img>
+                </div>
+                <div class="col-lg-4 mx-auto">
+                    <div id="card1"> 
+                        <div class="front"> 
+                            <div class ="btn btn-primary btn-lg btn-block" onclick=$("#card").flip()>China</div>
+                        </div> 
+                        <div class="back">
+                        <h3><b>  Wrong </b></h3>
+                        </div> 
+                    </div>
+                    <br> 
+                    <div id="card2"> 
+                        <div class="front"> 
+                            <div class ="btn btn-primary btn-lg btn-block" onclick=$("#card").flip()>USA</div>
+                        </div> 
+                        <div class="back">
+                        <h3><b>  Wrong </b></h3>
+                        </div> 
+                    </div>
+                    <br>  
+                    <div id="card3"> 
+                        <div class="front"> 
+                            <div class ="btn btn-primary btn-lg btn-block" onclick=$("#card").flip()>Japan</div>
+                        </div> 
+                        <div class="back">
+                        <h3><b>  Correct </b></h3>
+                        </div> 
+                    </div>
+                    <br>                                                           
+                </div> 
+            </div>
+            <br>   
+            <a href="tinycards.html" class="btn btn-primary">Back to select cards</a>            
+    </div>  
+</div>
+
+<!-- Page Content -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <style type="text/css">
+      .flip3d{
+        width:300px;
+        height: 346px;
+        margin:10px;
+        float: left;
+      }
+      .flip3d > .front{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 0deg);
+         transform: perspective(600px) rotateY( 0deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      .flip3d > .back{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 180deg);
+         transform: perspective(600px) rotateY( 180deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      
+      .imgflip{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+         margin-top: 50px;
+      }
+      .fliptext{
+        text-align: center;
+        margin-top: 150px;
+      }
+        
+      @media (max-width: 1000px){
+         .flip3d{
+            width: 700px;
+            height: 807px;
+            float: none;
+            margin:auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+         }
+         .flip3d > .front{
+            width: 700px;
+            height: 807px;
+         }
+         .flip3d > .back{
+            width: 700px;
+            height: 807px;
+         }
+         .imgflip{
+          margin-top: 150px;
+            height: 540px;
+         }
+         .fliptext{
+          margin-top: 300px;
+          font-size: 110px;
+         }
+      }
+      
+    </style>
+  </head>
+<body>
+  <div class="flip3d">
+      <div id="front1"  class="front"  onclick="fronttoback('front1','back1')" ><img src="chord library/A major.jpg" class="imgflip"></div>
+    <div id="back1" class="back"  onclick="backtofront('front1','back1')"><h1 class="fliptext">A chord</h1></div>
+  </div>
+  <div class="flip3d">
+      <div id="front2"  class="front"  onclick="fronttoback('front2','back2')" ><img src="chord library/E major.jpg" class="imgflip"></div>
+    <div id="back2" class="back"  onclick="backtofront('front2','back2')"><h1 class="fliptext">E chord</h1></div>
+  </div>
+  <div class="flip3d">
+      <div id="front3"  class="front"  onclick="fronttoback('front3','back3')" ><img src="chord library/D major.jpg" class="imgflip"></div>
+    <div id="back3" class="back"  onclick="backtofront('front3','back3')"><h1 class="fliptext">D chord</h1></div>
+  </div>
+  <div class="flip3d">
+      <div id="front4"  class="front"  onclick="fronttoback('front4','back4')" ><img src="chord library/D minor.jpg" class="imgflip"></div>
+    <div id="back4" class="back"  onclick="backtofront('front4','back4')"><h1 class="fliptext">Dm </h1></div>
+  </div>
+  <div class="flip3d">
+      <div id="front5"  class="front"  onclick="fronttoback('front5','back5')" ><img src="chord library/G major.jpg" class="imgflip"></div>
+    <div id="back5" class="back"  onclick="backtofront('front5','back5')"><h1 class="fliptext">G</h1></div>
+  </div>
+  <div class="flip3d">
+      <div id="front6"  class="front"  onclick="fronttoback('front6','back6')" ><img src="chord library/Cadd9 1.jpg" class="imgflip"></div>
+    <div id="back6" class="back"  onclick="backtofront('front6','back6')"><h1 class="fliptext"Cadd9</h1></div>
+  </div>
+  <script type="text/javascript">
+    function fronttoback(elf,blf)
+    {
+
+       document.getElementById(elf).style.transform= "perspective(600px) rotateY( -180deg)";
+       document.getElementById(blf).style.transform= "perspective(600px) rotateY( 0deg)";
+    }
+    function backtofront(elf,blf)
+    {
+
+       document.getElementById(elf).style.transform= "perspective(600px) rotateY( 0deg)";
+       document.getElementById(blf).style.transform= "perspective(600px) rotateY( 180deg)";
+    }
+    // Get all elements with class="tabcontent" and hide them
+    
+  </script>
+</body>
+</html>

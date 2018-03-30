@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>iTube</title>
+  
+  <link rel="icon" type="image/png" href="img/icon.png" width="35" height="35">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/portfolio-item.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="page-name"><img id="logo" src="img/logo.png" id="logo" widht="40" height="24"> iTube</a>
+      <div class="input-group input-group-sm sm-3 col-6" id="search-box">
+        <input type="text" class="form-control" placeholder="Search" id="keyword">
+        <div class="input-group-append">
+          <button class="btn btn-success" type="button" id="search-button">Search</button>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#signInModal">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Modal Sign In -->
+  <div class="modal fade" id="signInModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content animate">
+        <div class="modal-header">
+          <h4 class="modal-title text-center">Sign in</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="form-group">
+            <label>
+              <b>Username</b>
+            </label>
+            <input type="text" class="form-control" placeholder="Enter Username" name="usernameLogin" required>
+
+            <label>
+              <b>Password</b>
+            </label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="passwordLogin" required>
+
+            <button class="btn btn-success" id="btnSignIn">Sign In</button>
+            <label>
+              <input type="checkbox" checked="checked" id="remeberMeCheckBox"> Remember me
+            </label>
+          </form>
+        </div>
+        <div class="modal-footer">
+<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal Sign up -->
+  <div class="modal fade" id="signUpModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content animate">
+        <div class="modal-header">
+          <h4 class="modal-title text-center fontT">
+            <b>Sign up</b>
+          </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form" name="sign-up-form">
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">Username</label>
+              <div class="col-sm-12">
+                <input type="text" id="username" name="username" placeholder="Username" class="form-control" autofocus>
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="re-password" class="col-sm-3 control-label">ReEnter Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="re-password" name="re-password" placeholder="ReEnter Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+              <div class="col-sm-12">
+                <input type="text" id="firstName" name="fullname" placeholder="Full Name" class="form-control text-capitalize">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-12">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+              <div class="col-sm-12">
+                <input type="date" id="birthDate" name="birthDate" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-lg-3">Gender</label>
+              <div class="col-sm-5">
+                <select name="gender" class="form-control">
+                  <option value="0">Female</option>
+                  <option value="1">Male</option>
+                  <option value="-1" selected>Unknown</option>
+                </select>
+              </div>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <div class="col-sm-9 col-sm-offset-3 col-lg-2">
+                <button type="button" class="btn btn-primary" id="sign-up-button">Create new Account</button>
+              </div>
+            </div>
+          </form>
+          <!-- /form -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4">Welcome</h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+      <div class="col-md-8">
+        <a href="pages/watch.html"><img class="img-fluid" src="https://i.ytimg.com/vi/1u0ygl9vJHI/maxresdefault.jpg" alt=""></a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="pages/watch.html"><h3 class="my-3">Ngọt - Bartender</h3></a>
+        <p> Bartender</p>
+        <p> Nhạc & Lời: Ngọt</p>
+        <p> Trình bày: Ngọt</p>
+        <p> Phối khí: Ngọt</p>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Related Videos</h3>
+
+    <div class="row">
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/jWlOiIokoRI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCDcZzX2IvJSaDVb7ebbsED2CS_4w" alt="">
+          <h4 class="text-center">[Audio] MC ILL - NHÀ VÔ ĐỊCH CỦA NHÂN DÂN (Prod. By Jay Bach)</h4>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/XbGs_qK2PQA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCnegerhr6kPHqO9MsM2GZpaqDrfg" alt="">
+          <h4 class="text-center">RAP GOD</h4>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://zmp3-photo-td.zadn.vn/thumb_video/4/d/4d8fe94c607efdef1f0f7a348fd83d7a_1515380849.png" alt="">
+          <h4 class="text-center">Người Lạ Ơi ! Official MV | Superbrothers x Karik x Orange</h4>
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/tITWIcNeTjw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBOXQgmkXsKVACSFuNM7H1IYatl9Q" alt="">
+          <h5 class="text-center">Opera 2 - Vitas</h5>
+        </a>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; iTube 2018</p>
+      <p class="m-0 text-center text-white">Powered by NS Team - 320 Studios</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
