@@ -1,512 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>tinycards</title>
+	<title>Tinycards</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" type="text/css" href="1.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style>
+		@font-face {
+			font-family: TinycardsFont;
+			src: url("fonts/DINNextRoundedLTPro-Bold.woff2");
+		}
+		.imgborder {
+			border-radius: 20px;
+		}
+	</style>
 </head>
-<body style="background: #F7F7F7">
-	<!-- bắt đâu phần header -->
-	<header class="container-fluid">
-		<nav class="navbar navbar-deafault navbar-fixed-top" style="background: #01C9FE">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2 navbar-header">
-						<a class="navbar-brand" href="#">
-							<!-- <img src="images/logo.png" class="d-inline-block align-top"> -->
-							<h1 style="margin: -10px">tinycards</h1>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<form class="navbar-form navbar-left" action="/action_page.php">
-						     <div class="input-group">
-						        <input type="text" class="form-control" placeholder="Search" name="search">
-						        <div class="input-group-btn">
-						        	<button class="btn btn-default" type="submit">
-						            <i class="glyphicon glyphicon-search"></i>
-						          	</button>
-						        </div>
-						      </div>
-						</form>
-					</div>
-					<div class="col-md-4 col-md-offset-2">
-						<ul class="nav navbar-nav">
-							<li class="action">
-								<a href="#">
-									<i class="glyphicon glyphicon-home"></i>
-									HOME
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="glyphicon glyphicon-plus"></i>
-									CREATE
-								</a>
-							</li>
-						</ul>
-						<button class="btn btn-default navbar-btn">SIGN UP</button>
-					</div>
+<body style="font-family: TinycardsFont; background-color: #F7F7F7">
+	<!-- header -->
+	<header>
+		<div class="container-fluid" style="background-color: #32CDFF">
+			<nav class="navbar navbar-expand-sm fixed-top" style="background-color: #32CDFF">
+				<div class="container">
+					<a class="navbar-brand" href="tinycards.html">
+				    	<img src="images/icon.png" alt="logo" style="width:40px;">
+				    	<b style="font-size: 30px; color: white">tinycards</b>
+				  	</a>  	
 				</div>
-			</div>			
-		</nav>
+			</nav>
+		</div>
 	</header>
-	<!-- kết thúc header -->
+	<!-- end header -->
 
-	<!-- bắt đầu phần main -->
-	<main class="container" style="margin-top: 100px; background: white;">
-		<!-- bắt đầu phần Carousel -->
-		<!-- <div class="container"> -->
-			<div class="row">
-				<div class="col-md-12">
-					<div id="myCarousel" class="carousel carousel-showmanymoveone slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      				<li data-target="#myCarousel" data-slide-to="1"></li>
-		      				<li data-target="#myCarousel" data-slide-to="2"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner">
-							<div class="item active">
-								<a href="#">
-									<div class="row" style="height: 200px; background: #1B99D5;">
-										<div class="col-md-8">
-											<div style="margin-top: 60px; margin-left: 40px">
-												<h2>MUNBERS IN ICELANDIC</h2>
-												<p>by Kenvin</p>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<img class="img-responsive" src="images/1.png"  style="margin-top: 25px; ">
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item">
-								<a href="#">
-									<div class="row" style="height: 200px; background: #A78A44">
-										<div class="col-md-8">
-											<div style="margin-top: 60px; margin-left: 40px">
-												<h2>BEST PICTURE "OSCAR" WINNERS</h2>
-												<p>by BK</p>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<img class="img-responsive" src="images/2.png" style="margin-top: 25px">
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item">
-								<a href="#">
-									<div class="row" style="height: 200px; background: #63472F">
-										<div class="col-md-8">
-											<div style="margin-top: 60px; margin-left: 40px">
-												<h2>METRICS UNITS</h2>
-												<p>by Martin SolBrig</p>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<img class="img-responsive" src="images/3.png"  style="margin-top: 25px">
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		      				<span class="glyphicon glyphicon-chevron-left"></span>
-		      				<span class="sr-only">Previous</span>
-		    			</a>
-		    			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-		      				<span class="glyphicon glyphicon-chevron-right"></span>
-		      				<span class="sr-only">Next</span>
-		    			</a>
-					</div>
-				</div>
-			</div>		
-		<!-- </div> -->
-		<!-- kết thúc Carousel -->
-		<div class="row" style="margin-top: 50px">
-			<div class="col-md-6">
-				<h3>Your favorites</h3>
-			</div>
-			<div class="col-md-6">
-				<h3 class="text-right">No favorites yet</h3>
-			</div>
+	<!-- carousel -->
+	<div class="container" style="margin-top: 100px; background-color: #FFFFFF">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+		  </ul>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active jumbotron" style="background-color: #3E548C">
+		    	<a href="1-1.html">
+		    		<div class="row">
+			    		<div class="col" style="color: white">
+			    			<h1>FIRST 20 ELEMENTS</h1>
+			      			<p>by Lauren</p>
+			    		</div>
+			    		<div class="col">
+			    			<img src="images/4.png" class="img-thumbnail imgborder" align="right" style="margin-top: -30px">
+			    		</div>
+			    	</div>
+		    	</a>
+		    </div>
+		    <div class="carousel-item jumbotron" style="background-color: #63472F">
+		    	<a href="#">
+		    		<div class="row">
+			    		<div class="col" style="color: white">
+			    			<h1>Numbers in Arabic</h1>
+			     			<p> by Kevin</p>
+			    		</div>
+			    		<div class="col">
+			    			<img src="images/3.png" class="img-thumbnail imgborder" align="right" style="margin-top: -30px">
+			    		</div>
+			    	</div>
+		    	</a>
+		    </div>
+		    <!-- <div class="carousel-item jumbotron"> 
+		    	<div class="row">
+		    		<div class="col">
+		    			<h1>FAMOUS CONQUERORS</h1>
+		      			<p>by TinyHistory</p>
+		    		</div>
+		    		<div class="col">
+		    			<img src="images/2.png" class="img-thumbnail" align="right" style="margin-top: -30px">
+		    		</div>
+		    	</div>
+		    </div> -->
+		  </div>
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
 		</div>
-		<div class="row" style="margin-top: 50px; border-bottom: 1px solid #E8E8E8; padding-bottom: 30px">
-			<div class="col-md-6">
-				<h3>People you follow</h3>
-			</div>
-			<div class="col-md-6">
-				<p class="text-right">
-					<button type="button" class="btn btn-info btn">FIND PEOPLE TO FOLLOW</button>
-				</p>
-			</div>
-		</div>
-
-
-		<div style="margin-top: 40px;">
-			<div class="row">
-				<div class="col-md-6">
-					<h3>Trending</h3>
-				</div>
-				<div class="col-md-6">
-					<a href="#" class="text-right"><h4>SEE ALL</h4></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<!-- <div class="col-md-12"> -->
-					<div class="carousel" id="carousel6" data-ride="carousel">
-						<div class="carousel-inner">
-							<!-- 1 -->
-							<div class="item active">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-							<!-- 2 -->
-							<div class="item">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-							<!-- 3 -->
-							<div class="item">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-							<!-- 4 -->
-							<div class="item">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-							<!-- 5 -->
-							<div class="item">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-							<!-- 6 -->
-							<div class="item">
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/9.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/4.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/5.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/6.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/7.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-2">
-									<a href="#"><img src="images/8.png" class="img-responsive center-block"></a>
-									<p class="text-center">Essential Spanish</p>
-									<p class="text-center">
-										<span class="glyphicon glyphicon-star">2k</span>
-										<span class="glyphicon glyphicon-book">50</span>
-									</p>
-								</div>
-							</div>
-
-						</div>
-
-						<a class="left carousel-control" href="#carousel6" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-        				<a class="right carousel-control" href="#carousel6" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-					</div>
-				<!-- </div>-->			
-				</div>
-		</div>
-	</main>
-	<!-- kết thúc main -->
-
-	<footer>
-		<div class="container" style="margin-top: 70px; margin-bottom: 30px">
-			<ul class="nav nav-pills">
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">SUPPORT</a></li>
-				<li><a href="#">TERMS</a></li>
-				<li><a href="#">DUOLINGO</a></li>
-				<li><a href="#">FACEBOOK</a></li>
-				<li><a href="#">TWITTER</a></li>
-				<li class="dropup">
-			    	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-			    		ENGLISH
-			    		<span class="caret"></span>
-			    	</a>
-			    	<ul class="dropdown-menu">
-			      		<li><a href="#">ENGLISH</a></li>
-			      		<li><a href="#">ESPANOL</a></li>
-			      		<li><a href="#">PORTUGES</a></li> 
-			    	</ul>
-			  </li>
-			</ul>
-		</div>
-	</footer>
-
-
+	</div>
+	<!-- end carousel -->
 </body>
 </html>
