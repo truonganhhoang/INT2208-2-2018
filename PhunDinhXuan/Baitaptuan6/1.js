@@ -1,49 +1,60 @@
 var data = [
 	{
 		text:'Hardware',
-		link:'images/hardware.jpg'
+		link:'images/hardware.jpg',
+		nghia:'phần cứng'
 	},
 	{
 		text:'remote',
-		link:'images/remote.jpg'
+		link:'images/remote.jpg',
+		nghia:'điều khiển'
 	},
 	{
 		text:'Operating system',
-		link:'images/hedieuhanh.png'
+		link:'images/hedieuhanh.png',
+		nghia:'hệ điều hành'
 	},
 	{
 		text:'storage',
-		link:'images/storage.webp'
+		link:'images/storage.webp',
+		nghia:'lưu trữ'
 	},
 	{
 		text:'application',
-		link:'images/application.png'
+		link:'images/application.png',
+		nghia:'ứng dụng'
 	},
 	{
 		text:'demand',
-		link:'images/demand.gif'
+		link:'images/demand.gif',
+		nghia:'yêu cầu'
 	},
 	{
 		text:'dog',
-		link:'images/dog.jpg'
+		link:'images/dog.jpg',
+		nghia:'chó'
 	},
 	{
 		text:'cat',
-		link:'images/cat.jpg'
+		link:'images/cat.jpg',
+		nghia:'mèo'
 	},
 	{
 		text:'pig',
-		link:'images/pig.jpg'
+		link:'images/pig.jpg',
+		nghia:'lợn'
 	},
 	{
 		text:'bird',
-		link:'images/bird.jpeg'
+		link:'images/bird.jpeg',
+		nghia:'chim'
 	},
 	
 	
 ];
 var count = 0;
 var next = document.getElementById("next");
+var nghia = document.getElementById("nghia")
 
 next.addEventListener('click', function(){
 	if(count > data.length-2){
@@ -56,6 +67,7 @@ next.addEventListener('click', function(){
 		console.log(data[count].text)
 		img.src = data[count].link;
 		text.innerText = data[count].text
+		nghia.innerText=data[count].nghia
 		count = count;
 		console.log(count)
 	}
@@ -74,6 +86,7 @@ pre.addEventListener('click', function(){
 	count --;
 	img.src = data[count].link;
 	text.innerText = data[count].text
+	nghia.innerText=data[count].nghia
 	count = count;
 	console.log(count)
 
@@ -90,7 +103,7 @@ function add(){
 	{
 		var temp = 0;
 		for(var i =0; i<data.length; i++){
-			if(input.value == data[i].text){
+			if(input.value == data[i].text || input.value==data[i].nghia){
 				var img = document.getElementById('img')
 				var text = document.getElementById('text')
 				count=i;
