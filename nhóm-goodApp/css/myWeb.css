@@ -10,16 +10,16 @@
 }
 .navbar-default{
 	background-color: #33CFFF;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
 
 }
 .navbar-default .navbar-brand{
 	color: #ffffff;
 }
 .container-fluid{
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 .navbar{
 	margin-bottom:0px;
