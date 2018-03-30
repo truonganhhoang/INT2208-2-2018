@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
     <title>Tinycards - FlasCard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
@@ -10,9 +11,16 @@
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="../public/js/bootstrap/bootstrap.min.js"></script>
     <script>
-        jQuery(document).ready(function($) {
-            $("button.btn-primary").click(function(event) {
-                window.location.href = "1.html";
+        $(document).ready(function() {
+            $('#card').flip();
+
+            $("#card").click(function(event) {
+                $("#btn-continue").toggleClass('d-none');
+                $("#flip").toggleClass('d-none');
+            });
+
+            $("#btn-continue").click(function(event) {
+                window.location.href = '1-8.html';
                 return false;
             });
         });
@@ -26,14 +34,35 @@
     </a>
 </nav>
 
-<div class="w-100"></div>
-<!-- End header -->
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-10 h5 mx-auto mt-5 text-center">Congratulation! You have done lesson. Click here go to hom page</div>
-        <div class="w-100"></div>
-        <button class="btn-primary pointer pt-2 pb-2 mx-auto rounded mt-3">Home page</button>
+        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white" style="height: 100vh;">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="title col-8 col-md-3 mx-auto mt-5 text-center text-warning h4 font-weight-bold">New Card</div>
+            </div>
+            <div class="row">
+                <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
+                    <div class="front">
+                        <img src="../public/image/lesson1/Asparagus.jpg" alt="Chelsea" class="rounded w-100 h-100" style="">
+                    </div>
+                    <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
+                        <div class="w-100 pt-2"></div>
+                        <span class="align-middel pt-5 d-block">Asparagus</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none" id="btn-continue">
+                <div class="continue col-8 col-md-3 mx-auto mt-4 pt-1">
+                    <button class="w-100 bg-primary text-white text-uppercase font-weight-bold rounded pt-2 pb-2 pointer">Continue</button>
+                </div>
+            </div>
+            <div class="row" id="flip">
+                <div class="how-to-flip col-8 col-md-3 mx-auto mt-5 mt-md-3 text-center text-secondary font-weight-bold h4">
+                    Click card to flip
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-</body>
-</html>

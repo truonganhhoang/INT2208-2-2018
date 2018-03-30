@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <title>Tinycards - FlasCard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
     <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          type="text/css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="../public/js/bootstrap/bootstrap.min.js"></script>
-    <script src="../public/js/1-1/1-1.js"></script>
+    <script>
+         $(document).ready(function() {
+            $('.card').flip();
+
+            $(".lesson-active").click(function(event) {
+                window.location.href = '1-2.html';
+                return false;
+            });
+        });
+         
+    </script>
 </head>
+
 <body class="bg-light">
 <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
     <a class="navbar-brand ml-md-5" href="1.html">
@@ -19,42 +31,266 @@
         <span class="text-white font-weight-bold">TinyCards</span>
     </a>
 </nav>
-
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white" style="height: 100vh;">
-            <div class="row">
-                <!--   <button type="button" class="close mt-4 pt-3 ml-auto" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-              <div class="progress col-10 col-md-10 mx-auto mt-5 pl-0">
-                  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div> -->
-            </div>
-            <div class="row">
-                <div class="title col-8 col-md-3 mx-auto mt-5 text-center text-warning h4 font-weight-bold">New Card</div>
-            </div>
-            <div class="row">
-                <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
-                    <div class="front">
-                        <img src="../public/image/lesson1/chelsea.jpg" alt="Chelsea" class="rounded w-100 h-100" style="">
+<div class="w-100"></div>
+<!-- End header -->
+<div class="py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-12 pt-5">
+                <div class="row text-center">
+                    <div class="col-8 col-md-12 offset-2 offset-sm-4 offset-md-0 col-sm-4">
+                        <img class="img-fluid d-block anhTieuDe rounded w-100" src="../public/image/lesson1/lesson.jpg">
                     </div>
-                    <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
-                        <div class="w-100 pt-2"></div>
-                        <span class="align-middel pt-5 d-block">Chelsea</span>
+                    <div class="col-md-12 col-8">
+                        <div class="row">
+                            <div class="col-md-12 col-12 offset-3 offset-md-0 mt-3">
+                                <span class="tieuDe h4 text-dark font-weight-bold">Vegetables</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row d-none" id="btn-continue">
-                <div class="continue col-8 col-md-3 mx-auto mt-4 pt-1">
-                    <button class="w-100 bg-primary text-white text-uppercase font-weight-bold rounded pt-2 pb-2 pointer">Continue</button>
-                </div>
-            </div>
-            <div class="row" id="flip">
-                <div class="how-to-flip col-8 col-md-3 mx-auto mt-5 mt-md-3 text-center text-secondary font-weight-bold h4">
-                    Click card to flip
+            <div class="col-md-1 col-sm-12"></div>
+            <div class="col-md-8 col-sm-12 bg-white pt-3 pl-4">
+                <ul class="nav nav-pills border-bottom pb-1 mb-3">
+                    <li class="nav-item">
+                        <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link" data-toggle="pill" data-target="#tabtwo">Cards</a>
+                    </li>
+                </ul>
+                <div class="tab-content mt-2">
+                    <div class="tab-pane fade show active" id="tabone" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row cot2">
+                                    <div class="col-md-3 col-4 col-sm-3 khoa mb-3">
+                                        <span class="h3 font-weight-bold text-dark d-block pt-4 bg-light rounded w-75 h-100 pointer lesson-active">1</span>
+                                    </div>
+                                    <div class="col-md-3 col-4 col-sm-4 khoa mb-3 pointer">
+                                        <img class="img-fluid d-block" src="../public/image/lesson/tải xuống.png"></div>
+                                    <div class="col-md-3 col-4 col-sm-4 khoa mb-3 pointer">
+                                        <img class="img-fluid d-block" src="../public/image/lesson/tải xuống.png"></div>
+                                    <div class="col-md-3 col-4 col-sm-4 khoa mb-3 pointer">
+                                        <img class="img-fluid d-block" src="../public/image/lesson/tải xuống.png"></div>
+                                    <div class="col-md-3 col-4 col-sm-4 khoa mb-3 pointer">
+                                        <img class="img-fluid d-block" src="../public/image/lesson/tải xuống.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabtwo" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Zucchini.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Zucchini</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Acorn squash.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Acorn squash</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Asparagus.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Asparagus</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Beets.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Beets</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Bell Peppers.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Bell Peppers</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Brussels sprouts.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Brussels sprouts</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Cauliflower.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Cauliflower</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Celery.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Celery</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Corn.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Corn</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/cucumber.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">cucumber</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Green Beans.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Green Beans</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Habanero.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Habanero</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Jalapeño.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Jalapeño</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Lima Beans.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Lima Beans</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Mushrooms.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Mushrooms</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Onions.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Onions</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Parsley.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Parsley</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Peas.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Peas</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Rutabaga.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Rutabaga</span>
+                                </div> 
+                            </div>
+                            <div class="col-md-4 col-8 mx-auto col-sm-6 anh mb-3 card" style="height: 200px;">
+                                <div class="front">
+                                    <img src="../public/image/lesson1/Turnips.jpg" alt="Python"
+                                         class="rounded w-100 h-100" style="">
+                                </div>
+                                <div class="back text-center text-white font-weight-bold h4 bg-dark rounded pt-5">
+                                    <div class="w-100 pt-2"></div>
+                                    <span class="align-middel pt-3 d-block">Turnips</span>
+                                </div> 
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</body>
+
+</html>
