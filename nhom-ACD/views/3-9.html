@@ -8,12 +8,26 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="../public/js/jquery/playAudio.js"></script>
     <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <style>
+        img {
+            object-fit: cover !important;
+        }
+    </style>
     <script>
-        jQuery(document).ready(function($) {
-            $("button.btn-primary").click(function(event) {
-                window.location.href = "1.html";
-                return false;
+        $(document).ready(function() {
+
+            $(document).on('click', '.answer-2, .answer-3', function(event) {
+                $(this).removeClass('border-primary').addClass('border-secondary');
+                $(this).removeClass('text-primary').addClass('text-secondary');
+            });
+
+            $(".answer-1").click(function(event) {
+                setInterval(function() {
+                    window.location.href = '3-9.html';
+                    return false;
+                }, 500);
             });
         });
     </script>
@@ -30,9 +44,22 @@
 <!-- End header -->
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-10 h5 mx-auto mt-5 text-center">Congratulation! You have done lesson. Click here go to hom page</div>
-        <div class="w-100"></div>
-        <button class="btn-primary pointer pt-2 pb-2 mx-auto rounded mt-3">Home page</button>
+        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white pt-5" style="height: 100vh;">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="card col-10 col-md-3 mt-5 offset-1 rounded pointer pl-0 pr-0">
+                    <img height="300px" src="../public/image/lesson3/guitar.jpg" alt="guitar" class="rounded">
+                </div>
+                <div class="answer col-10 col-md-4 mt-5 offset-1">
+                    <div class="row">
+                        <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer" onclick='$.playSound("../public/sound/CorrectSound.mp3")'>Guitar</div>
+                        <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Piano</div>
+                        <div class="col-12 answer-3 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Cello</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

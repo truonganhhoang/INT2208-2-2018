@@ -18,14 +18,14 @@
     <script>
         $(document).ready(function() {
 
-            $(document).on('click', '.answer-2, .answer-1', function(event) {
+            $(document).on('click', '.answer-3, .answer-1', function(event) {
                 $(this).removeClass('border-primary').addClass('border-secondary');
                 $(this).removeClass('text-primary').addClass('text-secondary');
             });
 
-            $(".answer-3").click(function(event) {
+            $(".answer-2").click(function(event) {
                 setInterval(function() {
-                    window.location.href = '3-6.html';
+                    window.location.href = '3-14.html';
                     return false;
                 }, 500);
             });
@@ -49,13 +49,13 @@
             </div>
             <div class="row">
                 <div class="card col-10 col-md-3 mt-5 offset-1 rounded pointer pl-0 pr-0">
-                    <img height="300px" src="../public/image/lesson3/violin.jpg" alt="violin" class="rounded">
+                    <img height="300px" src="../public/image/lesson3/flute.jpg" alt="flute" class="rounded">
                 </div>
                 <div class="answer col-10 col-md-4 mt-5 offset-1">
                     <div class="row">
-                        <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer">Piano</div>
-                        <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Cello</div>
-                        <div class="col-12 answer-3 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" onclick='$.playSound("../public/sound/CorrectSound.mp3")'>Violin</div>
+                        <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer">Ukulele</div>
+                        <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" onclick='$.playSound("../public/sound/CorrectSound.mp3")'>Flute</div>
+                        <div class="col-12 answer-3 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Saxophone</div>
                     </div>
                 </div>
             </div>
