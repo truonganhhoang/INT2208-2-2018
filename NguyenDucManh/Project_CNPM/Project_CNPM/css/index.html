@@ -19,37 +19,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body> 
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '156871905025296',
-        cookie     : true,
-        xfbml      : true,
-        version    : 'v2.12'
-      });
-        
-      FB.AppEvents.logPageView();   
-        
-    };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
+<body>
 
-  </script>
-  <script>
-      function signOut() {
-        var auth2 = gapi.auth2.getAuthInstance();
-        auth2.signOut().then(function () {
-          console.log('User signed out.');
-        });
-      }
-    </script>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -77,7 +48,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign up</a>
           </li>
-          <li class="nav-item"><div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div></li>
         </ul>
       </div>
     </div>
@@ -104,14 +74,14 @@
             </label>
             <input type="password" class="form-control" placeholder="Enter Password" name="passwordLogin" required>
 
-            <button class="btn btn-success btn-fix" id="btnSignIn">Sign In</button>
+            <button class="btn btn-success" id="btnSignIn">Sign In</button>
             <label>
               <input type="checkbox" checked="checked" id="remeberMeCheckBox"> Remember me
             </label>
           </form>
         </div>
         <div class="modal-footer">
-            <div class="fb-login-button btn-fix" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false" onclick="reload()"></div>
+<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
         </div>
       </div>
 

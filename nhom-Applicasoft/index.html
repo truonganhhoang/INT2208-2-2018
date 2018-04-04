@@ -3,25 +3,35 @@
 <head>
     <title>Thi bang lai xe</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/boxchat.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="css/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js"></script>
+    <script src="js/boxchat-loginwithfb.js"></script>
+    <script src="js/jdk-fb.js"></script>
 </head>
 <body>  
-        
-   <header>
+   <div class="fb-livechat">
+        <div class="ctrlq fb-overlay"></div>
+        <div class="fb-widget"> 
+            <div class="ctrlq fb-close"></div>
+            <div class="fb-page" data-href="https://www.facebook.com/hoatc.offical" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> 
+            </div>
+            <div id="fb-root"></div>
+        </div>
+            <a href="https://m.me/hoatc.offical" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button">
+                <div class="bubble">1</div>
+                <div class="bubble-msg">Bạn cần hỗ trợ?</div>
+            </a>
+    </div>
+    <header>
         <img class="img-fluid" src="images/banner1.png" alt="">
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark box-shadow">
-            <img src="images/logo.png" style="height: 40px;width: 40px;">
+            <a href="index.html"><img src="images/logo.png" style="height: 40px;width: 40px;"></a>
             <h5 class="my-0 mr-md-auto font-weight-normal" style="color: white">&nbsp;&nbsp;ASP.com</h5>
-            <form class="form-inline" action="#">
-                <input class="form-control mr-sm-1" type="text" placeholder="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
               <ul class="navbar-nav">
         <li class="nav-item">
@@ -38,20 +48,15 @@
                 </li>
               </ul>
             </nav>
-
         </div>
     </header>
-        <div id="demo" class="carousel slide container" data-ride="carousel" >
-
-            <!-- Indicators -->
+        <div id="demo" class="carousel slide container" data-ride="carousel" >        
                 <ul class="carousel-indicators  ">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
                   <li data-target="#demo" data-slide-to="1"></li>
                   <li data-target="#demo" data-slide-to="2"></li>
                   <li data-target="#demo" data-slide-to="3"></li>
                 </ul>
-
-                <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <center><img class="img-fluid" src="images/hinh1.jpg" alt="pic1"></center>
@@ -66,8 +71,6 @@
                     <center><img class="img-fluid" src="images/hinh4.jpg" alt="pic3"></center>
                   </div>
                 </div>
-
-                <!-- Left and right controls -->
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
                 </a>
@@ -80,7 +83,7 @@
             <hr/>
             <div class="row">   
             <div class="col-sm-6 portfolio-item">
-                <a class="portfolio-link" href="dethi">
+                <a class="portfolio-link" href="dethi/">
                     <img class="img-fluid image rounded" src="images/de-thi.jpg" alt="">
                     <h3 class="text">ĐỀ THI</h3>
                 </a>
@@ -104,7 +107,8 @@
                 </a>
             </div>
         </div>
-        </div><hr>
+        </div>
+        <hr>
         <div class="sub-footer-content">
         <h2>Nghiên cứu đủ rồi, đăng ký thi ngay thôi</h2>       
         <div class="register2">
@@ -123,7 +127,7 @@
                 <option value="tayho"> Tây Hồ</option>
                 <option value="thanhxuan"> Thanh Xuân</option>
             </select>
-            <a href="# " rel="nofollow"><button type="button" class="btn btn-success btn-dkthi" data-toggle="modal" data-target="#myModal">Đăng Ký Thi</button></a>
+            <a href="dangky/" rel="nofollow"><button type="button" class="btn btn-success btn-dkthi" data-toggle="modal" data-target="#myModal">Đăng Ký Thi</button></a>
         </div>
     </div>
     <footer id="colophon" class="site-footer" role="contentinfo">
@@ -133,23 +137,23 @@
                     <div class="col-md-3 col-xs-6">
                         <div class="footer-infor-column-01">
                             <p><strong>Danh mục</strong></p>
-                            <p><a href="">Thi bằng lái xe A1</a></p>
-                            <p><a href="">Thi bằng lái A2</a></p>
-                            <p><a href="">Làm bằng lái xe máy</a></p>
-                            <p><a href="">Đổi giấy phép lái xe</a></p>
-                            <p><a href="h">Đề thi bằng lái xe</a></p>
+                            <p>Thi bằng lái xe A1</p>
+                            <p>Thi bằng lái A2</p>
+                            <p>Làm bằng lái xe máy</p>
+                            <p>Đổi giấy phép lái xe</p>
+                            <p>Đề thi bằng lái xe</p>
                             <p>&nbsp;</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="footer-infor-column-02">
                             <p><strong>Chia sẻ kinh nghiệm</strong></p>
-                            <p><a href="">Mẹo thi bằng lái xe A1</a></p>
-                            <p><a href="">Những câu hỏi thường gặp</a></p>
-                            <p><a href="">Kiến thức</a></p>
-                            <p><a href="">Tra cứu lịch thi</a></p>
-                            <p><a href="">Thi thử bằng lái xe A1</a></p>
-                            <p><a href="">Thanh toán Online</a></p>
+                            <p>Mẹo thi bằng lái xe A1</p>
+                            <p>Những câu hỏi thường gặp</p>
+                            <p>Kiến thức</p>
+                            <p>Tra cứu lịch thi</p>
+                            <p>Thi thử bằng lái xe A1</p>
+                            <p>Thanh toán Online</p>
                             <p>&nbsp;</p>
                         </div>
                     </div>
@@ -161,7 +165,7 @@
                             <p>
                                 <strong>Hệ thống đăng ký 
                                     <span style="color: #ffffff;">
-                                        <a style="color: #ffffff;" href="">thi bằng lái xe máy</a>
+                                        <a style="color: #ffffff;" href="index.html">thi bằng lái xe máy</a>
                                     </span> tại Hà Nội</strong></p>
                             <p>
                                 <i class="fa fa-map-marker" style="color: #0088cc;border-color: #0088cc;"></i>
@@ -170,8 +174,7 @@
                             <p>
                                 <i class="fa fa-phone" style="color: #0088cc; border-color: #0088cc;"></i>
                                 <span style="color: #ababab;">Tư vấn dịch vụ:</span> 
-                                <a href="tel:">01694728855</a> - 
-                                <a href="tel:">xxx</a>(24/24)
+                                <a href="tel:">01694728855</a> (24/24)
                             </p>
                             <p>
                                 <i class="fa fa-users" style="color: #0088cc; border-color: #0088cc;"></i> 
@@ -181,7 +184,7 @@
                             <p>
                                 <i class="fa fa-phone-square" style="color: #0088cc; border-color: #0088cc;"></i> 
                                 <span style="color: #999999;">Số máy lẻ:</span> 
-                                <a href="tel:01694728855">0169 472 8855</a> - Fax: 043282618
+                                <a href="tel:01694728855">0169 472 8855</a>
                             </p>
                             <p>
                                 <i class="fa fa-envelope" style="color: #0088cc; border-color: #0088cc;"></i>
