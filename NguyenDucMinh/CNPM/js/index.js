@@ -28,7 +28,7 @@ $(document).ready(function(){
       localStorage.setItem("VideoId", "s9-exVFzz14");
     });
     $("#sub4").hover(function(){
-      localStorage.setItem("Keyword", "Karik");
-      localStorage.setItem("VideoId", "Dd2sejzKV8s");
+      localStorage.setItem("Keyword", "Ngọt");
+      localStorage.setItem("VideoId", "1u0ygl9vJHI");
     });
 });
