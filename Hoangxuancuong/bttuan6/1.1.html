@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tinycards — Flashcards by Duolingo</title>
+
+    <link rel="stylesheet" href="public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+    <style>
+        .img-fluid {
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="flip"> 
+                <div class="front"> 
+                    <img src="https://wwwimages2.adobe.com/content/dam/acom/en/products/aftereffects/max2017/images/ae-video-1000x494.jpg" alt="this is image" />
+                </div> 
+                <div class="back">
+                    <h3>Some Text in the Back!</h3>
+                </div> 
+            </div> -->
+
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+
+        <div class="container ">
+            <a class="navbar-brand ml-md-5" href="lesson.html">
+                <img src="public/image/tinycards.png" alt="logo" width="44" height="44">
+                <img src="public/image/tinycards_text.png" alt="text" width="120" height="34" class="text-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 mr-auto ml-lg-5">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav mr-5 align-items-center">
+                    <li class="nav-item active mr-1">
+                        <a class="text-white text-uppercase font-weight-bold" href="#">
+                            <img src="public/image/home.png" alt="home" class="mr-1">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="mr-1">
+                        <a class="nav-link text-white text-uppercase font-weight-bold" href="#">
+                            <img src="public/image/plus.png" alt="home" class="mr-1">
+                            <span>Create</span>
+                        </a>
+                    </li>
+                    <li class="mr-1">
+                        <a class="nav-link text-white text-uppercase font-weight-bold" href="#">
+                            <img src="public/image/profile.png" alt="home" class="mr-1">
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container mt-5">
+        <div class="card p-5">
+            <div class="row">
+                <div class="col-md-2  mx-auto col-10">
+                    <a href="1.2.html">
+                        <img class="img-fluid rounded" src="public/image/gen.jpg" alt="this is a image" width="100%">
+                        <div class="text-center mt-2 font-weight-bold mb-5 mb-md-0">
+                            Genetics Vocabulary
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2  mx-auto col-10">
+                    <a href="1.2.html">
+                        <img class="img-fluid rounded" src="public/image/birds.jpg" alt="this is a image" width="100%">
+                        <div class="text-center mt-2 font-weight-bold mb-5 mb-md-0">
+                            Birds
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-2  mx-auto col-10">
+                    <a href="1.2.html">
+                        <img class="img-fluid rounded" src="public/image/country.jpg" alt="this is a image" width="100%">
+                        <div class="text-center mt-2 font-weight-bold mb-5 mb-md-0">
+                            Countries in Asian
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-md-2 mx-auto col-10">
+                    <a href="1.2.html">
+                        <img class="img-fluid rounded" src="public/image/spanish.jpg" alt="this is a image" width="100%">
+                        <div class="text-center mt-2 font-weight-bold mb-5 mb-md-0">
+                            Essential Spanish
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

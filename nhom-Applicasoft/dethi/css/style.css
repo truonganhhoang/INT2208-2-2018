@@ -1,0 +1,87 @@
+body {
+margin: 0px;
+padding: 0px;
+background-color: green;
+color: white;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+text-align:center;
+color: white;
+font-size: 35px;
+margin-top: 30px;
+}
+
+#title {
+font-family: Lobster;
+}
+.align {
+margin-left: 25px;
+}
+#result {
+display: none;
+margin: 50px 0 0 420px;
+}
+#quiz_form {
+  margin-left: 200px;
+  margin: 50px 0px 0px 100px;
+}
+.butt {
+    background: none repeat scroll 0 0 orange;
+    border: 2px solid orange;
+    height: 40px;
+    margin: 20px 0 0 50px;
+    width: 170px;
+}
+.hide{
+display: none;
+}
+#answer{
+text-align: center;
+width: 400px;
+font-weight: bold;
+}
+.highlight {
+ color : #CCFFCC;
+ font-size: 20px;
+}
+.footer-bar {
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #111;
+    border-top: 1px solid #E62600;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-bar .article-wrapper {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+    float: left;
+    margin-left: 10%;
+}
+.footer-bar .article-link a, .footer-bar .article-link a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.site-link a, .site-link a:visited {
+    color: #888;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    float: right;
+    margin-right: 10%;
+    text-decoration: none;
+}
+.site-link a:hover {
+    color: #E62600;
+}
+#answer {
+    text-align: left;
+    padding-left: 450px;
+}
+
