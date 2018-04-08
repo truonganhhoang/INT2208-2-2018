@@ -1,0 +1,27 @@
+.navbar-brand{
+	font-family: Verdana;
+	font-size: 30px;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a{
+	font-family: Verdana;
+	font-size: 20px;
+	color: #ffffff;
+}
+.navbar-default{
+	background-color: #33CFFF;
+	padding-right: 25px;
+	padding-left: 25px;
+
+}
+.navbar-default .navbar-brand{
+	color: #ffffff;
+}
+.container-fluid{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.navbar{
+	margin-bottom:0px;
+	padding-left: 20px;
+}

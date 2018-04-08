@@ -2,10 +2,11 @@
 
 window.onload=function(){
     var min = 90;
-    var sec = 0;
+    var sec = 50;
     setInterval(function(){
 	   	if (min != 0 || sec !=0){
-	        document.getElementsByTagName("h3")[0].innerHTML = "Thời gian làm bài còn "+ min +":" + sec ;
+	   		console.log("here");
+	        document.getElementById("timer").innerHTML = "Thời gian làm bài còn "+ min +":" + sec ;
 	        sec-=1;
 	        if(min>0){
 		       	if(sec < 0){
@@ -15,7 +16,7 @@ window.onload=function(){
 		    }
 	    }
 	    else{
-		    document.getElementsByTagName("body")[0].innerHTML = "<h1> Đã hết giờ làm bài</h1>";         
+		    document.getElementById("timer").innerHTML = "<h1> Đã hết giờ làm bài</h1>";         
 	    }
     },1000);
 }

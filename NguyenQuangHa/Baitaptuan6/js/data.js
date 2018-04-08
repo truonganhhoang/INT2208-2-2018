@@ -122,6 +122,7 @@ var sjProvider = [
 // ghi du ca 4 array o tren
 
 
+
 // khong dung dc nodejs tren client side
 
 var path = window.location.pathname;
@@ -217,21 +218,69 @@ window.onload = function () {
         document.getElementById("listDiscription").innerHTML = listdiscription;
         break;
     case "examPage.html":
-        i = path.split("/")[6];
+        j = path.split("courselist/")[1];
+        cutQuery = "/" + page;
+        //console.log(cutQuery);
+        //console.log(j);
+        i = j.split(cutQuery)[0];
         //console.log(i);   i = đúng thư mục
         //lấy link js chứa data
         // cái đầu tiên [0] là js này, ko đc đổi
+        document.getElementsByTagName('head')[0].appendChild(document.createElement('script'));
+            
         scrpt = document.getElementsByTagName("script");
+        
+        //lấy thành công file bộ câu hỏi
+        // trong file bộ câu hỏi sẽ có hàm đọc toàn bộ câu hỏi tìm các kiểu bài thi cần import js  
+        
         scrpt[1].type = "text/javascript";
         scrpt[1].src = "../../../js/datajs/" + i + ".js";
-        //lay thanh cong file số.js
-        // script số 2 để render kiểu câu hỏi
-        scrpt[2].type = "text/javascript";
-        scrpt[2].src = "../../../js/typetestjs/type" + i + ".js";
+        //console.log(scrpt);
+        
+        //bat dau tao cau hoi tu day    
+        renderMon(subject[i - 1],sjTimeDiscription[0][0][0]); // đặt tiêu đề bài thi
+        
+        //render trang trở về khi submit bài
+        document.getElementById("test").action = "./coursePage.html";
+            
+        var min = 0;
+        var sec = 10;
+        setInterval(function(){
+            if (min != 0 || sec !=0){
+                //console.log("here");
+                document.getElementById("timer").innerHTML = "Thời gian làm bài còn "+ min +":" + sec ;
+                sec-=1;
+                if(min>0){
+                    if(sec < 0){
+                        min-=1;
+                        sec = 59;
+                    }		
+                }
+            }
+            else{
+                document.getElementById("timer").innerHTML = "<h1> Đã hết giờ làm bài</h1>";         
+            }
+        },1000);
+        //window.onclick function() {}
+        
         break;
     }
 };
 
+function returni() {
+    var path = window.location.pathname;
+    var j = path.split("courselist/")[1];
+    cutQuery = "/" + page;
+    //console.log(cutQuery);
+    //console.log(j);
+    return j.split(cutQuery)[0];
+}
+
+function renderMon(s,r){
+	document.getElementById('tenmon').innerHTML = s ;
+	document.getElementById('time').innerHTML = r;
+}
+//answer là mảng 2 chiều lưu (câu,đáp án chọn)
 
 
-        
+

@@ -34,7 +34,43 @@
 	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
+.flip {
+  -webkit-perspective: 800;
+perspective: 800;
 
+    position: relative;
+ 
+}
+.flip .card.flipped {
+  -webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
+}
+.flip .card {
+
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flip .card .face {
+
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  z-index: 2;
+   
+}
+.flip .card .front {
+  position: absolute;
+   width: 100%;
+  z-index: 1;
+
+}
+.flip .card .back {
+  -webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
+}
+  .inner{margin:0px !important;}
 .card__display {
 	display: inline-block;
 	margin-left: 0px;
@@ -64,8 +100,12 @@
 }
 
 .card__back {
-	background-color: #007bff;
+	background-color: #0cdd25;
 	-webkit-transform: rotateY(-180deg);
+}
+.card__front {
+	background-color: #808080;
+	
 }
 
 .card__text {

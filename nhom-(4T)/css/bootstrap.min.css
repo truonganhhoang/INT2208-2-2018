@@ -152,7 +152,8 @@ sup {
 }
 
 a {
-	color: #007bff;
+	color: #000;
+	font-size: 20px;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects
@@ -3922,7 +3923,8 @@ tbody.collapse.show {
 	margin-right: 1rem;
 	font-size: 1.25rem;
 	line-height: inherit;
-	white-space: nowrap
+	white-space: nowrap;
+	padding-top: .3125rem;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -4311,7 +4313,7 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-brand {
-	color: rgba(0, 0, 0, .9)
+	color: rgba(255,255,255)
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
