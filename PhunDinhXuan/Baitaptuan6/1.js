@@ -50,8 +50,8 @@ var data = [
 		nghia:'chim'
 	},
 	
-	
 ];
+
 var count = 0;
 var next = document.getElementById("next");
 var nghia = document.getElementById("nghia")
@@ -123,6 +123,7 @@ function add(){
 }
 
 
+
 var contents = document.getElementsByClassName("main");
 for (var i = 0; i < contents.length; i++) {
 	contents[i].addEventListener("click", function () {
@@ -133,3 +134,9 @@ for (var i = 0; i < contents.length; i++) {
 
 	}
 )}
+
+
+// xu ly data trong localstorage 
+var Json_obj = JSON.stringisfy(data);
+localstorage.setItem('data', Json_obj);
+localStorage.setItem('myCat', 'Tom');
