@@ -1,0 +1,44 @@
+<section>
+    
+    <h1>Đề kiểm tra tổng hợp</h1>
+    <div *ngIf="showGuide">
+        <div id = "guide">
+        <h3>Bài kiểm tra có 10 câu hỏi, mỗi câu trả lời đúng sẽ nhận được 1 điểm</h3>
+        <h3>Chúc các em làm bài tốt!</h3><br>
+        <button type="button" (click)="cauhoi();" id="start">Bắt đầu làm bài</button>
+    </div>
+    </div>
+    <div class="container" scrolling="yes">
+        <div class="row">
+            <div class="col-sm-3"> </div>
+            <div class="col-sm-6">
+                <div id="divQues">
+
+                </div>
+                 <div *ngIf="showChoiceCheck">
+                    <button type="button" (click)="checkAns();" id="kiemtra">Nộp bài</button><br>
+                </div>
+
+            </div>
+
+            <div class="col-sm-1">
+                <div *ngIf="showChoice">
+
+                    <div class="score">
+                        <div class="kdiem">
+                            <div class="panel panel-body panel-primary">
+                                <h2 id="diem">Điểm</h2>
+                                <div *ngIf="first">
+                                    <h2 id="begin">0</h2>
+                                </div>
+                                <h2 id="scoreValue"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
