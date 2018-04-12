@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 function showVideo(videoId){
   $.ajax({
-    url : '',
+    url : 'https://www.googleapis.com/youtube/v3/videos?part=snippet&id='+ videoId + '&key=AIzaSyBAuMv7-ua5tGsDzL6TrY9k6v3o1PtTYus',
     type: 'GET',
     success : function(response){
       console.log("Access Complete");
@@ -41,7 +41,7 @@ function showVideo(videoId){
 
 function loadRelatedVideo(keyword, videoIdWatching){
   $.ajax({
-    url: "",
+    url: "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&videoEmbeddable=true&videoSyndicated=true&maxResults="+maxResults+"&part=snippet&key=AIzaSyBAuMv7-ua5tGsDzL6TrY9k6v3o1PtTYus",
     type:'GET',
     success : function(response){
       var videoRelatedHTMLContent = "";

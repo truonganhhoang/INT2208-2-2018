@@ -5,17 +5,10 @@
 	<title>Create</title>
 
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" type="text/css" href="Css/style1.Css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<style type="text/css">
-	.img{
-		height: 320px;
-		width: 320px;
-	}
-</style>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -23,27 +16,19 @@
   	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   	</button>
-  	
-
   	<div class="collapse navbar-collapse" id="navbarSupportedContent" class ="container">
   	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-6 push-2">
   		<form class="form-inline my-2 my-lg-0">
-  			<a class="navbar-brand" href="1.html"><img src="https://d17u0960v8a9bp.cloudfront.net/192x192.png" width="30" height="30" class="d-inline-block align-top" alt="icon">TinyCards</a>
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      
-    </form>
+  			<a class="navbar-brand btn-submit"  href="1.html" ><img src="https://d17u0960v8a9bp.cloudfront.net/192x192.png" width="30" height="30" class="d-inline-block align-top" alt="icon">TinyCards</a>
+      		<input class="form-control mr-sm-2" type="text" placeholder="Search" id="word"">
+      		<button class="btn-info" onClick="event.preventDefault(); add()">Search</button>
+    	</form>
   	</div>
   	
 	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-6 push-2">
 		 <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="1.html"><img src="https://www.englandrugbytravel.com/images/icons/home-icon.svg" width="20" height="20" class="d-inline-block align-top" alt="iconHome"> Home <span class="sr-only">(current)</span></span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="1-7.html"><img src="http://icons.veryicon.com/128/System/iOS7%20Minimal/Basic%20Plus.png"  width="20" height="20" class="d-inline-block align-top" alt="iconCreate"> Create</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="1-9.html"><img src="https://flyer.it/_common/images/avatar_single_thumb.svg" width="20" height="25" class="d-inline-block align-top" alt="iconAccount"> Account</a>
+        <a class="nav-link " href="index.html"><img src="https://flyer.it/_common/images/avatar_single_thumb.svg" width="20" height="25" class="d-inline-block align-top" alt="iconAccount"> Training </a>
       </li>
     </ul>
 	</div>
@@ -51,47 +36,40 @@
 </nav>
 
 	<div class="container">
+		<br><br><br>
 		<div class="row">
-			<div class="col-md-3 col-sm-6 col- img mb-5">
-				
+			<div class="col-sm-2">
+			  	
 			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5 img-thumbnail">
-				<img class="w-100 h-100" src="images/pig.jpg" alt="hair">
-				<div class="w-100 h-100 d-none" style="background-color: #32cdff;">
-					<p class="text-uppercase font-weight-bold text-center">pig</p>
-				</div>
+			<div class="col-sm-8 " id="wrap">
+				<div class="row text-center">
+					<div class="col-sm-3">
+					  	<button type="button" class="btn btn-outline-info" id="pr">Privious</button>
+					</div>
+					<div class="main col-sm-6">
+						<div class="card">
+							<img class="card-img-top img-thumbnail" src="images/hardware.jpg" id="img">
+							<div class="card-block" id="chu">
+								<h4 class="card-title" id="text">hardware</h4>
+							</div>
+						</div>
+						<!-- <img class="img-thumbnail " src="images/hardware.jpg" alt="head" id="img"> -->
+						<div class=" d-none " style="background-color: #32cdff;" id="back">
+							<p class="text-uppercase font-weight-bold text-center" id="nghia">phần cứng</p>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+					  	<button type="button" class="btn btn-outline-info" id ='next'>Next</button>
+					</div>
+				</div> <!-- end row card -->
+			</div> <!-- end col 6 -->
+			<div class="col-sm-2">
+			  	
 			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5 img-thumbnail">
-				<img class="w-100 h-100" src="images/dog.jpg" alt="eye">
-				<div class="w-100 h-100 d-none" style="background-color: #32cdff;">
-					<p class="text-uppercase font-weight-bold text-center">dog</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5">
-				
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-sm-6 col- img mb-5">
-				
-			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5 img-thumbnail">
-				<img class="w-100 h-100" src="images/cat.jpg" alt="nose">
-				<div class="w-100 h-100 d-none" style="background-color: #32cdff;">
-					<p class="text-uppercase font-weight-bold text-center">cat</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5 img-thumbnail">
-				<img class="w-100 h-100" src="images/bird.jpeg" alt="arm">
-				<div class="w-100 h-100 d-none" style="background-color: #32cdff;">
-					<p class="text-uppercase font-weight-bold text-center">bird</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 col- img mb-5">
-				
-			</div>
-		</div>
-	</div>
+		</div> <!-- end row 1 -->
+	</div> <!-- end container  -->
 	<script src="1.js"></script>
 </body>
+
 </html>
