@@ -1,4 +1,20 @@
-@font-face {
-	font-family: TinycardsFont;
-	src: url("fonts/DINNextRoundedLTPro-Bold.woff2");
+.imgborder {
+			border-radius: 20px;
+		}
+
+.card-gird {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.card-gird img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.card-gird h1 {
+	background: #FEDEE2;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 20px;
 }
