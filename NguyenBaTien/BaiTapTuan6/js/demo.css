@@ -1,0 +1,14 @@
+#img {
+		z-index: 2;
+
+}
+#img1 {
+	position: relative;
+	z-index: 3;
+}
+#text-center {
+	width: 274px;
+	height: 253px;
+	background: blue;
+
+}
