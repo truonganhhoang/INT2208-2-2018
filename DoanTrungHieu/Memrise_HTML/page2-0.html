@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Khóa học - MEMRISE</title>
+    <link rel="shortcut icon" href="./image/icontag.png">
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
 
     <style type="text/css">
         *   {
@@ -12,10 +15,20 @@
             padding: 0;
         }
         body {
-            background: url(image/background4.jpg);
-            background-size: cover ;
-            background-repeat: no-repeat;
-            background-position: center;  
+            background-color: #F8F8FF;
+          
+        }
+        .container {
+            min-height:100%;
+            position:relative;
+        }
+
+        footer {
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:40px;   
+
         }
 
     </style>
@@ -36,11 +49,13 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <span class="glyphicon glyphicon-user"></span>
-                            <span class="caret"></span></a>
+                            <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu">
-                        <li><a href="#">Hồ sơ</a></li>
-                        <li><a href="#">Cài đặt</a></li>
-                        <li><a href="./page1-0.html">Đăng xuất</a></li>
+                            <img src="./image/user.png" height="50" width="50">
+                            <li><a href="./page1-0.html" style="color: #A52A2A;"><b>Đăng xuất</b></a></li>
+                        
+                        </ul>
                     </li>
              </ul>
         </div>
@@ -104,95 +119,65 @@
                 <br>
 
                 <h3 class="category-header">Danh mục hàng đầu</h3>
-                <ul class="categories-list" data-role="tree-navigation">
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/english/">
-                        <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/en.png" alt="" width="50" height="50" />
+                <div class="list-group">
+                    <a href="vehicle-bicycle-audio.html">
+                        <button type="button" class="list-group-item" style="font-size: 18px;">
+                            <img class="flag-circle" src="./image/england.png" width="40" height="40">
                             Tiếng Anh
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/french/">
-                        <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-02_copy.png" alt="" width="50" height="50"/>
+                        </button>
+                    </a>
+
+                    <a href="france-bonjour-submit.html">
+                        <button type="button" class="list-group-item" style="font-size: 18px;">
+                            <img class="flag-circle" src="./image/france2.png" width="40" height="40">
                             Tiếng Pháp
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/spanish-spain/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-03_copy.png" alt="" width="50" height="50"/>
-                            Tiếng Tây Ban Nha (Tây Ban Nha)
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/japanese-4/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/DemoFlags-09_copy.png" alt="" width="50" height="50"/>
-                            Tiếng Nhật
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/german-2/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/german.png" alt="" width="50" height="50"/>
+                        </button>
+                    </a>
+
+                    <a href="">
+                        <button type="button" class="list-group-item" style="font-size: 18px;">
+                            <img class="flag-circle" src="./image/german.png" width="40" height="40">
                             Tiếng Đức
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/korean/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/korean-flag.png" alt="" width="50" height="50"/>
-                            Tiếng Hàn
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/chinese-simplified/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/DemoFlags-01.png" alt="" width="50" height="50"/>
-                            Tiếng Trung (Giản thể)
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/italian/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-06_copy.png" alt="" width="50" height="50"/>
-                            Tiếng Ý
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/russian/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/language_photos/DemoFlags-20_copy.png" alt="" width="50" height="50"/>
-                            Tiếng Nga
-                        </a>
-                    </li>
-                
-                    <li class="">
-                        <a data-category-leaf href="/courses/english/spanish-mexico/">
-                            <img class="flag-circle" src="https://d2rhekw5qr4gcj.cloudfront.net/uploads/category_photos/MEX.png" alt="" width="50" height="50"/>
-                            Tiếng Tây Ban Nha (Mexico)
-                        </a>
-                    </li>
+                        </button>
+                    </a>
+
+
+                </div>
             
-        	    </ul>
             </div>
+
             <div class="col-sm-12 col-md-6 ">
                 <h3><strong>Các khóa học do cộng đồng Memrise xây dựng :</strong></h3>
                 <br>
-                <button>
-                <a href="./page2-1.html"><img src="image/KhoaTiengAnh.png" width="100" height="100">Tiếng anh (Anh quốc) 1</a>
-                </button>
+                <center>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="vehicle-bicycle-audio.html">
+                                <button type="button" style="width: 260px">
+                                    <img class="img-rounded" src="image/KhoaTiengAnh.png" width="100" height="100"> Tiếng anh (Anh quốc) 1
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="france-bonjour-submit.html">
+                                <button type="button" style="width: 260px">
+                                    <img class="img-rounded" src="image/phap.jpg" width="150" height="100" align="left"> <br><br> Tiếng Pháp
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                </center>
+
             </div>
         </div>
     </div>
-   
-    <footer class="panel-footer">
-            © 2018 Copyright: DDTANK
-    </footer>
+    <br><br><br><br><br><br><br><br>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>

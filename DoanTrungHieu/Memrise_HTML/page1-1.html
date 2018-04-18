@@ -3,7 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trang chủ - MEMRISE</title>
+    <link rel="shortcut icon" href="./image/icontag.png" class="imageshortcut">
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
     <style type="text/css">
         *   {
@@ -12,10 +18,7 @@
             padding: 0;
         }
         body {
-            background: url(image/backgroundHome.jpg);
-            background-size: cover ;
-            background-repeat: no-repeat;
-            background-position: center;  
+            background-color: #F8F8FF; 
         }
 
     </style>
@@ -35,11 +38,13 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <span class="glyphicon glyphicon-user"></span>
-                            <span class="caret"></span></a>
+                            <span class="caret"></span>
+                        </a>
                         <ul class="dropdown-menu">
-                        <li><a href="#">Hồ sơ</a></li>
-                        <li><a href="#">Cài đặt</a></li>
-                        <li><a href="./page1-0.html">Đăng xuất</a></li>
+                            <img src="./image/user.png" height="50" width="50">
+                            <li><a href="./page1-0.html" style="color: #A52A2A;"><b>Đăng xuất</b></a></li>
+                        
+                        </ul>
                     </li>
              </ul>
         </div>
@@ -48,7 +53,7 @@
         <center>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Tìm thứ gì đó để học</h3>
+                <h3 class="panel-title" style=" font-size:  24px">Tìm thứ gì đó để học</h3>
             </div>
         </div>
         <table class="table table-hover">
@@ -56,20 +61,18 @@
                 <tr valign="top">
                     
                         <div class="panel panel-default">
-                            <div class="panel-footer">
+                            <div class="panel-footer" style="font-size: 20px ; color: #00f ">
                                 Chào mừng đến với Memrise. Hãy bắt đầu bằng cách chọn một khóa học. Bạn muốn học gì nào?
                             </div>
                             </br>
-                            <b>Ngôn ngữ phổ biến</b>
-                            <button type="button" class="btn btn-default">
-                                <a href="./page2-1.html">
-                                    <img src="./image/British-Flag-100x100.jpg" class="img-responsive" alt="Italia">
+                            <button type="button" class="btn btn-default" >
+                                <a href="page2-0.html">
+                                    <img src="./image/england.png" class="img-responsive" alt="Anh">
                                 </a>
                                 <b>Tiếng Anh</b>
                             </button>
-                            </br>
-
-                            <a href="https://www.memrise.com/vi/courses/english/languages/" class="">Tìm thêm<b>hơn 150</b>ngôn ngữ >></a>
+                                
+                            <br><br>
                         </div>
 
                     
@@ -80,34 +83,33 @@
                     
                     
                         <div class="panel panel-default">
-                            <b>Môn học</b>
+                            <b style="font-size: 20px; color: #8B0000">Có thể theo dõi</b>
                             </br>
                             <button type="button" class="btn btn-default">
-                                <a href="https://www.memrise.com/vi/courses/english/arts-literature/">
+                                <a href="https://www.memrise.com/vi/courses/english/arts-literature/" target="_blank">
                                     <img src="./image/arts-literature@2x.png" class="img-responsive" alt="#" width="80" >
                                 </a>
                                 <b>Arts & Literature</b>
                             </button>
-                            <button type="button" class="btn btn-default">
-                                <a href="https://www.memrise.com/vi/courses/english/maths-science/">
+                            <button type="button" class="btn btn-default"> 
+                                <a href="https://www.memrise.com/vi/courses/english/maths-science/" target="_blank">
                                     <img src="./image/maths-science@2x.png" class="img-responsive" alt="#" width="80" >
                                 </a>
                                 <b>Maths & Science</b>
                             </button>
                             <button type="button" class="btn btn-default">
-                                <a href="https://www.memrise.com/vi/courses/english/the-natural-world/">
+                                <a href="https://www.memrise.com/vi/courses/english/the-natural-world/" target="_blank">
                                     <img src="./image/the-natural-world@2x.png" class="img-responsive" alt="#" width="80" >
                                 </a>
                                 <b>The Natural World</b>
                             </button>
                             <button type="button" class="btn btn-default">
-                                <a href="https://www.memrise.com/vi/courses/english/history/">
+                                <a href="https://www.memrise.com/vi/courses/english/history/" target="_blank">
                                     <img src="./image/history@2x.png" class="img-responsive" alt="#" width="80" >
                                 </a>
                                 <b>History</b>
                             </button>
                             </br>
-                            <a href="https://www.memrise.com/vi/courses/english/languages/" class="">Tìm thêm<b>hơn 200</b>nhóm >></a>
                         </div>
 
                     
@@ -122,8 +124,6 @@
             © 2018 Copyright: DDTANK
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Khóa học Tiếng Anh</title>
+    <link rel="shortcut icon" href="./image/icontag.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/tag1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+
+    <style>
+        .lang-learn {
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #course {
+            background-color: #D3EDBA;
+            height: 100%;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body id="course">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1-0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                    <li role="presentation" ><a href="./page1-1.html">Trang chủ</a></li>
+                    <li role="presentation" class="active"><a href="./page2-0.html">Khóa học</a></li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <img src="./image/user.png" height="50" width="50">
+                            <li><a href="./page1-0.html" style="color: #A52A2A;"><b>Đăng xuất</b></a></li>
+                        
+                        </ul>
+                    </li>
+             </ul>
+        </div>
+    </nav>
+    <center>
+    	<div class="col-sm-12">
+   			<h1>Khóa Tiếng Anh</h1>
+        </div>
+    </center>
+    <br><br><br><br>
+        <div class="container">
+            <div class="col-lg-6 col-sm-12">
+                <center>
+                    <br><br>
+                <img class="img-responsive" src="image/fix-gear.jpeg">
+                <br><br>
+                </center>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <p><strong>Chọn câu trả lời chính xác nhất</strong></p>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_true()" id="submitTrue"><p>bicycle</p></button>
+                <br>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_false()" id="submit"><p>bus</p></button>
+                <br>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_false1()" id="submit1"><p>car</p></button>
+            </div>
+        </div>
+        <div ng-show="submit_true" style="visibility: hidden;" id="win">
+            <br><br>
+            <center>
+            <p class="alert alert-success container">
+                <strong>Chúc mừng!!!</strong>  
+                <a href="vehicle-bicycle-text.html">
+                    <button class="btn btn-success">Qua màn kế tiếp</button>
+                </a>
+            </p>
+            </center>
+        </div>
+    <br><br><br><br><br><br>
+    
+
+</body>
+</html>
