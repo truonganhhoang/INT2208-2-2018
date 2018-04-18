@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--link rel="Stylesheet" href="css/index.css" type="text/css"-->
+	<title>Create your own learning account</title>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- pure.css-->
+  <link rel="icon" href="..\images\vodi.jpg">
+  <link rel="stylesheet" href="../css/createAccount.css" type="text/css">
+</head>
+<body>
+<!--đăng nhập fb ko chỉnh sửa-->
+<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '1057313857740625',
+	      cookie     : true,
+	      xfbml      : true,
+	      version    : 'v2.12'
+	    });
+	      
+	    FB.AppEvents.logPageView();   
+	      
+	  };
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<a href="http://developers.facebook.com/docs/facebook-login/web/login-button">Đăng nhập bằng Facebook</a>
+<br>
+
+	<h1>Hi</h1>
+	<div class="fb-login-button" data-width="1000" data-max-rows="5" data-size="medium" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="true"></div>
+	<!--đăng nhập fb ko chỉnh sửa-->
+</body>
+</html>

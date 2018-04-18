@@ -1,0 +1,50 @@
+<section>
+    <h1>Bài 6: Chương 3 - Số liền trước, số liền sau</h1>
+    <h2 class="type">Điền số thích hợp vào ô trống</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+                <div class="panel panel-body panel-primary" id="divQues">
+
+
+                    <div *ngIf="showAns">
+                        <h2>{{_nameQues}}{{_num}}</h2>
+                        <br>
+                        <h2>{{_nameAns}} <input type="text" #result id="ketqua"> </h2>
+                        <div id="submit_ans">
+                            <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
+                        </div>
+                    </div>
+                    <!-- chuyển sang bài tiếp theo -->
+                    <div *ngIf="nextLess">
+                        <div id="newLess">
+                            <!-- hoàn thành cả 5 câu hỏi đúng -->
+                            <div *ngIf="endLessPer">
+                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học!</strong></h2>
+                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                            </div>
+                            <div *ngIf="endLess">
+                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
+                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                            </div>
+                            <a routerLink="" routerLinkActive="active">Bài 1 - chương 4 - Hình tam giác, hình vuông, hình tròn. </a>
+                            <router-outlet></router-outlet>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <!-- số sao hiện trong panel -->
+                <h2 class="type1"><strong>Số sao đạt được </strong></h2>
+                <br>
+                <div class="panel panel-body panel-primary" id="panel_star">
+                    <div id="starAward">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

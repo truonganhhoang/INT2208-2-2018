@@ -1,4 +1,3 @@
 # INT2208-2-2018
-Công nghệ phần mềm 2 - 2018 
-Sinh viên: Đặng Quang Tường
-Mã số sv: 16021357
+
+C�ng ngh? ph?n m?m 2 - 2018 Sinh vi�n: ??ng Quang T??ng M� s? sv: 16021357
