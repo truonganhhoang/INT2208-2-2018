@@ -1,2 +1,1 @@
-Nguy?n Minh Tu?n
-K61T
+Nguyen Minh Tuan K61T
