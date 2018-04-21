@@ -6,8 +6,6 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-6 col-xs-10">
                 <div class="panel panel-body panel-primary" id="divQues">
-
-
                     <div *ngIf="showAns">
 
                         <h2 id="nameQues">{{CALQUESTIONS[x].question}}<input type="text" #result id="ketqua"> </h2>
@@ -29,7 +27,7 @@
                                 <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
-                            <h2><a routerLink="/timminmaxphamvi10" routerLinkActive="active">Bài 3 - chương 1: Tìm số lớn nhất bé nhất trong phạm vi 10. </a></h2>
+                            <h2><a routerLink="/minmax10" routerLinkActive="active">Bài 3 - chương 1: Tìm số lớn nhất bé nhất trong phạm vi 10. </a></h2>
                             <router-outlet></router-outlet>
                         </div>
                     </div>

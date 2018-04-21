@@ -33,7 +33,7 @@ export class Sum20Question {
             this.num_2 = Math.floor((Math.random() * 10) + 0);
             this.count += 1;
 
-            if (this.count == 5) {
+            if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLessPer = true;
@@ -42,7 +42,7 @@ export class Sum20Question {
             this.num_1 = Math.floor((Math.random() * 10) + 1);
             this.num_2 = Math.floor((Math.random() * 10) + 0);
             this.count += 1;
-            if (this.count == 5) {
+            if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLess = true;
