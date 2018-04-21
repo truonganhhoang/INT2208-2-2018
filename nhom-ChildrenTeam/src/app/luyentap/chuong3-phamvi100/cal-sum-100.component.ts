@@ -35,7 +35,7 @@ export class Sum100Question {
             this.count += 1;
             this.count_true += 1;
 
-            if (this.count == 5 && this.count_true == 5) {
+            if (this.count == 10 && this.count_true == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLessPer = true;
@@ -44,7 +44,7 @@ export class Sum100Question {
             this.num_1 = Math.floor((Math.random() * 50) + 1);
             this.num_2 = Math.floor((Math.random() * 50) + 0);
             this.count += 1;
-            if (this.count == 5) {
+            if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLess = true;

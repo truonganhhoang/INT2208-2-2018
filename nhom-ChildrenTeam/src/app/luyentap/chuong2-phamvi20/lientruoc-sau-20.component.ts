@@ -44,7 +44,7 @@ export class SoLienTruocSau20Component {
                 this.count += 1;
                 this.count_true += 1;
                 this.init();
-                if (this.count == 5) {
+                if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
                     this.endLessPer = true;
@@ -53,7 +53,7 @@ export class SoLienTruocSau20Component {
             else {
                 this.count += 1;
                 this.init();
-                if (this.count == 5) {
+                if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
                     this.endLess = true;
@@ -65,7 +65,7 @@ export class SoLienTruocSau20Component {
                 this.count += 1;
                 this.count_true += 1;
                 this.init();
-                if (this.count == 5) {
+                if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
                     this.endLessPer = true;
@@ -74,7 +74,7 @@ export class SoLienTruocSau20Component {
             else {
                 this.count += 1;
                 this.init();
-                if (this.count == 5) {
+                if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
                     this.endLess = true;
