@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { MinMaxQuestion} from './min-max-class';
 
 @Component({
-    selector: 'min-max-question-detail',
+    selector: 'min-max-10',
     styleUrls: ['min-max-10.css'],
-    templateUrl:'min-max-template.component.html',
+    templateUrl:'min-max-10.html',
 }
 
 )
 
-export class MinMaxQuestionDetailComponent {
+export class minMax10 {
     MINMAX: MinMaxQuestion[] =[
         {
             name_ques: "Tìm số lớn nhất trong các số sau.",

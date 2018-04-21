@@ -1,0 +1,48 @@
+<section>
+    <h1>Bài 1 - Chương 5: Xem giờ</h1>
+    <h2 class="type">Chọn đáp án đúng.</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-10">
+                <div id="tableCheck">
+                    <table>
+                        <tr>
+                            <th>Câu 1</th>
+                            <th>Câu 2</th>
+                            <th>Câu 3</th>
+                            <th>Câu 4</th>
+                            <th>Câu 5</th>
+                        </tr>
+                        <tr>
+                            <td id="0"></td>
+                            <td id="1"></td>
+                            <td id="2"></td>
+                            <td id="3"></td>
+                            <td id="4"></td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div class="panel panel-body panel-primary" id="divQues">
+                    <div *ngIf="showAns">
+                        <h2 class="type"> Đồng hồ chỉ ??? </h2>
+                        <img src={{clocks[x].link_img}}/>
+                        <br>
+                        <form class="form-inline">
+                            <button type="button" #vl1 value={{clocks[x].ans_A}} (click)="checkAns(vl1.value)">{{clocks[x].ans_A}}</button>
+                            <button type="button" #vl2 value={{clocks[x].ans_B}} (click)="checkAns(vl2.value)">{{clocks[x].ans_B}}</button>
+                            <button type="button" #vl3 value={{clocks[x].ans_C}} (click)="checkAns(vl3.value)">{{clocks[x].ans_C}}</button>
+
+                        </form>
+                    </div>
+                    <div *ngIf="theEnd">
+                        <h2>Kết thúc bài học.</h2>
+                        <h2>Cảm ơn bạn đã chọn trang web của chúng tôi.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

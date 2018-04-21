@@ -11,11 +11,11 @@ import { test } from './test';
 export class De2Component {
     tests: test[] = [
         {
-            name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
-            name_link: "./assets/image/tamgiac.jpg",
-            conten_ques: "",
+            name_que: "Thực hiện phép tính",
+            name_link: "",
+            conten_ques: "80 + 20 = ???",
             input_ans: "",
-            true_ans: 6
+            true_ans: 100
         },
         {
             name_que: "Tìm số nhỏ nhất trong các số sau.",
@@ -27,14 +27,14 @@ export class De2Component {
         {
             name_que: "Thực hiện phép tính",
             name_link: "",
-            conten_ques: "8 + 36 = ??? ",
+            conten_ques: "50 + 10 + 6 = ??? ",
             input_ans: "",
-            true_ans: 44
+            true_ans: 66
         },
         {
             name_que: "Nam có 9 viên bi. Tùng có 23 viên bi. Hỏi Tùng có nhiều hơn Nam mấy viên vi?",
             name_link: "",
-            conten_ques: "23 viên bi - 9 viên bi = ???",
+            conten_ques: "",
             input_ans: "",
             true_ans: 14
         },
@@ -67,11 +67,11 @@ export class De2Component {
             true_ans: 4
         },
         {
-            name_que: "Hằng có 15 cái kẹo. Nếu Hằng cho Thơ 6 cái kẹo thì Hằng còn mấy cái kẹo?",
+            name_que: "Số liền sau 99 là:",
             name_link: "",
-            conten_ques: "15 cái kẹo - 6 cái kẹo = ???",
+            conten_ques: "",
             input_ans: "",
-            true_ans: 9
+            true_ans: 100
         },
          {
             name_que: "Thực hiện phép tính sau.",

@@ -40,7 +40,7 @@ export class Sub20Question {
             this.rand();
             this.count += 1;
 
-            if (this.count == 5) {
+            if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLessPer = true;
@@ -48,7 +48,7 @@ export class Sub20Question {
         } else if (value != '') {
             this.count += 1;
             this.rand();
-            if (this.count == 5) {
+            if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;
                 this.endLess = true;
