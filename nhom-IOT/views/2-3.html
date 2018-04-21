@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tinycards - FlasCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+     <script src="../public/js/jquery/playAudio.js"></script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#card').flip();
+            $(".speaker").click(function(event) {
+                $.playSound("../public/image/Fruits/cashew_hatdieu.mp3");
+
+            });
+        });
+    </script>
+
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+    <a class="navbar-brand ml-md-5" href="1.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <span class="text-white font-weight-bold">TinyCards</span>
+    </a>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 wrapper mb-5 bg-white" >
+            <div class="row">
+                <div class="title col-8 col-md-3 mx-auto mt-3 text-center text-warning h4 font-weight-bold">Cashew</div>
+            </div>
+            <div class="row">
+                <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
+                    <div class="front">
+                        <img src="../public/image/Fruits/cashew_hatdieu.jpeg" alt="Chelsea" class="rounded w-100 h-100" style="">
+                    </div>
+                    <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
+                        <div class="w-100 pt-2"></div>
+                        <span class="align-middel pt-5 d-block">Hạt điều</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <img  src="../public/speaker.jpg" alt="Chelsea" class="text-center rounded w-30 h-30 ml-5 speaker" width="30" height="30" hstyle="">
+            </div>
+            <div class="row" id="flip">
+                <div class="how-to-flip col-12 col-md-12 mx-auto mt-5 mt-md-3 text-center text-secondary font-weight-bold h4">
+                    Click image to translate
+                </div>
+            </div>
+
+            <div class="row" >
+                <div class="col-12 text-center mt-5">
+                    <a href="2-2.html" type="button" class="btn button d-inline-block">Back</a>
+                    <a href="2-4.html" type="button" class="btn btn-primary button d-inline-block">Continue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
