@@ -45,7 +45,7 @@ export class SoSanh100Component {
             this.count += 1;
             this.rand();
         }
-        if (this.count == 5) {
+        if (this.count == 10) {
 
             this.showAns = false;
             this.nextLess = true;

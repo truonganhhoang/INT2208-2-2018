@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+p{
+    color: red;
+    padding-left: 5cm;
+}
+
+#getImgQues {
+    margin-left: 4cm;
+}
+
+#divQues {
+    height: 350px;
+    border-width: 3px;
+   
+}
+
+.type {
+    color: green;
+    margin-left: 4cm;
+}
+
+.type1 {
+    color: green;
+}
+
+
+#panel_star {
+    height: 265px;
+    border-width: 3px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#submit_ans{
+    size: 20px;
+    margin-top: 0.5cm;
+    margin-left: 4cm;
+}
+
+
+#kiemtra{
+    font-size: 30px;
+    border: 2px double;
+    background:#66FFCC;
+    height: 50px;
+
+}
+#ans {
+    margin-top: 1cm;
+    margin-left: 3cm;
+    
+}
+
+
+#ketqua{
+    font-size: 20px;
+    border: 3px double;
+    height: 40px;
+    text-align: center;
+}

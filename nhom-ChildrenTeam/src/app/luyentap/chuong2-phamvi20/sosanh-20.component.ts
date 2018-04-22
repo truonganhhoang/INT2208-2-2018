@@ -30,8 +30,8 @@ export class SoSanh20Component {
 
     checkAns(value) {
         if (this.num_1 < this.num_2 && value == "<") {
-            this.rightAns();
             this.count += 1;
+            this.rightAns();
             this.count_true +=1;
             this.rand();
         } else if (this.num_1 > this.num_2 && value == ">") {
@@ -49,12 +49,12 @@ export class SoSanh20Component {
             this.count += 1;
             this.rand();
         }
-        if (this.count == 5 && this.count_true == 5) {
+        if (this.count == 10 && this.count_true == 10) {
 
             this.showAns = false;
             this.nextLess = true;
             this.endLessPer = true;
-        } else if(this.count == 5) {
+        } else if(this.count == 10) {
             this.showAns = false;
             this.nextLess = true;
             this.endLess = true;   
