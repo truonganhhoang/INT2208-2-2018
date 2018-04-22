@@ -9,4 +9,3 @@ Thành viên nhóm DDTANK:
 - Nguyễn Văn Lâm
 
 Link báo cáo bài tập nhóm: https://bit.ly/2qRutUA
-Link thẻ SEMAT: https://docs.google.com/spreadsheets/d/1U5UndjvebgqoRt1r-Ek45-Mi8mFmDEI45EYfUKo0-7M/edit#gid=0
