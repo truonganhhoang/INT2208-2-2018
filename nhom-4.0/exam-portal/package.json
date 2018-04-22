@@ -1,0 +1,16 @@
+{
+  "name": "node-http",
+  "version": "1.0.0",
+  "description": "Node HTTP Module hoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Gou-opa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}

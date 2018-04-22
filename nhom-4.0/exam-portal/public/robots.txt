@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images
+Disallow: /js
+Disallow: /html/courselist
+Disallow: /html/OLD
