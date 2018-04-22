@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tinycards - FlasCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+    <script src="/js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <style>
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+    <script>
+        jQuery(document).ready(function ($) {
+            $("span.login").click(function (event) {
+
+                if ($(".signup-popup").hasClass('d-none') === false) {
+                    $(".signup-popup").addClass('d-none');
+                }
+
+                $(".login-popup").removeClass('d-none');
+                $(".wrapper").addClass('d-none');
+                $('html, body').css({
+                    overflow: 'hidden',
+                    height: '100%'
+                });
+            });
+
+            $(".login-popup button.close").click(function (event) {
+                $(".login-popup").addClass('d-none');
+                $(".wrapper").removeClass('d-none');
+                $('html, body').css({
+                    overflow: 'visible'
+                });
+            });
+
+            $("span.sign-up").click(function (event) {
+
+                if ($(".login-popup").hasClass('d-none') === false) {
+                    $(".login-popup").addClass('d-none');
+                }
+
+                $(".signup-popup").removeClass('d-none');
+                $(".wrapper").addClass('d-none');
+                $('html, body').css({
+                    overflow: 'hidden',
+                    height: '100%'
+                });
+            });
+
+            $(".signup-popup button.close").click(function (event) {
+                $(".signup-popup").addClass('d-none');
+                $(".wrapper").removeClass('d-none');
+                $('html, body').css({
+                    overflow: 'visible'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+        <a class="navbar-brand ml-md-5" href="/">
+            <img src="/image/tinycards.png" alt="logo" width="44" height="44">
+            <span class="text-white font-weight-bold">TinyCards</span>
+        </a>
+
+        <div class="popup ml-auto mr-md-5">
+            <span class="login text-white font-weight-bold text-uppercase mr-1 mr-md-3 pointer">Login</span>
+            <span class="sign-up text-white font-weight-bold text-uppercase pointer">SignUp</span>
+        </div>
+    </nav>
+
+    <div class="error mt-5 mx-auto col-4 col-md-4">
+        <% if (message.length > 0) { %>
+            <div class="alert alert-danger"><%= message %></div>
+        <% } %>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mx-auto mt-5 rounded login-popup bg-primary d-none" style="z-index: 10000;">
+                <button type="button" class="close ml-auto pr-1" aria-label="Close">
+                    <span aria-hidden="true" class="text-white">&times;</span>
+                </button>
+                <div class="col-12 col-md-12 title text-white text-center font-weight-bold mt-3">
+                    Log in with your Doulingo account
+                </div>
+                <div class="col-10 col-md-10 mx-auto google-login rounded pt-2 pb-2 mb-3 mt-3 pointer text-center" style="background-color: #DF360A;">
+                    <a href="/auth/google" class="text-uppercase font-weight-bold text-white">Sign in with google</a>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-10 col-md-10 mx-auto fb-login rounded pt-2 pb-2 text-center pointer" style="background-color: #00aced;">
+                    <a href="/auth/twitter" class="text-uppercase font-weight-bold pointer text-white">Sign in with twitter</a>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-12 col-md-12 text-center text-white mt-3 mb-3 font-weight-bold">OR</div>
+                <form action="/login" method="post" class="col-10 col-md-10 mx-auto pr-0 pl-0">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning text-white text-uppercase font-weight-bold col-10 col-md-10 offset-1 mb-4 mt-3">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 signup-popup mx-auto mt-5 rounded bg-primary d-none" style="z-index: 10000;">
+                <div class="row">
+                    <button type="button" class="close ml-auto pr-1" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                    <div class="col-12 col-md-12 title text-white text-center font-weight-bold">Create a Doulingo account</div>
+                    <form action="/signup" method="post" class="col-10 col-md-10 mx-auto pr-0 pl-0 mt-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-warning text-white text-uppercase font-weight-bold col-10 col-md-10 offset-1 mb-4 mt-3">Signup</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 wrapper mt-5">
+                <div class="row text-center mb-5">
+                    <p class="h3 col-12">Learn with TinyCards right now !</p>
+                </div>
+                <div class="row" id="lesson-list">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(() => {
+                $.ajax({
+                    url: '/api/lesson/',
+                    success: (docs) => {
+                        docs.forEach((doc) => {
+                            console.log(doc)
+                            $('#lesson-list').append(`<div class="col-5 col-md-3 card2 text-center mb-5 mb-md-0">
+                        <a href="/lesson/${doc.id}">
+                        <img width="144px" height="166px" src="${doc.imagePath}" alt="universe" class="rounded lesson2 pointer lesson">
+                        </a>
+                    
+                        <div class="w-100"></div>
+                        <span class="text-dark font-weight-bold mt-3 d-inline-block">${doc.title}</span>
+                        </div>`)
+                        })
+                    }
+                })
+
+                for (var i = 0; i < 4; i++) {
+
+                }
+
+
+            })
+        </script>
+</body>
+
+</html>
