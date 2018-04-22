@@ -49,6 +49,38 @@
             {
                 "imgPath":"/image/lesson1/lima_beans.jpg",
                 "title":"Lima Beans"
+            },
+            {
+                "imgPath":"/image/lesson1/mushrooms.jpg",
+                "title":"MushRooms"
+            },
+            {
+                "imgPath":"/image/lesson1/onions.jpg",
+                "title":"Onions"
+            },
+            {
+                "imgPath":"/image/lesson1/parsley.jpg",
+                "title":"Parley"
+            },
+            {
+                "imgPath":"/image/lesson1/peas.jpg",
+                "title":"Peas"
+            },
+            {
+                "imgPath":"/image/lesson1/rutabaga.jpg",
+                "title":"Rutabaga"
+            },
+            {
+                "imgPath":"/image/lesson1/lima_beans.jpg",
+                "title":"Lima Beans"
+            },
+            {
+                "imgPath":"/image/lesson1/turnips.jpg",
+                "title":"Turnips"
+            },
+            {
+                "imgPath":"/image/lesson1/zucchini.jpg",
+                "title":"Zucchini"
             }
         ]
     },
@@ -57,41 +89,80 @@
         "lessonContent":[
             {
                 "imgPath":"/image/lesson2/yuan.jpg",
-                "title":"Yuan (Currency in China)"
+                "title":"Yuan"
             },
             {
                 "imgPath":"/image/lesson2/euro.jpg",
-                "title":"Euro (Currency in European Union)"
+                "title":"Euro"
             },
             {
                 "imgPath":"/image/lesson2/dollars.png",
-                "title":"Dollars (Currency in USA)"
+                "title":"Dollars of USA"
             },
             {
                 "imgPath":"/image/lesson2/vnd.jpg",
-                "title":"VND (Currency in VietNam)"
+                "title":"Viet Nam Dong"
             },
             {
                 "imgPath":"/image/lesson2/bitcoin.jpg",
-                "title":"Bitcoin (Cryptocurrency)"
+                "title":"Bitcoin"
             },
             {
                 "imgPath":"/image/lesson2/etherum.jpg",
-                "title":"Etherum (Cryptocurrency)"
+                "title":"Etherum"
             },
             {
                 "imgPath":"/image/lesson2/yen.jpg",
-                "title":"Yen (Currency in Japan)"
+                "title":"Yen"
             },
             {
                 "imgPath":"/image/lesson2/won.jpg",
-                "title":"Won (Currency in South Korea)"
+                "title":"Won"
             },
             {
                 "imgPath":"/image/lesson2/pounds.jpg",
-                "title":"Pounds (Currency in England)"
+                "title":"Pounds"
+            },
+            {
+                "imgPath":"/image/lesson2/dollar_sing.jpg",
+                "title":"Dollars Singapore"
+            },
+            {
+                "imgPath":"/image/lesson2/dollar_swit.jpg",
+                "title":"Dollars Switzerland"
+            },
+            {
+                "imgPath":"/image/lesson2/mark.jpg",
+                "title":"Mark"
+            },
+            {
+                "imgPath":"/image/lesson2/rubles.jpg",
+                "title":"Rubles"
+            },
+            {
+                "imgPath":"/image/lesson2/baht.jpg",
+                "title":"Baht"
+            },
+            {
+                "imgPath":"/image/lesson2/francs.jpg",
+                "title":"Francs"
+            },
+            {
+                "imgPath":"/image/lesson2/kip.jpg",
+                "title":"Kip"
+            },
+            {
+                "imgPath":"/image/lesson2/riel.jpg",
+                "title":"Riel"
+            },
+            {
+                "imgPath":"/image/lesson2/pesetas.jpg",
+                "title":"Pesetas"
+            },
+            {
+                "imgPath":"/image/lesson2/repees.jpg",
+                "title":"Rupees"
             }
-
         ]
     },
     {
@@ -132,6 +203,54 @@
             {
                 "imgPath":"/image/lesson3/violin.jpg",
                 "title":"Violin"
+            },
+            {
+                "imgPath":"/image/lesson3/ukulele.jpg",
+                "title":"Ukulele"
+            },
+            {
+                "imgPath":"/image/lesson3/harp.jpg",
+                "title":"Harp"
+            },
+            {
+                "imgPath":"/image/lesson3/horn.jpg",
+                "title":"Horn"
+            },
+            {
+                "imgPath":"/image/lesson3/koto.jpg",
+                "title":"Koto"
+            },
+            {
+                "imgPath":"/image/lesson3/trombone.jpg",
+                "title":"Trombone"
+            },
+            {
+                "imgPath":"/image/lesson3/organ.jpg",
+                "title":"Organ"
+            },
+            {
+                "imgPath":"/image/lesson3/tuba.jpg",
+                "title":"Tuba"
+            },
+            {
+                "imgPath":"/image/lesson3/viola.jpg",
+                "title":"viola"
+            },
+            {
+                "imgPath":"/image/lesson3/clavichord.jpg",
+                "title":"Clavichord"
+            },
+            {
+                "imgPath":"/image/lesson3/contrabass.jpg",
+                "title":"Contrabass"
+            },
+            {
+                "imgPath":"/image/lesson3/xylophone.jpg",
+                "title":"Xylophone"
+            },
+            {
+                "imgPath":"/image/lesson3/marimba.jpg",
+                "title":"Marimba"
             }
         ]
     },
@@ -169,6 +288,50 @@
             {
                 "imgPath":"/image/lesson4/copernic.jpg",
                 "title":"Nicolaus Copernicus"
+            },
+            {
+                "imgPath":"/image/lesson4/bohr.jpg",
+                "title":"Neils Borh"
+            },
+            {
+                "imgPath":"/image/lesson4/da_vinci.jpg",
+                "title":"Leonardo Da Vinci"
+            },
+            {
+                "imgPath":"/image/lesson4/euclid.jpg",
+                "title":"Euclid"
+            },
+            {
+                "imgPath":"/image/lesson4/gauss.jpg",
+                "title":"Gauss"
+            },
+            {
+                "imgPath":"/image/lesson4/heisenberg.jpg",
+                "title":"Wener Heisenberg"
+            },
+            {
+                "imgPath":"/image/lesson4/hilbert.jpg",
+                "title":"David Hilbert"
+            },
+            {
+                "imgPath":"/image/lesson4/tesla.jpg",
+                "title":"Nikola Tesla"
+            },
+            {
+                "imgPath":"/image/lesson4/riemann.jpg",
+                "title":"Bernhard Riemann"
+            },
+            {
+                "imgPath":"/image/lesson4/schrodinger.jpg",
+                "title":"Schrodinger"
+            },
+            {
+                "imgPath":"/image/lesson4/turing.jpg",
+                "title":"Alan Turing"
+            },
+            {
+                "imgPath":"/image/lesson4/max_planck.jpg",
+                "title":"Max Planck"
             }
         ]
     }

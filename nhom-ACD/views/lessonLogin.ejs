@@ -12,7 +12,7 @@
       <script src="/js/jquery/playAudio.js"></script>
       <style>
          a {
-         text-decoration: none !important;
+            text-decoration: none !important;
          }
       </style>
       <script>
@@ -38,7 +38,8 @@
          <img src="/image/tinycards.png" alt="logo" width="44" height="44">
          <span class="text-white font-weight-bold">TinyCards</span>
          </a>
-         <% if (user.local.email ) { %>
+
+        <% if (user.local.email ) { %>
          <p class="text-white font-weight-bold ml-md-auto text-right text-uppercase pt-3 mr-2 mr-md-5"><%= user.local.email %></p>
          <% } else if (user.twitter.token) { %>
          <p class="text-white font-weight-bold ml-md-auto text-right text-uppercase pt-3 mr-2 mr-md-5"><%= user.twitter.username %></p>
@@ -100,145 +101,144 @@
          </div>
       </div>
       <script>
-         $(document).ready(() => {
-         
-             let allCard
-             let completed = 0
-             let correct = () => {
-                 completed += 1
-                 if(completed > 3){
-                     window.location.href = '/home/completelesson'
-                 }
-                 console.log("abcd")
-                 $.playSound("/sound/CorrectSound.mp3")
-         
-                 $('#answer').removeClass("d-block")
-                 $('#answer').addClass("d-none")
-                 $('#question').removeClass("d-none")
-                 $('#question').addClass("d-block")
-                 
-         
-                 if (allCard) {
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     if (ele.active) {
-                         ele.active = false
-                         console.log(ele.imagePath)
-                         $('#title').text(ele.title)
-                         $('#imgPath').attr("src", ele.imagePath)
-                         $("#card").flip('toggle');
-                         $("#btn-continue").toggleClass('d-none');
-                         $("#flip").toggleClass('d-none');
-                     } else {
-                         runquestion(randomNumber)
-                         ele.active = true;
-                     }
-                 }
-             }
-         
-             let runquestion = async (index) => {
-         
-                 $('#answer').addClass("d-block")
-                 $('#answer').removeClass("d-none")
-                 $('#question').addClass("d-none")
-                 $('#question').removeClass("d-block")
-         
-                 var elm = allCard[index]
-                 console.log(elm)
-                 $('#image_answer').attr("src", elm.imagePath)
-                 numberRandom = Math.floor(Math.random() * 3)
-         
-                 let orther1 = (numberRandom + 1) % 3
-                 let orther2 = (numberRandom + 2) % 3
-         
-                 console.log(numberRandom + " " + orther1 + " " + orther2)
-         
-                 let number1 = Math.floor(Math.random() * allCard.length)
-                 let number2 = Math.floor(Math.random() * allCard.length)
-         
-                 console.log(number1 + " " + number2 + " " + numberRandom)
-                 console.log(number1 == numberRandom)
-                 console.log(number2 == numberRandom)
-                 console.log(number1 == number2)
-         
-                 let randomNumber1 = () => {
-         
-                     while (number1 == numberRandom) {
-                         number1 = Math.floor(Math.random() * allCard.length)
-                         console.log(number1)
-                     }
-                 }
-         
-                 let randomNumber2 = () => {
-                     while (number2 == numberRandom || number2 == number1) {
-                         number2 = Math.floor(Math.random() * allCard.length)
-                         console.log(number2)
-                     }
-                 }
-         
-                 await randomNumber1()
-                 randomNumber2()
-         
-                 $('.answer-' + orther1).text(allCard[number1].title)
-                 $('.answer-' + orther2).text(allCard[number2].title)
-         
-                 $('.answer-' + numberRandom).text(elm.title)
-                 $('.answer-' + numberRandom).on('click', () => {
-                     correct()
-                 })
-                 $('.answer-' + orther2).prop('onclick',null).off('click');
-                 $('.answer-' + orther1).prop('onclick',null).off('click');
-         
-             }
-         
-         
-             let url = window.location.href
-             let index = url.indexOf("/home/lesson/") > 0 ? url.indexOf("/home/lesson/") + 8 : url.length
-             console.log ("indeX: " + index);
-             url = url.substring(index + 4, url.length);
-             console.log("URL");
-             console.log(url);
-         
-             $.ajax({
-                 url: '/api/cardlesson/' + url,
-                 success: (doc) => {
-                     allCard = doc;
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     ele.active = false
-                     console.log(ele.imagePath)
-         
-                     console.log(allCard[randomNumber])
-                     $('#title').text(ele.title)
-                     $('#imgPath').attr("src", ele.imagePath)
-                 }
-             })
-         
-             $('#btn-continue').on('click', () => {
-                 if (allCard) {
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     if (ele.active) {
-                         ele.active = false
-                         console.log(ele.imagePath)
-                         $('#title').text(ele.title)
-                         $('#imgPath').attr("src", ele.imagePath)
-                         $("#card").flip('toggle');
-                         $("#btn-continue").toggleClass('d-none');
-                         $("#flip").toggleClass('d-none');
-                     } else {
-                         runquestion(randomNumber)
-                         ele.active = true;
-                     }
-                 }
-             });
-         
-         
-         })
-         
-      </script>
+        $(document).ready(() => {
+
+            let allCard
+            let completed = 0
+            let correct = () => {
+                completed += 1
+                if (completed > 3) {
+                    window.location.href = '/home/completelesson'
+                } else {
+                    console.log("abcd")
+                    $.playSound("/sound/CorrectSound.mp3")
+
+                    $('#answer').removeClass("d-block")
+                    $('#answer').addClass("d-none")
+                    $('#question').removeClass("d-none")
+                    $('#question').addClass("d-block")
+
+
+                    if (allCard) {
+                        let randomNumber = Math.floor(Math.random() * allCard.length)
+                        console.log(allCard[randomNumber])
+                        let ele = allCard[randomNumber]
+                        if (ele.active) {
+                            ele.active = false
+                            console.log(ele.imagePath)
+                            $('#title').text(ele.title)
+                            $('#imgPath').attr("src", ele.imagePath)
+                            $("#card").flip('toggle');
+                            $("#btn-continue").toggleClass('d-none');
+                            $("#flip").toggleClass('d-none');
+                        } else {
+                            runquestion(randomNumber)
+                            ele.active = true;
+                        }
+                    }
+                }
+            }
+
+            let runquestion = async (index) => {
+
+                $('#answer').addClass("d-block")
+                $('#answer').removeClass("d-none")
+                $('#question').addClass("d-none")
+                $('#question').removeClass("d-block")
+
+                var elm = allCard[index]
+                console.log(elm)
+                $('#image_answer').attr("src", elm.imagePath)
+                numberRandom = Math.floor(Math.random() * 3)
+
+                let orther1 = (numberRandom + 1) % 3
+                let orther2 = (numberRandom + 2) % 3
+
+                console.log(numberRandom + " " + orther1 + " " + orther2)
+
+                let number1 = Math.floor(Math.random() * allCard.length)
+                let number2 = Math.floor(Math.random() * allCard.length)
+
+                console.log(number1 + " " + number2 + " " + numberRandom)
+                console.log(number1 == numberRandom)
+                console.log(number2 == numberRandom)
+                console.log(number1 == number2)
+
+                let randomNumber1 = () => {
+
+                    while (number1 == numberRandom) {
+                        number1 = Math.floor(Math.random() * allCard.length)
+                        console.log(number1)
+                    }
+                }
+
+                let randomNumber2 = () => {
+                    while (number2 == numberRandom || number2 == number1) {
+                        number2 = Math.floor(Math.random() * allCard.length)
+                        console.log(number2)
+                    }
+                }
+
+                await randomNumber1()
+                randomNumber2()
+
+                $('.answer-' + orther1).text(allCard[number1].title)
+                $('.answer-' + orther2).text(allCard[number2].title)
+
+                $('.answer-' + numberRandom).text(elm.title)
+                $('.answer-' + numberRandom).on('click', () => {
+                    correct()
+                })
+                $('.answer-' + orther2).prop('onclick', null).off('click');
+                $('.answer-' + orther1).prop('onclick', null).off('click');
+
+            }
+
+
+            let url = window.location.href
+            let index = url.indexOf("/home/lesson/") > 0 ? url.indexOf("/home/lesson/") + 8 : url.length
+            console.log ("indeX: " + index);
+            url = url.substring(index + 4, url.length);
+
+            $.ajax({
+                url: '/api/cardlesson/' + url,
+                success: (doc) => {
+                    allCard = doc;
+                    let randomNumber = Math.floor(Math.random() * allCard.length)
+                    console.log(allCard[randomNumber])
+                    let ele = allCard[randomNumber]
+                    ele.active = false
+                    console.log(ele.imagePath)
+
+                    console.log(allCard[randomNumber])
+                    $('#title').text(ele.title)
+                    $('#imgPath').attr("src", ele.imagePath)
+                }
+            })
+
+            $('#btn-continue').on('click', () => {
+                if (allCard) {
+                    let randomNumber = Math.floor(Math.random() * allCard.length)
+                    console.log(allCard[randomNumber])
+                    let ele = allCard[randomNumber]
+                    if (ele.active) {
+                        ele.active = false
+                        console.log(ele.imagePath)
+                        $('#title').text(ele.title)
+                        $('#imgPath').attr("src", ele.imagePath)
+                        $("#card").flip('toggle');
+                        $("#btn-continue").toggleClass('d-none');
+                        $("#flip").toggleClass('d-none');
+                    } else {
+                        runquestion(randomNumber)
+                        ele.active = true;
+                    }
+                }
+            });
+
+
+        })
+
+    </script>
    </body>
 </html>
