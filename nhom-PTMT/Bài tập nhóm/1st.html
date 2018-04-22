@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FlashCards</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="shortcut icon" href="./image/applogo.ico" />
+	<title>Tinycards</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flip.js"></script>
+	<script type="text/javascript" src="js/flip.js"></script>
+	<style>
+		@font-face {
+			font-family: TinycardsFont;
+			src: url("fonts/DINNextRoundedLTPro-Bold.woff2");
+		}
+		.card-gird h1 {
+			background: #26D797;
+		}
+	</style>
 </head>
 <body>
 	<div class="container-fluid h2" style="background-color: #0CF">
@@ -19,25 +34,58 @@
 			<br>
 		</div>	
 	</div>
-	<div class="container">
-		<div class="row">
-			<a class="offset-1 col-1" href="./instruments.html">
-				<div><img height=150px width="150px" src="./image/instruments/instruments.jpg"></div>
-				<div><p class="text-center h6">Instruments</p></div>
+
+	<div id="gird-container" class="row" style="margin-top: 40px">
+		<div class="col">
+			<div class="card-gird">
+				<a href="./instruments.html">
+					<div class="front">
+						<img src="image/instruments.jpg">
+					</div>
+				</a>
+			</div>
+			<a href="./instruments.html">
+				<div><p class="text-center">Instruments</p></div>
 			</a>
-			<a class="offset-1 col-1" href="./world.html">
-				<div><img height=150px width="150px" src="./image/countries/world.jpg"></div>
-				<div><p class="text-center h6">Countries</p></div>
+		</div>
+		<div class="col">
+			<div class="card-gird">
+				<a href="./world.html">
+					<div class="front">
+						<img src="image/6.png">
+					</div>
+				</a>
+			</div>
+			<a href="./world.html">
+				<div><p class="text-center">World</p></div>
 			</a>
-			<a class="offset-1 col-1" href="./worldflags.html">
-				<div><img height=150px width="150px" src="./image/worldflags/worldflags.jpg"></div>
-				<div><p class="text-center h6">WorldFlags</p></div>
+		</div>
+		<div class="col">
+			<div class="card-gird">
+				<a href="./undersea.html">
+					<div class="front">
+						<img src="image/undersea/1.jpg">
+					</div>
+				</a>
+			</div>
+			<a href="./birds.html">
+				<div><p class="text-center">Under Sea</p></div>
 			</a>
-			<a class="offset-1 col-1" href="./birds.html">
-				<div><img height=150px width="150px" src="./image/bird/bird.jpg"></div>
-				<div><p class="text-center h6">Birds</p></div>
-			</a>			
+		</div>
+		<div class="col">
+			<div class="card-gird">
+				<a href="./birds.html">
+					<div class="front">
+						<img src="image/bird1.jpg">
+					</div>
+				</a>
+			</div>
+			<a href="./birds.html">
+				<div><p class="text-center">Birds</p></div>
+			</a>
 		</div>
 	</div>
+
 </body>
 </html>
+
