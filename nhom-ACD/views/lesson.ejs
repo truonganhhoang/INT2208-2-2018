@@ -1,233 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>Tinycards - FlasCard</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="shortcut icon" href="/image/logo_tiny.jpg" type="image/jpg">
-      <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
-      <script src="/js/jquery/jquery-3.3.1.min.js"></script>
-      <script src="/js/bootstrap/bootstrap.min.js"></script>
-      <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-      <script src="/js/jquery/playAudio.js"></script>
-      <style>
-         a {
-         text-decoration: none !important;
-         }
-      </style>
-      <script>
-         $(document).ready(function () {
-             $('#card').flip();
-         
-             $("#card").click(function (event) {
-                 $("#btn-continue").toggleClass('d-none');
-                 $("#flip").toggleClass('d-none');
-             });
 
-              $('html, body').css({
-                    overflow: 'hidden',
-                    height: '100%'
-              });
-         });
-      </script>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
-         <a class="navbar-brand ml-md-5" href="/">
-         <img src="/image/tinycards.png" alt="logo" width="44" height="44">
-         <span class="text-white font-weight-bold">TinyCards</span>
-         </a>
-      </nav>
-      <div class="container" id="question">
-         <div class="row">
+<head>
+    <meta charset="utf-8">
+    <title>Tinycards - FlasCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+    <script src="/js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="/js/jquery/playAudio.js"></script>
+    <style>
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('#card').flip();
+
+            $("#card").click(function (event) {
+                $("#btn-continue").toggleClass('d-none');
+                $("#flip").toggleClass('d-none');
+            });
+
+            $('html, body').css({
+                overflow: 'hidden',
+                height: '100%'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+        <a class="navbar-brand ml-md-5" href="/">
+            <img src="/image/tinycards.png" alt="logo" width="44" height="44">
+            <span class="text-white font-weight-bold">TinyCards</span>
+        </a>
+    </nav>
+    <div class="container" id="question">
+        <div class="row">
             <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white" style="height: 100vh;">
-               <div class="row">
-               </div>
-               <div class="row">
-                  <div class="title col-8 col-md-3 mx-auto mt-5 text-center text-warning h4 font-weight-bold">New Card</div>
-               </div>
-               <div class="row">
-                  <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
-                     <div class="front">
-                        <img alt="The Sun" class="rounded w-100 h-100" src="" id="imgPath">
-                     </div>
-                     <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
-                        <div class="w-100 pt-2"></div>
-                        <span class="align-middel pt-5 d-block" id="title"></span>
-                     </div>
-                  </div>
-               </div>
-               <div class="row d-none" id="btn-continue">
-                  <div class="continue col-8 col-md-3 mx-auto mt-4 pt-1">
-                     <button class="w-100 bg-primary text-white text-uppercase font-weight-bold rounded pt-2 pb-2 pointer">Continue</button>
-                  </div>
-               </div>
-               <div class="row" id="flip">
-                  <div class="how-to-flip col-8 col-md-3 mx-auto mt-5 mt-md-3 text-center text-secondary font-weight-bold h4">
-                     Click card to flip
-                  </div>
-               </div>
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="title col-8 col-md-3 mx-auto mt-5 text-center text-warning h4 font-weight-bold">New Card</div>
+                </div>
+                <div class="row">
+                    <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
+                        <div class="front">
+                            <img alt="The Sun" class="rounded w-100 h-100" src="" id="imgPath">
+                        </div>
+                        <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
+                            <div class="w-100 pt-2"></div>
+                            <span class="align-middel pt-5 d-block" id="title"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none" id="btn-continue">
+                    <div class="continue col-8 col-md-3 mx-auto mt-4 pt-1">
+                        <button class="w-100 bg-primary text-white text-uppercase font-weight-bold rounded pt-2 pb-2 pointer">Continue</button>
+                    </div>
+                </div>
+                <div class="row" id="flip">
+                    <div class="how-to-flip col-8 col-md-3 mx-auto mt-5 mt-md-3 text-center text-secondary font-weight-bold h4">
+                        Click card to flip
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <div class="container d-none" id="answer">
-         <div class="row">
+        </div>
+    </div>
+    <div class="container d-none" id="answer">
+        <div class="row">
             <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white pt-5" style="height: 100vh;">
-               <div class="row">
-               </div>
-               <div class="row">
-                  <div class="card col-10 col-md-3 mt-5 offset-1 rounded pointer pl-0 pr-0">
-                     <img height="300px" class="rounded" id="image_answer">
-                  </div>
-                  <div class="answer col-10 col-md-4 mt-5 offset-1">
-                     <div class="row">
-                        <div class="col-12 answer-0 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer">The Sun</div>
-                        <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Venus</div>
-                        <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Jupiter</div>
-                     </div>
-                  </div>
-               </div>
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="card col-10 col-md-3 mt-5 offset-1 rounded pointer pl-0 pr-0">
+                        <img height="300px" class="rounded" id="image_answer">
+                    </div>
+                    <div class="answer col-10 col-md-4 mt-5 offset-1">
+                        <div class="row">
+                            <div class="col-12 answer-0 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer">The Sun</div>
+                            <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Venus</div>
+                            <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Jupiter</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <script>
-         $(document).ready(() => {
-         
-             let allCard
-             let completed = 0
-             let correct = () => {
-                 completed += 1
-                 if(completed > 3){
-                     window.location.href = '/completelesson'
-                 }
-                 console.log("abcd")
-                 $.playSound("/sound/CorrectSound.mp3")
-         
-                 $('#answer').removeClass("d-block")
-                 $('#answer').addClass("d-none")
-                 $('#question').removeClass("d-none")
-                 $('#question').addClass("d-block")
-                 
-         
-                 if (allCard) {
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     if (ele.active) {
-                         ele.active = false
-                         console.log(ele.imagePath)
-                         $('#title').text(ele.title)
-                         $('#imgPath').attr("src", ele.imagePath)
-                         $("#card").flip('toggle');
-                         $("#btn-continue").toggleClass('d-none');
-                         $("#flip").toggleClass('d-none');
-                     } else {
-                         runquestion(randomNumber)
-                         ele.active = true;
-                     }
-                 }
-             }
-         
-             let runquestion = async (index) => {
-         
-                 $('#answer').addClass("d-block")
-                 $('#answer').removeClass("d-none")
-                 $('#question').addClass("d-none")
-                 $('#question').removeClass("d-block")
-         
-                 var elm = allCard[index]
-                 console.log(elm)
-                 $('#image_answer').attr("src", elm.imagePath)
-                 numberRandom = Math.floor(Math.random() * 3)
-         
-                 let orther1 = (numberRandom + 1) % 3
-                 let orther2 = (numberRandom + 2) % 3
-         
-                 console.log(numberRandom + " " + orther1 + " " + orther2)
-         
-                 let number1 = Math.floor(Math.random() * allCard.length)
-                 let number2 = Math.floor(Math.random() * allCard.length)
-         
-                 console.log(number1 + " " + number2 + " " + numberRandom)
-                 console.log(number1 == numberRandom)
-                 console.log(number2 == numberRandom)
-                 console.log(number1 == number2)
-         
-                 let randomNumber1 = () => {
-         
-                     while (number1 == numberRandom) {
-                         number1 = Math.floor(Math.random() * allCard.length)
-                         console.log(number1)
-                     }
-                 }
-         
-                 let randomNumber2 = () => {
-                     while (number2 == numberRandom || number2 == number1) {
-                         number2 = Math.floor(Math.random() * allCard.length)
-                         console.log(number2)
-                     }
-                 }
-         
-                 await randomNumber1()
-                 randomNumber2()
-         
-                 $('.answer-' + orther1).text(allCard[number1].title)
-                 $('.answer-' + orther2).text(allCard[number2].title)
-         
-                 $('.answer-' + numberRandom).text(elm.title)
-                 $('.answer-' + numberRandom).on('click', () => {
-                     correct()
-                 })
-                 $('.answer-' + orther2).prop('onclick',null).off('click');
-                 $('.answer-' + orther1).prop('onclick',null).off('click');
-         
-             }
-         
-         
-             let url = window.location.href
-             let index = url.indexOf("/lesson/") > 0 ? url.indexOf("/lesson/") + 8 : url.length
-             url = url.substring(index, url.length)
-             console.log(url)
-         
-             $.ajax({
-                 url: '/api/cardlesson/' + url,
-                 success: (doc) => {
-                     allCard = doc;
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     ele.active = false
-                     console.log(ele.imagePath)
-         
-                     console.log(allCard[randomNumber])
-                     $('#title').text(ele.title)
-                     $('#imgPath').attr("src", ele.imagePath)
-                 }
-             })
-         
-             $('#btn-continue').on('click', () => {
-                 if (allCard) {
-                     let randomNumber = Math.floor(Math.random() * allCard.length)
-                     console.log(allCard[randomNumber])
-                     let ele = allCard[randomNumber]
-                     if (ele.active) {
-                         ele.active = false
-                         console.log(ele.imagePath)
-                         $('#title').text(ele.title)
-                         $('#imgPath').attr("src", ele.imagePath)
-                         $("#card").flip('toggle');
-                         $("#btn-continue").toggleClass('d-none');
-                         $("#flip").toggleClass('d-none');
-                     } else {
-                         runquestion(randomNumber)
-                         ele.active = true;
-                     }
-                 }
-             });
-         
-         
-         })
-         
-      </script>
-   </body>
+        </div>
+    </div>
+    <script>
+        $(document).ready(() => {
+
+            let allCard
+            let completed = 0
+            let correct = () => {
+                completed += 1
+                if (completed > 3) {
+                    window.location.href = '/completelesson'
+                } else {
+                    console.log("abcd")
+                    $.playSound("/sound/CorrectSound.mp3")
+
+                    $('#answer').removeClass("d-block")
+                    $('#answer').addClass("d-none")
+                    $('#question').removeClass("d-none")
+                    $('#question').addClass("d-block")
+
+
+                    if (allCard) {
+                        let randomNumber = Math.floor(Math.random() * allCard.length)
+                        console.log(allCard[randomNumber])
+                        let ele = allCard[randomNumber]
+                        if (ele.active) {
+                            ele.active = false
+                            console.log(ele.imagePath)
+                            $('#title').text(ele.title)
+                            $('#imgPath').attr("src", ele.imagePath)
+                            $("#card").flip('toggle');
+                            $("#btn-continue").toggleClass('d-none');
+                            $("#flip").toggleClass('d-none');
+                        } else {
+                            runquestion(randomNumber)
+                            ele.active = true;
+                        }
+                    }
+                }
+            }
+
+            let runquestion = async (index) => {
+
+                $('#answer').addClass("d-block")
+                $('#answer').removeClass("d-none")
+                $('#question').addClass("d-none")
+                $('#question').removeClass("d-block")
+
+                var elm = allCard[index]
+                console.log(elm)
+                $('#image_answer').attr("src", elm.imagePath)
+                numberRandom = Math.floor(Math.random() * 3)
+
+                let orther1 = (numberRandom + 1) % 3
+                let orther2 = (numberRandom + 2) % 3
+
+                console.log(numberRandom + " " + orther1 + " " + orther2)
+
+                let number1 = Math.floor(Math.random() * allCard.length)
+                let number2 = Math.floor(Math.random() * allCard.length)
+
+                console.log(number1 + " " + number2 + " " + numberRandom)
+                console.log(number1 == numberRandom)
+                console.log(number2 == numberRandom)
+                console.log(number1 == number2)
+
+                let randomNumber1 = () => {
+
+                    while (number1 == numberRandom) {
+                        number1 = Math.floor(Math.random() * allCard.length)
+                        console.log(number1)
+                    }
+                }
+
+                let randomNumber2 = () => {
+                    while (number2 == numberRandom || number2 == number1) {
+                        number2 = Math.floor(Math.random() * allCard.length)
+                        console.log(number2)
+                    }
+                }
+
+                await randomNumber1()
+                randomNumber2()
+
+                $('.answer-' + orther1).text(allCard[number1].title)
+                $('.answer-' + orther2).text(allCard[number2].title)
+
+                $('.answer-' + numberRandom).text(elm.title)
+                $('.answer-' + numberRandom).on('click', () => {
+                    correct()
+                })
+                $('.answer-' + orther2).prop('onclick', null).off('click');
+                $('.answer-' + orther1).prop('onclick', null).off('click');
+
+            }
+
+
+            let url = window.location.href
+            let index = url.indexOf("/lesson/") > 0 ? url.indexOf("/lesson/") + 8 : url.length
+            url = url.substring(index, url.length)
+            console.log(url)
+
+            $.ajax({
+                url: '/api/cardlesson/' + url,
+                success: (doc) => {
+                    allCard = doc;
+                    let randomNumber = Math.floor(Math.random() * allCard.length)
+                    console.log(allCard[randomNumber])
+                    let ele = allCard[randomNumber]
+                    ele.active = false
+                    console.log(ele.imagePath)
+
+                    console.log(allCard[randomNumber])
+                    $('#title').text(ele.title)
+                    $('#imgPath').attr("src", ele.imagePath)
+                }
+            })
+
+            $('#btn-continue').on('click', () => {
+                if (allCard) {
+                    let randomNumber = Math.floor(Math.random() * allCard.length)
+                    console.log(allCard[randomNumber])
+                    let ele = allCard[randomNumber]
+                    if (ele.active) {
+                        ele.active = false
+                        console.log(ele.imagePath)
+                        $('#title').text(ele.title)
+                        $('#imgPath').attr("src", ele.imagePath)
+                        $("#card").flip('toggle');
+                        $("#btn-continue").toggleClass('d-none');
+                        $("#flip").toggleClass('d-none');
+                    } else {
+                        runquestion(randomNumber)
+                        ele.active = true;
+                    }
+                }
+            });
+
+
+        })
+
+    </script>
+</body>
+
 </html>
