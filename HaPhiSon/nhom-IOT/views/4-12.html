@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+    <title>Tinycards - FlasCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="../public/js/jquery/playAudio.js"></script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(document).on('click', '.answer-f', function(event) {
+                $(this).removeClass('border-primary').addClass('border-secondary');
+                $(this).removeClass('text-primary').addClass('text-secondary');
+                alert('Oops, wrong !');
+            });
+
+            $(".answer-t").click(function(event) {
+                $.playSound("../public/sound/CorrectSound.mp3");
+
+                setInterval(function() {
+                    window.location.href = '4-13.html';
+                    return false;
+                }, 500);
+            });
+
+            $('#card').flip();
+        });
+    </script>
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+    <a class="navbar-brand ml-md-5" href="1.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <span class="text-white font-weight-bold">TinyCards</span>
+    </a>
+</nav>
+
+<div class="w-100"></div>
+<!-- End header -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 wrapper mb-5 bg-white pt-2" >
+            <div class="row">
+             
+                <div class="col-12">
+                     <div class="row">
+                        <div id="card" class="col-8 col-md-3 mx-auto mt-4 rounded pointer pl-0 pr-0" style="height: 300px;">
+                            <div class="front">
+                                <img src="../public/image/Verbs/water_tuoinuoc.jpeg" alt="bench" class="rounded w-100 h-100" style="">
+                            </div>
+                            <div class="back text-center text-white font-weight-bold h4 bg-warning rounded pt-5">
+                                <div class="w-100 pt-2"></div>
+                                <span class="align-middel pt-5 d-block">Tưới nước</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="answer col-10 col-md-10 offset-1">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4 offset-1 answer-f border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Chop</div>
+                                    <div class="col-2"></div>
+                                    <div class="col-4  answer-t border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" >Water</div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4 offset-1  answer-f border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" >Paint</div>
+                                    <div class="col-2"></div>
+                                    <div class="col-4 answer-f border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" >Dig</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
