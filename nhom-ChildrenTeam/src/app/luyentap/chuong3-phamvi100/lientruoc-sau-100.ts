@@ -35,6 +35,7 @@ export class lienTruocSau100 {
 
     }
     checkAns(value) {
+        console.log(this.count_true);
         if (this._nameQues == "Tìm số liền trước của: ") {
             if (value == '') {
                 alert("Bạn phải điền giá trị vào ô trống!");
@@ -44,10 +45,11 @@ export class lienTruocSau100 {
                 this.count += 1;
                 this.count_true += 1;
                 this.init();
+                
                 if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
-                    this.endLessPer = true;
+                    // this.endLessPer = true;
                 }
             }
             else {
@@ -58,6 +60,9 @@ export class lienTruocSau100 {
                     this.nextLess = true;
                     this.endLess = true;
                 }
+            }
+            if(this.count_true == 10) {
+                this.endLessPer = true;
             }
         } else {
             if (parseInt(value) == (this._num + 1)) {
@@ -68,7 +73,7 @@ export class lienTruocSau100 {
                 if (this.count == 10) {
                     this.showAns = false;
                     this.nextLess = true;
-                    this.endLessPer = true;
+                    // this.endLessPer = true;
                 }
             }
             else {
@@ -80,8 +85,11 @@ export class lienTruocSau100 {
                     this.endLess = true;
                 }
             }
+            if(this.count_true == 10) {
+                this.endLessPer = true;
+            }
         }
-
+        
     }
 
 

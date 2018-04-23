@@ -12,6 +12,7 @@ export class sub10 {
     endLessPer = false;
     endLess = false;
     count = 0;
+    count_true = 0;
     a = Math.floor((Math.random() * 10) + 1);
     b = Math.floor((Math.random() * 10) + 0);
     sub_1 = Math.max(this.a, this.b);
@@ -24,10 +25,11 @@ export class sub10 {
         this.sub_2 = Math.min(num_1, num_2);
     }
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
+        this.count_true += 1;
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
-
+       
     }
 
     checkAns(value) {
@@ -39,7 +41,6 @@ export class sub10 {
             this.rightAns();
             this.rand();
             this.count += 1;
-
             if (this.count == 10) {
                 this.showAns = false;
                 this.nextLess = true;

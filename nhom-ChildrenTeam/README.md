@@ -13,5 +13,7 @@ Hướng dẫn chạy app :
 - Chạy lệnh npm start
 - Mở link https://localhost:3000/ xem app chạy
 
+Có thể xem app chạy trên https://mathfun-angular-childrenteam.firebaseapp.com
+
 Báo cáo dự án nhóm : https://docs.google.com/document/d/1oPFNFOI3W0I5eZFA221myemOiXad64kQZgcN4jpgViE/edit#
 
