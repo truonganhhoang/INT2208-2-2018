@@ -39,10 +39,14 @@
                 </div>
                 <div *ngIf="nextLess">
                     <div *ngIf="endPer">
-                        <h2>Chúc mừng bạn đã hoàn thành xuất sắc bài học.</h2>
+                        <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>
+                        <h2>Bạn đã trả lời đúng 5/5 câu hỏi.</h2>
+                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
                     <div *ngIf="endLess">
-                        <h2>Chúc mừng bạn đã hoàn thành bài học.</h2>
+                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>
+                        <h2>Bạn đã trả lời đúng {{count_true}}/5 câu hỏi.</h2>
+                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
 
                     <h2><a routerLink="/lientruocsau100" routerLinkActive="active">Bài 5 - chương 3 - Số liền trước số liền sau phạm vi 100. </a></h2>

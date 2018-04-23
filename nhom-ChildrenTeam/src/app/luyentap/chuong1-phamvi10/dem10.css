@@ -16,7 +16,7 @@ h3 {
 }
 
 #divQues {
-    height: 400px;
+    height: 420px;
     border-width: 3px;
 }
 
@@ -61,4 +61,5 @@ h3 {
     font-size: 20px;
     border: 3px double;
     height: 40px;
+    
 }

@@ -75,20 +75,20 @@ export class minMax20 {
     }
 
     checkAns(value) {
-        if (value == this.MINMAX[this.x].true_ans) {
+        if(value == this.MINMAX[this.x].true_ans){
             this.count_true += 1;
             this.imgTrue(this.x);
-            if (this.x <= this.MINMAX.length) this.x += 1;
-            if (this.count_true == this.MINMAX.length && this.x == 5) {
+            if( this.x <= this.MINMAX.length) this.x += 1;
+            if(this.count_true == this.MINMAX.length && this.x == 5){
                 this.showAns = false;
                 this.endPer = true;
                 this.nextLess = true;
-           
+                
             }
         } else {
             this.imgFalse(this.x);
-            if (this.x <= this.MINMAX.length) this.x += 1;
-            if (this.x == 5) {
+            if( this.x <= this.MINMAX.length) this.x += 1;
+            if(this.x == 5 ){
                 this.showAns = false;
                 this.endLess = true;
                 this.nextLess = true;
