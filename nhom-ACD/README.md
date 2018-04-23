@@ -1,4 +1,4 @@
-# Phần mềm TinyCards của Nhóm ACD
+# Phần mềm TinyCard của Nhóm ACD
 * Nguyễn Tuấn Anh
 * Lê Thành Công
 * Hoàng Xuân Cường
@@ -6,9 +6,9 @@
 * Lê Văn Duy
 
 #### Yêu Cầu
-##### Để chạy được phần mềm TinyCards thì máy tính cần có cài đặt NodeJs và MongoDB
-* Cài đặt NodeJS tại [đây](https://nodejs.org/en/download/current/)
-* Cài đặt MongoDB tại [đây](https://www.mongodb.com/download-center#community)
+##### Để chạy được phần mềm TinyCard thì máy tính cần có cài đặt NodeJs và MongoDB
+* Tải NodeJS tại [đây](https://nodejs.org/en/download/current/)
+* Tải MongoDB tại [đây](https://www.mongodb.com/download-center#community)
 
 ## Hướng Dẫn
 
