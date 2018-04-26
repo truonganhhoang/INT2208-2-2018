@@ -284,6 +284,9 @@ body {
 	} .skill-search-button{
 		display: none;
 	}
+	.sign-in-with{
+		width:100%;
+	}
 }
 .row1{
 	padding-top: 10px; 
@@ -316,8 +319,17 @@ body {
     max-width: 50%;
     position: relative;
 }
+
 @media (max-width: 500px)
 {	
+	.form-group{
+		float: none!important;
+		width: 100%!important;
+	}
+	.sign-in-with{
+		float: none!important;
+		width: 100%!important;
+	}
 	.musictheory-lesson1-picture{
 		width: 100%;
 	}
@@ -485,6 +497,19 @@ label{
     border: 1px solid #ccc;
     background-color: #f1f1f1;
 }
+.tab1{
+	overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab1 button{
+	background-color: inherit;
+    float: left;
+    display :inline;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 .tab button {
     background-color: inherit;
     float: left;
@@ -496,7 +521,13 @@ label{
     display :inline;
 }
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab1 button:hover{
+	background-color: #ddd;
+}
+.tab1 button.active{
+	 background-color: #ccc;
+}
+.tab  button:hover {
     background-color: #ddd;
 }
 /* Create an active/current tablink class */
@@ -510,6 +541,145 @@ label{
     border: 1px solid blue;
     border-top: none;
 }
-.card-img-top{
-	height: 170px;
+.tabcontent1 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid none;
+}
+.img3d{
+        width:300px;
+        height: 355px;
+        float: center;
+        margin:auto;
+        margin-bottom: 0px!important;
+      }
+      .img3d > .front{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 0deg);
+         transform: perspective(600px) rotateY( 0deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+.flip3d{
+        width:300px;
+        height: 355px;
+        float: center;
+        margin:auto;
+        margin-bottom: 0px!important;
+      }
+      .flip3d > .front{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 0deg);
+         transform: perspective(600px) rotateY( 0deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      .flip3d > .back{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 180deg);
+         transform: perspective(600px) rotateY( 180deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      
+      .imgflip{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+         margin-top: 50px;
+      }
+      .fliptext{
+        text-align: center;
+        margin-top: 150px;
+      }
+        
+      @media (max-width: 1000px){
+      	.row-card{
+      		height: 600px!important;
+      	}
+      	.img3d{
+      		float: center;
+        margin-top:25px!important;
+        box-shadow: none!important;
+      	}
+         .flip3d{
+        float: center;
+        margin-top:25px!important;
+        box-shadow: none!important;
+      }
+      .flip3d > .front{
+      	margin-left: auto;
+      }
+      .img3d{
+      	float: center!important;
+      }
+      .answer-card-total{
+      	width: 100%!important;
+      }
+      .answer-card{
+	 width: 300px;  
+	 height: 70px;
+	 margin: auto;
+	 border-radius: 20px;
+	 color: aquamarine;
+	 border-color: aquamarine;
+	 border-style: solid;
+	 margin-bottom: 40px;
+}
+      }
+.row-card{
+		height: 600px;
+         box-shadow:5px 5px 10px gray;
+         border-style:solid;
+         border-width: 2px;
+         border-color: gainsboro;
+         margin-top: 50px;
+         border-radius: 15px;
+}
+.continue-card{
+	 width: 250px;  
+	 height: 40px;
+	 margin: auto;
+	 border-radius: 20px;
+	 background-color: cyan;
+	 margin-top: 0px;
+}
+.answer-card{
+	 width: 350px;  
+	 height: 70px;
+	 margin: auto;
+	 border-radius: 20px;
+	 color: aquamarine;
+	 border-color: aquamarine;
+	 border-style: solid;
+	 margin-bottom: 40px;
+}
+.answer-card-total :hover{
+	 color: dodgerblue;
+	 border-color: dodgerblue;
 }
