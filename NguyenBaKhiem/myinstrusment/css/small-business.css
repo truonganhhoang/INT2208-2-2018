@@ -1,0 +1,686 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.navbarResponsive1{
+	background: url("css.jpg") 50% 50% no-repeat;
+}
+.thanh-tim-kiem{
+	z-index: 25;
+    display: inline-block;
+    height: 100%;
+    margin: auto;
+    min-width: 292px;
+    position: relative;
+    vertical-align: top;
+    border-width: 0px;
+}
+.thanh-tim-kiem2{
+	display: none;
+}
+.skill-search-button{
+	background: url("css.jpg") 50% 50% no-repeat;
+	background-size: 17px 18px;
+    border: 1px solid transparent;
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    height: 27px;
+    margin: 4px 0 0 300px;
+    padding: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 25px;
+    z-index: 1000;
+}
+
+.thanhtimkiem{
+	    color: #3f3f3f;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 12px; 
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height :35px;
+    padding: 0 25px 0 5px;
+}
+.hinh-anh {
+	max-width: 100%;
+	height :240px;
+	border-radius : 8px;
+}
+.menupicture{
+	max-width: 100%;
+	height :50px;
+}
+.musictheory-card{
+	border-color: #10a0b6; 
+}
+.musictheory-title{
+	color: #10a0b6; 
+}
+.guitar-card{
+	border-color: #f39317;
+}
+.guitar-title{
+	color:#f39317;
+}
+.piano-card{
+	border-color: #42ae18;
+}
+.piano-title{
+	color:#42ae18;
+}
+.violin-card{
+	 border-color: #d74726;
+}
+.violin-title{
+	color: #d74726;
+}
+.flute-card{
+	border-color: darkgoldenrod;
+}
+.flute-title{
+	color: darkgoldenrod;
+}
+ a{
+	text-decoration: none!important;
+	color: black;
+}
+.musictheory-lesson1{
+	border-color: springgreen;
+}
+.musictheory-lesson1-title{
+	color :springgreen!important;
+}
+.musictheory-lesson2{
+	border-color:PaleVioletRed;
+}
+.musictheory-lesson2-title{
+	color:PaleVioletRed;
+}
+.musictheory-lesson3{
+	border-color:navy;
+}
+.musictheory-lesson3-title{
+	color:navy;
+}
+.musictheory-lesson4{
+	border-color: orange;
+}
+.musictheory-lesson4-title{
+	color:orange;
+}
+.musictheory-lesson5{
+	border-color: dimgray;
+}
+.musictheory-lesson5-title{
+	color: dimgray;
+}
+.musictheory-lesson6{
+	border-color: darkgoldenrod;
+}
+.musictheory-lesson6-title{
+	color: darkgoldenrod;
+}
+.musictheory-lesson7{
+	border-color: deeppink;
+}
+.musictheory-lesson7-title{
+	color: deeppink;
+}
+.musictheory-lesson8{
+	border-color: midnightblue;
+}
+.musictheory-lesson8-title{
+	color: midnightblue;
+}
+.musictheory-game{
+	border-color: red;
+}
+.musictheory-game-title{
+	color: red;
+}
+.guitar-chapter1-title{
+	color: lightcoral;
+}
+.guitar-chapter1{
+	border-color:lightcoral;
+}
+.guitar-chapter2{
+	border-color:chocolate;
+}
+.guitar-chapter2-title{
+	color:chocolate;
+}
+.guitar-chapter2-lesson1{
+	border-color: sandybrown;
+}
+.guitar-chapter2-lesson1-title{
+	color: sandybrown;
+}
+.guitar-chapter2-lesson2{
+	border-color: maroon;
+}
+.guitar-chapter2-lesson2-title{
+	color: maroon;
+}
+.guitar-chapter2-lesson3{
+	border-color: aquamarine;
+}
+.guitar-chapter2-lesson3-title{
+	color: aquamarine;
+}
+.guitar-chapter2-lesson4{
+	border-color: indianred;
+}
+.guitar-chapter2-lesson4-title{
+	color: indianred;
+}
+.guitar-chapter2-lesson5{
+	border-color: blueviolet;
+}
+.guitar-chapter2-lesson5-title{
+	color: blueviolet;
+}
+.guitar-chapter2-game{
+	border-color: red;
+}
+.guitar-chapter2-game-title{
+	color: red;
+}
+.guitar-chapter3{
+	border-color:gold;
+}
+.guitar-chapter3-title{
+	color:gold;
+}
+.guitar-chapter4{
+	border-color:lightseagreen;
+}
+.guitar-chapter4-title{
+	color:lightseagreen;
+}
+.guitar-chapter5{
+	border-color:yellowgreen;
+}
+.guitar-chapter5-title{
+	color:yellowgreen;
+}
+.btn-danger {
+	border-style: none;
+	outline-style: none;
+	border-color: #343a40!important;
+	background-color: #343a40!important;
+	 box-shadow: none!important;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #343a40!important;
+    color: white;
+    font-size: 16px;
+    padding:16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    box-sizing: border-box;
+    
+}
+
+#toggle{
+	display: none;
+}
+.col-lg-3{
+	min-height: 26px;
+}
+#toggle2{
+	display: none;
+}
+.search{
+	display: none;
+}
+.menu2{display: none;}
+@media only screen and (max-width: 500px)
+{
+	.thanh-tim-kiem{
+		display: none;
+	}
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	.search{
+		display: block;
+		cursor: pointer;
+		width:35px; 
+	}
+	.menu1{
+		display: none;
+	}
+	.menu2{
+		display: none;
+	}
+	#toggle:checked+ .menu1{
+		display: block;
+	}
+	#toggle2:checked+ .menu2{
+		border:1px solid yellow;
+		display: block;
+	} .skill-search-button{
+		display: none;
+	}
+	.sign-in-with{
+		width:100%;
+	}
+}
+.row1{
+	padding-top: 10px; 
+	margin-top: 5px;
+	padding-bottom: 5px;
+   	box-shadow: -2px 2px 2px 2px #999;
+   	border-color: black!important;
+   	display: flex;
+   	flex-wrap: wrap;
+}
+.row2{
+-ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+	display: -webkit-box;
+  display: -ms-flexbox;
+	flex-direction: row;
+   	display: flex;
+   flex-wrap: nowrap;
+   	
+}
+.py-5{
+	margin-top: 10px
+}
+
+
+.guitar-image1{
+  -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+}
+
+@media (max-width: 500px)
+{	
+	.form-group{
+		float: none!important;
+		width: 100%!important;
+	}
+	.sign-in-with{
+		float: none!important;
+		width: 100%!important;
+	}
+	.musictheory-lesson1-picture{
+		width: 100%;
+	}
+	.chord-picture1{
+	width: 100%;
+	height: 100%;
+	}
+	.thanh-tim-kiem1{
+		display: none;
+	}
+	.thanh-tim-kiem2{
+		display: block;
+	}
+	.guitar-image1{
+		 -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+	.row1{
+			flex-wrap: wrap;
+	}
+	.row2{
+		flex-wrap: wrap;
+	}
+	.guitar-chapter2-lesson3-picture{
+   	display: flex;
+   	flex-wrap: wrap;
+   	flex-direction: column;
+	}
+	.guitar-chapter2-lesson3-picture1{
+		display: block;
+		width: 100%;
+	}
+	.guitar-chapter2-lesson3-picture2{
+		width: 100%;
+	}
+	.guitar-chapter2-lesson4-picture{
+		width: 100%;
+	}
+	.btn-lesson-previous{
+		margin-bottom: 5px;
+	}
+	.guitar-chapter2-lesson5-picture{
+		display: block;
+		flex-wrap: wrap;
+   		flex-direction: column;
+	}
+	.guitar-chapter2-lesson5-picture1{
+		 -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+	.guitar-chapter2-lesson5-picture2{
+		display: block;
+		width: 100%;
+		position: absolute;
+	}
+	.guitar-chapter2-lesson5-picture3{
+		width: 100%;
+	}
+	
+}
+@media(max-width: 1000px){
+	.card-img-top{
+	
+}
+label{
+		display: block;
+		cursor: pointer;
+	}
+	
+	.menu1{
+		display: none;
+	}
+	#toggle:checked+ .menu1{
+		display: block;
+	}
+}
+.guitar-image2{
+
+  width: 100%;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.box-border{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+.title-border{
+	border-color: blue;
+}
+.title-color{
+	color: blue;
+}
+.note-border{
+	border-color: red;
+}
+.note-color{
+	color: red;
+}
+.title-row{
+	margin : 10px 10px 15px 15px; 
+}
+.card-footer-border{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+.btn-lesson-next{
+	float: right;
+}
+.guitar-chapter2-lesson3-picture{
+   	display: flex;
+   flex-wrap: nowrap;
+}
+.guitar-chapter2-lesson3-picture1{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+}
+.guitar-chapter2-lesson3-picture2{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    max-height: 500px;
+    position: relative;
+}
+.guitar-chapter2-lesson4-picture{
+	margin :10px auto 10px auto;
+}
+.guitar-chapter2-lesson5-picture{
+	display: flex;
+	display: nowrap;
+}
+.guitar-chapter2-lesson5-picture1{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.guitar-chapter2-lesson5-picture2{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab1{
+	overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab1 button{
+	background-color: inherit;
+    float: left;
+    display :inline;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    display :inline;
+}
+/* Change background color of buttons on hover */
+.tab1 button:hover{
+	background-color: #ddd;
+}
+.tab1 button.active{
+	 background-color: #ccc;
+}
+.tab  button:hover {
+    background-color: #ddd;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid blue;
+    border-top: none;
+}
+.tabcontent1 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid none;
+}
+.img3d{
+        width:300px;
+        height: 355px;
+        float: center;
+        margin:auto;
+        margin-bottom: 0px!important;
+      }
+      .img3d > .front{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 0deg);
+         transform: perspective(600px) rotateY( 0deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+.flip3d{
+        width:300px;
+        height: 355px;
+        float: center;
+        margin:auto;
+        margin-bottom: 0px!important;
+      }
+      .flip3d > .front{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 0deg);
+         transform: perspective(600px) rotateY( 0deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      .flip3d > .back{
+         position: absolute;
+         -webkit-transform: perspective(600px) rotateY( 180deg);
+         transform: perspective(600px) rotateY( 180deg);
+         background: #fff ; 
+         border-radius: 15px;
+         border-color: gainsboro;
+         border-style:solid;
+         border-width: 1px;
+         width: 300px;
+         height: 346px;
+         box-shadow:5px 5px 10px gray;
+         backface-visibility:hidden;
+         transition: transform .3s linear 0s;
+      }
+      
+      .imgflip{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+         margin-top: 50px;
+      }
+      .fliptext{
+        text-align: center;
+        margin-top: 150px;
+      }
+        
+      @media (max-width: 1000px){
+      	.row-card{
+      		height: 600px!important;
+      	}
+      	.img3d{
+      		float: center;
+        margin-top:25px!important;
+        box-shadow: none!important;
+      	}
+         .flip3d{
+        float: center;
+        margin-top:25px!important;
+        box-shadow: none!important;
+      }
+      .flip3d > .front{
+      	margin-left: auto;
+      }
+      .img3d{
+      	float: center!important;
+      }
+      .answer-card-total{
+      	width: 100%!important;
+      }
+      .answer-card{
+	 width: 300px;  
+	 height: 70px;
+	 margin: auto;
+	 border-radius: 20px;
+	 color: aquamarine;
+	 border-color: aquamarine;
+	 border-style: solid;
+	 margin-bottom: 40px;
+}
+      }
+.row-card{
+		height: 600px;
+         box-shadow:5px 5px 10px gray;
+         border-style:solid;
+         border-width: 2px;
+         border-color: gainsboro;
+         margin-top: 50px;
+         border-radius: 15px;
+}
+.continue-card{
+	 width: 250px;  
+	 height: 40px;
+	 margin: auto;
+	 border-radius: 20px;
+	 background-color: cyan;
+	 margin-top: 0px;
+	 cursor: pointer;
+}
+.answer-card{
+	 width: 350px;  
+	 height: 70px;
+	 margin: auto;
+	 border-radius: 20px;
+	 color: aquamarine;
+	 border-color: aquamarine;
+	 border-style: solid;
+	 margin-bottom: 40px;
+}
+.answer-card-total :hover{
+	 color: dodgerblue;
+	 border-color: dodgerblue;
+}
