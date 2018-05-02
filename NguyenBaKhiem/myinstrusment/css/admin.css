@@ -1,0 +1,46 @@
+#navtab {
+	margin: 5px;
+}
+li {
+	margin: 5px;
+}
+.controlpanel {
+	text-align: center;
+}
+#formadd {
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+#adduser {
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#tableinfo {
+	margin-top: 20px;
+	padding-bottom:  20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+#tableinfo {
+	text-align: center;
+	text-overflow: ellipsis;
+}
+
+th.numbertb {
+	width: 10%;
+}
+th.idtb {
+	width: 10%;
+}
+th.usernametb {
+	width: 40%;
+}
+th.fullnametb {
+	width: 30%;
+}
+
+th.deletetb {
+	width: 10%;
+}

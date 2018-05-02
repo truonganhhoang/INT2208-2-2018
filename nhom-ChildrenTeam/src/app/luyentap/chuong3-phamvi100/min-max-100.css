@@ -4,18 +4,20 @@ table, th, td {
     text-align: center;
     color: #DF013A;
     background: #E0F2F7;
+    font-size: 150%;  
+    
 }
 
 td {
-    width: 100px;
+    width: 150px;
     height: 50px;
+    
 }
 
 #divQues {
 
-    height: 250px;
+    height: 300px;
     border-width: 3px;
-   
 }
 
 h1{
@@ -24,7 +26,7 @@ h1{
 }
 
 .type{
-    padding-left: 14cm;
+    padding-left: 7cm;
 }
 
 #tableCheck{
