@@ -11,11 +11,13 @@ export class soSanh100 {
     num_2 = Math.floor((Math.random() * 100) + 1);
     showAns = true;
     count = 0;
+    count_true = 0;
     nextLess = false;
     endLessPer = false;
     endLess = false;
 
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
+        this.count_true += 1;
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
