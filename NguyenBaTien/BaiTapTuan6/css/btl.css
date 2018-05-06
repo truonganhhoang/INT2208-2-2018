@@ -1,0 +1,90 @@
+.navbar-right {
+	margin-top: 20px;
+}
+.tien a {
+ 	padding: 25px;
+	color: #dcdcdc;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.glyphicon {
+	margin-right: 5px;
+}
+a:focus, a:hover {
+	color: white;
+}
+.navbar-default {
+	background: #32cdff;
+}
+.navbar-default .navbar-brand {
+	margin-top: -16px;
+    margin-bottom: 28px;
+}
+.navbar-brand>img {
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 14px;
+}
+.form-control {
+	margin-top: 5px;
+}
+.navbar-form .form-control {
+	width: 230px;
+	font-weight: bold;
+}
+
+#textcenter {
+	width: 144px;
+	height: 178px;
+	background: #eff1f3;
+	border: 1px solid #eff1f3;
+	border-radius: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#textcenter1 {
+	width: 144px;
+	height: 178px;
+	background: #eff1f3;
+	border: 1px solid #eff1f3;
+	border-radius: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#textcenter2 {
+	width: 144px;
+	height: 178px;
+	background: #eff1f3;
+	border: 1px solid #eff1f3;
+	border-radius: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#textcenter3 {
+	width: 144px;
+	height: 178px;
+	background: #eff1f3;
+	border: 1px solid #eff1f3;
+	border-radius: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#img {
+	border-radius: 15px;
+}
+#img1 {
+	border-radius: 15px;
+}
+#img2 {
+	border-radius: 15px;
+}
+#img3 {
+	border-radius: 15px;
+}

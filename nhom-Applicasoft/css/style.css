@@ -1,0 +1,144 @@
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#demo ul li {
+    height: 12px;
+    width: 12px;
+    border-radius: 30px;
+}
+#demo ul li:hover {
+	background: red none repeat scroll 0 0;
+    height: 12px;
+    width: 12px;
+}
+.sub-footer-content {
+	background: url(../images/sub-footer.jpg);
+	background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 65px;
+    text-align: center;
+    color: #fff;
+}
+.register-options .btn-dkthi {
+	width: 260px;
+    height: 40px;
+    border-radius: 50px;
+}
+.register-options {
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 50px;
+	width: 260px
+}
+.site-info{
+	background: #262827;
+	color: #fff;
+	padding-top: 45px;
+    padding-bottom: 15px;
+}
+.site-info a {
+    color: #ababab;
+}
+
+#selectbasic{
+	height: 34px;
+}
+.portfolio-item{
+	margin: 0 0 30px;
+}
+.caption-content img{
+	border: 2px solid #000;
+}
+.portfolio-link img{
+	opacity: 0.4;
+}
+.portfolio-link img:hover{
+	opacity: 1;
+}
+h3.text {
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	background: gray;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.support{
+	background-color: #4267b2;
+	border-radius: 50px;
+	height: 50px;
+	width: 339px;
+}
+.form-group-sm .form-control {
+	height:30px;
+	padding:5px 10px;
+	font-size:12px;
+	line-height:1.5;
+	border-radius:3px
+}
+@media (min-width:768px) {
+	.form-horizontal .form-group-lg .control-label {
+	padding-top:11px;
+	font-size:18px
+	}
+}
+.col-md-4 {
+	position:relative;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	float:left;
+	width:33.33333333%;
+}
+.checkbox-inline input[type=checkbox] {
+	position:absolute;
+	margin-top:4px\9;
+	margin-left:-20px;
+	float: left;
+}
+.checkbox-inline,.radio-inline {
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+	margin-bottom:0;
+	font-weight:400;
+	vertical-align:middle;
+	cursor:pointer}
+.form-horizontal,.form-horizontal .checkbox-inline,.form-horizontal .radio,.form-horizontal .radio-inline {
+	padding-top:7px;
+	margin-top:0;
+	margin-bottom:0
+}
+.form-horizontal .checkbox,.form-horizontal .radio {
+	min-height:27px
+}
+.form-horizontal .form-group {
+	margin-right:-15px;
+	margin-left:-15px
+}
+@media (min-width:768px) {
+	.form-horizontal .control-label {
+		padding-top:7px;
+		margin-bottom:0;
+		text-align:right
+		}
+	}
+.form-horizontal .form-group:after,.form-horizontal .form-group:before {
+	display:table;
+	content:" "
+}
+.form-horizontal .form-group:after {
+	clear:both
+}
+.checkbox-inline {
+	padding-top:7px;margin-top:0;margin-bottom:0
+}
