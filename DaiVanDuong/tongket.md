@@ -1,7 +1,6 @@
 ﻿Họ và tên: Đại Văn Dương
-Lớp: K61-T
+Lớp: K61T
 MSSV: 16021856
-Báo cáo cá nhân
 Bài tập cá nhân:
 	- Hoàn thành khóa học Software Engineering Introduction, HTML5, CSS3, Bootstrap4: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DaiVanDuong
 	- Hoàn thành bài tập tuần 6: https://github.com/daivanduong/INT2208-2-2018/commit/7115b6bce314d27bf32239b9651334e775a397fd
