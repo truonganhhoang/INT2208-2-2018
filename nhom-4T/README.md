@@ -1,8 +1,8 @@
 ﻿# INT2208-2-2018
 ## Công nghệ phần mềm 2 - 2018
 # Nhóm 4T
-### Bài tập lớn
-### Thành viên: 
+## Bài tập lớn
+## Thành viên: 
 	- Đặng Quang Tường MSV: 16021357
 	- Nguyễn Văn Tuyền MSV: 16021358
 	- Trần Văn Tuấn	MSV: 16022385
