@@ -1,7 +1,7 @@
-﻿#Bùi Tiến Dũng
-#MSV 16021272
-#Báo cáo cá nhân môn học CNPM
-#Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
+﻿# Bùi Tiến Dũng
+# MSV 16021272
+# Báo cáo cá nhân môn học CNPM
+# Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
 - Hoàn thành khóa học Công nghệ phần mềm trên Edx, thực hiện toàn bộ các quiz có thể làm. 
 https://github.com/truonganhhoang/INT2208-2-2018/tree/master/BuiTienDung/CNPM
 - Tự học hoàn thiện các khóa học
