@@ -12,7 +12,7 @@
     - Hoàn thành khóa học Software Engineering: Introduction: [Construction](https://github.com/Flashxu98/INT2208-2-2018/tree/master/PhunDinhXuan/Software_Engineering).
     - Làm bài tập tuần 6 ứng dụng cá nhân [Bai tap tuan 6](https://github.com/Flashxu98/INT2208-2-2018/tree/master/PhunDinhXuan/Baitaptuan6) mô phỏng lại ứng dụng TinyCards của Duligo.
 2. Bài tập nhóm:
-	- Tham gia làm và hoàn thiện [bài tập nhóm](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-(everest)) (các commit xây dựng cho dự án [Tại Đây](https://github.com/Flashxu98/INT2208-2-2018/commits/master).
+	- Tham gia làm và hoàn thiện [bài tập nhóm](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-(everest)) các commit xây dựng cho dự án [Tại Đây](https://github.com/Flashxu98/INT2208-2-2018/commits/master).
 	- Tham gia viết [báo cáo phần mềm](http://bit.ly/2JihrXN).
 	- Tham gia chỉnh sửa [SEMAT](http://bit.ly/2F5Ywgn).
 	- Tham gia viết tóm tắt và chấm chéo [tài liệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.96he3yu1bnz4).
