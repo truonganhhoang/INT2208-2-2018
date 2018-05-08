@@ -8,13 +8,13 @@ BAO CAO TONG KET CA NHAN
 
 - Hoan thien cac khoa hoc :
 
-HTML :
+HTML : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/html
 
-CSS :
+CSS : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/css
 
-BOOTSTRAP :
+BOOTSTRAP : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/bootstrap
 
-GIT :
+GIT : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/Git
 
 - Bai tap ca nhan dong gop cho nhom : https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DangVanPhuc/giaoviecchoit
 
