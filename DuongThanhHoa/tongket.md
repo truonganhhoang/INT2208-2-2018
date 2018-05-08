@@ -1,0 +1,21 @@
+# BÁO CÁO CÁ NHÂN MÔN CÔNG NGHỆ PHẦN MỀM h1
+
+Sinh viên: Dương Thanh Hòa
+
+Mã số sinh viên: 16021288
+
+1. Bài tập cá nhân
+  + Hoàn thành khóa học [Software Engineering](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/).
+  + Hoàn thành [Bài tập cá nhân](https://github.com/hoadt98/INT2208-2-2018/tree/master/DuongThanhHoa/Assignment%20Week%206) thực hiện ứng dụng học từ vựng Tiếng Nhật WowJapanese! dựa trên Memrise.
+  + Tham gia viết [Tài liệu môn học](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.nzv2vaiffe4k) phần Construction.
+  + Học Git và Github tại [khóa học](https://classroom.udacity.com/courses/ud775) đề xuất của giảng viên và hướng dẫn bằng Tiếng Việt tại [đây](https://thachpham.com/tools/git-gioi-thieu-serie-git-co-ban.html) 
+  + Học HTML5 tại [khóa học](https://www.coursera.org/learn/html) đề xuất của giảng viên  và hướng dẫn bằng Tiếng Việt tại [đây](https://thachpham.com/series/html-co-ban). 
+  + Học CSS3 tại [khóa học](https://www.coursera.org/learn/introcss) đề xuất của giảng viên và hướng dẫn bằng Tiếng Việt tại [đây](https://thachpham.com/series/css-co-ban). 
+  + Học Bootstrap căn bản tại khóa học đề xuất của giảng viên và một số hướng dẫn bằng Tiếng Việt. 
+  
+2. Bài tập nhóm
+  + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng.
+  + Thực hiện [Ưng dụng học từ vựng Tiếng Nhật WowJapanese!](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-TrainingWeb).
+  + Viết [Báo cáo dự án](https://drive.google.com/open?id=1GiTUaHDLzsQgJ__a02d9EzcgsQ7GNkjnNpHfBEne2wY).
+  + Thực hiện [câu hỏi trắc nghiệm](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746) cho khóa học.
+  + Thực hiện tài liệu [SEMAT](https://docs.google.com/spreadsheets/d/1morO_O0RKPnylfjxXBhJIBUIFtKugEdRLqVGfWTFDdg/edit?usp=drive_web). 
