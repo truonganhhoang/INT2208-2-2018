@@ -15,3 +15,4 @@
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
   + Góp ý chỉnh sửa hoàn thiện bản [Update cuối cùng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-TrainingWeb).
   + Tham gia viết [Tài liệu báo cáo](https://drive.google.com/open?id=1GiTUaHDLzsQgJ__a02d9EzcgsQ7GNkjnNpHfBEne2wY ) cuối môn học của nhóm.
+  + Tham gia chỉnh sửa SEMAT nhóm ( https://drive.google.com/open?id=1morO_O0RKPnylfjxXBhJIBUIFtKugEdRLqVGfWTFDdg)
