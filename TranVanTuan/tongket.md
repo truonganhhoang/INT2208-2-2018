@@ -12,9 +12,9 @@
 	- Hoàn thành [Software Engineering: Introduction](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVanTuan)
 	- [Tham gia viết tóm tắt tài tiệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.96he3yu1bnz4)
 	- [Hoàn thành bài tập cá nhân tuần 9](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVanTuan/B%C3%A0i%20T%E1%BA%ADp%20Tu%E1%BA%A7n%206)
-	- [Hiểu và hoàn thiện bộ thẻ SEMAT cùng nhóm](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/nhom-4T/SEMAT.xlsx)
 2. Bài tập nhóm
 	- [Tham gia làm và thực hiện hoàn thành bài tập nhóm](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-4T)
 	- [Tham gia viết báo cáo phần mềm](https://docs.google.com/document/d/1Lh95iyfd_GO0_WQroUXx-cMFoXA_DFEgINa5PdJLaIo/edit#heading=h.xkz14jfrcitp)
+	- [Hiểu và hoàn thiện bộ thẻ SEMAT cùng nhóm](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/nhom-4T/SEMAT.xlsx)
 
 Tổng kết : Qua khóa học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được thêm nhiều kiến thức về môn Công nghệ phần mềm, biết và hiểu thêm về quy trình làm một phần mềm, biết cách làm việc theo nhóm cũng như trách nhiệm của bản thân đối với một dự án phần mềm trong khi làm bài tập lớn.
