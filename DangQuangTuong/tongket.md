@@ -11,6 +11,7 @@ Công nghệ phần mềm 2 - 2018
 	- Hoàn thành [HTML5](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/HTML%205/Complete.jpg).
 	- Hoàn thành [Software Engineering: Introduction](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/SoftEng/complete.png): [Process](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/process.png), [Specifications](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/specifications.png), [Testing](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/testing.png), [High Level Design](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/highleveldesign.png), [Low Level Design](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/lowleveldesign.png), [Construction](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DangQuangTuong/construction.png).
 	- [Thực hiện clone dự án nhóm vào bài tập cá nhân](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DangQuangTuong/Demo).
+
 **2. Bài tập nhóm**
 	- [Tham gia làm và hoàn thiện bài tập nhóm](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-4T).
 	- [Tham gia viết tóm tắt và chấm chéo tài liệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.96he3yu1bnz4).
