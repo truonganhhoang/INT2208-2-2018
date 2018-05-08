@@ -1,8 +1,8 @@
 # BÁO CÁO CÁ NHÂN MÔN CÔNG NGHỆ PHẦN MỀM
 
-Sinh viên: Dương Thanh Hòa
+### Sinh viên: Dương Thanh Hòa
 
-Mã số sinh viên: 16021288
+### Mã số sinh viên: 16021288
 
 **1. Bài tập cá nhân**
   + Hoàn thành khóa học [Software Engineering](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/).
@@ -16,7 +16,7 @@ Mã số sinh viên: 16021288
 **2. Bài tập nhóm**
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng.
   + Thực hiện phần từ vựng và câu hỏi kiểm tra từ vựng.
-  + Thực hiện [Ưng dụng học từ vựng Tiếng Nhật WowJapanese!](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-TrainingWeb).
+  + Thực hiện ứng dụng học từ vựng Tiếng Nhật [WowJapanese!](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-TrainingWeb).
   + Viết [Báo cáo dự án](https://drive.google.com/open?id=1GiTUaHDLzsQgJ__a02d9EzcgsQ7GNkjnNpHfBEne2wY).
   + Thực hiện [câu hỏi trắc nghiệm](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746) cho khóa học.
   + Thực hiện tài liệu [SEMAT](https://docs.google.com/spreadsheets/d/1morO_O0RKPnylfjxXBhJIBUIFtKugEdRLqVGfWTFDdg/edit?usp=drive_web).
