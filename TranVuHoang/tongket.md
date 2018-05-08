@@ -10,6 +10,7 @@
   + Hoàn thành khóa học : [Software Engineering](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/).
   + Hoàn thành [Bài tập cá nhân](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVuHoang) thực hiện ứng dụng web học tiếng Anh [Memrise](https://www.memrise.com/) dựa trên bài tập nhóm TrainingWeb.
   + Tham gia viết [Tài liệu môn học](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.nzv2vaiffe4k)(phần Construction) cùng với các thành viên nhóm TrainingWeb.
+  + Tham gia viết câu hỏi trắc nghiệm cuối kỳ phần [Construction](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746 ).
 2. Bài tập nhóm :
   + Tham gia vào quá trình thực hiện [Ứng dụng học tiếng anh](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-TrainingWeb) cùng nhóm TrainingWeb.
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
