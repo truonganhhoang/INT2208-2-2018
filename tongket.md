@@ -8,6 +8,7 @@
     - Hoàn thành khóa học [HTML5](https://github.com/Flashxu98/INT2208-2-2018/blob/master/PhunDinhXuan/HTML5/HTML5.png).
     - Hoàn thành khóa học [CSS3](https://github.com/Flashxu98/INT2208-2-2018/blob/master/PhunDinhXuan/Css3/Css3.png).
     - Học [bootstrap4](https://github.com/Flashxu98/INT2208-2-2018/blob/master/PhunDinhXuan/Bootstrap4/bootstrap4.png).
+    - Học [Javascript] trên w3school và làm một sản phẩm todo ứng dụng nhỏ (https://github.com/Flashxu98/INT2208-2-2018/tree/master/PhunDinhXuan/javascript).
     - Hoàn thành khóa học Software Engineering: Introduction: [Construction](https://github.com/Flashxu98/INT2208-2-2018/tree/master/PhunDinhXuan/Software_Engineering).
     - Làm bài tập tuần 6 ứng dụng cá nhân [Bai tap tuan 6](https://github.com/Flashxu98/INT2208-2-2018/tree/master/PhunDinhXuan/Baitaptuan6) mô phỏng lại ứng dụng TinyCards của Duligo.
 2. Bài tập nhóm:
