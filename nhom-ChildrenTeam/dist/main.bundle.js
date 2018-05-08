@@ -7,7 +7,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "h1, h3 {\r\n    text-align: center;\r\n}\r\n#start {\r\n    border: 2px solid;\r\n    border-radius: 10px;\r\n    font-size: 20px;\r\n    color: blue;\r\n    width: 200px;\r\n    height: 60px;\r\n    background: #A9BCF5;\r\n    margin-left: 600px;\r\n}\r\n\r\n#divQues{\r\n    text-align: center;\r\n}\r\n\r\n.score{\r\n    height: 150px;\r\n}\r\n\r\n#diem, #scoreValue, #begin{\r\n    text-align: center;\r\n    color: red;\r\n    \r\n}\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n    width: 150px;\r\n    margin-left: 200px;\r\n}\r\n#guide{\r\n    height: 395px;\r\n}\r\n.panel{\r\n    height: 150px;\r\n    width: 150px;\r\n    margin-left: 100px;\r\n}\r\nh4{\r\n    text-align: center;\r\n}\r\n", ""]);
+exports.push([module.i, "h1, h3 {\r\n    text-align: center;\r\n}\r\n#start {\r\n    border: 2px solid;\r\n    border-radius: 10px;\r\n    font-size: 20px;\r\n    color: blue;\r\n    width: 200px;\r\n    height: 60px;\r\n    background: #A9BCF5;\r\n    margin-left: 500px;\r\n}\r\n\r\n#divQues{\r\n    text-align: center;\r\n}\r\n\r\n.score{\r\n    height: 150px;\r\n}\r\n\r\n#diem, #scoreValue, #begin{\r\n    text-align: center;\r\n    color: red;\r\n    \r\n}\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n    width: 150px;\r\n    margin-left: 200px;\r\n}\r\n#guide{\r\n    height: 395px;\r\n}\r\n.panel{\r\n    height: 150px;\r\n    width: 150px;\r\n    margin-left: 100px;\r\n}\r\nh4{\r\n    text-align: center;\r\n}\r\n", ""]);
 
 // exports
 
@@ -78,7 +78,7 @@ var giaiTri = (function () {
 giaiTri = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'giai-tri',
-        styles: [__webpack_require__(190)],
+        styles: [__webpack_require__(186)],
         template: "\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <h2>\n                <b>\n                    <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam\" target=\"_blank\" title=\"Truy\u1EC7n Ng\u1EAFn\">TRUY\u1EC6N NG\u1EAEN</a>\n                </b>\n                </h2>\n                <div class=\"list-group\">\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/ba-luoi-riu.html\" target=\"_blank\">Ba l\u01B0\u1EE1i r\u00ECu</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/su-tich-hoa-sen.html\" target=\"_blank\">S\u1EF1 t\u00EDch hoa sen</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/mieng-trau-ky-dieu.html\" target=\"_blank\">Mi\u1EBFng tr\u1EA7u k\u00EC di\u1EC7u</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/cau-be-tich-chu.html\" target=\"_blank\">C\u1EADu b\u00E9 T\u00EDch Chu</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/bat-canh-he.html\" target=\"_blank\">B\u00E1t canh h\u1EB9</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-viet-nam/an-khe-tra-vang.html\" target=\"_blank\">\u0102n kh\u1EBF tr\u1EA3 v\u00E0ng</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-the-gioi/con-coc-khong-vang-loi.html\" target=\"_blank\">Con c\u00F3c kh\u00F4ng v\u00E2ng l\u1EDDi</a>\n                    </button>\n                    </b>\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\">\n                        <a href=\"http://truyencotich.vn/truyen-co-tich/co-tich-the-gioi/co-be-hai-mat.html\" target=\"_blank\">C\u00F4 b\u00E9 hai m\u1EAFt</a>\n                    </button>\n                    </b>\n                </div>\n                <strong>\n                <h3> \n                    <a href=\"http://truyencotich.vn/\" target=\"_blank\">Xem th\u00EAm truy\u1EC7n ng\u1EAFn</a>\n                </h3> \n                </strong>\n            </div>\n\n            <div class=\"col-md-6\">\n                <h2>\n                <b>\n                    <a href=\"https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos\" target=\"_blank\" title=\"Qu\u00E0 T\u1EB7ng Cu\u1ED9c S\u1ED1ng\">QU\u00C0 T\u1EB6NG CU\u1ED8C S\u1ED0NG</a>\n                </b>\n                </h2>\n                <div class=\"list-group\">\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=OjiXYFaqufU\" target=\"_blank\">M\u1EEBng sinh nh\u1EADt</a>\n                    </button>\n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=_XyfuoA4ewQ\">\u0102n c\u01A1m v\u1EDBi mu\u1ED1i</a>\n                    </button>\n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=Llr5vMByRaw\" target=\"_blank\">Th\u01B0 c\u1EE7a b\u1ED1</a>\n                    </button>\n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=0pXXMimkN9E\" target=\"_blank\">T\u1EA5m v\u00E9 v\u1EC1 tu\u1ED5i th\u01A1</a>\n                    </button>\n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=60o5PqwIAjM\" target=\"_blank\">L\u1EDDi n\u00F3i d\u1ED1i</a>\n                    </button>\n                    </b>\n\n                    <b><button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=6rCxWT93bqc\" target=\"_blank\">Sao b\u0103ng</a>\n                    </button>\n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=hK2o8ciHtDA\" target=\"_blank\">Tr\u00E1i tim c\u1EE7a b\u1ED1</a>\n                    </button> \n                    </b>\n\n                    <b>\n                    <button type=\"button\" class=\"list-group-item\" >\n                        <a href=\"https://www.youtube.com/watch?v=M5qOfb1Lk84\" target=\"_blank\">L\u1EDBp h\u1ECDc hy v\u1ECDng</a>\n                    </button> \n                    </b>\n\n                </div>\n                <strong>\n                <h3>\n                    <a href=\"https://www.youtube.com/channel/UCGk3yw5k_xQUS_KSDCC6Nhw/videos\" target=\"_blank\">Xem th\u00EAm qu\u00E0 t\u1EB7ng cu\u1ED9c s\u1ED1ng</a>\n                </h3> \n                </strong>\n            </div>\n        </div>\n    </div>\n    ",
     })
 ], giaiTri);
@@ -108,8 +108,8 @@ var home = (function () {
 home = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'home',
-        template: __webpack_require__(207),
-        styles: [__webpack_require__(191)],
+        template: __webpack_require__(203),
+        styles: [__webpack_require__(187)],
     })
 ], home);
 
@@ -978,8 +978,8 @@ var kiemTra = (function () {
 kiemTra = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'kiemtra',
-        template: __webpack_require__(208),
-        styles: [__webpack_require__(192)],
+        template: __webpack_require__(204),
+        styles: [__webpack_require__(188)],
     })
 ], kiemTra);
 
@@ -987,56 +987,6 @@ kiemTra = __decorate([
 
 /***/ }),
 /* 69 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_social_login__ = __webpack_require__(90);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return login; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var login = (function () {
-    function login(_auth) {
-        this._auth = _auth;
-    }
-    login.prototype.signIn = function (provider) {
-        var _this = this;
-        this.sub = this._auth.login(provider).subscribe(function (data) {
-            console.log(data);
-            _this.user = data;
-        });
-    };
-    login.prototype.logout = function () {
-        var _this = this;
-        this._auth.logout().subscribe(function (data) { console.log(data); _this.user = null; });
-    };
-    login.prototype.ngOnDestroy = function () {
-        this.sub.unsubscribe();
-    };
-    return login;
-}());
-login = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
-        selector: 'login',
-        template: "\n              <button (click)=\"signIn('google')\">google</button>\n              <button (click)=\"signIn('facebook')\">facebook</button>\n              <button (click)=\"logout()\">logout</button>\n              <div *ngIf=\"user\">\n                <table>\n                  <tr>\n                    <td>Name:</td>\n                    <td>{{user.name}}</td>\n                  </tr>\n                  <tr>\n                    <td>Email</td>\n                    <td>{{user.email}}</td>\n                  </tr>\n                  <tr>\n                    <td>UID</td>\n                    <td>{{user.uid}}</td>\n                  </tr>\n                  <tr>\n                    <td>Provider</td>\n                    <td>{{user.provider}}</td>\n                  </tr>\n                  <tr>\n                    <td>Image</td>\n                    <td>{{user.image}}</td>\n                  </tr>\n                </table>\n              </div>\n              "
-    }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_social_login__["b" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angular2_social_login__["b" /* AuthService */]) === "function" && _a || Object])
-], login);
-
-var _a;
-//# sourceMappingURL=login.js.map
-
-/***/ }),
-/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1138,7 +1088,7 @@ var dem10 = (function () {
 dem10 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'dem10',
-        styles: [__webpack_require__(193)],
+        styles: [__webpack_require__(189)],
         template: "\n    <section>\n    <h1>B\u00E0i 1 - Ch\u01B0\u01A1ng 1: \u0110\u1EBFm trong ph\u1EA1m vi 10</h1>\n    <h2 class=\"type\" >\u0110i\u1EC1n s\u1ED1 th\u00EDch h\u1EE3p v\u00E0o \u00F4 tr\u1ED1ng.</h2>\n    <div class=\"container\">\n        <div class=\"row\">\n            <!-- c\u1ED9t hi\u1EC3n th\u1ECB c\u00E2u h\u1ECFi -->\n            <div class=\"col-sm-1\"></div>\n            <div class=\"col-sm-6 col-xs-12\">\n                <!-- c\u00E2u h\u1ECFi hi\u1EC7n trong panel -->\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\n                    <div *ngIf=\"showAns\">\n                        <!-- hi\u1EC3n th\u1ECB c\u00E2u h\u1ECFi -->\n                        <h3><strong>{{QUESTIONES[x].name_ques}}</strong></h3>\n                        <div id=\"getImgQues\"><img src={{QUESTIONES[x].link_img}} /></div>\n                        <div id=\"ans\" >\n                            <input type=\"text\" style=\"text-align: center\" #result id=\"ketqua\">\n                        </div>\n                        <div id=\"submit_ans\">\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Ki\u1EC3m tra</button>\n                        </div>\n                    </div>\n\n                    <!-- chuy\u1EC3n sang b\u00E0i ti\u1EBFp theo -->\n                    <div *ngIf=\"nextLess\">\n                        <div id=\"newLess\">\n                            <!-- ho\u00E0n th\u00E0nh c\u1EA3 10 c\u00E2u h\u1ECFi \u0111\u00FAng -->\n                            <div *ngIf=\"endLessPer\">\n                                <h2><strong>Ch\u00FAc m\u1EEBng b\u1EA1n \u0111\u00E3 ho\u00E0n th\u00E0nh xu\u1EA5t s\u1EAFc b\u00E0i h\u1ECDc 1!</strong></h2>\n                                <h2>B\u1EA1n \u0111\u00E3 \u0111\u1EA1t \u0111\u01B0\u1EE3c 10/10 sao.</h2>\n                                <h2><strong>Chuy\u1EC3n \u0111\u1EBFn b\u00E0i h\u1ECDc m\u1EDBi n\u00E0o</strong></h2>\n                            </div>\n                            <div *ngIf=\"endLess\">\n                                <h2><strong>Ch\u00FAc m\u1EEBng b\u1EA1n \u0111\u00E3 ho\u00E0n th\u00E0nh b\u00E0i h\u1ECDc 1!</strong></h2>\n                                <h2>B\u1EA1n \u0111\u00E3 \u0111\u1EA1t \u0111\u01B0\u1EE3c {{count_true}}/10 sao.</h2>\n                                <h2><strong>Chuy\u1EC3n \u0111\u1EBFn b\u00E0i h\u1ECDc m\u1EDBi n\u00E0o</strong></h2>\n                            </div>\n                            <h2><a routerLink=\"/sub10\" routerLinkActive=\"active\">B\u00E0i 2 - ch\u01B0\u01A1ng 1: Ph\u00E9p tr\u1EEB trong ph\u1EA1m vi 10. </a></h2>\n                            <router-outlet></router-outlet>\n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <!-- c\u1ED9t hi\u1EC3n th\u1ECB s\u1ED1 sao -->\n            <div class=\"col-sm-4\">\n                <!-- s\u1ED1 sao hi\u1EC7n trong panel -->\n                <h2 class=\"type1\"><strong>S\u1ED1 sao \u0111\u1EA1t \u0111\u01B0\u1EE3c </strong></h2>\n                <br>\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\n                    <div id=\"starAward\">\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n  ",
     })
 ], dem10);
@@ -1146,7 +1096,7 @@ dem10 = __decorate([
 //# sourceMappingURL=dem10.js.map
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1253,15 +1203,15 @@ var minMax10 = (function () {
 minMax10 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'min-max-10',
-        styles: [__webpack_require__(194)],
-        template: __webpack_require__(209),
+        styles: [__webpack_require__(190)],
+        template: __webpack_require__(205),
     })
 ], minMax10);
 
 //# sourceMappingURL=min-max-10.js.map
 
 /***/ }),
-/* 72 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1328,15 +1278,15 @@ var sub10 = (function () {
 sub10 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sub-10',
-        styles: [__webpack_require__(103)],
-        template: __webpack_require__(210),
+        styles: [__webpack_require__(100)],
+        template: __webpack_require__(206),
     })
 ], sub10);
 
 //# sourceMappingURL=sub-10.js.map
 
 /***/ }),
-/* 73 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1397,15 +1347,15 @@ var sum10 = (function () {
 sum10 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sum-10',
-        styles: [__webpack_require__(103)],
-        template: __webpack_require__(211),
+        styles: [__webpack_require__(100)],
+        template: __webpack_require__(207),
     })
 ], sum10);
 
 //# sourceMappingURL=sum-10.js.map
 
 /***/ }),
-/* 74 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1501,15 +1451,15 @@ var lienTruocSau20 = (function () {
 lienTruocSau20 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'lien-truoc-sau-20',
-        styles: [__webpack_require__(195)],
-        template: __webpack_require__(212),
+        styles: [__webpack_require__(191)],
+        template: __webpack_require__(208),
     })
 ], lienTruocSau20);
 
 //# sourceMappingURL=lientruoc-sau-20.js.map
 
 /***/ }),
-/* 75 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1616,15 +1566,15 @@ var minMax20 = (function () {
 minMax20 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'min-max-20',
-        styles: [__webpack_require__(196)],
-        template: __webpack_require__(213),
+        styles: [__webpack_require__(192)],
+        template: __webpack_require__(209),
     })
 ], minMax20);
 
 //# sourceMappingURL=min-max-20.js.map
 
 /***/ }),
-/* 76 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1697,15 +1647,15 @@ var soSanh20 = (function () {
 soSanh20 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'so-sanh-20',
-        template: __webpack_require__(214),
-        styles: [__webpack_require__(197)],
+        template: __webpack_require__(210),
+        styles: [__webpack_require__(193)],
     })
 ], soSanh20);
 
 //# sourceMappingURL=sosanh-20.js.map
 
 /***/ }),
-/* 77 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1772,15 +1722,15 @@ var sub20 = (function () {
 sub20 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sub-20',
-        styles: [__webpack_require__(104)],
-        template: __webpack_require__(215),
+        styles: [__webpack_require__(101)],
+        template: __webpack_require__(211),
     })
 ], sub20);
 
 //# sourceMappingURL=sub-20.js.map
 
 /***/ }),
-/* 78 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1841,15 +1791,15 @@ var sum20 = (function () {
 sum20 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sum-20',
-        styles: [__webpack_require__(104)],
-        template: __webpack_require__(216),
+        styles: [__webpack_require__(101)],
+        template: __webpack_require__(212),
     })
 ], sum20);
 
 //# sourceMappingURL=sum-20.js.map
 
 /***/ }),
-/* 79 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1952,15 +1902,15 @@ var lienTruocSau100 = (function () {
 lienTruocSau100 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'lien-truoc-sau-100',
-        styles: [__webpack_require__(198)],
-        template: __webpack_require__(217),
+        styles: [__webpack_require__(194)],
+        template: __webpack_require__(213),
     })
 ], lienTruocSau100);
 
 //# sourceMappingURL=lientruoc-sau-100.js.map
 
 /***/ }),
-/* 80 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2067,15 +2017,15 @@ var minMax100 = (function () {
 minMax100 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'min-max-100',
-        styles: [__webpack_require__(199)],
-        template: __webpack_require__(218),
+        styles: [__webpack_require__(195)],
+        template: __webpack_require__(214),
     })
 ], minMax100);
 
 //# sourceMappingURL=min-max-100.js.map
 
 /***/ }),
-/* 81 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2140,15 +2090,15 @@ var soSanh100 = (function () {
 soSanh100 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'so-sanh-100',
-        styles: [__webpack_require__(200)],
-        template: __webpack_require__(219),
+        styles: [__webpack_require__(196)],
+        template: __webpack_require__(215),
     })
 ], soSanh100);
 
 //# sourceMappingURL=sosanh-100.js.map
 
 /***/ }),
-/* 82 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2215,15 +2165,15 @@ var sub100 = (function () {
 sub100 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sub-100',
-        styles: [__webpack_require__(105)],
-        template: __webpack_require__(220),
+        styles: [__webpack_require__(102)],
+        template: __webpack_require__(216),
     })
 ], sub100);
 
 //# sourceMappingURL=sub-100.js.map
 
 /***/ }),
-/* 83 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2284,15 +2234,15 @@ var sum100 = (function () {
 sum100 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'sum-100',
-        styles: [__webpack_require__(105)],
-        template: __webpack_require__(221),
+        styles: [__webpack_require__(102)],
+        template: __webpack_require__(217),
     })
 ], sum100);
 
 //# sourceMappingURL=sum-100.js.map
 
 /***/ }),
-/* 84 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2388,15 +2338,15 @@ var demTamgiac = (function () {
 demTamgiac = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'diem-doanthang',
-        styles: [__webpack_require__(106)],
-        template: __webpack_require__(107),
+        styles: [__webpack_require__(103)],
+        template: __webpack_require__(104),
     })
 ], demTamgiac);
 
 //# sourceMappingURL=dem-so-tamgiac.js.map
 
 /***/ }),
-/* 85 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2492,15 +2442,15 @@ var diemDoanthang = (function () {
 diemDoanthang = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'diem-doanthang',
-        styles: [__webpack_require__(106)],
-        template: __webpack_require__(107),
+        styles: [__webpack_require__(103)],
+        template: __webpack_require__(104),
     })
 ], diemDoanthang);
 
 //# sourceMappingURL=diem-doanthang.js.map
 
 /***/ }),
-/* 86 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2602,15 +2552,15 @@ var tamGiacVuongTron = (function () {
 tamGiacVuongTron = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'tam-giac-vuong-tron',
-        styles: [__webpack_require__(201)],
-        template: __webpack_require__(222),
+        styles: [__webpack_require__(197)],
+        template: __webpack_require__(218),
     })
 ], tamGiacVuongTron);
 
 //# sourceMappingURL=tamgiac-vuong-tron.js.map
 
 /***/ }),
-/* 87 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2705,15 +2655,15 @@ var xemGio = (function () {
 xemGio = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'xem-gio',
-        styles: [__webpack_require__(202)],
-        template: __webpack_require__(223),
+        styles: [__webpack_require__(198)],
+        template: __webpack_require__(219),
     })
 ], xemGio);
 
 //# sourceMappingURL=xem-gio.js.map
 
 /***/ }),
-/* 88 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2734,14 +2684,15 @@ var luyenTap = (function () {
 luyenTap = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'luyen-tap',
-        styles: [__webpack_require__(203)],
-        template: "\n   <div class=\"container\">\n            <div class=\"row\">\n                <h1 style=\"text-align: center; font-size: 50px; color: brown\">To\u00E1n 1</h1>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c1\">\n                        <h2> C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 10</h2>\n                        <a routerLink=\"/dem10\" routerLinkActive=\"active\">\u0110\u1EBFm \u0111\u1EBFn 10</a>\n                        <br>\n                        <a routerLink=\"/sub10\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum10\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax10\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                    </div>\n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c2\">\n                        <h2>C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 20</h2>\n                        <a routerLink=\"/sosanh20\" routerLinkActive=\"active\">So s\u00E1nh 2 s\u1ED1</a>\n                        <br>\n                        <a routerLink=\"/sub20\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum20\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax20\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                        <br>\n                        <a routerLink=\"/lientruocsau20\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 li\u1EC1n tr\u01B0\u1EDBc, s\u1ED1 li\u1EC1n sau</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c3\">\n                        <h2>C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 100</h2>\n                        <a routerLink=\"/sosanh100\" routerLinkActive=\"active\">So s\u00E1nh 2 s\u1ED1</a>\n                        <br>\n                        <a routerLink=\"/sub100\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum100\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax100\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                        <br>\n                        <a routerLink=\"/lientruocsau100\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 li\u1EC1n tr\u01B0\u1EDBc, s\u1ED1 li\u1EC1n sau</a>\n                        <br>\n                    </div>\n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c4\">\n                        <h2>H\u00ECnh h\u1ECDc</h2>\n                        <a routerLink=\"/diemdoanthang\" routerLinkActive=\"active\">\u0110i\u1EC3m v\u00E0 \u0111o\u1EA1n th\u1EB3ng</a>\n                        <br>\n                        <a routerLink=\"/tamgiacvuongtron\" routerLinkActive=\"active\">H\u00ECnh tam gi\u00E1c, h\u00ECnh vu\u00F4ng, h\u00ECnh tr\u00F2n</a>\n                        <br>  \n                        <a routerLink=\"/demtamgiac\" routerLinkActive=\"active\">\u0110\u1EBFm s\u1ED1 h\u00ECnh tam gi\u00E1c</a>\n                        <br>    \n                    </div>             \n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c4\">\n                        <h2>Th\u1EDDi gian</h2>\n                        <a routerLink=\"/xemgio\" routerLinkActive=\"active\">Xem gi\u1EDD</a>\n                        <br>\n                    </div>\n                </div>\n            </div>\n        <router-outlet></router-outlet>\n    </div>\n\n    ",
+        styles: [__webpack_require__(199)],
+        template: "\n   <div class=\"container\">\n            <div class=\"row\">\n                <h1 style=\"text-align: center; font-size: 50px; color: brown\">To\u00E1n 1</h1>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c1\">\n                        <h2> C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 10</h2>\n                        <a routerLink=\"/dem10\" routerLinkActive=\"active\">\u0110\u1EBFm \u0111\u1EBFn 10</a>\n                        <br>\n                        <a routerLink=\"/sub10\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum10\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax10\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                    </div>\n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c2\">\n                        <h2>C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 20</h2>\n                        <a routerLink=\"/sosanh20\" routerLinkActive=\"active\">So s\u00E1nh 2</a>\n                        <br>\n                        <a routerLink=\"/sub20\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum20\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax20\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                        <br>\n                        <a routerLink=\"/lientruocsau20\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 li\u1EC1n tr\u01B0\u1EDBc, s\u1ED1 li\u1EC1n sau</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c3\">\n                        <h2>C\u00E1c s\u1ED1 v\u00E0 ph\u00E9p to\u00E1n trong ph\u1EA1m vi 100</h2>\n                        <a routerLink=\"/sosanh100\" routerLinkActive=\"active\">So s\u00E1nh 2</a>\n                        <br>\n                        <a routerLink=\"/sub100\" routerLinkActive=\"active\">Ph\u00E9p tr\u1EEB</a>\n                        <br>\n                        <a routerLink=\"/sum100\" routerLinkActive=\"active\">Ph\u00E9p c\u1ED9ng</a>\n                        <br>\n                        <a routerLink=\"/minmax100\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 l\u1EDBn nh\u1EA5t, nh\u1ECF nh\u1EA5t</a>\n                        <br>\n                        <a routerLink=\"/lientruocsau100\" routerLinkActive=\"active\">T\u00ECm s\u1ED1 li\u1EC1n tr\u01B0\u1EDBc, s\u1ED1 li\u1EC1n sau</a>\n                        <br>\n                    </div>\n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c4\">\n                        <h2>H\u00ECnh h\u1ECDc</h2>\n                        <a routerLink=\"/diemdoanthang\" routerLinkActive=\"active\">\u0110i\u1EC3m v\u00E0 \u0111o\u1EA1n th\u1EB3ng</a>\n                        <br>\n                        <a routerLink=\"/tamgiacvuongtron\" routerLinkActive=\"active\">H\u00ECnh tam gi\u00E1c, h\u00ECnh vu\u00F4ng, h\u00ECnh tr\u00F2n</a>\n                        <br>  \n                        <a routerLink=\"/demtamgiac\" routerLinkActive=\"active\">\u0110\u1EBFm s\u1ED1 h\u00ECnh tam gi\u00E1c</a>\n                        <br>    \n                    </div>             \n                </div>\n                <div class=\"col-xs-10 col-sm-6\">\n                    <div class=\"panel panel-body panel-primary\" id=\"c4\">\n                        <h2>Th\u1EDDi gian</h2>\n                        <a routerLink=\"/xemgio\" routerLinkActive=\"active\">Xem gi\u1EDD</a>\n                        <br>\n                    </div>\n                </div>\n            </div>\n        <router-outlet></router-outlet>\n    </div>\n\n    ",
     })
 ], luyenTap);
 
 //# sourceMappingURL=luyentap.js.map
 
 /***/ }),
+/* 88 */,
 /* 89 */,
 /* 90 */,
 /* 91 */,
@@ -2753,10 +2704,7 @@ luyenTap = __decorate([
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */,
-/* 101 */,
-/* 102 */,
-/* 103 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -2773,7 +2721,7 @@ exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 104 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -2790,7 +2738,7 @@ exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 105 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -2807,7 +2755,7 @@ exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 106 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -2815,7 +2763,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2{\r\n    color: red;\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\np{\r\n    color: red;\r\n    padding-left: 5cm;\r\n}\r\n\r\n#getImgQues {\r\n    text-align: center;\r\n}\r\n\r\n#divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n.type {\r\n    color: green;\r\n    margin-left: 4cm;\r\n}\r\n\r\n.type1 {\r\n    color: green;\r\n}\r\n\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    size: 20px;\r\n    margin-top: 0.5cm;\r\n    margin-left: 4cm;\r\n}\r\n\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n\r\n}\r\n#ans {\r\n    margin-top: 1cm;\r\n    margin-left: 3cm;\r\n    \r\n}\r\n\r\n\r\n#ketqua{\r\n    font-size: 20px;\r\n    border: 3px double;\r\n    height: 40px;\r\n    text-align: center;\r\n}\r\n", ""]);
+exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2{\r\n    color: red;\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\np{\r\n    color: red;\r\n    padding-left: 5cm;\r\n}\r\n\r\n#getImgQues {\r\n    text-align: center;\r\n}\r\n\r\n#divQues {\r\n    height: 450px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n.type {\r\n    color: green;\r\n    margin-left: 4cm;\r\n}\r\n\r\n.type1 {\r\n    color: green;\r\n}\r\n\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    size: 20px;\r\n    margin-top: 0.5cm;\r\n    margin-left: 4cm;\r\n}\r\n\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n\r\n}\r\n#ans {\r\n    margin-top: 1cm;\r\n    margin-left: 3cm;\r\n    \r\n}\r\n\r\n\r\n#ketqua{\r\n    font-size: 20px;\r\n    border: 3px double;\r\n    height: 40px;\r\n    text-align: center;\r\n}\r\n", ""]);
 
 // exports
 
@@ -2824,12 +2772,15 @@ exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 107 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <div *ngIf=\"nameQues\">\r\n        <div *ngIf=\"b1_c4_head\">\r\n            <h1>Bài 2 - Chương 4: Điểm và đoạn thẳng</h1>\r\n            <h2 class=\"type\">Điền số thích hợp vào ô trống.</h2>\r\n        </div>\r\n        <div *ngIf=\"b2_c4_head\">\r\n            <h1>Bài 3 - Chương 4: Đếm số hình tam giác</h1>\r\n            <h2 class=\"type\">Điền số thích hợp vào ô trống.</h2>\r\n            <p>Chú ý: Chỉ tính số tam giác được nối bởi 3 điểm</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <!-- cột hiển thị câu hỏi -->\r\n            <div class=\"col-sm-6\">\r\n                <!-- câu hỏi hiện trong panel -->\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n                    <div *ngIf=\"showAns\">\r\n                        <!-- hiển thị câu hỏi -->\r\n                        <h3><strong>{{countques[x].name_ques}}</strong></h3>\r\n                        <div id=\"getImgQues\"><img src={{countques[x].link_img}} /></div>\r\n                        <div id=\"ans\">\r\n                            <input type=\"text\" #result id=\"ketqua\">\r\n                        </div>\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- chuyển sang bài tiếp theo  -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                             <!-- hoàn thành cả 10 câu hỏi đúng  -->\r\n                             <div *ngIf=\"bai2_chuong4\">\r\n                                <div *ngIf=\"endLessPer\">\r\n                                    <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>\r\n                                    <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                                </div>\r\n                                 <div *ngIf=\"endLess\">\r\n                                    <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>\r\n                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                                </div>        \r\n                                <h2><a routerLink=\"/tamgiacvuongtron\" routerLinkActive=\"active\">Bài 2 - chương 4: Hình tam giác, hình vuông, hình tròn. </a></h2>\r\n                                <router-outlet></router-outlet>\r\n                            </div>\r\n                            <div *ngIf=\"bai1_chuong5\">\r\n                                <div *ngIf=\"endLessPer\">\r\n                                    <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>\r\n                                    <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                                </div>\r\n                                <div *ngIf=\"endLess\">\r\n                                    <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>\r\n                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                                </div>\r\n                                <h2><a routerLink=\"/xemgio\" routerLinkActive=\"active\">Bài 1 - chương 5: Xem giờ. </a></h2>\r\n                                <router-outlet></router-outlet>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n\r\n            <!-- cột hiển thị số sao -->\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
+/* 105 */,
+/* 106 */,
+/* 107 */,
 /* 108 */,
 /* 109 */,
 /* 110 */,
@@ -2841,16 +2792,13 @@ module.exports = "<section>\r\n    <div *ngIf=\"nameQues\">\r\n        <div *ngI
 /* 116 */,
 /* 117 */,
 /* 118 */,
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "background.96b04279d38e7907e807.jpg";
 
 /***/ }),
-/* 123 */
+/* 120 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -2859,68 +2807,66 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 123;
+webpackEmptyContext.id = 120;
 
 
 /***/ }),
-/* 124 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_module__ = __webpack_require__(128);
 
 
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
+/* 122 */,
+/* 123 */,
+/* 124 */,
 /* 125 */,
 /* 126 */,
 /* 127 */,
-/* 128 */,
-/* 129 */,
-/* 130 */,
-/* 131 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_social_login__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_app_routing_app_routing_module__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__login__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong1_phamvi10_dem10__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong1_phamvi10_sub_10__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong1_phamvi10_sum_10__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong1_phamvi10_min_max_10__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_sosanh_20__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong2_phamvi20_sub_20__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong2_phamvi20_sum_20__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong2_phamvi20_min_max_20__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_sosanh_100__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong3_phamvi100_sub_100__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong3_phamvi100_sum_100__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong3_phamvi100_min_max_100__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_app_luyentap_chuong4_hinhhoc_diem_doanthang__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_app_luyentap_chuong5_thoigian_xem_gio__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_app_luyentap_luyentap__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__kiemtra_kiemtra__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__giaitri_giaitri__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_app_kiemtra_de1__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_app_kiemtra_de2__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_app_kiemtra_de3__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_app_kiemtra_de4__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34_app_kiemtra_de5__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_routing_app_routing_module__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__home__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_app_luyentap_chuong1_phamvi10_dem10__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong1_phamvi10_sub_10__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong1_phamvi10_sum_10__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong1_phamvi10_min_max_10__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_sosanh_20__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_sub_20__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_sum_20__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong2_phamvi20_min_max_20__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_sosanh_100__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_sub_100__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_sum_100__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong3_phamvi100_min_max_100__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong4_hinhhoc_diem_doanthang__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_app_luyentap_chuong5_thoigian_xem_gio__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_app_luyentap_luyentap__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__kiemtra_kiemtra__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__giaitri_giaitri__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_app_kiemtra_de1__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_app_kiemtra_de2__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_app_kiemtra_de3__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_app_kiemtra_de4__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32_app_kiemtra_de5__ = __webpack_require__(67);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2935,7 +2881,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var providers = {
     "google": {
         "clientId": "GOOGLE_CLIENT_ID"
@@ -2945,7 +2890,6 @@ var providers = {
         "apiVersion": "v2.4"
     }
 };
-
 
 
 
@@ -2988,54 +2932,51 @@ var AppModule = (function () {
 AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_6__app__["a" /* app */],
-            __WEBPACK_IMPORTED_MODULE_7__home__["a" /* home */],
-            __WEBPACK_IMPORTED_MODULE_8__login__["a" /* login */],
-            __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong1_phamvi10_dem10__["a" /* dem10 */],
-            __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong1_phamvi10_sub_10__["a" /* sub10 */],
-            __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong1_phamvi10_sum_10__["a" /* sum10 */],
-            __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong1_phamvi10_min_max_10__["a" /* minMax10 */],
-            __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_sosanh_20__["a" /* soSanh20 */],
-            __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong2_phamvi20_sub_20__["a" /* sub20 */],
-            __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong2_phamvi20_sum_20__["a" /* sum20 */],
-            __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong2_phamvi20_min_max_20__["a" /* minMax20 */],
-            __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__["a" /* lienTruocSau20 */],
-            __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_sosanh_100__["a" /* soSanh100 */],
-            __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong3_phamvi100_sub_100__["a" /* sub100 */],
-            __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong3_phamvi100_sum_100__["a" /* sum100 */],
-            __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong3_phamvi100_min_max_100__["a" /* minMax100 */],
-            __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__["a" /* lienTruocSau100 */],
-            __WEBPACK_IMPORTED_MODULE_23_app_luyentap_chuong4_hinhhoc_diem_doanthang__["a" /* diemDoanthang */],
-            __WEBPACK_IMPORTED_MODULE_24_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__["a" /* tamGiacVuongTron */],
-            __WEBPACK_IMPORTED_MODULE_25_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__["a" /* demTamgiac */],
-            __WEBPACK_IMPORTED_MODULE_26_app_luyentap_chuong5_thoigian_xem_gio__["a" /* xemGio */],
-            __WEBPACK_IMPORTED_MODULE_27_app_luyentap_luyentap__["a" /* luyenTap */],
-            __WEBPACK_IMPORTED_MODULE_28__kiemtra_kiemtra__["a" /* kiemTra */],
-            __WEBPACK_IMPORTED_MODULE_29__giaitri_giaitri__["a" /* giaiTri */],
-            __WEBPACK_IMPORTED_MODULE_30_app_kiemtra_de1__["a" /* de1 */],
-            __WEBPACK_IMPORTED_MODULE_31_app_kiemtra_de2__["a" /* de2 */],
-            __WEBPACK_IMPORTED_MODULE_32_app_kiemtra_de3__["a" /* de3 */],
-            __WEBPACK_IMPORTED_MODULE_33_app_kiemtra_de4__["a" /* de4 */],
-            __WEBPACK_IMPORTED_MODULE_34_app_kiemtra_de5__["a" /* de5 */],
+            __WEBPACK_IMPORTED_MODULE_5__app__["a" /* app */],
+            __WEBPACK_IMPORTED_MODULE_6__home__["a" /* home */],
+            __WEBPACK_IMPORTED_MODULE_7_app_luyentap_chuong1_phamvi10_dem10__["a" /* dem10 */],
+            __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong1_phamvi10_sub_10__["a" /* sub10 */],
+            __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong1_phamvi10_sum_10__["a" /* sum10 */],
+            __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong1_phamvi10_min_max_10__["a" /* minMax10 */],
+            __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_sosanh_20__["a" /* soSanh20 */],
+            __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_sub_20__["a" /* sub20 */],
+            __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_sum_20__["a" /* sum20 */],
+            __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong2_phamvi20_min_max_20__["a" /* minMax20 */],
+            __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__["a" /* lienTruocSau20 */],
+            __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_sosanh_100__["a" /* soSanh100 */],
+            __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_sub_100__["a" /* sub100 */],
+            __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_sum_100__["a" /* sum100 */],
+            __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong3_phamvi100_min_max_100__["a" /* minMax100 */],
+            __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__["a" /* lienTruocSau100 */],
+            __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong4_hinhhoc_diem_doanthang__["a" /* diemDoanthang */],
+            __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__["a" /* tamGiacVuongTron */],
+            __WEBPACK_IMPORTED_MODULE_23_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__["a" /* demTamgiac */],
+            __WEBPACK_IMPORTED_MODULE_24_app_luyentap_chuong5_thoigian_xem_gio__["a" /* xemGio */],
+            __WEBPACK_IMPORTED_MODULE_25_app_luyentap_luyentap__["a" /* luyenTap */],
+            __WEBPACK_IMPORTED_MODULE_26__kiemtra_kiemtra__["a" /* kiemTra */],
+            __WEBPACK_IMPORTED_MODULE_27__giaitri_giaitri__["a" /* giaiTri */],
+            __WEBPACK_IMPORTED_MODULE_28_app_kiemtra_de1__["a" /* de1 */],
+            __WEBPACK_IMPORTED_MODULE_29_app_kiemtra_de2__["a" /* de2 */],
+            __WEBPACK_IMPORTED_MODULE_30_app_kiemtra_de3__["a" /* de3 */],
+            __WEBPACK_IMPORTED_MODULE_31_app_kiemtra_de4__["a" /* de4 */],
+            __WEBPACK_IMPORTED_MODULE_32_app_kiemtra_de5__["a" /* de5 */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_5_app_routing_app_routing_module__["a" /* AppRoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_4_angular2_social_login__["a" /* Angular2SocialLoginModule */]
+            __WEBPACK_IMPORTED_MODULE_4_app_routing_app_routing_module__["a" /* AppRoutingModule */],
         ],
         providers: [],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app__["a" /* app */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app__["a" /* app */]]
     }),
     __metadata("design:paramtypes", [])
 ], AppModule);
 
-__WEBPACK_IMPORTED_MODULE_4_angular2_social_login__["a" /* Angular2SocialLoginModule */].loadProvidersScripts(providers);
 //# sourceMappingURL=app.module.js.map
 
 /***/ }),
-/* 132 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3062,48 +3003,47 @@ var app = (function () {
 app = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* Component */])({
         selector: 'app-root',
-        template: __webpack_require__(206),
-        styles: [__webpack_require__(189)],
+        template: __webpack_require__(202),
+        styles: [__webpack_require__(185)],
     })
 ], app);
 
 //# sourceMappingURL=app.js.map
 
 /***/ }),
-/* 133 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_app_home__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_login__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_luyentap_chuong1_phamvi10_dem10__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_app_luyentap_chuong1_phamvi10_sub_10__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_luyentap_chuong1_phamvi10_sum_10__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_app_luyentap_luyentap__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong1_phamvi10_min_max_10__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong2_phamvi20_sosanh_20__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong2_phamvi20_sub_20__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_sum_20__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_min_max_20__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong3_phamvi100_sosanh_100__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong3_phamvi100_sub_100__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_sum_100__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_min_max_100__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong4_hinhhoc_diem_doanthang__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong5_thoigian_xem_gio__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_app_kiemtra_kiemtra__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_app_kiemtra_de1__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_app_kiemtra_de2__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_app_kiemtra_de3__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_app_kiemtra_de4__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_app_kiemtra_de5__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_app_giaitri_giaitri__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_app_luyentap_chuong1_phamvi10_dem10__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_app_luyentap_chuong1_phamvi10_sub_10__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_app_luyentap_chuong1_phamvi10_sum_10__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_app_luyentap_luyentap__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_app_luyentap_chuong1_phamvi10_min_max_10__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong2_phamvi20_sosanh_20__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong2_phamvi20_sub_20__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong2_phamvi20_sum_20__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_min_max_20__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong3_phamvi100_sosanh_100__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong3_phamvi100_sub_100__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong3_phamvi100_sum_100__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_min_max_100__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong4_hinhhoc_diem_doanthang__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong5_thoigian_xem_gio__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_app_kiemtra_kiemtra__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_app_kiemtra_de1__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_app_kiemtra_de2__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_app_kiemtra_de3__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_app_kiemtra_de4__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27_app_kiemtra_de5__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_app_giaitri_giaitri__ = __webpack_require__(61);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3111,7 +3051,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -3145,33 +3084,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_2_app_home__["a" /* home */] },
-    { path: 'login', component: __WEBPACK_IMPORTED_MODULE_3_app_login__["a" /* login */] },
-    { path: 'luyentap', component: __WEBPACK_IMPORTED_MODULE_7_app_luyentap_luyentap__["a" /* luyenTap */] },
-    { path: 'dem10', component: __WEBPACK_IMPORTED_MODULE_4_app_luyentap_chuong1_phamvi10_dem10__["a" /* dem10 */] },
-    { path: 'sub10', component: __WEBPACK_IMPORTED_MODULE_5_app_luyentap_chuong1_phamvi10_sub_10__["a" /* sub10 */] },
-    { path: 'sum10', component: __WEBPACK_IMPORTED_MODULE_6_app_luyentap_chuong1_phamvi10_sum_10__["a" /* sum10 */] },
-    { path: 'minmax10', component: __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong1_phamvi10_min_max_10__["a" /* minMax10 */] },
-    { path: 'sosanh20', component: __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong2_phamvi20_sosanh_20__["a" /* soSanh20 */] },
-    { path: 'sub20', component: __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong2_phamvi20_sub_20__["a" /* sub20 */] },
-    { path: 'sum20', component: __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_sum_20__["a" /* sum20 */] },
-    { path: 'minmax20', component: __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_min_max_20__["a" /* minMax20 */] },
-    { path: 'lientruocsau20', component: __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__["a" /* lienTruocSau20 */] },
-    { path: 'sosanh100', component: __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong3_phamvi100_sosanh_100__["a" /* soSanh100 */] },
-    { path: 'sub100', component: __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong3_phamvi100_sub_100__["a" /* sub100 */] },
-    { path: 'sum100', component: __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_sum_100__["a" /* sum100 */] },
-    { path: 'minmax100', component: __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_min_max_100__["a" /* minMax100 */] },
-    { path: 'lientruocsau100', component: __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__["a" /* lienTruocSau100 */] },
-    { path: 'diemdoanthang', component: __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong4_hinhhoc_diem_doanthang__["a" /* diemDoanthang */] },
-    { path: 'tamgiacvuongtron', component: __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__["a" /* tamGiacVuongTron */] },
-    { path: 'demtamgiac', component: __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__["a" /* demTamgiac */] },
-    { path: 'xemgio', component: __WEBPACK_IMPORTED_MODULE_22_app_luyentap_chuong5_thoigian_xem_gio__["a" /* xemGio */] },
-    { path: 'kiemtra', component: __WEBPACK_IMPORTED_MODULE_23_app_kiemtra_kiemtra__["a" /* kiemTra */] },
-    { path: 'de1', component: __WEBPACK_IMPORTED_MODULE_24_app_kiemtra_de1__["a" /* de1 */] },
-    { path: 'de2', component: __WEBPACK_IMPORTED_MODULE_25_app_kiemtra_de2__["a" /* de2 */] },
-    { path: 'de3', component: __WEBPACK_IMPORTED_MODULE_26_app_kiemtra_de3__["a" /* de3 */] },
-    { path: 'de4', component: __WEBPACK_IMPORTED_MODULE_27_app_kiemtra_de4__["a" /* de4 */] },
-    { path: 'de5', component: __WEBPACK_IMPORTED_MODULE_28_app_kiemtra_de5__["a" /* de5 */] },
-    { path: 'giaitri', component: __WEBPACK_IMPORTED_MODULE_29_app_giaitri_giaitri__["a" /* giaiTri */] }
+    { path: 'luyentap', component: __WEBPACK_IMPORTED_MODULE_6_app_luyentap_luyentap__["a" /* luyenTap */] },
+    { path: 'dem10', component: __WEBPACK_IMPORTED_MODULE_3_app_luyentap_chuong1_phamvi10_dem10__["a" /* dem10 */] },
+    { path: 'sub10', component: __WEBPACK_IMPORTED_MODULE_4_app_luyentap_chuong1_phamvi10_sub_10__["a" /* sub10 */] },
+    { path: 'sum10', component: __WEBPACK_IMPORTED_MODULE_5_app_luyentap_chuong1_phamvi10_sum_10__["a" /* sum10 */] },
+    { path: 'minmax10', component: __WEBPACK_IMPORTED_MODULE_7_app_luyentap_chuong1_phamvi10_min_max_10__["a" /* minMax10 */] },
+    { path: 'sosanh20', component: __WEBPACK_IMPORTED_MODULE_8_app_luyentap_chuong2_phamvi20_sosanh_20__["a" /* soSanh20 */] },
+    { path: 'sub20', component: __WEBPACK_IMPORTED_MODULE_9_app_luyentap_chuong2_phamvi20_sub_20__["a" /* sub20 */] },
+    { path: 'sum20', component: __WEBPACK_IMPORTED_MODULE_10_app_luyentap_chuong2_phamvi20_sum_20__["a" /* sum20 */] },
+    { path: 'minmax20', component: __WEBPACK_IMPORTED_MODULE_11_app_luyentap_chuong2_phamvi20_min_max_20__["a" /* minMax20 */] },
+    { path: 'lientruocsau20', component: __WEBPACK_IMPORTED_MODULE_12_app_luyentap_chuong2_phamvi20_lientruoc_sau_20__["a" /* lienTruocSau20 */] },
+    { path: 'sosanh100', component: __WEBPACK_IMPORTED_MODULE_13_app_luyentap_chuong3_phamvi100_sosanh_100__["a" /* soSanh100 */] },
+    { path: 'sub100', component: __WEBPACK_IMPORTED_MODULE_14_app_luyentap_chuong3_phamvi100_sub_100__["a" /* sub100 */] },
+    { path: 'sum100', component: __WEBPACK_IMPORTED_MODULE_15_app_luyentap_chuong3_phamvi100_sum_100__["a" /* sum100 */] },
+    { path: 'minmax100', component: __WEBPACK_IMPORTED_MODULE_16_app_luyentap_chuong3_phamvi100_min_max_100__["a" /* minMax100 */] },
+    { path: 'lientruocsau100', component: __WEBPACK_IMPORTED_MODULE_17_app_luyentap_chuong3_phamvi100_lientruoc_sau_100__["a" /* lienTruocSau100 */] },
+    { path: 'diemdoanthang', component: __WEBPACK_IMPORTED_MODULE_18_app_luyentap_chuong4_hinhhoc_diem_doanthang__["a" /* diemDoanthang */] },
+    { path: 'tamgiacvuongtron', component: __WEBPACK_IMPORTED_MODULE_19_app_luyentap_chuong4_hinhhoc_tamgiac_vuong_tron__["a" /* tamGiacVuongTron */] },
+    { path: 'demtamgiac', component: __WEBPACK_IMPORTED_MODULE_20_app_luyentap_chuong4_hinhhoc_dem_so_tamgiac__["a" /* demTamgiac */] },
+    { path: 'xemgio', component: __WEBPACK_IMPORTED_MODULE_21_app_luyentap_chuong5_thoigian_xem_gio__["a" /* xemGio */] },
+    { path: 'kiemtra', component: __WEBPACK_IMPORTED_MODULE_22_app_kiemtra_kiemtra__["a" /* kiemTra */] },
+    { path: 'de1', component: __WEBPACK_IMPORTED_MODULE_23_app_kiemtra_de1__["a" /* de1 */] },
+    { path: 'de2', component: __WEBPACK_IMPORTED_MODULE_24_app_kiemtra_de2__["a" /* de2 */] },
+    { path: 'de3', component: __WEBPACK_IMPORTED_MODULE_25_app_kiemtra_de3__["a" /* de3 */] },
+    { path: 'de4', component: __WEBPACK_IMPORTED_MODULE_26_app_kiemtra_de4__["a" /* de4 */] },
+    { path: 'de5', component: __WEBPACK_IMPORTED_MODULE_27_app_kiemtra_de5__["a" /* de5 */] },
+    { path: 'giaitri', component: __WEBPACK_IMPORTED_MODULE_28_app_giaitri_giaitri__["a" /* giaiTri */] }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -3188,6 +3126,9 @@ AppRoutingModule = __decorate([
 //# sourceMappingURL=app-routing.module.js.map
 
 /***/ }),
+/* 131 */,
+/* 132 */,
+/* 133 */,
 /* 134 */,
 /* 135 */,
 /* 136 */,
@@ -3239,11 +3180,7 @@ AppRoutingModule = __decorate([
 /* 182 */,
 /* 183 */,
 /* 184 */,
-/* 185 */,
-/* 186 */,
-/* 187 */,
-/* 188 */,
-/* 189 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3251,7 +3188,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\r\nsection{\t\r\n    \r\n        background: url(" + __webpack_require__(122) + ") fixed no-repeat;\r\n        width: 100%;\r\n        padding-top: 50px;\r\n        overflow: auto;\r\n        bottom: 0;\r\n        min-height: 100%;\r\n        scroll-behavior: auto;\r\n    }\r\n    \r\n    footer {\r\n      background: gray;\r\n      border-style: solid;\r\n      color : white;\r\n      font-weight: bold;\r\n      display: block;\r\n      position: absolute;\r\n      margin-bottom: 0;\r\n      padding-right: 0;\r\n      left: 0;\r\n      right: 0;\r\n      width: 100%;\r\n      text-align: left;\r\n    }\r\na{\r\n    color: blue;\r\n}\r\n\r\nh4{\r\n    color: blue;\r\n}\r\n\r\nli{\r\n    font-size: 150%;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\nsection{\t\r\n    \r\n        background: url(" + __webpack_require__(119) + ") fixed no-repeat;\r\n        width: 100%;\r\n        padding-top: 50px;\r\n        overflow: auto;\r\n        bottom: 0;\r\n        min-height: 100%;\r\n        scroll-behavior: auto;\r\n    }\r\n    \r\n    footer {\r\n      background: gray;\r\n      border-style: solid;\r\n      color : white;\r\n      font-weight: bold;\r\n      display: block;\r\n      position: absolute;\r\n      margin-bottom: 0;\r\n      padding-right: 0;\r\n      left: 0;\r\n      right: 0;\r\n      width: 100%;\r\n      text-align: left;\r\n    }\r\na{\r\n    color: blue;\r\n}\r\n\r\nh4{\r\n    color: blue;\r\n}\r\n\r\nli{\r\n    font-size: 150%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -3260,7 +3197,7 @@ exports.push([module.i, "\r\nsection{\t\r\n    \r\n        background: url(" + _
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 190 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3277,7 +3214,7 @@ exports.push([module.i, "a {\r\n    font-size: 150%;\r\n}", ""]);
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 191 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3285,7 +3222,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, ".container{\r\n    height: 200px;\r\n    \r\n}\r\nh3{\r\n    color: orangered;\r\n}\r\nsection{\r\n     background: url(" + __webpack_require__(122) + ") fixed no-repeat;\r\n}\r\nimg{\r\n    width: 100%;\r\n}", ""]);
+exports.push([module.i, ".container{\r\n    height: 200px;\r\n    \r\n}\r\nh3{\r\n    color: orangered;\r\n}\r\nsection{\r\n     background: url(" + __webpack_require__(119) + ") fixed no-repeat;\r\n}\r\nimg{\r\n    width: 100%;\r\n}", ""]);
 
 // exports
 
@@ -3294,7 +3231,7 @@ exports.push([module.i, ".container{\r\n    height: 200px;\r\n    \r\n}\r\nh3{\r
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 192 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3311,7 +3248,7 @@ exports.push([module.i, "h1{\r\n    text-align: center;\r\n    color: brown;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 193 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3319,7 +3256,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2{\r\n    color: red;\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\n#getImgQues {\r\n    text-align: center;\r\n}\r\n\r\n#divQues {\r\n    height: 420px;\r\n    border-width: 3px;\r\n}\r\n\r\n.type {\r\n    color: green;\r\n    margin-left: 4cm;\r\n}\r\n\r\n.type1 {\r\n    color: green;\r\n}\r\n\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    size: 20px;\r\n    margin-top: 0.5cm;\r\n    margin-left: 4cm;\r\n}\r\n\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n\r\n}\r\n#ans {\r\n    margin-top: 1cm;\r\n    margin-left: 3cm;\r\n    \r\n}\r\n\r\n#ketqua{\r\n    font-size: 20px;\r\n    border: 3px double;\r\n    height: 40px;\r\n    \r\n}\r\n", ""]);
+exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2{\r\n    color: red;\r\n}\r\n\r\nh3 {\r\n    text-align: center;\r\n}\r\n\r\n#getImgQues {\r\n    text-align: center;\r\n}\r\n\r\n#divQues {\r\n    height: 450px;\r\n    border-width: 3px;\r\n}\r\n\r\n.type {\r\n    color: green;\r\n    margin-left: 4cm;\r\n}\r\n\r\n.type1 {\r\n    color: green;\r\n}\r\n\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    size: 20px;\r\n    margin-top: 0.5cm;\r\n    margin-left: 4cm;\r\n}\r\n\r\n\r\n#kiemtra{\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n\r\n}\r\n#ans {\r\n    margin-top: 1cm;\r\n    margin-left: 3cm;\r\n    \r\n}\r\n\r\n#ketqua{\r\n    font-size: 20px;\r\n    border: 3px double;\r\n    height: 40px;\r\n    \r\n}\r\n", ""]);
 
 // exports
 
@@ -3328,7 +3265,7 @@ exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 194 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3345,7 +3282,7 @@ exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 195 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -3354,6 +3291,74 @@ exports = module.exports = __webpack_require__(2)(false);
 
 // module
 exports.push([module.i, "h1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n h2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    padding-left: 4cm;\r\n    padding-top: 1cm;\r\n}\r\n#kiemtra{\r\n\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n    width: 150px;\r\n    \r\n}\r\n#ketqua{\r\n    width: 80px;\r\n    text-align: center;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 192 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n    font-size: 150%;  \r\n}\r\n\r\ntd {\r\n    width: 150px;\r\n    height: 50px;\r\n}\r\n\r\n#divQues {\r\n\r\n    height: 250px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\n.type{\r\n    padding-left: 14cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\nh2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n    padding-top: 1cm;\r\n}\r\n\r\np{\r\n    padding-left: 2cm;\r\n    padding-top: 1cm;\r\n    font-size: 20px;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;    \r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 194 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "h1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n h2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    padding-left: 4cm;\r\n    padding-top: 1cm;\r\n}\r\n#kiemtra{\r\n\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n    width: 150px;\r\n    \r\n}\r\n#ketqua{\r\n    width: 80px;\r\n    text-align: center;\r\n}\r\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+/* 195 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(false);
+// imports
+
+
+// module
+exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n    font-size: 150%;  \r\n}\r\n\r\ntd {\r\n    width: 150px;\r\n    height: 50px;\r\n}\r\n\r\n#divQues {\r\n\r\n    height: 250px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\n.type{\r\n    padding-left: 14cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
 
 // exports
 
@@ -3370,7 +3375,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n    font-size: 150%;  \r\n}\r\n\r\ntd {\r\n    width: 150px;\r\n    height: 50px;\r\n}\r\n\r\n#divQues {\r\n\r\n    height: 300px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\n.type{\r\n    padding-left: 7cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
+exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\nh2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n    padding-top: 1cm;\r\n}\r\n\r\np{\r\n    padding-left: 2cm;\r\n    padding-top: 1cm;\r\n    font-size: 20px;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;    \r\n}\r\n", ""]);
 
 // exports
 
@@ -3387,7 +3392,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\nh2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n    padding-top: 1cm;\r\n}\r\n\r\np{\r\n    padding-left: 2cm;\r\n    padding-top: 1cm;\r\n    font-size: 20px;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;    \r\n}\r\n", ""]);
+exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n}\r\n\r\ntd {\r\n    width: 100px;\r\n    height: 50px;\r\n}\r\nimg {\r\n    display: block; \r\n    margin-left: auto; \r\n    margin-right: auto;\r\n}\r\n\r\n\r\n#divQues {\r\n\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2.type{\r\n    text-align: center;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\nform{\r\n    list-style: inside;\r\n    padding-top: 1cm;\r\n    padding-left: 0.5cm;\r\n}\r\n\r\nbutton {\r\n    \r\n    width: 280px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
 
 // exports
 
@@ -3404,7 +3409,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "h1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n h2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\n\r\n#submit_ans{\r\n    padding-left: 4cm;\r\n    padding-top: 1cm;\r\n}\r\n#kiemtra{\r\n\r\n    font-size: 30px;\r\n    border: 2px double;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n    width: 150px;\r\n    \r\n}\r\n#ketqua{\r\n    width: 80px;\r\n    text-align: center;\r\n}\r\n", ""]);
+exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n}\r\n\r\ntd {\r\n    width: 100px;\r\n    height: 50px;\r\n}\r\nimg {\r\n    margin-left: 8cm;\r\n}\r\n\r\n\r\n#divQues {\r\n\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2.type{\r\n    padding-left: 6cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\nform{\r\n    list-style: inside;\r\n    padding-top: 1cm;\r\n    padding-left: 0.5cm;\r\n}\r\n\r\nbutton {\r\n    \r\n    width: 280px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
 
 // exports
 
@@ -3421,7 +3426,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n    font-size: 150%;  \r\n    \r\n}\r\n\r\ntd {\r\n    width: 150px;\r\n    height: 50px;\r\n    \r\n}\r\n\r\n#divQues {\r\n\r\n    height: 300px;\r\n    border-width: 3px;\r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\n.type{\r\n    padding-left: 7cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
+exports.push([module.i, ".container{\r\n    scroll-behavior: auto;\r\n}\r\n\r\nh1 {\r\n    color: blueviolet;\r\n    text-align: center;\r\n    font-size: 60px;\r\n    border-radius: 30px;\r\n    /* background: cornsilk;*/\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n    font: bold;\r\n\r\n}\r\n\r\nh2 {\r\n    font-style: italic;\r\n    text-align: left;\r\n    border-radius: 10px;\r\n    background: ivory;\r\n    font: bold;\r\n}\r\n\r\na {\r\n    font-size: 20px;\r\n    color: rgb(0, 38, 255);\r\n}\r\n", ""]);
 
 // exports
 
@@ -3430,184 +3435,120 @@ exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "h1 {\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n.type{\r\n     padding-left: 5cm;\r\n }\r\n #divQues {\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\n#panel_star {\r\n    height: 265px;\r\n    border-width: 3px;\r\n    font-size: 15px;\r\n    text-align: center;\r\n}\r\nh2.type1 {\r\n    padding-left: 2cm;\r\n    color: green;\r\n}\r\n\r\nform {\r\n    padding-left: 3cm;\r\n    padding-top: 1cm;\r\n}\r\n\r\np{\r\n    padding-left: 2cm;\r\n    padding-top: 1cm;\r\n    font-size: 20px;\r\n}\r\n\r\nbutton {\r\n    width: 100px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;    \r\n}\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 201 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n}\r\n\r\ntd {\r\n    width: 100px;\r\n    height: 50px;\r\n}\r\nimg {\r\n    display: block; \r\n    margin-left: auto; \r\n    margin-right: auto;\r\n}\r\n\r\n\r\n#divQues {\r\n\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2.type{\r\n    text-align: center;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\nform{\r\n    list-style: inside;\r\n    padding-top: 1cm;\r\n    padding-left: 0.5cm;\r\n}\r\n\r\nbutton {\r\n    \r\n    width: 280px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
+/* 200 */,
+/* 201 */,
 /* 202 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, "table, th, td {\r\n    border: 2px solid green;\r\n    border-collapse: collapse;\r\n    text-align: center;\r\n    color: #DF013A;\r\n    background: #E0F2F7;\r\n    font-size: 150%;  \r\n}\r\n\r\ntd {\r\n    width: 150px;\r\n    height: 50px;\r\n}\r\nimg {\r\n    margin-left: 8cm;\r\n}\r\n\r\n\r\n#divQues {\r\n\r\n    height: 350px;\r\n    border-width: 3px;\r\n   \r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: blue;\r\n}\r\n\r\nh2.type{\r\n    padding-left: 6cm;\r\n}\r\n\r\n#tableCheck{\r\n    padding-left: 4cm;\r\n    \r\n}\r\nform{\r\n    list-style: inside;\r\n    padding-top: 1cm;\r\n    padding-left: 0.5cm;\r\n}\r\n\r\nbutton {\r\n    \r\n    width: 280px;\r\n    font-size: 30px;\r\n    border: double;\r\n    border-color: royalblue;\r\n    background:#66FFCC;\r\n    height: 50px;\r\n}", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 203 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(2)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".container{\r\n    scroll-behavior: auto;\r\n}\r\n\r\nh1 {\r\n    color: blueviolet;\r\n    text-align: center;\r\n    font-size: 60px;\r\n    border-radius: 30px;\r\n    /* background: cornsilk;*/\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n    font: bold;\r\n\r\n}\r\n\r\nh2 {\r\n    font-style: italic;\r\n    text-align: left;\r\n    border-radius: 10px;\r\n    background: ivory;\r\n    font: bold;\r\n}\r\n\r\na {\r\n    font-size: 20px;\r\n    color: orangered;\r\n}\r\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-/* 204 */,
-/* 205 */,
-/* 206 */
 /***/ (function(module, exports) {
 
 module.exports = "<body>\r\n    <header>\r\n        <nav class=\"navbar navbar-inverse navbar-fixed-top\">\r\n            <div class=\"container-fluid\">\r\n                <div class=\"navbar-header\">\r\n                    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\"\r\n                        aria-expanded=\"false\">\r\n                        <span class=\"sr-only\">Toggle navigation</span>\r\n                        <span class=\"icon-bar\"></span>\r\n                        <span class=\"icon-bar\"></span>\r\n                        <span class=\"icon-bar\"></span>\r\n                    </button>\r\n                    <a class=\"navbar-brand\" routerLink=\"/home\" routerLinkActive=\"active-link\" (click)=\"refresh();\"><span class=\"glyphicon glyphicon-education\" aria-hidden=\"true\"></span>MathFun</a>\r\n                </div>\r\n\r\n                <!-- Collect the nav links, forms, and other content for toggling -->\r\n                <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\r\n                    <ul class=\"nav navbar-nav\">\r\n                        <li><a routerLink=\"/luyentap\" routerLinkActive=\"active\">Luyện tập</a></li>\r\n                        <li><a routerLink=\"/kiemtra\" routerLinkActive=\"active\">Kiểm tra</a></li>\r\n                        <li><a routerLink=\"/giaitri\" routerLinkActive=\"active\">Giải trí</a></li>\r\n                    </ul>\r\n                    <!-- <form class=\"navbar-form navbar-right\">\r\n                        <button>\r\n                            <a routerLink=\"/login\" routerLinkActive=\"active\">Đăng nhập</a></button>\r\n                        <button type=\"submit\" class=\"btn btn-danger\" (click)=\"notice();\">\r\n                            <span class=\"glyphicon glyphicon-pencil\" aria-hidden=\"true\"></span> Đăng ký</button>\r\n                    </form> -->\r\n                </div>\r\n            </div>\r\n        </nav>\r\n\r\n    </header>\r\n    <section>\r\n        <router-outlet></router-outlet>\r\n    </section>\r\n    <footer class=\"navbar-fixed\">\r\n        <div class=\"row>\">\r\n            <div class=\"col-md-4\"></div>\r\n            <div class=\"col-md-6\">\r\n                <br>\r\n                <p><strong>Copyright @ ChildrenTeam 2018 Đại học Công Nghệ - Đại học Quốc Gia Hà Nội</strong></p>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n\r\n</body>"
 
 /***/ }),
-/* 207 */
+/* 203 */
 /***/ (function(module, exports) {
 
-module.exports = "<body>\r\n\r\n    <section>\r\n            <img src=\"./assets/image/home.jpg\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-xs-12 col-sm-4\">\r\n                    <h3>{{titles[0]}}</h3>\r\n                    <p><strong>Chứa các chương theo chương trình học.</strong></p>\r\n                    <p><strong>Mỗi chương chứa các bài học phục vụ cho việc tự luyện của học sinh.</strong></p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <h3>{{titles[1]}}</h3>\r\n                    <p><strong>Kiểm tra lại kiến thức đã học trên lớp.</strong></p>\r\n                    <p><strong>Nhằm rèn luyện kỹ năng làm bài cho học sinh.</strong></p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <h3>{{titles[2]}}</h3>\r\n                    <p><strong>Bao gồm các mẩu truyện và video hữa ích với trẻ.</strong></p>\r\n                    <p><strong>Phụ huynh có thể tham khảo chức năng này để rèn kỹ năng cho trẻ.</strong></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</body>\r\n"
+module.exports = "<body>\r\n\r\n    <section>\r\n            <!-- <img src=\"./assets/image/home.jpg\"> -->\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-xs-12 col-sm-4\">\r\n                    <h3>{{titles[0]}}</h3>\r\n                    <p><strong>Chứa các chương theo chương trình học.</strong></p>\r\n                    <p><strong>Mỗi chương chứa các bài học phục vụ cho việc tự luyện của học sinh.</strong></p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <h3>{{titles[1]}}</h3>\r\n                    <p><strong>Kiểm tra lại kiến thức đã học trên lớp.</strong></p>\r\n                    <p><strong>Nhằm rèn luyện kỹ năng làm bài cho học sinh.</strong></p>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <h3>{{titles[2]}}</h3>\r\n                    <p><strong>Bao gồm các mẩu truyện và video hữa ích với trẻ.</strong></p>\r\n                    <p><strong>Phụ huynh có thể tham khảo chức năng này để rèn kỹ năng cho trẻ.</strong></p>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</body>\r\n"
 
 /***/ }),
-/* 208 */
+/* 204 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\">\r\n    <h1>{{title}}</h1><br>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-3\"></div>\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"panel panel-body panel-primary\" id=\"de1\">\r\n                <a routerLink=\"/de1\" routerLinkActive=\"active\">Đề kiểm tra số 1</a>\r\n            </div>\r\n            <div class=\"panel panel-body panel-primary\" id=\"de2\">\r\n                <a routerLink=\"/de2\" routerLinkActive=\"active\">Đề kiểm tra số 2</a>\r\n            </div>\r\n            <div class=\"panel panel-body panel-primary\" id=\"de3\">\r\n                <a routerLink=\"/de3\" routerLinkActive=\"active\">Đề kiểm tra số 3</a>\r\n            </div>\r\n            <div class=\"panel panel-body panel-primary\" id=\"de4\">\r\n                <a routerLink=\"/de4\" routerLinkActive=\"active\">Đề kiểm tra số 4</a>\r\n            </div>\r\n            <div class=\"panel panel-body panel-primary\" id=\"de5\">\r\n                <a routerLink=\"/de5\" routerLinkActive=\"active\">Đề kiểm tra số 5</a>\r\n            </div>\r\n            \r\n        </div>\r\n        <router-outlet></router-outlet>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
-/* 209 */
+/* 205 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài toán: Tìm số lớn nhất, tìm số nhỏ nhất.</h1>\r\n    <h2 class=\"type\">Chọn đáp án đúng.</h2>\r\n    <div class=\"row\">\r\n        <div class=\"col-md-2\"></div>\r\n\r\n        <div class=\"col-md-8\">\r\n            <div id=\"tableCheck\">\r\n                <table>\r\n                    <tr>\r\n                        <th>Câu 1</th>\r\n                        <th>Câu 2</th>\r\n                        <th>Câu 3</th>\r\n                        <th>Câu 4</th>\r\n                        <th>Câu 5</th>\r\n                    </tr>\r\n                    <tr>\r\n                        <td id=\"0\"></td>\r\n                        <td id=\"1\"></td>\r\n                        <td id=\"2\"></td>\r\n                        <td id=\"3\"></td>\r\n                        <td id=\"4\"></td>\r\n                    </tr>\r\n                </table>\r\n            </div>\r\n            <br>\r\n            <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n                <div *ngIf=\"showAns\">\r\n                    <h2> {{MINMAX[x].name_ques}} </h2>\r\n                    <br>\r\n                    <form>\r\n                        <button type=\"button\" #vl1 value={{MINMAX[x].n_1}} (click)=\"checkAns(vl1.value)\">{{MINMAX[x].n_1}}</button>\r\n                        <button type=\"button\" #vl2 value={{MINMAX[x].n_2}} (click)=\"checkAns(vl2.value)\">{{MINMAX[x].n_2}}</button>\r\n                        <button type=\"button\" #vl3 value={{MINMAX[x].n_3}} (click)=\"checkAns(vl3.value)\">{{MINMAX[x].n_3}}</button>\r\n                        <button type=\"button\" #vl4 value={{MINMAX[x].n_4}} (click)=\"checkAns(vl4.value)\">{{MINMAX[x].n_4}}</button>\r\n                        <button type=\"button\" #vl5 value={{MINMAX[x].n_5}} (click)=\"checkAns(vl5.value)\">{{MINMAX[x].n_5}}</button>\r\n                    </form>\r\n                </div>\r\n                <div *ngIf=\"nextLess\">\r\n                    <div *ngIf=\"endPer\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>\r\n                        <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n                    <div *ngIf=\"endLess\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>\r\n                        <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n                    <h2><a routerLink=\"/sosanh20\" routerLinkActive=\"active\">Bài 1 - chương 2 - So sánh 2 số trong phạm vi 20. </a></h2>\r\n                    <router-outlet></router-outlet>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-md-2\"></div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 210 */
+/* 206 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 2: Chương 1 - Phép trừ trong phạm vi 10.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-1\"></div>\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                <div *ngIf=\"showAns\">\r\n\r\n                    <h2 class=\"type\">{{sub_1}} - {{sub_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                    <!-- kiểm tra giá trị điền vào ô trống -->\r\n                    <div id=\"submit_ans\">\r\n                        <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                    </div>\r\n                </div>\r\n                <!-- chuyển sang bài tiếp theo -->\r\n                <div *ngIf=\"nextLess\">\r\n                    <div id=\"newLess\">\r\n                        <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                        <div *ngIf=\"endLessPer\">\r\n                            <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 2!</strong></h2>\r\n                            <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                            <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                        </div>\r\n                        <div *ngIf=\"endLess\">\r\n                            <h2><strong>Chúc mừng bạn đã hoàn thành bài học 2!</strong></h2>\r\n                            <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                            <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                        </div>\r\n                        <h2><a routerLink=\"/sum10\" routerLinkActive=\"active\">Bài 3 - chương 1 - Phép cộng trong phạm vi 10. </a></h2>\r\n                        <router-outlet></router-outlet>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <!-- số sao hiện trong panel -->\r\n            <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n            <br>\r\n            <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                <div id=\"starAward\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 211 */
+/* 207 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 3: Chương 1 - Phép cộng trong phạm vi 10.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{num_1}} + {{num_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/minmax10\" routerLinkActive=\"active\">Bài 4 - Chương 1 - Tìm số nhỏ nhất, lớn nhất trong phạm vi 10. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 212 */
+/* 208 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 5:Chương 2 - Số liền trước, số liền sau phạm vi 20</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"col-md-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n                        <h2>{{_nameQues}} {{_num}}</h2>\r\n                        <br>\r\n                        <h2>{{_nameAns}} <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 5!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 5!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/sosanh100\" routerLinkActive=\"active\">Bài 1 - chương 3 - So sánh 2 số trong phạm vi 100. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-md-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 213 */
+/* 209 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài toán: Tìm số lớn nhất, tìm số nhỏ nhất.</h1>\r\n    <h2 class=\"type\">Chọn đáp án đúng.</h2>\r\n    <div class=\"container\">\r\n    <div class=\"row\">\r\n        \r\n        <div class=\"col-sm-2\"></div>\r\n        <div class=\"col-sm-8\">\r\n            <div id=\"tableCheck\">\r\n                <table>\r\n                    <tr>\r\n                        <th>Câu 1</th>\r\n                        <th>Câu 2</th>\r\n                        <th>Câu 3</th>\r\n                        <th>Câu 4</th>\r\n                        <th>Câu 5</th>\r\n                    </tr>\r\n                    <tr>\r\n                        <td id=\"0\"></td>\r\n                        <td id=\"1\"></td>\r\n                        <td id=\"2\"></td>\r\n                        <td id=\"3\"></td>\r\n                        <td id=\"4\"></td>\r\n                    </tr>\r\n                </table>\r\n            </div>\r\n            <br>\r\n            <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n                <div *ngIf=\"showAns\">\r\n                    <h2> {{MINMAX[x].name_ques}} </h2>\r\n                    <br>\r\n                    <form>\r\n                        <button type=\"button\" #vl1 value={{MINMAX[x].n_1}} (click)=\"checkAns(vl1.value)\">{{MINMAX[x].n_1}}</button>\r\n                        <button type=\"button\" #vl2 value={{MINMAX[x].n_2}} (click)=\"checkAns(vl2.value)\">{{MINMAX[x].n_2}}</button>\r\n                        <button type=\"button\" #vl3 value={{MINMAX[x].n_3}} (click)=\"checkAns(vl3.value)\">{{MINMAX[x].n_3}}</button>\r\n                        <button type=\"button\" #vl4 value={{MINMAX[x].n_4}} (click)=\"checkAns(vl4.value)\">{{MINMAX[x].n_4}}</button>\r\n                        <button type=\"button\" #vl5 value={{MINMAX[x].n_5}} (click)=\"checkAns(vl5.value)\">{{MINMAX[x].n_5}}</button>\r\n                    </form>\r\n                </div>\r\n                <div *ngIf=\"nextLess\">\r\n                    <div *ngIf=\"endPer\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>\r\n                        <h2>Bạn đã trả lời đúng 5/5 câu hỏi.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n                    <div *ngIf=\"endLess\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>\r\n                        <h2>Bạn đã trả lời đúng {{count_true}}/5 câu hỏi.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n                    <h2><a routerLink=\"/lientruocsau20\" routerLinkActive=\"active\">Bài 5 - Chương 2 - Số liền trước số liền sau phạm vi 20. </a></h2>\r\n                    <router-outlet></router-outlet>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n        \r\n    </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 214 */
+/* 210 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n\r\n    <h1>Bài 1: Chương 2 - So sánh 2 số phạm vi 20</h1>\r\n    <h2 class=\"type\">Chọn dấu thích hợp</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n<div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{num_1}} __ {{num_2}} </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <p><strong>Chọn dấu thích hợp điền vào chỗ trống</strong></p>\r\n\r\n                        <form>\r\n                            <button type=\"button\" #vl1 value=\"<\" (click)=\"checkAns(vl1.value)\"> < </button>\r\n                            <button type=\"button\" #vl2 value=\">\" (click)=\"checkAns(vl2.value)\"> > </button>\r\n                            <button type=\"button\" #vl3 value=\"=\" (click)=\"checkAns(vl3.value)\"> = </button>\r\n                        </form>\r\n\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/sub20\" routerLinkActive=\"active\">Bài 2 - chương 2 - Phép trừ trong phạm vi 20. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 215 */
+/* 211 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 2: Chương 2 - Phép trừ trong phạm vi 20.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-1\"></div>\r\n        <div class=\"col-sm-6\">\r\n            <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                <div *ngIf=\"showAns\">\r\n\r\n                    <h2 class=\"type\">{{sub_1}} - {{sub_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                    <!-- kiểm tra giá trị điền vào ô trống -->\r\n                    <div id=\"submit_ans\">\r\n                        <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                    </div>\r\n                </div>\r\n                <!-- chuyển sang bài tiếp theo -->\r\n                <div *ngIf=\"nextLess\">\r\n                    <div id=\"newLess\">\r\n                        <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                        <div *ngIf=\"endLessPer\">\r\n                            <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 2!</strong></h2>\r\n                            <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                            <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                        </div>\r\n                        <div *ngIf=\"endLess\">\r\n                            <h2><strong>Chúc mừng bạn đã hoàn thành bài học 2!</strong></h2>\r\n                            <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                            <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                        </div>\r\n                        <h2><a routerLink=\"/sum20\" routerLinkActive=\"active\">Bài 3 - chương 2 - Phép cộng trong phạm vi 20. </a></h2>\r\n                        <router-outlet></router-outlet>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"col-sm-4\">\r\n            <!-- số sao hiện trong panel -->\r\n            <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n            <br>\r\n            <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                <div id=\"starAward\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 216 */
+/* 212 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 3: Chương 2 - Phép cộng trong phạm vi 20.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{num_1}} + {{num_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/minmax20\" routerLinkActive=\"active\">Bài 4 - Chương 2 - Tìm số nhỏ nhất, lớn nhất trong phạm vi 20. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 217 */
+/* 213 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 5: Chương 3 - Số liền trước, số liền sau</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n                        <h2>{{_nameQues}}{{_num}}</h2>\r\n                        <br>\r\n                        <h2>{{_nameAns}} <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 10 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 5!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 5!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/diemdoanthang\" routerLinkActive=\"active\">Bài 1 - chương 4 - Điểm và đoạn thẳng. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 218 */
+/* 214 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài toán: Tìm số lớn nhất, tìm số nhỏ nhất.</h1>\r\n    <h2 class=\"type\">Chọn đáp án đúng.</h2>\r\n    <div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-1\"></div>\r\n\r\n        <div class=\"col-sm-8\">\r\n            <div id=\"tableCheck\">\r\n                <table>\r\n                    <tr>\r\n                        <th>Câu 1</th>\r\n                        <th>Câu 2</th>\r\n                        <th>Câu 3</th>\r\n                        <th>Câu 4</th>\r\n                        <th>Câu 5</th>\r\n                    </tr>\r\n                    <tr>\r\n                        <td id=\"0\"></td>\r\n                        <td id=\"1\"></td>\r\n                        <td id=\"2\"></td>\r\n                        <td id=\"3\"></td>\r\n                        <td id=\"4\"></td>\r\n                    </tr>\r\n                </table>\r\n            </div>\r\n            <br>\r\n            <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n                <div *ngIf=\"showAns\">\r\n                    <h2> {{MINMAX[x].name_ques}} </h2>\r\n                    <br>\r\n                    <form>\r\n                        <button type=\"button\" #vl1 value={{MINMAX[x].n_1}} (click)=\"checkAns(vl1.value)\">{{MINMAX[x].n_1}}</button>\r\n                        <button type=\"button\" #vl2 value={{MINMAX[x].n_2}} (click)=\"checkAns(vl2.value)\">{{MINMAX[x].n_2}}</button>\r\n                        <button type=\"button\" #vl3 value={{MINMAX[x].n_3}} (click)=\"checkAns(vl3.value)\">{{MINMAX[x].n_3}}</button>\r\n                        <button type=\"button\" #vl4 value={{MINMAX[x].n_4}} (click)=\"checkAns(vl4.value)\">{{MINMAX[x].n_4}}</button>\r\n                        <button type=\"button\" #vl5 value={{MINMAX[x].n_5}} (click)=\"checkAns(vl5.value)\">{{MINMAX[x].n_5}}</button>\r\n                    </form>\r\n                </div>\r\n                <div *ngIf=\"nextLess\">\r\n                    <div *ngIf=\"endPer\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>\r\n                        <h2>Bạn đã trả lời đúng 5/5 câu hỏi.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n                    <div *ngIf=\"endLess\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>\r\n                        <h2>Bạn đã trả lời đúng {{count_true}}/5 câu hỏi.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                    </div>\r\n\r\n                    <h2><a routerLink=\"/lientruocsau100\" routerLinkActive=\"active\">Bài 5 - chương 3 - Số liền trước số liền sau phạm vi 100. </a></h2>\r\n                    <router-outlet></router-outlet>\r\n\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 219 */
+/* 215 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 1: Chương 3 - So sánh 2 số phạm vi 100</h1>\r\n    <h2 class=\"type\">Chọn dấu thích hợp</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{num_1}} __ {{num_2}} </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <p><strong>Chọn dấu thích hợp điền vào chỗ trống</strong></p>\r\n\r\n                        <form>\r\n                            <button type=\"button\" #vl1 value=\"<\" (click)=\"checkAns(vl1.value)\"> < </button>\r\n                            <button type=\"button\" #vl2 value=\">\" (click)=\"checkAns(vl2.value)\"> > </button>\r\n                            <button type=\"button\" #vl3 value=\"=\" (click)=\"checkAns(vl3.value)\"> = </button>\r\n                        </form>\r\n\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/sub100\" routerLinkActive=\"active\">Bài 2 - chương 3 - Phép trừ trong phạm vi 100. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 220 */
+/* 216 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 2:Chương 3 - Phép trừ trong phạm vi 100.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{sub_1}} - {{sub_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 5 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 2!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 2!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/sum100\" routerLinkActive=\"active\">Bài 3 - chương 3 - Phép cộng trong phạm vi 100. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 221 */
+/* 217 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 2:Chương 3 - Phép cộng trong phạm vi 100.</h1>\r\n    <h2 class=\"type\">Điền số thích hợp vào ô trống</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n            <div class=\"col-sm-6\">\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n\r\n\r\n                    <div *ngIf=\"showAns\">\r\n\r\n                        <h2 class=\"type\">{{num_1}} + {{num_2}} = <input type=\"text\" #result id=\"ketqua\"> </h2>\r\n\r\n                        <!-- kiểm tra giá trị điền vào ô trống -->\r\n                        <div id=\"submit_ans\">\r\n                            <button type=\"button\" (click)=\"checkAns(result.value); result.value=''\" id=\"kiemtra\">Kiểm tra</button>\r\n                        </div>\r\n                    </div>\r\n                    <!-- chuyển sang bài tiếp theo -->\r\n                    <div *ngIf=\"nextLess\">\r\n                        <div id=\"newLess\">\r\n                            <!-- hoàn thành cả 10 câu hỏi đúng -->\r\n                            <div *ngIf=\"endLessPer\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được 10/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <div *ngIf=\"endLess\">\r\n                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>\r\n                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                            </div>\r\n                            <h2><a routerLink=\"/minmax100\" routerLinkActive=\"active\">Bài 4 - chương 3 - Tìm số nhỏ nhất, lớn nhất trong phạm vi 100. </a></h2>\r\n                            <router-outlet></router-outlet>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <!-- số sao hiện trong panel -->\r\n                <h2 class=\"type1\"><strong>Số sao đạt được </strong></h2>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"panel_star\">\r\n                    <div id=\"starAward\">\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 222 */
+/* 218 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 2 - Chương 4: Hình tam giác, hình vuông, hình tròn</h1>\r\n    <h2 class=\"type\">Chọn đáp án đúng.</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n\r\n            <div class=\"col-sm-10\">\r\n                <div id=\"tableCheck\">\r\n                    <table>\r\n                        <tr>\r\n                            <th>Câu 1</th>\r\n                            <th>Câu 2</th>\r\n                            <th>Câu 3</th>\r\n                            <th>Câu 4</th>\r\n                            <th>Câu 5</th>\r\n                            <th>Câu 6</th>\r\n                        </tr>\r\n                        <tr>\r\n                            <td id=\"0\"></td>\r\n                            <td id=\"1\"></td>\r\n                            <td id=\"2\"></td>\r\n                            <td id=\"3\"></td>\r\n                            <td id=\"4\"></td>\r\n                            <td id=\"5\"></td>\r\n                        </tr>\r\n                    </table>\r\n                </div>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n                    <div *ngIf=\"showAns\">\r\n                        <h2 class=\"type\"> Đây là hình ??? </h2>\r\n                        <img src={{hinh[x].link_img}}/>\r\n                        <br>\r\n                        <form class=\"form-inline\">\r\n                            <button type=\"button\" #vl1 value={{hinh[x].ans_A}} (click)=\"checkAns(vl1.value)\">{{hinh[x].ans_A}}</button>\r\n                            <button type=\"button\" #vl2 value={{hinh[x].ans_B}} (click)=\"checkAns(vl2.value)\">{{hinh[x].ans_B}}</button>\r\n                            <button type=\"button\" #vl3 value={{hinh[x].ans_C}} (click)=\"checkAns(vl3.value)\">{{hinh[x].ans_C}}</button>\r\n\r\n                        </form>\r\n                    </div>\r\n                    <div *ngIf=\"theEnd\">\r\n                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 2!</strong></h2>\r\n                        <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>\r\n                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>\r\n                        <h2><a routerLink=\"/demtamgiac\" routerLinkActive=\"active\">Bài 3 - chương 4 - Đếm tam giác. </a></h2>\r\n                        <router-outlet></router-outlet>\r\n                    </div>\r\n                    \r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
-/* 223 */
+/* 219 */
 /***/ (function(module, exports) {
 
 module.exports = "<section>\r\n    <h1>Bài 1 - Chương 5: Xem giờ</h1>\r\n    <h2 class=\"type\">Chọn đáp án đúng.</h2>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-1\"></div>\r\n\r\n            <div class=\"col-sm-10\">\r\n                <div id=\"tableCheck\">\r\n                    <table>\r\n                        <tr>\r\n                            <th>Câu 1</th>\r\n                            <th>Câu 2</th>\r\n                            <th>Câu 3</th>\r\n                            <th>Câu 4</th>\r\n                            <th>Câu 5</th>\r\n                        </tr>\r\n                        <tr>\r\n                            <td id=\"0\"></td>\r\n                            <td id=\"1\"></td>\r\n                            <td id=\"2\"></td>\r\n                            <td id=\"3\"></td>\r\n                            <td id=\"4\"></td>\r\n                        </tr>\r\n                    </table>\r\n                </div>\r\n                <br>\r\n                <div class=\"panel panel-body panel-primary\" id=\"divQues\">\r\n                    <div *ngIf=\"showAns\">\r\n                        <h2 class=\"type\"> Đồng hồ chỉ mấy giờ??? </h2>\r\n                        <img src={{clocks[x].link_img}}/>\r\n                        <br>\r\n                        <form class=\"form-inline\">\r\n                            <button type=\"button\" #vl1 value={{clocks[x].ans_A}} (click)=\"checkAns(vl1.value)\">{{clocks[x].ans_A}}</button>\r\n                            <button type=\"button\" #vl2 value={{clocks[x].ans_B}} (click)=\"checkAns(vl2.value)\">{{clocks[x].ans_B}}</button>\r\n                            <button type=\"button\" #vl3 value={{clocks[x].ans_C}} (click)=\"checkAns(vl3.value)\">{{clocks[x].ans_C}}</button>\r\n\r\n                        </form>\r\n                    </div>\r\n                    <div *ngIf=\"theEnd\">\r\n                        <h2>Kết thúc bài học.</h2>\r\n                        <h2>Cảm ơn bạn đã chọn trang web của chúng tôi.</h2>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>"
 
 /***/ }),
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
 /* 224 */,
 /* 225 */,
 /* 226 */,
@@ -3650,16 +3591,12 @@ module.exports = "<section>\r\n    <h1>Bài 1 - Chương 5: Xem giờ</h1>\r\n  
 /* 263 */,
 /* 264 */,
 /* 265 */,
-/* 266 */,
-/* 267 */,
-/* 268 */,
-/* 269 */,
-/* 270 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(124);
+module.exports = __webpack_require__(121);
 
 
 /***/ })
-]),[270]);
+]),[266]);
 //# sourceMappingURL=main.bundle.js.map

@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { Angular2SocialLoginModule } from "angular2-social-login";
 
 let providers = {
   "google": {
@@ -18,7 +17,7 @@ import { AppRoutingModule } from 'app/routing/app-routing.module';
 
 import { app } from './app';
 import { home } from './home';
-import { login } from './login'
+
 
 // chương 1
 import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
@@ -62,7 +61,6 @@ import { de5 } from 'app/kiemtra/de5';
   declarations: [
     app,
     home,
-    login,
     dem10,
     sub10,
     sum10,
@@ -97,7 +95,6 @@ import { de5 } from 'app/kiemtra/de5';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    Angular2SocialLoginModule
   ],
   providers: [],
   bootstrap: [app]
@@ -105,5 +102,5 @@ import { de5 } from 'app/kiemtra/de5';
 export class AppModule { 
   constructor(){}
 }
-Angular2SocialLoginModule.loadProvidersScripts(providers);
+
 
