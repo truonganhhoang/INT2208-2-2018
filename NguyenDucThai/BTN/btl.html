@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/btl.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/demo.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="tinycard.png" alt="">
+					</a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="SEARCH">
+						</div>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><div class= "thai"><a href="#">
+						    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						    <span>HOME</span>
+						</a></div></li>
+						<li><div class= "thai"><a href="#">
+						    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+						    <span>CREATE</span>
+						</a></div></li>
+						<li><div class= "thai"><a href="#">
+						    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						    <span>THAI</span>
+						</a></div></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</header>
+	<div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+  					<img src="malaisya.png" id="img">
+  					<div id="textcenter" style="display:none">MALAISYA</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<img src="palau.png" id="img1">
+  					<div id="textcenter1" style="display:none">PALAU</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<img src="myanma.png" id="img2">
+  					<div id="textcenter2" style="display:none">MYANAMA</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<img src="rumani.png" id="img3">
+  					<div id="textcenter3" style="display:none">RUMANI</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 <script>
+      var img = document.getElementById('img');
+      var text = document.getElementById('textcenter');
+      img.onclick= function(){
+            if(img.style.display != 'none'){
+            img.style.display = 'none';
+            text.style.display = "block";
+        }
+       text.onclick =  function(){
+       	img.style.display = "block";
+       	text.style.display = "none";
+       }
+      }
+      var img1 = document.getElementById('img1');
+      var text1 = document.getElementById('textcenter1');
+      img1.onclick= function(){
+            if(img1.style.display != 'none'){
+            img1.style.display = 'none';
+            text1.style.display = "block";
+        }
+       text1.onclick =  function(){
+       	img1.style.display = "block";
+       	text1.style.display = "none";
+       }
+      }
+      var img2 = document.getElementById('img2');
+      var text2 = document.getElementById('textcenter2');
+      img2.onclick= function(){
+            if(img2.style.display != 'none'){
+            img2.style.display = 'none';
+            text2.style.display = "block";
+        }
+       text2.onclick =  function(){
+       	img2.style.display = "block";
+       	text2.style.display = "none";
+       }
+      }
+      var img3 = document.getElementById('img3');
+      var text3 = document.getElementById('textcenter3');
+      img3.onclick= function(){
+            if(img3.style.display != 'none'){
+            img3.style.display = 'none';
+            text3.style.display = "block";
+        }
+       text3.onclick =  function(){
+       	img3.style.display = "block";
+       	text3.style.display = "none";
+       }
+      }
+  	</script>
+</body>
+</html>

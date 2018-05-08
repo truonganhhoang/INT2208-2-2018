@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tinycards</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flip.js"></script>
+	<script type="text/javascript" src="js/flip.js"></script>
+	<style>
+		@font-face {
+			font-family: TinycardsFont;
+			src: url("fonts/DINNextRoundedLTPro-Bold.woff2");
+		}
+		.imgborder {
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body style="font-family: TinycardsFont; background-color: #F7F7F7">
+	<!-- header -->
+	<header>
+		<div class="container-fluid" style="background-color: #32CDFF">
+			<nav class="navbar navbar-expand-sm fixed-top" style="background-color: #32CDFF">
+				<div class="container">
+					<a class="navbar-brand" href="index.php">
+				    	<img src="images/icon.png" alt="logo" style="width:40px;">
+				    	<b style="font-size: 30px; color: white">tinycards</b>
+				  	</a>  	
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<div class="container imgborder" style="margin-top: 100px; background-color: #FFFFFF">
+		<!-- Form 1 -->
+		<div id="form1" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:0%"></div>
+			 </div><br>
+			<h2 class="text-center">New Card</h2>
+			<div class="text-center">
+				<div class="card-quiz">
+					<div class="front card-quiz-1">
+						<img src="images/20elements/17.png">
+					</div>
+					<div class="back">
+						<h1>35.45</h1>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button1" style="margin-top: 30px">
+				<button type="button" class="next-form1 btn btn-success btn-lg">Next</button>
+			</div>
+		</div>
+		<!-- end form 1 -->
+		
+		<!-- form 2 -->
+		<div id="form2" class="display-none" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:20%"></div>
+			 </div><br>
+			<h2 class="text-center">New Card</h2>
+			<div class="text-center">
+				<div class="card-quiz">
+					<div class="front card-quiz-2">
+						<img src="images/20elements/18.png">
+					</div>
+					<div class="back">
+						<h1>39.95</h1>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button2" style="margin-top: 30px">
+				<button type="button" class="back-form2 btn btn-success btn-lg">Back</button>
+				<button type="button" class="next-form2 btn btn-success btn-lg">Next</button>
+			</div>
+		</div>
+		<!-- end form 2 -->
+
+		<!-- form 3 -->
+		<div id="form3" class="display-none" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:40%"></div>
+			 </div><br>
+			<h2 class="text-center">Question</h2>
+			<div class="row">
+				<div class="col-5">
+					<div class="img-quiz">
+						<img src="images/20elements/17.png">
+					</div>
+				</div>
+				<div class="col-7 button-answer">
+					<div>
+						<button type="button" class="button-answer-1 btn btn-outline-primary">40.08</button>
+					</div>
+					<div>
+						<button type="button" class="button-answer-3 btn btn-outline-primary">28.09</button>
+					</div>
+					<div>
+						<button type="button" class="button-answer-2 btn btn-outline-primary">35.45</button>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button3" style="margin-top: 30px">
+				<button type="button" class="next-form3 btn btn-success btn-lg" style="height: 80px; width: 300px">Countinue</button>
+			</div>
+		</div>
+		<!-- end form 3 -->
+
+		<!-- Form 4 -->
+		<div id="form4" class="display-none" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:60%"></div>
+			 </div><br>
+			<h2 class="text-center">New Card</h2>
+			<div class="text-center">
+				<div class="card-quiz">
+					<div class="front card-quiz-4">
+						<img src="images/20elements/19.png">
+					</div>
+					<div class="back">
+						<h1>39.10</h1>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button4" style="margin-top: 30px">
+				<button type="button" class="next-form4 btn btn-success btn-lg">Next</button>
+			</div>
+		</div>
+		<!-- end form 4 -->
+		
+		<!-- form 5 -->
+		<div id="form5" class="display-none" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:80%"></div>
+			 </div><br>
+			<h2 class="text-center">New Card</h2>
+			<div class="text-center">
+				<div class="card-quiz">
+					<div class="front card-quiz-5">
+						<img src="images/20elements/20.png">
+					</div>
+					<div class="back">
+						<h1>40.08</h1>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button5" style="margin-top: 30px">
+				<button type="button" class="back-form5 btn btn-success btn-lg">Back</button>
+				<button type="button" class="next-form5 btn btn-success btn-lg">Next</button>
+			</div>
+		</div>
+		<!-- end form 5 -->
+
+		<!-- form 6 -->
+		<div id="form6" class="display-none" style="height: 800px">
+			<div class="progress">
+			    <div class="progress-bar bg-warning" style="width:100%"></div>
+			 </div><br>
+			<h2 class="text-center">Question</h2>
+			<div class="row">
+				<div class="col-5">
+					<div class="img-quiz">
+						<img src="images/20elements/19.png">
+					</div>
+				</div>
+				<div class="col-7 button-answer">
+					<div>
+						<button type="button" class="button-answer-6 btn btn-outline-primary">24.31</button>
+					</div>
+					<div>
+						<button type="button" class="button-answer-4 btn btn-outline-primary">40.08</button>
+					</div>
+					<div>
+						<button type="button" class="button-answer-5 btn btn-outline-primary">39.10</button>
+					</div>
+				</div>
+			</div>
+			<div class="text-center display-none button6" style="margin-top: 30px">
+				<button type="button" class="next-form6 btn btn-success btn-lg" style="height: 80px; width: 300px">Countinue</button>
+			</div>
+		</div>
+		<!-- end form 6 -->
+
+		<!-- form 7 -->
+
+		<div id="form7" class="display-none" style="height: 800px">
+			<div class="text-center">
+				<p>You have finished the fourth lesson</p>
+			</div>
+			<div class="text-center">
+				<a href="1-1.php">
+					<button type="button" class="next-form6 btn btn-success btn-lg" style="height: 80px; width: 300px">Countinue</button>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

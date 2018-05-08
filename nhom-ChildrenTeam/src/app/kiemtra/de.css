@@ -1,0 +1,47 @@
+h1, h3 {
+    text-align: center;
+}
+#start {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color: blue;
+    width: 200px;
+    height: 60px;
+    background: #A9BCF5;
+    margin-left: 600px;
+}
+
+#divQues{
+    text-align: center;
+}
+
+.score{
+    height: 150px;
+}
+
+#diem, #scoreValue, #begin{
+    text-align: center;
+    color: red;
+    
+}
+
+#kiemtra{
+    font-size: 30px;
+    border: 2px double;
+    background:#66FFCC;
+    height: 50px;
+    width: 150px;
+    margin-left: 200px;
+}
+#guide{
+    height: 395px;
+}
+.panel{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+}
+h4{
+    text-align: center;
+}

@@ -14,6 +14,9 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+
+      <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
     <link href="css/shop-homepage.css" rel="stylesheet">
      <link href="css/small-business.css" rel="stylesheet">
   </head>
@@ -46,7 +49,7 @@
               </a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="#">Sign in</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#signInModal">Sign in</a>
             </li>
              <li class="nav-item  active">
             <div class="dropdown">
@@ -84,6 +87,124 @@
       </div>
     </nav>
 
+    <div class="modal fade" id="signInModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content animate">
+         <div class="tab1 modal-header">
+            <button class="tablinks " onclick="openCity1(event, 'Signin')"" id="defaultOpen"><h4>Sign in</h4></button>
+            <button class="tablinks " onclick="openCity1(event, 'Signup')"><h4>Sign up</h4></button>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        <div id="Signin" class ="tabcontent1">
+        <div class="modal-header ">
+          <h4 class="modal-title text-center">Sign in</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-group" style="float: left;width: 48%;" >
+            <label>
+              <b>Username</b>
+            </label>
+            <input type="text" class="form-control" placeholder="Enter Username" name="usernameLogin" required>
+
+            <label>
+              <b>Password</b>
+            </label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="passwordLogin" required>
+
+            <button class="btn btn-success" id="btnSignIn" style="margin-top: 15px;">Sign in</button>
+            <label >
+              <input type="checkbox" checked="checked" id="remeberMeCheckBox" > Remember me
+            </label>
+          </form>
+          <div style="float: right;width:48%; padding-top: 20px;" class="sign-in-with">
+          <a class="btn btn-block btn-social btn-facebook" style="color: white;">
+            <span class="fa fa-facebook"></span> Sign in with Facebook
+          </a>
+          <a class="btn btn-block btn-social btn-google" style="color: white;">
+            <span class="fa fa-google"></span> Sign in with Google
+          </a>
+          <a class="btn btn-block btn-social btn-twitter" style="color: white;">
+            <span class="fa fa-twitter"></span> Sign in with Twitter
+          </a>
+          </div>
+        </div>
+      </div>
+        <div id="Signup" class="tabcontent1" >
+        <div class="modal-header">
+          <h4 class="modal-title text-center fontT">
+            Sign up
+          </h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form" name="sign-up-form">
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">Username</label>
+              <div class="col-sm-12">
+                <input type="text" id="username" name="username" placeholder="Username" class="form-control" autofocus>
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="re-password" class="col-sm-3 control-label">ReEnter Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="re-password" name="re-password" placeholder="ReEnter Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+              <div class="col-sm-12">
+                <input type="text" id="firstName" name="fullname" placeholder="Full Name" class="form-control text-capitalize">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-12">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+              <div class="col-sm-12">
+                <input type="date" id="birthDate" name="birthDate" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-lg-3">Gender</label>
+              <div class="col-sm-5">
+                <select name="gender" class="form-control">
+                  <option value="0">Female</option>
+                  <option value="1">Male</option>
+                  <option value="-1" selected>Unknown</option>
+                </select>
+              </div>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <div class="col-sm-9 col-sm-offset-3 col-lg-2">
+                <button type="button" class="btn btn-primary" id="sign-up-button">Create new Account</button>
+              </div>
+            </div>
+          </form>
+          <!-- /form -->
+        </div>
+        </div>
+        <div class="modal-footer">
+<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+        </div>
+      </div>
+
+    </div>
+    </div>
     <!-- Page Content -->
     <div class="container">
 
@@ -270,6 +391,27 @@
    }
 }
     </script>
+    </script>
+    <script type="text/javascript">
+     function openCity1(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent1");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+      document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+   }
+
+document.getElementById("defaultOpen").click();
+ </script>
   </body>
 
 </html>
