@@ -3,7 +3,8 @@
 # MSSV: 16021856
 
 * Bài tập cá nhân:
-	- Hoàn thành khóa học Software Engineering Introduction, HTML5, CSS3, Bootstrap4: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DaiVanDuong
+	- Hoàn thành khóa học Software Engineering Introduction: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DaiVanDuong
+	- Hoàn thành các khóa học HTML5, CSS3, Bootstrap4, Git: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DaiVanDuong/C%C3%A1c%20kh%C3%B3a%20h%E1%BB%8Dc 
 	- Hoàn thành bài tập tuần 6: https://github.com/daivanduong/INT2208-2-2018/commit/7115b6bce314d27bf32239b9651334e775a397fd
 	- Hoàn thành bài tập tuần 9-12: https://github.com/truonganhhoang/INT2208-2-2018/pull/340/commits/f8654526870c6cc8d2e38eb966cdcc61fa08c087
 * Bài tập nhóm:
