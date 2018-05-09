@@ -1,8 +1,8 @@
-﻿#Báo cáo cá nhân môn học Công nghệ phần mềm-INT2208 2<br />
+﻿#Báo cáo cá nhân môn học Công nghệ phần mềm-INT2208 2
 
-###Giảng viên: Trương Anh Hoàng<br />
-###Sinh viên: Nguyễn Thị Hợp<br />       
-###Mã số sinh viên: 16021292<br />
+###Giảng viên: Trương Anh Hoàng
+###Sinh viên: Nguyễn Thị Hợp     
+###Mã số sinh viên: 16021292
 
  Trong khoá học công nghệ phần mềm em học và rút ra được rất điều bổ ích giúp đỡ nhiều cho quá trình học tập và làm việc sau này như:<br />
 - Biết cách sử dụng phần mềm gitHub giúp đỡ cho việc phát triển code và hoạt động theo team.<br />
