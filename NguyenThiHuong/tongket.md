@@ -14,4 +14,7 @@ Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 	- [Tham gia viết báo cáo phần mềm] ( https://docs.google.com/document/d/1cocyP7GzRJ5wIhqfXjHCoWhMtld8h34olm8erB9Uzmg/edit)
 **Tổng kết: Sau khi học xong môn công nghệ phần mềm, em thấy bản thân đã nắm được quy trình để xây dựng một phần mềm cả về lý thuyết và thực hành. Và đã hiểu hơn về môn công nghệ phần mềm.
 
-
+## Chấm chéo báo cáo cá nhân:
+1. Người chấm: Nguyễn Mậu Đức Huy 
+* Điểm: 8.
+* Nhận xét: Bài tập cá nhân và bài tập nhóm đầy đủ. Tuy nhiên báo cáo bài tập nhóm format chưa được chính xác hoàn toàn. file tongket.md trình bày bố cục hơi khó nhìn.
