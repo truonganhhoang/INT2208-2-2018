@@ -1,0 +1,66 @@
+@-webkit-keyframes my {
+   0% { color: #50A625; } 
+   50% { color: #fff;  } 
+   100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+   0% { color: #50A625;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+   0% { color: #50A625; } 
+   50% { color: #fff; } 
+   100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+   0% { color: #50A625;  } 
+   50% { color: #fff;  }
+   100% { color: #F8CD0A;  } 
+} 
+
+#ani {
+    text-align: center;
+    font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+@-webkit-keyframes my1 {
+   0% { color: #EE7C6B; } 
+   25% { color: #F5B16D;  } 
+   50% { color: #AFD788;  } 
+   75% { color: #6EC3C9;  }
+   99% { color: #C57CAC;  }
+}
+@-moz-keyframes my1 { 
+   0% { color: #EE7C6B; } 
+   25% { color: #F5B16D;  } 
+   50% { color: #AFD788;  } 
+   75% { color: #6EC3C9;  }
+   99% { color: #C57CAC;  } 
+}
+@-o-keyframes my1 { 
+   0% { color: #EE7C6B; } 
+   25% { color: #F5B16D;  } 
+   50% { color: #AFD788;  } 
+   75% { color: #6EC3C9;  }
+   99% { color: #C57CAC;  }
+}
+@keyframes my1 { 
+   0% { color: #EE7C6B; } 
+   25% { color: #F5B16D;  } 
+   50% { color: #AFD788;  } 
+   75% { color: #6EC3C9;  }
+   99% { color: #C57CAC;  } 
+} 
+
+#ani1 {
+    text-align: center;
+    font-weight:bold;
+    -webkit-animation: my1 1000ms infinite;
+    -moz-animation: my1 1000ms infinite; 
+    -o-animation: my1 1000ms infinite; 
+    animation: my1 1000ms infinite;
+}

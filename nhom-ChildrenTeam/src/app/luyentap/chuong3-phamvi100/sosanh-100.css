@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+.type{
+     padding-left: 5cm;
+ }
+ #divQues {
+    height: 350px;
+    border-width: 3px;
+   
+}
+
+#panel_star {
+    height: 265px;
+    border-width: 3px;
+    font-size: 15px;
+    text-align: center;
+}
+h2.type1 {
+    padding-left: 2cm;
+    color: green;
+}
+
+form {
+    padding-left: 3cm;
+    padding-top: 1cm;
+}
+
+p{
+    padding-left: 2cm;
+    padding-top: 1cm;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    font-size: 30px;
+    border: double;
+    border-color: royalblue;
+    background:#66FFCC;
+    height: 50px;    
+}

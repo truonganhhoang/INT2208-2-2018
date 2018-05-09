@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+    <title>Tinycards - FlasCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../public/image/logo_tiny.jpg" type="image/jpg">
+    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="../public/js/jquery/playAudio.js"></script>
+    <script src="../public/js/bootstrap/bootstrap.min.js"></script>
+    <style>
+        img {
+            object-fit: cover !important;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+
+            $(document).on('click', '.answer-2, .answer-1', function(event) {
+                $(this).removeClass('border-primary').addClass('border-secondary');
+                $(this).removeClass('text-primary').addClass('text-secondary');
+            });
+
+            $(".answer-3").click(function(event) {
+                setInterval(function() {
+                    window.location.href = '4-10.html';
+                    return false;
+                }, 500);
+            });
+        });
+    </script>
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+    <a class="navbar-brand ml-md-5" href="1.html">
+        <img src="../public/image/tinycards.png" alt="logo" width="44" height="44">
+        <span class="text-white font-weight-bold">TinyCards</span>
+    </a>
+</nav>
+
+<div class="w-100"></div>
+<!-- End header -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-12 wrapper mt-md-5 mb-5 bg-white pt-5" style="height: 100vh;">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="card col-10 col-md-3 mt-5 offset-1 rounded pointer pl-0 pr-0">
+                    <img height="300px" src="../public/image/lesson4/godel.jpg" alt="einstein" class="rounded">
+                </div>
+                <div class="answer col-10 col-md-4 mt-5 offset-1">
+                    <div class="row">
+                        <div class="col-12 answer-1 border border-primary pt-3 pb-3 rounded mt-4 text-center text-primary text-uppercase font-weight-bold pointer">David Hinbert</div>
+                        <div class="col-12 answer-2 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer">Alan Turing</div>
+                        <div class="col-12 answer-3 border border-primary pt-3 pb-3 rounded mt-5 text-center text-primary text-uppercase font-weight-bold pointer" onclick='$.playSound("../public/sound/CorrectSound.mp3")'>Kurt Godel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

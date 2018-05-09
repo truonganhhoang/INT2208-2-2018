@@ -1,6 +1,5 @@
 ﻿Bài tập tuần 6: Nguyễn Minh Tuấn (Mã SV: 16021354)
 
-
 -Chọn file  1st.html  để bắt đầu
 
 -Có 4 chủ đề được đặt sẵn, chọn 1 trong 4 chủ đề để học từ
