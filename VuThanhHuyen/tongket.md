@@ -13,4 +13,7 @@ Em xin trân thành cảm ơn thầy đã dạy và hướng dẫn em môn học
  1. Người chấm: Trần Vũ Hoàng
  * Điểm: 8.
  * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu nhưng chưa đặt đúng thư mục trực tiếp vào tên thư mục của mình. Bên cạnh đó bài tập nhóm k thấy link file thư mục commit và báo cáo phần mềm .
+ 2. Người chấm: Nguyễn Mậu Đức Huy
+ * Điểm: 8.
+ * Nhận xét: Bài tập khóa học Software Engineering hoàn thành đầy đủ song chưa đặt đúng thư mục. Chưa show ra được bài tập lớn cá nhân và bài tập nhóm (TinyCards).
 
