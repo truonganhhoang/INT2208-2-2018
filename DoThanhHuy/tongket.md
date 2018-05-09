@@ -9,6 +9,6 @@
 - Đóng góp vào danh sách câu hỏi trắc nghiệm của lớp. Link: https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/htmlview#
 
 # Thực hiện chấm chéo:
- +1. Người chấm: Trần Vũ Hoàng
- +* Điểm: 9.
- +* Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
+ 1. Người chấm: Trần Vũ Hoàng
+ * Điểm: 9.
+ * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và      báo cáo phần mềm chi tiết.
