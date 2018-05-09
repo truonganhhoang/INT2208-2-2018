@@ -9,16 +9,20 @@
 1. Bài tập cá nhân :
   + Hoàn thành khóa học [Software Engineering](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/) gồm:             
  [Process.](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Process.png),
- [Specifications] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Specifications.png),
- [Testing] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Testing.png),
- [High Level Design] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/High%20Level%20Design.png),
- [Low Level Design] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Low%20Level%20Design.png),
- [Construction] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Construction.png).
-  + Tự học về [HTML] (https://www.w3schools.com/html/default.asp), [CSS] (https://www.w3schools.com/css/default.asp) và [JavaScrip] (https://www.w3schools.com/js/default.asp) tại trang web [w3schools] (https://www.w3schools.com/js/default.asp)
+ [Specifications](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Specifications.png),
+ [Testing](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Testing.png),
+ [High Level Design](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/High%20Level%20Design.png),
+ [Low Level Design](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Low%20Level%20Design.png),
+ [Construction](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVuHoang/Construction.png).
+  + Tự học về [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp) và 
+    [JavaScrip](https://www.w3schools.com/js/default.asp) tại trang web [w3schools](https://www.w3schools.com/js/default.asp)
   + Hoàn thành [Bài tập cá nhân](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVuHoang) thực hiện ứng dụng web học tiếng Anh [Memrise](https://www.memrise.com/) dựa trên bài tập nhóm TrainingWeb.
-  + Tham gia viết câu hỏi trắc nghiệm cuối kỳ phần [Construction]
-  (https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746)
-  + Tham gia viết tài liệu môn học phần: [Automation](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.i8p1vhprjopo ), [Code Smells] (https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.x5jzfha6cshw).
+  + Tham gia viết câu hỏi trắc nghiệm cuối kỳ phần 
+    [Construction](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746)
+  + Tham gia viết tài liệu môn học phần: 
+    [Automation](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.i8p1vhprjopo ), 
+    [Code Smells](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.x5jzfha6cshw).
+
 2. Bài tập nhóm :
   + Tham gia vào quá trình thực hiện [Ứng dụng học ngoại ngữ](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVuHoang/Memrise) cùng nhóm TrainingWeb.
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
