@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MEMRISE</title>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<!-- <script src="//code.jquery.com/jquery.js"></script> -->
+    
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+    <style>
+                .lang-learn{
+                    width: 20%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                footer{
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+   </style>
+</head>
+<body>
+	
+	<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1_0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                    <li role="presentation" class="active"><a href="./page1_0.html">Trang chủ</a></li>
+                    <li role="presentation"><a href="./page1_2.html">Khóa học</a></li>
+                    <li role="presentation"><a href="#">Nhóm</a></li>
+                    <li role="presentation" class="danger"><a href="./page1_3.html">Đăng kí gói Pro</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">Hồ sơ</a></li>
+                        <li><a href="#">Cài đặt</a></li>
+                        <li><a href="#">Đăng xuất</a></li>
+                    </li>
+             </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <center>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Tìm thứ gì đó để học</h3>
+            </div>
+        </div>
+        <table class="table table-hover" width="500">
+            <tbody>
+                <tr valign="top">
+                    <td width="100">
+                        <h5><b>UserName</b></h5>
+                        <h6>LEVEL 1</h6>
+                        <a href="https://www.memrise.com/user/PhanDuc88/">Xem hồ sơ</a>
+                    </td>
+                    <td width="400">
+                        <div class="panel panel-default">
+                            <div class="panel-footer">
+                                Chào mừng đến với Memrise. Hãy bắt đầu bằng cách chọn một khóa học. Bạn muốn học gì nào?
+                            </div>
+                            </br>
+                            <b>Ngôn ngữ phổ biến</b>
+                            </br>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/french/">
+                                    <img src="image\DemoFlags-02_copy.png" class="img-responsive" alt="France" >
+                                </a>
+                                <b>France</b>
+                            </button>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/italian/">
+                                    <img src="image/DemoFlags-06_copy.png" class="img-responsive" alt="Italia">
+                                </a>
+                                <b>Italia</b>
+                            </button>
+                            </br>
+
+                            <a href="https://www.memrise.com/vi/courses/english/languages/" class="">Tìm thêm<b>hơn 150</b>ngôn ngữ >></a>
+                        </div>
+
+                    </td>
+
+
+                </tr>
+                <tr valign="top">
+                    <td width="100">
+                        <h5><span class="glyphicon glyphicon-ok-circle"><b>Đồng Hồ Streak</b></span></h5>
+                        Thời gian còn lại để hoàn thành</br> 
+                        các mục tiêu hàng ngày của bạn
+                        
+                        <div id="dongho"></div>
+                        <script type="text/javascript" charset="utf-8">
+                            var date = new Date();
+                            var gio = 24 - date.getHours();
+                            var phut = 60 - date.getMinutes();
+                            //Lấy giờ hệ thống hiện tại
+                            document.getElementById('dongho').innerHTML = gio + ' giờ ' + phut + ' phút';
+                        </script>      
+                        
+                        <a href="https://www.memrise.com/settings/">Đổi múi giờ</a>
+                    </td>
+                    <td width="400">
+                        <div class="panel panel-default">
+                            <b>Môn học</b>
+                            </br>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/arts-literature/">
+                                    <img src="./image/arts-literature@2x.png" class="img-responsive" alt="#" width="80" >
+                                </a>
+                                <b>Arts & Literature</b>
+                            </button>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/maths-science/">
+                                    <img src="./image/maths-science@2x.png" class="img-responsive" alt="#" width="80" >
+                                </a>
+                                <b>Maths & Science</b>
+                            </button>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/the-natural-world/">
+                                    <img src="./image/the-natural-world@2x.png" class="img-responsive" alt="#" width="80" >
+                                </a>
+                                <b>The Natural World</b>
+                            </button>
+                            <button type="button" class="btn btn-default">
+                                <a href="https://www.memrise.com/vi/courses/english/history/">
+                                    <img src="./image/history@2x.png" class="img-responsive" alt="#" width="80" >
+                                </a>
+                                <b>History</b>
+                            </button>
+                            </br>
+                            <a href="https://www.memrise.com/vi/courses/english/languages/" class="">Tìm thêm<b>hơn 200</b>nhóm >></a>
+                        </div>
+
+                    </td>
+                </tr></br>
+                <tr valign="top">
+                    <td width="100">
+                        <h5><b>Kết quả học tập</b></h5>
+                        <img class="img-responsive" src="image/tkbmem.png">
+                        <button type="button" class="btn btn-success"><b>Theo dõi kết quả học tập</button>
+                    </td>
+                </tr></br>
+                <tr valign="top">
+                    <td width="100">
+                        <h5><span class="glyphicon glyphicon-tower"></span><b>Bảng xếp hạng</b></h5>
+                        <button><span class="glyphicon glyphicon-user"></span>1.UserName...</button>
+                        <center><a href="https://www.memrise.com/home/leaderboard/">Xem thêm</a></center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </center>
+    </div>
+	<div class="container">
+        <div class="panel panel-default">
+               <div class="panel-body">
+                    <table class="table table-hover">
+                        <tbody>
+                            <td width="100">
+                                <a href="https://www.memrise.com/home/"><img src="./image/memrise-small.png"></a><br><br>
+                                <a href="https://www.facebook.com/memrise"><img src="./image/fmem.png"></a>
+                                <a href="https://twitter.com/memrise"><img src="./image/tmem.png"></a>
+                                <a href="https://www.instagram.com/memrise/"><img src="./image/scmem.png"></a><br></br>
+                                <button>
+                                    <img src="./image/quocky.png">
+                                    Tôi nói : <b>Tiếng Việt</b>
+                                </button>
+                            </td>
+                            <td width="100">
+                                <b>MEMRISE</b><br></br>
+                                Giới thiệu<br>
+                                Khóa học<br>
+                                Liên hệ<br>
+                                Đội ngũ<br>
+                                Cơ hội làm việc<br>
+                                Press<br>
+                                Điều khoản sử dụng<br>
+                                Chính sách bảo mật<br>
+                            </td>
+                            <td width="100">
+                                <b>MORE</b><br></br>
+                                Blog<br>
+                                Enginering Blog<br>
+                                Diễn đàn<br>
+                                Giáo viên<br>
+                                Membus<br></br>
+                                <b>HELP</b><br></br>
+                                Câu hỏi thường gặp & trợ giúp<br>
+                            </td>
+                            <td width="100">
+                                <b>BROWSE COURSES</b><br></br>
+                                Ngoại ngữ<br>
+                                Nghệ thuật & văn học <br>
+                                Toán học & khoa học<br>
+                                Thế giới tự nhiên<br>
+                                Lịch sử & địa lý <br>
+                                Chuyên môn & nghề nghiệp<br>
+                                Giải trí<br>
+                                Khoa học thường thức<br>
+                            </td>
+                        </tbody>
+                    </table>
+               </div>
+               <div class="panel-footer">
+                    © 2018 Copyright: DDTANK
+               </div>
+        </div>   
+    </div>
+</body>
+</html>

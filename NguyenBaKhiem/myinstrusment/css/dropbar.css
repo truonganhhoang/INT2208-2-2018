@@ -1,0 +1,55 @@
+#menubar {
+	width: 970px;
+	border: solid 1px red;
+	background: #e4e4e3;
+	float: left;
+	margin: 5px;
+	height: 2rem;
+}
+#menubar ul {
+	list-style-type: none;
+	float: left;
+}
+#menubar ul li {
+	float: left;
+	margin-top: -5px;
+}
+#menubar ul li a {
+	color: #292929;
+	text-decoration: none;
+	padding: 10px 10px 5px 5px;
+	-webkit-transition: color 3s; 
+	-moz-transition: color 3s;
+	-o-transition: color 3s;
+	transition: color 3s;
+}
+#menubar ul li a:hover {
+	color: white;
+	background: #67BF7F;
+}
+#menubar ul li ul {
+	padding: 10px 10px;
+	margin-top: 5px;
+	position: absolute;
+	display: none;
+	-webkit-transition: all 3s 1s;
+	-moz-transition: all 3s 1s;
+	-o-transition: all 3s 1s;
+	transition: all 3s 1s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+}
+#menubar ul li:hover ul {
+	display: block;
+	background: #e4e4e3;
+	color: #67BF7F;
+}
+#menubar ul li ul li {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
