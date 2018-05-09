@@ -1,3 +1,15 @@
+GIAO VIEC CHO BO PHAN IT
+
+1. Trinh Hai Quan
+
+2. Dang Van Phuc
+
+3. Tran Thanh Trung
+
+4. Hoang Xuan Hai
+
+Bao cao du an nhom : 
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
