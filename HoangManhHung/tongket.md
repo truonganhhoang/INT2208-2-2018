@@ -19,3 +19,9 @@ công nghệ phần mềm 2-2018
  - Thực hiện upload bài tập nhóm và báo cáo phần mềm
  - Biết và hiểu thêm về quy trình làm một sản phẩm phần mềm
  - Biết cách làm việc theo nhóm
+
+
+# Thực hiện chấm chéo:
+1. Người chấm: Nguyễn Mậu Đức Huy
+* Điểm: 9.
+* Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
