@@ -12,3 +12,7 @@
 ## Tham gia tự học
 - Tự học **HTML**, **CSS**, **Bootstrap**, **Jquery** và code được một số trang web đơn giản. Link repo code ở [đây](https://github.com/kedumuc1712/web).
 - Tự học framework Express và MongoDB. Đã code 1 ví dụ về lỗi của NodeJS khi tính toán số Fibonacci lớn băng phương pháp đệ quy. Link repo code ở [đây](https://github.com/kedumuc1712/NodeJS-Fibonacci).
+
+- Người chấm: Đặng Quang Tường.
+- Điểm: 10.
+- Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tích cực tìm hiểu các khoá học tuỳ chọn, tham gia tốt hoạt động nhóm.
