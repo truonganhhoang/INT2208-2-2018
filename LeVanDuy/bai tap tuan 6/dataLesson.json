@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Vegetables",
+        "imgPath": "/image/card/vegetables.jpg",
+        "id": "1"
+    },
+    {
+        "title": "Currency",
+        "imgPath": "/image/card/currency.jpg",
+        "id": "2"
+    },
+    {
+        "title": "Instruments",
+        "imgPath": "/image/card/instruments.jpg",
+        "id": "3"
+    },
+    {
+        "title": "Scientist",
+        "imgPath": "/image/card/atom.png",
+        "id": "4"
+    }
+]
