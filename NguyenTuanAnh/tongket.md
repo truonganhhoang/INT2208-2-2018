@@ -1,5 +1,5 @@
-#Báo cáo tổng kết môn học CNPM
-##Nguyễn Tuấn Anh - 16021252
+# Báo cáo tổng kết môn học CNPM
+## Nguyễn Tuấn Anh - 16021252
 
 Đây là báo cáo cá nhân, tổng kết lại những gì đã học được trong 15 tuần học bộ môn Công Nghệ Phần Mềm.
 - Hoàn thành các khóa học online: bao gồm [github](https://github.com/TuanAnhNguyen14111998/INT2208-2-2018/tree/master/NguyenTuanAnh/Git_Github), [software-Engineering](https://github.com/TuanAnhNguyen14111998/INT2208-2-2018/tree/master/NguyenTuanAnh/Software_Engineering).

@@ -22,6 +22,7 @@
   + Tham gia viết tài liệu môn học phần: 
     [Automation](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.i8p1vhprjopo ), 
     [Code Smells](https://docs.google.com/document/d/1ZeJqF8DQVnt7jvckVnPp14eiHb8rsEVXdNw6jHuWMec/edit#heading=h.x5jzfha6cshw).
+
 2. Bài tập nhóm :
   + Tham gia vào quá trình thực hiện [Ứng dụng học ngoại ngữ](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/TranVuHoang/Memrise) cùng nhóm TrainingWeb.
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
