@@ -1,11 +1,11 @@
-﻿Bài tập nhóm: PTMT
+﻿Nhóm: PTMT
 
--Trong thư mục 'Bài tập nhóm'
+- Trần Văn Phương 16021326
+- Trần Văn Trung 16022389
+- Nguyễn Minh Tuấn 16021354
+- Phan Thế Minh 16021314
+ 
 
--Chọn file  1st.html  để bắt đầu
+Tên dự án: Tinycards - Duolingo
 
--Có 4 chủ đề được đặt sẵn, chọn 1 trong 4 chủ đề để học từ
-
--Mỗi chủ đề có một số từ đặt ở bên phải, click vào ảnh để xem từ, và ngược lại để xem ảnh.
-
--Nhấn vào mục FlashCards góc trên bên trái để quay lại trang chủ của bài tập.
+Các file được đặt trong thư mục: Bài tập nhóm

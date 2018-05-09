@@ -46,5 +46,5 @@
 		}
 		setTimeout(function() {
 		      submit();
-		}, 1200000);
+		}, 900000);
 	});

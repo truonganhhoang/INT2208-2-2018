@@ -1,0 +1,32 @@
+p{
+	padding-top: 130px;
+}
+#img{
+	width: 350px;
+	height: 280px;
+}
+#back{
+	height: 350px;
+	width: 350px;
+}
+#chu{
+	background-color: #9a8f91b8;
+}
+.main{
+		
+		margin-top:30px;
+		border:20px;
+}
+#wrap{
+	height: 400px;
+	width: 600px;
+	background-color: #e3f2ffcc
+	
+}
+#pr, #next{
+	margin-top: 180px;
+}
+#nghia{
+	font-size: 40px;
+	font-style: oblique;	
+}

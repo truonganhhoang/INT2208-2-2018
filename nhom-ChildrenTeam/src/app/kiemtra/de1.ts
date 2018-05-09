@@ -18,11 +18,11 @@ export class de1 {
             true_ans: 10
         },
         {
-            name_que: "Số lẻ bé nhất có 2 chữa số là bao nhiêu?",
+            name_que: "Số lẻ lớn nhất có 2 chữ số là bao nhiêu?",
             name_link: "",
             conten_ques: "",
             input_ans: "",
-            true_ans: 11
+            true_ans: 99
         },
         {
             name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
