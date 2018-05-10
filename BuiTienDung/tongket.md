@@ -20,3 +20,7 @@ https://github.com/Gou-opa/exam-portal/commits/master?before=20ac3e25d908cdae4eb
 https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit<br />
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.<br />
 - Biết cách làm việc theo nhóm trong khi làm bài tập lớn.<br />
+-------------------------------------------
+Người Chấm: Bùi Mạnh Dũng MSV 16022362
+Số điểm: 9
+-------------------------------------------
