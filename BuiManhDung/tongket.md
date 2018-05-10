@@ -30,3 +30,6 @@ CSS:  [https://github.com/Fabulous98/INT2208-2-2018/tree/master/BuiManhDung/CSS]
 - Người chấm : Hoàng Xuân Cường
 - Điểm : 9
 - Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
+- Người chấm : Phạm Minh Cường
+- Điểm : 8
+- Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.
