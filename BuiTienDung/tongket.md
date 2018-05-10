@@ -26,8 +26,9 @@ https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/
 - Điểm : 9
 - Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
 -------------------------------------------
--Người Chấm: Bùi Mạnh Dũng MSV 16022362
--Số điểm: 9
+- Người Chấm: Bùi Mạnh Dũng MSV 16022362
+- Số điểm: 9
+- Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm. Hoàn thành tốt các khóa học online được giao.
 -------------------------------------------
 - Người chấm : Phạm Minh Cường
 - Điểm : 10

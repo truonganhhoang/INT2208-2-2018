@@ -17,3 +17,7 @@ Em xin chân thành cảm ơn thầy đã dạy và hướng dẫn em môn học
 - Người chấm : Nguyễn Đức Thái
 - Điểm :9
 - Nhận xét : Vẫn còn nhiều thứ chưa cho link
+
+- Người chấm : Cao Thị Phương Thảo
+- Điểm : 9
+- Nhận xét : Chưa dẫn link cụ thể
