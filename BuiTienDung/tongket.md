@@ -1,4 +1,4 @@
-﻿### Bùi Tiến Dũng
+### Bùi Tiến Dũng
 ### MSV 16021272
 # Báo cáo cá nhân môn học CNPM
 Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
@@ -21,6 +21,11 @@ https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.<br />
 - Biết cách làm việc theo nhóm trong khi làm bài tập lớn.<br />
 
+-------------------------------------------
 - Người chấm : Hoàng Xuân Cường
 - Điểm : 9
 - Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
+-------------------------------------------
+Người Chấm: Bùi Mạnh Dũng MSV 16022362
+Số điểm: 9
+-------------------------------------------
