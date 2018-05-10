@@ -27,3 +27,7 @@ Trong 15 tuần học vừaa qua em dã hoàn thành các khóa học cá nhân 
 - Sản phẩm : [Học toán online](https://mathfun-angular-childrenteam.firebaseapp.com/)
 
 Qua đây em cũng xin cảm ơn thầy và các bạn trong nhóm ChildrenTeam dã giúp đỡ em trong suốt thời gian học tập vừa qua. Cảm ơn mọi người rất nhiều.
+
+--Người chấm: Đoàn Thị Thoa
+-Điểm: 9
+-Nhận xét: Báo cáo đẹp, làm bài tập khá đầy đủ sản phẩm nhóm tốt, báo cáo phần mềm khá tốt tuy nhiên điểm trừ là bạn thiếu phần làm thẻ SEMAT.(Chú thích: Và không cảm ơn người chấm bài)
