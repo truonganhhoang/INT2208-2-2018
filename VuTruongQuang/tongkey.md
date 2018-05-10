@@ -13,6 +13,5 @@ Công nghệ phần mềm 2 - 2018
 	- [Tham gia làm và hoàn thiện bài tập nhóm](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-Godlike).
 	- [Tham gia viết báo cáo phần mềm](https://docs.google.com/document/d/1jxZrdrKvUkhwznJtMUbAAIFMN1IjJ08kxhzoXS5SdOg/edit).
 	- [Tham gia chỉnh sửa SEMAT](https://docs.google.com/spreadsheets/d/1JUClzRNIV7NBBZWjW0jDezWsuaY012RpdTOaaJ9rK9s/edit#gid=0).
-	- [Thực hiện upload bài tập nhóm và báo cáo phần mềm](https://github.com/vuvihi/INT2208-2-2018/tree/master/nhom-4T).
 
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
