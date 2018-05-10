@@ -1,4 +1,4 @@
-# Đỗ Thanh Tâm
+﻿# Đỗ Thanh Tâm
 # MSV 16022120
 # Báo cáo cá nhân môn học CNPM
 Trong thời gian 15 tuần của môn học, em đã thực hiện được các việc:
@@ -18,3 +18,8 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện được cá
 - Người chấm: Tống Thanh Sơn
 - Điểm 9,5
 - Nhận xét: hoàn thành đủ mọi khóa học yêu cầu, tham gia tích cực vào bài tập nhóm.
+# Chấm chéo 
+- Người chấm: Trịnh Hải Quân 
+- Điểm: 9
+- Nhận xét: Hoàn thành đầy đủ khóa học bắt buộc, tham gia vào các bài tập nhóm và hoàn thành 
+đầy đủ bài tập trong tuần.
