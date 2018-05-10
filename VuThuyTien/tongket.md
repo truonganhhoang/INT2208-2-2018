@@ -17,3 +17,6 @@ Em xin chân thành cảm ơn thầy đã dạy và hướng dẫn em môn học
 - Người chấm : Nguyễn Đức Thái
 - Điểm :9
 - Nhận xét : Vẫn còn nhiều thứ chưa cho link
+-Người chấm: Đoàn Thị Thoa
+-Điểm:8.5
+-Nhận xét: thiếu link,bài tập thiếu SEMAT
