@@ -29,3 +29,6 @@ công nghệ phần mềm 2-2018
 2. Người chấm: Đỗ Thành Huy
 Điểm: 9.
 Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viên. Đóng góp tích cực trong công việc của nhóm, 1 số file đặt tên chưa chính xác.
+3. Người chấm: Nguyễn Thị Hợp
+* Điểm: 9.5
+* Nhận xét: hoàn thành khóa học thầy yêu cầu, bài tập hàng tuần đầy đủ, tham gia các khóa học thầy gợi ý, tích cực thâm gia đóng góp nhóm, báo cáo cá nhân chi tiết.
