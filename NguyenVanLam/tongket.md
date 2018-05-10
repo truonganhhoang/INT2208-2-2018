@@ -22,3 +22,7 @@
 1. Người chấm: Hoàng Mạnh Hưng
 - Điểm: 8.5
 - Nhận xét: thực hiện đầy đủ các bài tập thầy giao, chưa đưa dẫn chứng về HTML,CSS,Boostrap, Git & GitHub
+
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 8,5.
+* Nhận xét: Hoàn thành bài tập đầy đủ nhưng chưa chứng minh hết.

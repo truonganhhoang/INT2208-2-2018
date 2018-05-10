@@ -26,3 +26,7 @@
 - Người chấm : Nguyễn Đức Thái
 - Điểm : 9
 - Hoàn thành đầy đủ và tốt
+
+- Người chấm : Cao Thị Phương Thảo
+- Điểm : 9
+- Nhận xét : Trình bày khá khó đọc. Thiếu khóa học bắt buộc Git and GitHub
