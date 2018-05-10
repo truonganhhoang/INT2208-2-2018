@@ -29,4 +29,4 @@
 
 - Người chấm : Cao Thị Phương Thảo
 - Điểm : 9
-- Nhận xét : Hoàn thành đầy đủ các khóa học, bài tập nhóm, bài tập cá nhân. Tuy nhiên trình bày khá khó đọc
+- Nhận xét : Trình bày khá khó đọc. Thiếu khóa học bắt buộc Git and GitHub
