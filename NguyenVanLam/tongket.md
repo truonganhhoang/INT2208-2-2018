@@ -17,3 +17,6 @@
 +	Góp ý chỉnh sửa hoàn thiện bản [Update cuối cùng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-DDTANK).
 +	Tham gia viết [Tài liệu báo cáo](https://docs.google.com/document/d/1qLR-qvxi7L6LPCddOGcklxoBS2ZtSFLXLnNQ_AM5NvE/edit) cuối môn học của nhóm.
 
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 8,5.
+* Nhận xét: Hoàn thành bài tập đầy đủ nhưng chưa chứng minh hết.
