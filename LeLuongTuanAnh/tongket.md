@@ -29,3 +29,8 @@
 - Người Chấm : Trần Văn Tuấn.
 - Điểm : 9.5
 - Nhận xét : Hoàn thành tốt các khóa học được yêu cầu,tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học, viết báo cáo phần mềm.
+
+- Người Chấm : Phùng Đình Xuân.
+- Điểm : 9.9
+- Nhận xét : Bài tập cá nhân làm tốt và đủ yêu cầu . Bài tập nhóm : lượng commit nhiều và tích cực tham gia hoạt động của nhóm . Tham gia viết báo cáo phần mềm , SEMAT và tóm tắt tài liệu khóa học .
+
