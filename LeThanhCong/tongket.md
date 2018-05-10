@@ -25,3 +25,8 @@
 - Người chấm: Lê Lương Tuấn Anh
 - Điểm: 10.
 - Nhận xét: Tích cực tham gia vào làm bài tập nhóm(có link commit dẫn chứng), tự học nhiều khóa học tự học(có link dẫn chứng), hoàn thiện tốt bài tập cá nhân.
+
+- Người chấm: Phùng Đình Xuân
+- Điểm: 10.
+- Nhận xét: bài tập cá nhân hoàn thành đầy đủ yêu cầu và học thêm một số khóa tự chọn có sản phẩm demo. Về bài tập nhóm : tích cực commit và làm bài đầy đủ có trách nhiệm .
+

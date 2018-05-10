@@ -23,3 +23,7 @@
 - Người chấm: Lê Lương Tuấn Anh.
 - Điểm: 9.
 - Nhận xét: Hoàn thành tích cực các khoá học yêu cầu(có link dẫn chứng đầy đủ), tham gia hoạt động nhóm tích cực, có tham gia tích cực việc hoàn thiện báo cáo dự án cũng như tóm tắt khoá học. Tuy nhiên chưa có link về các commit xây dựng bài tập lớn của nhóm.
+
+- Người chấm: Phùng Đình Xuân.
+- Điểm: 9.
+- Nhận xét: Bài tập cá nhân hoàn thành đủ yêu cầu , có tham gia vào hoàn thiện bài tập nhóm nhưng không thấy có link tới SEMAT và tóm tắt khóa học.
