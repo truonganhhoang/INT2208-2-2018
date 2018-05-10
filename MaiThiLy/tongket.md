@@ -28,5 +28,7 @@ Trong thời gian 15 tuần của môn học này em đã :
 3.	Tổng kết: 
 Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn, kiến thức , các công đoạn để hoàn thành một sản phẩm phần mềm , kĩ năng làm việc nhóm, cũng như trách nhiệm của bản thân đối với một dự án phần mềm.
 
-
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 9,5.
+*	Nhận xét: Bài tập đầy đủ, đặt tên chưa đúng yêu cầu.
 
