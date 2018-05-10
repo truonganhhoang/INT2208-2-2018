@@ -13,3 +13,7 @@ Trong 15 tuần vừa qua em đã làm được những công việc như sau:
 •	Tham gia thảo luận thiết kế giao diện Boostrap bài tập nhóm
 Tổng kết : Qua khóa học Công nghệ phần mềm, em đã học được thêm nhiều kiến thức về xây dựng trang web cũng như phần mềm và có cơ hội trải nghiệm làm việc nhóm một cách hiệu quả, trang bị thêm kĩ năng cho bản thân.
 
+- Người chấm : Lê Thuận Đức
+- Điểm : 8
+- Nhận xét: Làm bài tập đầy đủ, đóng góp bài tập lớn cho nhóm tuy nhiên chưa có trích dẫn cụ thể.
+-------------------------------------------
