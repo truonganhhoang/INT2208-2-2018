@@ -18,7 +18,7 @@ Công nghệ phần mềm 2 - 2018
 Tổng kết: Qua tham gia khoá học em đã tiếp thu thêm được nhiều kiến thức bổ ích cho bản thân để phục vụ cho nghệ nghiệp sau này. Chân thành cảm ơn giảng viên: PGS.TS Trương Anh Hoàng
 
  - Người chấm: Nguyễn Mạnh Tiến.
- - Điểm: 10.
+ - Điểm: 8.
  - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, có sản phẩm demo các khoá học tự chọn, tham gia tốt tích cực các hoạt động nhóm.
 - Người chấm: Trần Văn Trung
 - Điểm: 8
