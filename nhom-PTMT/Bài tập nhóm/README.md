@@ -1,10 +1,6 @@
-﻿Bài tập nhóm: PTMT
+﻿- Bài tập gồm 4 thư mục (3 thư mục thuộc về Bootstrap v4), 1 thư mục lưu trữ ảnh phục vụ quá trình chạy của bài tập.
 
+- Chọn file 1st.html để bắt đầu chạy, có 4 chủ đề được nạp sẵn, chọn 1 trong 4 để học từ mới, với mỗi ảnh click vào sẽ hiển thị từ ngữ tương ứng và ngược lại.
 
--Chọn file  1st.html  để bắt đầu
-
--Có 4 chủ đề được đặt sẵn, chọn 1 trong 4 chủ đề để học từ
-
--Mỗi chủ đề có một số từ đặt ở bên phải, chọn ẢNH để xem ảnh, TỪ NGỮ để học từ kèm theo ảnh đó
-
--Nhấn vào mục FlashCards góc trên bên trái để quay lại trang chủ của bài tập
+- Báo cáo dự án: 
+https://docs.google.com/document/d/1fntwwrJVzUC9Vfqx8LHdwIIeScxGGPm41Fyz1c6uYR8/edit?usp=sharing

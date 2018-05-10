@@ -9,6 +9,9 @@ a{
     width: 12px;
     border-radius: 30px;
 }
+.bg-inf {
+	background-color: #d9eef7 !important;
+}
 #demo ul li:hover {
 	background: red none repeat scroll 0 0;
     height: 12px;
@@ -140,5 +143,15 @@ a{
 	clear:both
 }
 .checkbox-inline {
-	padding-top:7px;margin-top:0;margin-bottom:0
+	padding-top:7px;
+	margin-top:0;
+	margin-bottom:0;
+}
+.img-sx {
+	border-style: solid;
+	border-color: #fff;
+	margin-top:20px;
+}
+..panel-success {
+	border-color: #d6e9c6;
 }

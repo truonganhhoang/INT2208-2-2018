@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background: url(./img/riven.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+a, a:hover{
+    color: white;
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    background-color: rgb(125, 83, 189);
+    height: 62px;
+}
+
+div.wrap-logo{
+    margin-left: 12%;
+    padding-top: 10px;
+    float: left;
+}
+
+span.logo-memrise{
+    font-size: 20px;
+}
+
+a.menu-button{    
+    display: inline-block;
+    height: 36px;
+    text-align: center;
+    margin-top: 13px;
+}
+.space-left1{
+    margin-left: 33%;
+}
+.space-left2{
+    margin-left: 1%;
+}
+.menu-name{
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+a.menu-button:hover{
+    background-color: rgb(71, 18, 139);
+    border-radius: 3px;
+}
+#page{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.row{
+    text-align: center;
+}
+
+
+.pulloutimage{
+    position: relative;
+  }
+  
+  .pulloutimage img{
+    position: absolute; /* absolute position and stack images inside container */
+    left: 0;
+  }
+  
+  .pulloutimage img.ondemand{ /*CSS for image shown on demand */
+    opacity: 0;
+    visibility: hidden; /* hide it initially (mainly for legacy browsers) */
+  }
+  
+  .pulloutimage img.original{
+    z-index: 1; /* set base z-index of initially shown image */
+  }
+  
+  
+  @-webkit-keyframes revealfromright{ /* keyframe animation that slides a DIV out from another before overlapping later */
+    0%{ /* Start of animation */
+    z-index: -1;
+    opacity: 0;
+    }
+    50%{ /* Half way point, move image to right edge of container */
+    opacity: 1;
+    z-index: -1;
+    left: 50%;
+    box-shadow: none;
+    }
+    51%{ /* 51% point, stack animating image on top of original image */
+    z-index: 2;
+    }
+    100%{ /* Final point, move animating image back so it's on top of original */
+    left: 0;
+    box-shadow: 8px 8px 15px gray;
+    }
+  }
+  
+  @-moz-keyframes revealfromright{
+    0%{
+    z-index:-1;
+    opacity:0;
+    }
+    50%{
+    opacity:1;
+    z-index:-1;
+    left:50%;
+    box-shadow: none;
+    }
+    51%{
+    z-index:2;
+    }
+    100%{
+    left:0;
+    box-shadow: 8px 8px 15px gray;
+    }
+  }
+  
+  @-ms-keyframes revealfromright{
+    0%{
+    z-index:-1;
+    opacity:0;
+    }
+    50%{
+    opacity:1;
+    z-index:-1;
+    left:50%;
+    box-shadow: none;
+    }
+    51%{
+    z-index:2;
+    }
+    100%{
+    left:0;
+    box-shadow: 8px 8px 15px gray;
+    }
+  }
+  
+  
+  .pulloutimage:hover img.ondemand{ /* when mouse rolls over pulloutimage container, style to apply to "ondemand" image */
+    -webkit-animation-name:revealfromright; /* specify animation keyframe */
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    
+    -moz-animation-name:revealfromright;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    
+    -ms-animation-name:revealfromright;
+    -ms-animation-duration: 1s;
+    -ms-animation-iteration-count: 1;
+    
+    animation-name:revealfromright;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+    visibility:visible;
+    opacity:1;
+    box-shadow: 8px 8px 15px gray;
+    z-index:2;
+  }
+  
+  .pulloutimage:hover img.original{ /* when mouse rolls over pulloutimage container, style to apply to "original" image */
+    opacity:0.5;
+}

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.header img{
+    width: 250px;
+    height: 60px;
+    padding-left: 100px;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: #32cdff;
+    width: 100%;
+
+}
+.header .btn-default{
+    border: none;
+    color: #32cdff;
+    font-size: 15px;
+    margin-left: 20px;
+    text-shadow: 0.5px  0.5px ;
+    font-weight: bold;
+}
+.benphai{
+    float: left;
+    color: white;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 5px;
+}
+.benphai h4{
+    text-shadow: 0.5px 0.5px ;
+    font-weight: bold;
+}
+.study{
+    height: 1000px;
+   border-top: 1px solid white;
+    background-color: #32cdff;
+    padding-top: 100px;
+}
+.study h2{
+    color: black;
+}
+.study .thumbnail{
+    border: 1px solid #32cdff;
+    margin-top: 20px;
+    width: 170px;
+    height: 300px;
+    
+    background-color:white;
+}
+.study .btn-success{
+    margin-top: 40px
+}
+.glyphicon{
+margin-top: 10px;
+}

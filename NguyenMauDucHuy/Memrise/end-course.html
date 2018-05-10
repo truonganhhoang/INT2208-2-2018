@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khóa học Tiếng Anh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./image/icontag.png">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style>
+    @font-face{
+            font-family: SVN-Nexa Rust;
+            src:url('fonts/SVN-Nexa Rust Slab Black Shadow.otf');
+            font-size: 200%;
+         }
+    .btn {
+            flex: 1 1 auto;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 0 10px #eee;
+            border-radius: 20px;
+         }
+    .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+        }
+    .btn-1 {
+            background-image: linear-gradient(to right, #FF5428 0%, #FBCEC2 51%, #FF5428 100%);
+        }
+    </style>
+</head>
+<body background="image/congrat.jpg">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1-0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li role="presentation" ><a href="./page1-1.html">Trang chủ</a></li>
+                <li role="presentation"class="active"><a href="./page2-0.html">Khóa học</a></li>
+             </ul>
+        </div>
+    </nav>
+    <center>
+        <p style="font-family: SVN-Nexa Rust; font-size: 300%">Chúc mừng bạn đã hoàn thành <br> khóa học tiếng anh!!!</p>
+        <p><img src="image/orange.gif"/></p>
+        <div class="container">
+            <a href="./page2-0.html" class="btn btn-1" style="width: 200px; height: 90px;"><strong>Quay lại khóa học</strong></a>
+        </div>
+    </center>
+</body>
+</html>

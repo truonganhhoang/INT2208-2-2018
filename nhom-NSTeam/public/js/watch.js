@@ -1,24 +1,23 @@
 var inputSearch = document.getElementById("keyword");
 var videoFrame = document.getElementById("video-frame");
-var localStorageKeyword = localStorage.getItem("Keyword");
+var sessionStorageKeyword = sessionStorage.getItem("Keyword");
 var maxResults = 12;
 $(document).ready(function () {
-  inputSearch.setAttribute("value", localStorageKeyword);
-  var videoId = localStorage.getItem("VideoId");
-
+  inputSearch.setAttribute("value", sessionStorageKeyword);
+  var videoId = sessionStorage.getItem("VideoId");
   showVideo(videoId);
-  // loadRelatedVideo(localStorageKeyword, videoId);
   inputSearch.onkeydown = function (event) {
     if (event.keyCode == 13) {
-      localStorage.setItem("Keyword", inputSearch.value);
+      sessionStorage.setItem("Keyword", inputSearch.value);
       window.location.href = "searchresult.html";
     }
   }
   document.getElementById("search-button").onclick = function () {
-    localStorage.setItem("Keyword", inputSearch.value);
+    sessionStorage.setItem("Keyword", inputSearch.value);
     window.location.href = "searchresult.html";
   }
 });
+
 
 function showVideo(videoId){
   $.ajax({
@@ -36,12 +35,13 @@ function showVideo(videoId){
     }
   });
   videoFrame.src = "https://www.youtube.com/embed/" + videoId + "?autoplay=1";
-  loadRelatedVideo(localStorageKeyword, videoId);
+  loadRelatedVideo(sessionStorageKeyword, videoId);
 }
+
 
 function loadRelatedVideo(keyword, videoIdWatching){
   $.ajax({
-    url: "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&videoEmbeddable=true&videoSyndicated=true&maxResults="+maxResults+"&part=snippet&key=AIzaSyBAuMv7-ua5tGsDzL6TrY9k6v3o1PtTYus",
+    url:  "https://content.googleapis.com/youtube/v3/search?relatedToVideoId="+videoIdWatching+"&type=video&videoEmbeddable=true&videoSyndicated=true&maxResults="+maxResults+"&part=snippet&key=AIzaSyBAuMv7-ua5tGsDzL6TrY9k6v3o1PtTYus",
     type:'GET',
     success : function(response){
       var videoRelatedHTMLContent = "";
@@ -67,3 +67,4 @@ function loadRelatedVideo(keyword, videoIdWatching){
     }
   })
 }
+

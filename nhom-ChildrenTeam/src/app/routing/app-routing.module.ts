@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { app } from  'app/app';
 import { home } from 'app/home';
-import { login } from 'app/login';
+
 
 import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
 import { sub10 } from 'app/luyentap/chuong1-phamvi10/sub-10';
@@ -43,7 +43,6 @@ import { giaiTri } from 'app/giaitri/giaitri';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: home},
-  { path: 'login', component: login},
   
   { path: 'luyentap', component: luyenTap },
   { path: 'dem10', component: dem10 },
