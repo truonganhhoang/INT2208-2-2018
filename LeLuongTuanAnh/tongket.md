@@ -25,3 +25,7 @@
 - Người chấm điểm: Nguyễn Văn Tuyền.
 - Điểm: 9.
 - Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
+
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.5
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
