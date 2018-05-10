@@ -16,4 +16,7 @@
 +	Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
 +	Góp ý chỉnh sửa hoàn thiện bản [Update cuối cùng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-DDTANK).
 +	Tham gia viết [Tài liệu báo cáo](https://docs.google.com/document/d/1qLR-qvxi7L6LPCddOGcklxoBS2ZtSFLXLnNQ_AM5NvE/edit) cuối môn học của nhóm.
-
++ Chấm chéo:
++ Người chấm: Nguyễn Thị Hường
++ Điểm: 9
++ Nhận xét: Làm tốt các bài tập thầy giao và hoàn thành đầy đủ các khóa học, tham gia tích cực và đóng góp ý kiến xây dựng phàm mềm của nhóm, viết báo cáo và tóm tăt nội dung môn học tốt.
