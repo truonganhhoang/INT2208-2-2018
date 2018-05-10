@@ -20,7 +20,10 @@ GIT : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/G
 
 - Dong gop bao cao cho nhom : 
 
-
 - Người chấm điểm: Trần Hưng Nhật.
 - Điểm: 8.
 - Nhận xét: Hoàn thành đủ các khóa học yêu cầu nhưng thiếu bài tập tuần 6 , Bài tập nhóm có tham gia , thiếu viết SEMAT và tóm tắt môn học.
+
+Người chấm : Nguyễn Văn Oai -- MSV: 16022380
+Điểm : 8.5
+Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
