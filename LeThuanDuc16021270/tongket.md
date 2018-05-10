@@ -1,5 +1,5 @@
-Báo cáo cá nhân môn CNPM
-Sinh viên :Lê Thuận Đức-MSSV 16021270
+# Báo cáo cá nhân môn CNPM
+## Sinh viên :Lê Thuận Đức-MSSV 16021270
 
 Qua 15 tuần học,em đã có đóng góp cho môn học như sau:
 + Tiến độ môn học
@@ -23,6 +23,11 @@ Qua 15 tuần học,em đã có đóng góp cho môn học như sau:
 * Điểm: 10.
 * Nhận xét: Hoàn thành đủ bài tập cá nhân và nhóm.
 
+
 * Người chấm: Nguyễn Kim Đại
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
+
+* Người chấm: Đại Văn Dương
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập được giao ngoài ra còn học thêm các công cụ khác giúp ích cho bài tập nhóm, tham gia tích cực và hoàn thành công việc của nhóm.
