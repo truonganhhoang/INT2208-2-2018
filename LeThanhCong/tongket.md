@@ -28,5 +28,5 @@
 
 - Người chấm: Phùng Đình Xuân
 - Điểm: 10.
-- Nhận xét: bài tập cá nhân hoàn thành đầy đủ yêu cầu và học thêm một số khóa tự chọn có sản phẩm demo. Về bài tập nhóm : tích cực commit và làm bài đầy đủ .
+- Nhận xét: bài tập cá nhân hoàn thành đầy đủ yêu cầu và học thêm một số khóa tự chọn có sản phẩm demo. Về bài tập nhóm : tích cực commit và làm bài đầy đủ có trách nhiệm .
 
