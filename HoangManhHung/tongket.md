@@ -33,3 +33,7 @@ Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viê
 3. Người chấm: Vũ Thanh Huyền
 Điểm: 9.
 Nhận xét: Các yêu cầu đầy đủ.
+
+4. Người chấm: Nguyễn Thị Hợp
+* Điểm: 9
+* Nhận xét: Hoàn thành các khóa học theo yêu cầu và các khóa học thầy gợi ý. Tích cực đóng góp vào bài tập lớn của nhóm, báo cáo đầy đủ chi tiết, nhưng 1 số file đặt tên chưa chuẩn xác.
