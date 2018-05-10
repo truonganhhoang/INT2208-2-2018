@@ -34,4 +34,6 @@ https://int2208-2018.slack.com/messages/D8W58SVEY/team/U8VK3E1U0/
 Git & GitHub, Git Desktop
 	https://github.com/Tranvanphuong/INT2208-2-2018
 
-
+2. Người chấm: Lê Quý Phong.
+Điểm: 9.
+Nhận xét: Các yêu cầu đầy đủ.
