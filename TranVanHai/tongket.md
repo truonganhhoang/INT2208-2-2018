@@ -14,6 +14,10 @@ Trong 15 tuần vừa qua em đã làm được những công việc như sau:
 Tổng kết : Qua khóa học Công nghệ phần mềm, em đã học được thêm nhiều kiến thức về xây dựng trang web cũng như phần mềm và có cơ hội trải nghiệm làm việc nhóm một cách hiệu quả, trang bị thêm kĩ năng cho bản thân.
 
 ## Chấm chéo
- * Người chấm: Nguyễn Quang Hà
+- Người chấm : Lê Thuận Đức
+- Điểm : 8
+- Nhận xét: Làm bài tập đầy đủ, đóng góp bài tập lớn cho nhóm tuy nhiên chưa có trích dẫn cụ thể.
+
+* Người chấm: Nguyễn Quang Hà
  * Điểm: 8.5
  * Nhận xét: Trình bày báo cáo rối mắt. Đã có ý thức tự học nhưng chưa có bằng chứng rõ ràng. Tham gia đầy đủ vào bài tập nhóm và trên lớp. 
