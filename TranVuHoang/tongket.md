@@ -32,5 +32,5 @@
   + Tham gia viết câu hỏi trắc nghiệm cuối kỳ phần [Construction](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746).
 
  1. Người chấm: Tiêu Công Hoà.
- * Điểm: 9
+ * Điểm: 8
  * Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
