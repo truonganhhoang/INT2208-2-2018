@@ -24,3 +24,6 @@
 Người chấm: Bùi Tiến Dũng<br />
 Điểm: 8<br />
 Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu của thầy đề ra, tự học được các khóa cơ bản về phát triển ứng dụng web và bộ môn CNPM, đóng góp cho nhóm về BTL, nhưng cần thêm dẫn chứng về việc tự học.<br />
+- Người chấm: Phạm Minh Cường
+- Điểm: 8
+- Nhận xét: Cơ bản hoàn thành được yêu cầu của 15 tuần học, hoàn thành tương đối các khóa học online nhưng cần thêm dẫn chứng về việc tự học.
