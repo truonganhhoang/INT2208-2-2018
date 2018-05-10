@@ -20,3 +20,6 @@
 - Người chấm: Nguyễn Tuấn Anh
 - Điểm: 10.
 - Tham gia làm bài tập lớn tích cực, tự học các công nghệ web đầy đủ, thực hiện bài tập cá nhân tốt.
+- Người chấm: Lê Lương Tuấn Anh
+- Điểm: 10.
+- Nhận xét: Tích cực tham gia vào làm bài tập nhóm(có link commit dẫn chứng), tự học nhiều khóa học tự học(có link dẫn chứng), hoàn thiện tốt bài tập cá nhân.
