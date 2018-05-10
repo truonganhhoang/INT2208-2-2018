@@ -19,7 +19,7 @@
 -Tổng kết:
  Qua 15 tuần học em đã rút được nhiều kinh nghiệm và kiến thức trong việc xây dựng phần mềm và trang web,góp phần cho việc xây dựng các phần mềm sau này<br />
 
-
+------
 Người chấm: Bùi Tiến Dũng<br />
 Điểm: 8<br />
 Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu của thầy đề ra, tự học được các khóa cơ bản về phát triển ứng dụng web và bộ môn CNPM, đóng góp cho nhóm về BTL. Tuy nhiên chưa có nhiều dẫn chứng cụ thể.<br />
