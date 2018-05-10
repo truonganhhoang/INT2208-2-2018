@@ -20,7 +20,7 @@ Trong 15 tuần học vừaa qua em dã hoàn thành các khóa học cá nhân 
 	
 - Tham gia viết tóm tắt và chấm chéo [tài liệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#) với phần process. 
 	
-- Tham gia viết báo cáo phần mềm : [Báo cáo nhóm](https://docs.google.com/document/d/1GindPYEOervh_Tc985ib1UAhPYS2SZe4ZT2_SSZJebk/edit#heading=h.c977fg1e7e4v)
+- Tham gia viết báo cáo phần mềm : [báo cáo nhóm](https://docs.google.com/document/d/1GindPYEOervh_Tc985ib1UAhPYS2SZe4ZT2_SSZJebk/edit#heading=h.c977fg1e7e4v)
 	
 - Tham gia làm và hoàn thiện [bài tập nhóm](https://github.com/ThuyTienUet/MathFun)
 
