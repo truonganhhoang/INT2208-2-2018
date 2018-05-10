@@ -28,4 +28,6 @@ Trong 15 tuần học vừaa qua em dã hoàn thành các khóa học cá nhân 
 
 Qua đây em cũng xin cảm ơn thầy và các bạn trong nhóm ChildrenTeam dã giúp đỡ em trong suốt thời gian học tập vừa qua. Cảm ơn mọi người rất nhiều.
 
-
+Người chấm: Nguyễn Mạnh Tiến (16021344)
+Điểm: 9
+Nhận xét: Bạn hoàn thành các khóa học yêu cầu và học thêm các khóa học tự chọn. Tham gia hoàn thiện bài tập nhóm và viết báo cáo
