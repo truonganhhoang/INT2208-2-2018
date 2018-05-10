@@ -21,3 +21,7 @@
 - Người chấm: Đặng Quang Tường.
 - Điểm: 10.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tham gia tích cực vào dự án nhóm (có link các commit), có tham gia vào viết báo cáo phần mềm, SEMAT cũng như tóm tắt tài liệu khoá học.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
