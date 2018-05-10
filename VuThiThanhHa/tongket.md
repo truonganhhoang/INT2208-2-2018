@@ -23,3 +23,6 @@
 * Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm. Tuy nhiên thiếu link dẫn đến các minh chứng.
 =======
 
+* Người chấm: Phan Minh Đức
+* Điểm: 9
+* Nhận xét: Hoàn thành bài tập cá nhân, tích cực hoàn thiện bài tập nhóm.nhưng chưa có link dẫn chứng cụ thể 
