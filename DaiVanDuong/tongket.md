@@ -10,3 +10,7 @@
 * Bài tập nhóm:
 	- Tham gia viết báo cáo cuối khóa: https://docs.google.com/document/d/1PSt0JK8gl7i3VTp_l_H9uK71v7lyUe81sUKVzEEuk1A/edit#heading=h.eqdupl8g2s7q
 	- Tham gia làm ứng dụng của nhóm: https://github.com/truonganhhoang/INT2208-2-2018/pull/405/commits/117bfa64cfaa6c0fc393521337f0a69346ae1796 
+
+* Người Chấm: Vũ Đức Duy
+* Điểm: 10
+* Nhận Xét: Hoàn thiện các khóa học cùng bài tập cá nhân. Tham Gia tích cực các bài tập lớn của nhóm.

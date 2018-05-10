@@ -20,3 +20,10 @@
  * Người chấm: Nguyễn Quang Hà
  * Điểm: 10
  * Nhận xét: Có ý thức tốt về việc tự học. Tích cực tham gia làm bài tập nhóm, hoàn thành tốt các nhiệm vụ trên lớp.
+
+## Chấm chéo:
+* Người chấm: Nguyễn Tiến Đạt
+* Điểm: 9
+* Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm. Tuy nhiên thiếu link dẫn đến các minh chứng.
+
+

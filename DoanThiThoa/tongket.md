@@ -13,3 +13,16 @@
  +- Thực hiện làm báo thẻ SEMAT: (https://docs.google.com/spreadsheets/d/1JUClzRNIV7NBBZWjW0jDezWsuaY012RpdTOaaJ9rK9s/edit#gid=0)
  +- Biết và hiểu thêm về quy trình làm 1 sản phẩm.
  +- Biết cách làm việc theo nhóm khi làm bài tập lớn.
+
+# chấm chéo:
++- Người chấm: Tống Thanh Sơn
++- Điểm:9,5
++- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm,báo cáo và tóm tắt khóa học.
+
+- Người chấm: Đỗ Thanh Tâm
+- Điểm: 9
+- Hoàn thành tốt các khóa học đã yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, tóm tắt khóa học, thwujc hiện đầy đủ bài tập cá nhân.
+# chấm chéo  :
+- Người chấm : Nguyễn Đức Thái
+- Điểm : 9
+- Hoàn thành đầy đủ và tốt
