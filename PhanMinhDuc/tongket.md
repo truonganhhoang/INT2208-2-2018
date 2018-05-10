@@ -23,3 +23,6 @@
 * Điểm: 10
 * Nhận xét: Hoàn thành các khóa học theo đúng yêu cầu, nộp bài tập cá nhân đúng hạn, tham gia tích cực vào việc xây dựng ứng dụng của nhóm.
 
+* Người chấm: Nguyễn Kim Đại
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
