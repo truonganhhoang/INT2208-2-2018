@@ -26,3 +26,7 @@ CSS:  [https://github.com/Fabulous98/INT2208-2-2018/tree/master/BuiManhDung/CSS]
 - Đóng góp vào hoàn thiện tài liệu môn học với lớp, thực hiện phần Specifications:
  [https://docs.google.com/document/d/1a4i\_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit)
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm, cách team work khi làm bài tập lớn
+
+- Người chấm : Hoàng Xuân Cường
+- Điểm : 9
+- Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
