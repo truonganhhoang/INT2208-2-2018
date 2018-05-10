@@ -16,3 +16,7 @@
 - Người chấm: Đặng Quang Tường.
 - Điểm: 10.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tích cực tìm hiểu các khoá học tuỳ chọn, tham gia tốt hoạt động nhóm.
+
+- Người chấm: Nguyễn Tuấn Anh
+- Điểm: 10.
+- Tham gia làm bài tập lớn tích cực, tự học các công nghệ web đầy đủ, thực hiện bài tập cá nhân tốt.
