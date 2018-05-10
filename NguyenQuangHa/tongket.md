@@ -25,6 +25,11 @@
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
 
+
+* Người chấm: Phan Minh Đức
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tích cực tham gia vào làm các công việc trong nhóm, hoàn thành các khóa học tự học 
+
 * Người chấm: Lê Thuận Đức
 * Điểm: 9.9
 * Nhận xét: Tích cực tham gia học hỏi và đóng góp cho nhóm cũng như khóa học, hoàn thành đầy đủ và đúng hạn các bài tập được giao, các hoạt động có trích dẫn đầy đủ. 
