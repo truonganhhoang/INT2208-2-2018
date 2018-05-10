@@ -39,3 +39,8 @@ CSS:  [https://github.com/Fabulous98/INT2208-2-2018/tree/master/BuiManhDung/CSS]
 ## Người chấm: Lê Thành Công
 - Điểm: 8
 - Nhận xét: Hoàn thành khá đầy đủ các khóa học tự học. Tuy nhiên, bài tập nhóm chưa có đường dẫn đến commit mà chỉ dẫn đến folder project của nhóm. Chỉ mới tự học được các công nghệ phía client-side, chưa tìm hiểu các công nghệ phía server-side. File tongket.md không rút gọn các đường link, gây rối mắt.
+
+- Người chấm : Nguyễn Đức Công
+- Điểm : 8
+- Nhận xét: Hoàn thành tương đối đầy đủ bài tập cá nhân và bài tập nhóm, có tham gia học một số khóa học cần thiết.
+

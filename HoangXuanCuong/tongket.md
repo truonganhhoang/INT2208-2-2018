@@ -31,3 +31,7 @@ Công nghệ Phần Mềm
 ## Người chấm: Lê Thành Công
 - Điểm 9.5
 - Nhận xét: Đã tự học được rất nhiều công nghệ mới, có source code chứng minh rõ ràng. Tích cực tham gia vào công việc nhóm. Đã code một phần rất khó trong bài tập nhóm là sinh random các câu hỏi trong bài học bằng Express và MongoDB.
+
+- Người chấm: Nguyễn Đức Công
+- Điểm: 9
+- Nhận xét: Học tập các khóa học đầy đủ, tích cực tham gia vào bài tập nhóm và viết báo cáo.
