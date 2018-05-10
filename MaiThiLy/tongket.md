@@ -29,4 +29,6 @@ Trong thời gian 15 tuần của môn học này em đã :
 Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn, kiến thức , các công đoạn để hoàn thành một sản phẩm phần mềm , kĩ năng làm việc nhóm, cũng như trách nhiệm của bản thân đối với một dự án phần mềm.
 
 
-
+- Người chấm: Nguyễn Văn Lâm.
+- Điểm 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.
