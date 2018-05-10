@@ -22,3 +22,7 @@
 - Người chấm: Đặng Quang Tường.
 - Điểm: 10.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, có sản phẩm demo các khoá học tự chọn, tham gia tốt hoạt động nhóm.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
