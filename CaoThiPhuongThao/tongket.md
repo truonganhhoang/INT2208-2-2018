@@ -26,3 +26,7 @@
 - Người chấm: Tống Thanh Sơn
 - Điểm: 9
 - Nhận xét: Hoàn thành tốt các khóa học và bài tập yêu cầu.
+# Chấm chéo:
+- Người chấm: Nguyễn Đúc Thái
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học và bài tập yêu cầu.
