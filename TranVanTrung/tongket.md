@@ -35,3 +35,7 @@ Mã sinh viên: 16022389
 
 		Git & GitHub, Git Desktop
 		https://github.com/trungtran5438/INT2208-2-2018
+
+- Người chấm: Nguyễn Mạnh Tiến
+- Điểm: 10
+- Hoàn thành tốt khóa học. tham gia đầy đủ bài tập cá nhân và bài tập nhóm.
