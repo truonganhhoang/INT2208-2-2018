@@ -22,3 +22,7 @@
 - Người chấm: Đỗ Thanh Tâm
 - Điểm: 9
 - Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
+# Chấm chéo:
+- Người chấm: Tống Thanh Sơn
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học và bài tập yêu cầu.
