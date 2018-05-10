@@ -22,3 +22,7 @@ Qua 15 tuần học,em đã có đóng góp cho môn học như sau:
 * Người chấm: Nguyễn Tiến Đạt.
 * Điểm: 10.
 * Nhận xét: Hoàn thành đủ bài tập cá nhân và nhóm.
+
+* Người chấm: Nguyễn Kim Đại
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
