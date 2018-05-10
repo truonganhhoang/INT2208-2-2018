@@ -19,3 +19,7 @@ GIT : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/G
 - Bai tap ca nhan dong gop cho nhom : https://github.com/truonganhhoang/INT2208-2-2018/tree/master/DangVanPhuc/giaoviecchoit
 
 - Dong gop bao cao cho nhom : 
+
+2. Người chấm: Lê Quý Phong.
+Điểm: 8.
+Nhận xét: Khá đầy đủ những vẫn thiếu url báo cáo và tài liệu chung, semart.
