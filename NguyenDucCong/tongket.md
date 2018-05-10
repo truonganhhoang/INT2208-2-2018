@@ -16,3 +16,12 @@ MSSV: 16021260.
 - Người chấm: Nguyễn Tuấn Anh
 - Điểm: 10
 - Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.
+
+- Người chấm: Lê Lương Tuấn Anh
+- Điểm: 9
+- Nhận xét: Hoàn thành bài tập cá nhân đầy đủ, có tham gia làm bài tập nhóm(nhưng chưa có link các commit xây dựng dự án), hoàn thành tốt các khóa học(nhưng còn chưa có link dẫn đến các hình ảnh minh chứng).
+
+- Người chấm: Phùng Đình Xuân
+- Điểm: 9,5
+- Nhận xét: Hoàn thành bài tập cá nhân đúng yêu cầu . Bài tập nhóm tích cực tham gia hoạt động nhóm và viết báo cáo đầy đủ ,tham gia viết SEMAT và tóm tắt môn học .
+

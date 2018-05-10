@@ -1,4 +1,4 @@
-﻿### Bùi Tiến Dũng
+### Bùi Tiến Dũng
 ### MSV 16021272
 # Báo cáo cá nhân môn học CNPM
 Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
@@ -20,3 +20,21 @@ https://github.com/Gou-opa/exam-portal/commits/master?before=20ac3e25d908cdae4eb
 https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit<br />
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.<br />
 - Biết cách làm việc theo nhóm trong khi làm bài tập lớn.<br />
+
+-------------------------------------------
+- Người chấm : Hoàng Xuân Cường
+- Điểm : 9
+- Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
+-------------------------------------------
+- Người Chấm: Bùi Mạnh Dũng MSV 16022362
+- Số điểm: 9
+- Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm. Hoàn thành tốt các khóa học online được giao.
+-------------------------------------------
+- Người chấm : Phạm Minh Cường
+- Điểm : 10
+- Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
+-------------------------------------------
+- Người chấm : Nguyễn Đức Công
+- Điểm : 9
+- Nhận xét: Tham gia tích cực vào làm bài tập nhóm, bài tập cá nhân làm đầy dủ, có ý thức tham gia và hoàn thành các khóa học cần thiết.
+-------------------------------------------
