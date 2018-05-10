@@ -4,11 +4,10 @@ table, th, td {
     text-align: center;
     color: #DF013A;
     background: #E0F2F7;
-    font-size: 150%;  
 }
 
 td {
-    width: 150px;
+    width: 100px;
     height: 50px;
 }
 img {

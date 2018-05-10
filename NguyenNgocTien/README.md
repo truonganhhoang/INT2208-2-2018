@@ -1,2 +1,4 @@
-# NguyenNgocTien
-repository cua Nguyen Ngoc Tien k61T 1998
+﻿Thư mục cá nhân của sinh viên Nguyễn Ngọc Tiến
+==================================
+## MSV: 16021345
+## Lớp: K61T

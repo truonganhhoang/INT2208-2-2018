@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
                 <div class="col-xs-10 col-sm-6">
                     <div class="panel panel-body panel-primary" id="c2">
                         <h2>Các số và phép toán trong phạm vi 20</h2>
-                        <a routerLink="/sosanh20" routerLinkActive="active">So sánh 2 số</a>
+                        <a routerLink="/sosanh20" routerLinkActive="active">So sánh 2</a>
                         <br>
                         <a routerLink="/sub20" routerLinkActive="active">Phép trừ</a>
                         <br>
@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
                 <div class="col-xs-10 col-sm-6">
                     <div class="panel panel-body panel-primary" id="c3">
                         <h2>Các số và phép toán trong phạm vi 100</h2>
-                        <a routerLink="/sosanh100" routerLinkActive="active">So sánh 2 số</a>
+                        <a routerLink="/sosanh100" routerLinkActive="active">So sánh 2</a>
                         <br>
                         <a routerLink="/sub100" routerLinkActive="active">Phép trừ</a>
                         <br>
