@@ -15,3 +15,18 @@
 +tham gia viết báo cáo nhóm Applicasoft
 
 -	Tổng kết: Qua 15 tuần học em đã rút được nhiều kinh nghiệm và kiến thức trong việc xây dựng phần mềm và trang web,góp phần cho việc xây dựng các phần mềm sau này
+
+## Chấm chéo
+
+
++ Trần Văn Hải
++ Điểm: 9
++ Nhận xét: Hoàn thành bài tập cá nhân và khóa học online đầy đủ( có link để chứng minh), có tham gia vào hoàn thành bài tập lớn của nhóm( nhưng chưa có link để chứng minh)
+
++ Đoàn Trung Hiếu
++ Điểm: 10
++ Nhận xét: Hoàn thành tốt bài tập cá nhân, khóa học online và có tham gia hoàn thành bài tập nhóm( có đầy đủ link để chứng minh)
+
++ Nguyễn Trung Hiếu
++ Điểm: 9
++ Nhận xét: Hoàn thành các bài tập cá nhân và khóa học online( có link ảnh và file trong  thư mục, nhưng chưa đưa vào trong file tongket.md), có tham gia vào làm bài tập nhóm( đã có link để chúng minh)
