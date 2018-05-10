@@ -38,3 +38,7 @@
 + Người chấm: Tiêu Công Hoà.
 + Điểm: 9.
 + Nhận xét: tham gia tích cực vào bai tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
+
++ Người chấm : Đoàn Trung Hiếu
++ Điểm : 9
++ Nhận xét : Báo cáo làm đẹp,có ghi nhiều nội dung nhưng ý thức làm bài nhóm chưa cao, đáng lẽ cho 8.5 cộng thêm 0.5. Tham gia khóa học chịu khó nên như vậy là đẹp nhé.
