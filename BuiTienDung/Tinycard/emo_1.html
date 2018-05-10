@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <title>Tinycards</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#card1").flip();
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $("#card2").flip();
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+        $("#card3").flip();
+    });
+    </script>
+    
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+    <a href="tinycards.html"><img src="tinycards.png" width="50"></img></a><b>Tinycards</b></a>
+    </nav>
+<br><br>
+<!-- -->
+<!-- Container -->
+<div class="containter">
+    <div align="center">
+            <h3>Choose the correct answer!</h3> <br>
+            <h2><b>Alone</b></h2>
+            <br>
+        
+            <div class="row mx-auto">          
+                <div class="col-lg-3 mx-auto">
+                    <div id="card1"> 
+                        <div class="front"> 
+                            <img src="emo/alone.jpg" onclick=$("#card").flip() width="300" height="200"></img>
+                        </div> 
+                        <div class="back">
+                            <img src="correct.png" width="300" height="200"></img>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 mx-auto">
+                    <div id="card2"> 
+                        <div class="front"> 
+                            <img src="emo/sorry.jpg" onclick=$("#card").flip() width="300" height="200"></img>
+                        </div> 
+                        <div class="back">
+                            <img src="wrong.png" width="300" height="200"></img>
+                        </div> 
+                    </div>
+                </div> 
+                <div class="col-lg-3 mx-auto">
+                    <div id="card3"> 
+                        <div class="front"> 
+                            <img src="emo/fight.jpg" onclick=$("#card").flip() width="300" height="200"></img>
+                        </div> 
+                        <div class="back">
+                            <img src="wrong.png" width="300" height="200"></img>
+                        </div> 
+                    </div>
+                </div>                                                           
+                
+            </div>     
+            </div>                      
+    </div>
+</div>
+<br>
+<div align="center"><a href="emo_2.html" class="btn btn-primary">Next card</a></div>  
+<!-- Page Content -->
+
+
+</body>
+
+</html>

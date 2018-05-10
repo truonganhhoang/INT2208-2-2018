@@ -1,0 +1,40 @@
+.navbar-default .navbar-brand {
+	margin-top: -16px;
+    margin-bottom: 28px;
+}
+.navbar-brand>img {
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.navbar-default {
+	background-color: #32cdff;
+}
+.form-control {
+	margin-top: 5px;
+}
+.nav {
+	padding-top: 20px;
+}
+a{
+	padding:25px;
+	color: #DCDCDC;
+}
+.glyphicon-home:before {
+	margin-right: 5px;
+}
+.glyphicon-plus:before {
+	margin-right: 5px;
+}
+.glyphicon-user:before {
+	margin-right: 5px;
+}
+* {
+	font-weight: bold;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	color: white;
+}
+.navbar-default .navbar-toggle {
+	margin-top: 13px;
+}

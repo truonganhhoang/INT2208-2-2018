@@ -16,7 +16,10 @@
 
 -	Tổng kết: Qua 15 tuần học em đã rút được nhiều kinh nghiệm và kiến thức trong việc xây dựng phần mềm và trang web,góp phần cho việc xây dựng các phần mềm sau này
 
+
 ## Chấm chéo:
 * Người chấm: Nguyễn Tiến Đạt
 * Điểm: 9
 * Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm. Tuy nhiên thiếu link dẫn đến các minh chứng.
+=======
+
