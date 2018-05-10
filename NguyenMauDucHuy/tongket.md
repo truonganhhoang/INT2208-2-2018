@@ -22,3 +22,6 @@ Nhận xét: Hoàn thành đầy đủ các khóa học, bài tập, yêu cầu 
 3. Người chấm: Tiêu Công Hoà 
 * Điểm: 9
 * Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần, tên file còn sai, thừa thư mục không cần thiết.
+4. Người chấm: Nguyễn Thị Hợp
+* Điểm: 9
+* Nhận xét: hoàn thành đầy đủ yêu cầu bài tập hàng tuần của thầy, cách đặt thư mục chưa chuẩn xác. Báo cáo cá nhân đầy đủ.
