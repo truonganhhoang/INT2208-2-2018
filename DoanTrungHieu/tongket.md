@@ -20,5 +20,5 @@ Công nghệ phần mềm 2 - 2018
 
  ## Chấm chéo:
  * Người chấm: Nguyễn Quang Hà
- * Điểm: 10
+ * Điểm: 8.5
  * Nhận xét: Hoàn thành tốt việc tự học. Bài tập nhóm làm chi tiết, hoàn thành tốt các nhiệm vụ trên lớp.

@@ -18,5 +18,5 @@
 
 ## Chấm chéo:
  * Người chấm: Nguyễn Quang Hà
- * Điểm: 10
+ * Điểm: 9
  * Nhận xét: Có ý thức tốt về việc tự học. Tích cực tham gia làm bài tập nhóm, hoàn thành tốt các nhiệm vụ trên lớp.
