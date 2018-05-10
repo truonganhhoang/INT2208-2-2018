@@ -22,3 +22,7 @@ Công việc đã làm:
 * Người chấm: Vũ Đức Duy
 * Điểm: 10
 * Nhận Xét: Hoàn thành các bài tập cá nhân được giao, tham gia và hoàn thành các bài tập nhóm.
+
+* Người chấm: Nguyễn Kim Đại
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
