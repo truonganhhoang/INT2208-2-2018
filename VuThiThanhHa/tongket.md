@@ -21,5 +21,11 @@
 * Người chấm: Nguyễn Tiến Đạt
 * Điểm: 9
 * Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm. Tuy nhiên thiếu link dẫn đến các minh chứng.
+
+* Người chấm: Lê Thuận Đức
+* Điểm: 9
+* Nhận xét: Xinh Gái
 =======
+
+
 
