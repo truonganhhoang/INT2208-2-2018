@@ -1,0 +1,25 @@
+Nguy?n Khánh Duy
+
+MSV: 16021276
+
+Báo cáo t?ng k?t môn h?c
+
+Các khóa h?c cá nhân
+
+Hoàn thành Bài t?p cá nhân
+
+Hoàn thành khóa h?c Solfware engineering: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenKhanhDuy/BaiTapTuan9-12
+
+Hoàn thành bài t?p cá nhân tu?n 6: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenKhanhDuy/baitaptuan6/project
+
+Hoàn thành khóa h?c html t?i coursera.org: https://github.com/truonganhhoang/INT2208-2-2018/blob/master/NguyenKhanhDuy/html.png
+
+Ðo´ng go´p bt nho´m:
+
+Xây du?ng khung trang HTML ti~nh cho ph?n ôn t?p https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-Applicasoft/ontap
+
+Ch?y ki?m th? ph?n m?m do nhóm t?o lên
+
+Viê´t ba´o ca´o nho´m Applicasoft https://drive.google.com/file/d/1iBijTu37hyGAQKoRJROt3uiS4MZF9CCF/view
+
+
