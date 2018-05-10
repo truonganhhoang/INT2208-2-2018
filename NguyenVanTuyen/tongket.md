@@ -16,3 +16,6 @@ Công nghệ phần mềm 2 - 2018
 
 Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em đã biết được cách tiếp cận có hệ thống, có kỷ luật, và định lượng được cho việc phát triển,
 sử dụng và bảo trì phần mềm, đồng thời cũng tự học thêm một số kiến thức về lập trình trang web.
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
