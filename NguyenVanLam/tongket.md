@@ -17,3 +17,8 @@
 +	Góp ý chỉnh sửa hoàn thiện bản [Update cuối cùng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-DDTANK).
 +	Tham gia viết [Tài liệu báo cáo](https://docs.google.com/document/d/1qLR-qvxi7L6LPCddOGcklxoBS2ZtSFLXLnNQ_AM5NvE/edit) cuối môn học của nhóm.
 
+# thực hiện chấm chéo
+
+1. Người chấm: Hoàng Mạnh Hưng
+- Điểm: 8.5
+- Nhận xét: thực hiện đầy đủ các bài tập thầy giao, chưa đưa dẫn chứng về HTML,CSS,Boostrap, Git & GitHub
