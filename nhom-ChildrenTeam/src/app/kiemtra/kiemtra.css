@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: brown;
+    font: bold;
+}
+span{
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+#list{
+    width: 200px;
+}
+
+#de1, #de2, #de3, #de4, #de5{
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    background: #66FF99;
+    border-radius: 50px;
+}

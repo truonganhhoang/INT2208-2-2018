@@ -1,0 +1,27 @@
+.container{
+    scroll-behavior: auto;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 30px;
+    /* background: cornsilk;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+
+}
+
+h2 {
+    font-style: italic;
+    text-align: left;
+    border-radius: 10px;
+    background: ivory;
+    font: bold;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(0, 38, 255);
+}
