@@ -12,13 +12,13 @@ Trong 15 tuần học vừaa qua em dã hoàn thành các khóa học cá nhân 
 	
 - Hoàn thành [Git And Github](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenManhTien16021183)
 	
-- Hoàn thành [Software Engineering: Introduction] (https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenManhTien16021183)
+- Hoàn thành [Software Engineering: Introduction](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenManhTien16021183)
 
 
 
 2. Bài tập nhóm:
 	
-- Tham gia viết tóm tắt và chấm chéo [tài liệu môn học] với phần process. (https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
+- Tham gia viết tóm tắt và chấm chéo [tài liệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#) với phần process. 
 	
 - Tham gia viết báo cáo phần mềm : [Báo cáo nhóm](https://docs.google.com/document/d/1GindPYEOervh_Tc985ib1UAhPYS2SZe4ZT2_SSZJebk/edit#heading=h.c977fg1e7e4v)
 	
