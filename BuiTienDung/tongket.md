@@ -29,3 +29,7 @@ https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/
 Người Chấm: Bùi Mạnh Dũng MSV 16022362
 Số điểm: 9
 -------------------------------------------
+- Người chấm : Phạm Minh Cường
+- Điểm : 9
+- Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
+-------------------------------------------
