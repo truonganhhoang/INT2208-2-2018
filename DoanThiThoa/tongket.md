@@ -16,5 +16,5 @@
 
 
 - Người chấm: Đỗ Thanh Tâm
-- Điểm: 8.5
+- Điểm: 9
 - Hoàn thành tốt các khóa học đã yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, tóm tắt khóa học, thwujc hiện đầy đủ bài tập cá nhân.
