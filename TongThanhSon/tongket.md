@@ -9,3 +9,8 @@ Trong thời gian 15 tuần của môn học này em đã:
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.
 - Biết cách làm việc theo nhóm trong khi làm bài tập lớn.
 - Thành viên của nhóm IOT, đóng góp phát triển front-end của trang web, cùng các thành viên trong nhóm phát triển bài tập lớn của môn học.[link](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-IOT) 
+
+
+Người chấm: Hà Phi Sơn
+Điểm: 8
+Nhận xét: Bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có tham gia tự học kiến thức mới bằng các khoác học
