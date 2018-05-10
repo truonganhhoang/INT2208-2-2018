@@ -14,3 +14,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện được cá
 - Thực hiện làm báo cáo phần mềm: (https://docs.google.com/document/d/161cTT8VulbtWLVfY7JURB7gESdgl9ezzXQQtfq2T7V0/edit)
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm.
 - Biết cách làm việc theo nhóm khi làm bài tập lớn.
+# Chấm chéo
+- Người chấm: Tống Thanh Sơn
+- Điểm 9,5
+- Nhận xét: hoàn thành đủ mọi khóa học yêu cầu, tham gia tích cực vào bài tập nhóm.

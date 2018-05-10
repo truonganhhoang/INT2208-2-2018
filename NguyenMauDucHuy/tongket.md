@@ -19,3 +19,6 @@
 2. Người chấm: Đỗ Thành Huy
 Điểm: 9.
 Nhận xét: Hoàn thành đầy đủ các khóa học, bài tập, yêu cầu của giảng viên. Đặt tên 1 số file chưa chính xác, thừa 1 thư mục trong repository.
+3. Người chấm: Tiêu Công Hoà 
+* Điểm: 9
+* Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần, tên file còn sai, thừa thư mục không cần thiết.

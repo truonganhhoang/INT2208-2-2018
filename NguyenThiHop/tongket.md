@@ -19,7 +19,9 @@ Tài liệu dự án của nhóm: https://docs.google.com/document/d/1gzIA70kJmk
 - Tham gia vào quá trình phát triển dự án trang thi trực tuyến của nhóm về phần font-end.<br />
 + Link dự án nhóm:<br />
 https://xxam.herokuapp.com/<br />
-
+1. Người chấm: Tiêu Công Hoà 
+ - Điểm: 9
+ - Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
  
 
 
