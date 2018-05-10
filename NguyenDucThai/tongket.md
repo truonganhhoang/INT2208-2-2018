@@ -17,3 +17,8 @@
 - Người chấm: Đỗ Thanh Tâm
 - Điểm: 9
 - Nhận xét: Hoàn thành tốt các khóa học đã yêu cầu, tham gia hoạt động nhóm tích cực, tham gia làm báo cáo và tóm tắt môn học.
+
+# Chấm chéo
+- Người chấm: Tống Thanh Sơn
+- Điểm: 9,5
+- Nhận xét: Hoàn thành tốt các khóa học, có học bổ sung thêm ở ngoài chương trinhg học, tham gia tích cực hoạt động nhóm, viết và tóm tắt môn học.
