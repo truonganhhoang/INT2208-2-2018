@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CountQuestion } from 'app/luyentap/chuong1-phamvi10/count-question';
+import { CountQuestion } from 'app/luyentap/count-question';
 @Component({
     selector: 'diem-doanthang',
     styleUrls:['chuong4.css'],
@@ -25,7 +25,7 @@ export class diemDoanthang {
         },
         {
             name_ques: "Hình trên có bao nhiêu điểm ?",
-            link_img: "./assets/image/diem2.jpg",
+            link_img: "./assets/image/diem2.PNG",
             true_ans: 4
         },
         {

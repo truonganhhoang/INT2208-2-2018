@@ -1,5 +1,5 @@
 <section>
-    <h1>Bài 6: Chương 3 - Số liền trước, số liền sau</h1>
+    <h1>Bài 5: Chương 3 - Số liền trước, số liền sau</h1>
     <h2 class="type">Điền số thích hợp vào ô trống</h2>
     <div class="container">
         <div class="row">
@@ -19,13 +19,15 @@
                     <!-- chuyển sang bài tiếp theo -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
-                            <!-- hoàn thành cả 5 câu hỏi đúng -->
+                            <!-- hoàn thành cả 10 câu hỏi đúng -->
                             <div *ngIf="endLessPer">
-                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học!</strong></h2>
+                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 5!</strong></h2>
+                                <h2>Bạn đã đạt được 10/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
                             <div *ngIf="endLess">
-                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
+                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học 5!</strong></h2>
+                                <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                             </div>
                             <h2><a routerLink="/diemdoanthang" routerLinkActive="active">Bài 1 - chương 4 - Điểm và đoạn thẳng. </a></h2>

@@ -12,10 +12,12 @@ export class sum10 {
     endLessPer = false;
     endLess = false;
     count = 0;
+    count_true = 0;
     num_1 = Math.floor((Math.random() * 5) + 1);
     num_2 = Math.floor((Math.random() * 5) + 0);
 
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
+        this.count_true += 1;
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);

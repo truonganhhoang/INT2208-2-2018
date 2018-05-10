@@ -1,7 +1,7 @@
 <section>
     <div *ngIf="nameQues">
         <div *ngIf="b1_c4_head">
-            <h1>Bài 2 - Chương 4: Điểm vào đoạn thẳng</h1>
+            <h1>Bài 2 - Chương 4: Điểm và đoạn thẳng</h1>
             <h2 class="type">Điền số thích hợp vào ô trống.</h2>
         </div>
         <div *ngIf="b2_c4_head">
@@ -30,23 +30,35 @@
                         </div>
                     </div>
 
-                    <!-- chuyển sang bài tiếp theo -->
+                    <!-- chuyển sang bài tiếp theo  -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
-                            <!-- hoàn thành cả 5 câu hỏi đúng -->
-                            <div *ngIf="endLessPer">
-                                <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học!</strong></h2>
-                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>
-                            </div>
-                            <div *ngIf="endLess">
-                                <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
-                                <h2><strong>Chuyển đến bài học mới nào</strong></h2>
-                            </div>
-                            <div *ngIf="bai2_chuong4">
+                             <!-- hoàn thành cả 10 câu hỏi đúng  -->
+                             <div *ngIf="bai2_chuong4">
+                                <div *ngIf="endLessPer">
+                                    <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>
+                                    <h2>Bạn đã đạt được 10/10 sao.</h2>
+                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                                </div>
+                                 <div *ngIf="endLess">
+                                    <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>
+                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                                </div>        
                                 <h2><a routerLink="/tamgiacvuongtron" routerLinkActive="active">Bài 2 - chương 4: Hình tam giác, hình vuông, hình tròn. </a></h2>
                                 <router-outlet></router-outlet>
                             </div>
                             <div *ngIf="bai1_chuong5">
+                                <div *ngIf="endLessPer">
+                                    <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>
+                                    <h2>Bạn đã đạt được 10/10 sao.</h2>
+                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                                </div>
+                                <div *ngIf="endLess">
+                                    <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>
+                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                                    <h2><strong>Chuyển đến bài học mới nào</strong></h2>
+                                </div>
                                 <h2><a routerLink="/xemgio" routerLinkActive="active">Bài 1 - chương 5: Xem giờ. </a></h2>
                                 <router-outlet></router-outlet>
                             </div>

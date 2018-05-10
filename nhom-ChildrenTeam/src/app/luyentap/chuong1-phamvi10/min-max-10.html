@@ -38,10 +38,14 @@
                 </div>
                 <div *ngIf="nextLess">
                     <div *ngIf="endPer">
-                        <h2>Chúc mừng bạn đã hoàn thành xuất sắc bài học.</h2>
+                        <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>
+                        <h2>Bạn đã đạt được 10/10 sao.</h2>
+                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
                     <div *ngIf="endLess">
-                        <h2>Chúc mừng bạn đã hoàn thành bài học.</h2>
+                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>
+                        <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                        <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
                     <h2><a routerLink="/sosanh20" routerLinkActive="active">Bài 1 - chương 2 - So sánh 2 số trong phạm vi 20. </a></h2>
                     <router-outlet></router-outlet>

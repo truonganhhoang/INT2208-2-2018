@@ -6,4 +6,4 @@ Nhóm gooApp gồm
 3. Vũ Thanh Huyền
 4. Trần Văn Hải
 5. Nguyễn Văn Phúc
-
+Báo cáo sản phẩm lớn của nhóm :https://drive.google.com/drive/my-drive
