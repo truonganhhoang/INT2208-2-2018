@@ -16,3 +16,8 @@ Qua 15 tuần học,em đã có đóng góp cho môn học như sau:
 -	Viết báo cáo nhóm Applicasoft
 -	Dịch thuật phần mô tả Why Process khóa học Software Engineering
  Qua môn học,em đã tự đúc rút được các kinh nghiệm và bài học quý báu để xây dựng các phần mềm và trang web sau này
+
+## Chấm chéo:
+* Người chấm: Nguyễn Tiến Đạt.
+* Điểm: 10.
+* Nhận xét: Hoàn thành đủ bài tập cá nhân và nhóm.
