@@ -39,3 +39,6 @@ Mã sinh viên: 16022389
 - Người chấm: Nguyễn Mạnh Tiến
 - Điểm: 10
 - Hoàn thành tốt khóa học. tham gia đầy đủ bài tập cá nhân và bài tập nhóm.
+2. Người chấm: Nguyễn Bá Tiến
+	Điểm: 10
+	Nhận xét: Hoàn thành các yêu cầu của giảng viên. Làm bài tập đầy đủ và đúng yêu cầu. 
