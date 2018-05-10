@@ -20,3 +20,7 @@
  * Người chấm: Nguyễn Tiến Đạt
  * Điểm: 10
  * Nhận xét: Hoàn thành đầy đủ bào tập cá nhân và bài tập nhóm. việc của nhóm.
+ 
+* Người chấm: Nguyễn Kim Đại
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
