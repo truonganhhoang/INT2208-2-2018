@@ -8,3 +8,7 @@
 - Tham gia viết báo cáo dự án phần mềm: https://docs.google.com/document/d/1NjtcLUNGw_2CcpJKR_oYhgXJo2IRi8SfS0IAQqXYNsA/edit?usp=sharing
 - Tham gia viết câu hỏi trắc nghiệm: https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746
 Qua khóa học thì em cũng đã tiếp thu được rất nhiều kinh nghiệm làm các dự án phần mềm cũng như tinh thần khi làm việc nhóm.
+
+Người chấm: Trần Văn Phương
+Điểm: 9,5
+Nhận xét: Hoàn thành tốt các khoá học và tham gia làm bài tập nhóm đầy đủ.
