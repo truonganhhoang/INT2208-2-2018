@@ -20,10 +20,15 @@ Tổng kết: Qua tham gia khoá học em đã tiếp thu thêm được nhiều
  - Người chấm: Nguyễn Mạnh Tiến.
  - Điểm: 10.
  - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, có sản phẩm demo các khoá học tự chọn, tham gia tốt tích cực các hoạt động nhóm.
+
 - Người chấm: Trần Văn Trung
 - Điểm: 8
 - Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học.
+
+- Người chấm: Nguyễn Ngọc Tiến
+- Điểm: 9
+- Nhận xét: Các khóa học cơ bản chụp ảnh sơ sài, khóa SE hoàn thành tốt, bài tập lớn ổn và tài liệu dự án trình bày rất tốt.
+
 - Người chấm: Nguyễn Mạnh Tiến (16021344).
  - Điểm: 8.
  - Nhận xét: Hoàn thành khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, hoàn thành bài tập được giao.
-
