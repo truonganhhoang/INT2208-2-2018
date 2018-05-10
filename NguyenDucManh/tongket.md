@@ -1,4 +1,4 @@
-﻿# INT22082-2-2018
+- ﻿# INT22082-2-2018
 Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 ## [Nguyễn Đức Mạnh] (https://github.com/phantomsr13) MSV:16022378
 # Báo cáo tổng kết môn học
@@ -20,4 +20,6 @@ Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 - [Sản phẩm đã hoàn thiện : Web xem video trực tuyến Itube ] ( https://nsteam.herokuapp.com)
 ** Tổng kết: Sau khi học xong môn công nghệ phần mềm, em thấy bản thân đã nắm được quy trình để xây dựng một phần mềm cả về lý thuyết và thực hành, cải thiện kỹ năng làm việc nhóm.
 
-
+- Người chấm: Nguyễn Văn Lâm.
+- Điểm 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.
