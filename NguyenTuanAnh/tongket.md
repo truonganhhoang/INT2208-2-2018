@@ -12,5 +12,5 @@
 - Tham gia viết tài liệu bài tập lớn:  https://bit.ly/2GKLuqb
 
 - Người chấm: Đặng Quang Tường.
-- Điểm: 10.
+- Điểm: 9.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tích cực tìm hiểu các công nghệ khác (Laravel), tham gia hoạt động nhóm tích cực, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
