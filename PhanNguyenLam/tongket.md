@@ -14,3 +14,7 @@
 - tham gia viết báo cáo phần mềm : https://docs.google.com/document/d/161cTT8VulbtWLVfY7JURB7gESdgl9ezzXQQtfq2T7V0/edit
 - Biết và hiểu cách làm 1 phần mềm
 - Biết cách làm việc theo nhóm 
+
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 8,5.
+*	Nhận xét: Đặt tên chưa đúng yêu cầu, bài tập làm khá đầy đủ.
