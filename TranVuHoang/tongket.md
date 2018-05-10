@@ -34,7 +34,3 @@
  - Người chấm: Tiêu Công Hoà 
  - Điểm: 9
  - Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
-
-+ Người chấm: Tiêu Công Hoà.
-+ Điểm: 9.
-+ Nhận xét: tham gia tích cực vào bai tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
