@@ -47,3 +47,7 @@ Các bước tham gia:
  +- Người chấm: Nguyễn Mạnh Tiến.
  +- Điểm: 10.
  +- Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, có sản phẩm demo các khoá học tự chọn, tham gia tích cực các hoạt động nhóm.
+
+- Người chấm: Nguyễn Mạnh Tiến
+- Điểm: 9,5
+- Hoàn thành khá tốt khóa học. tham gia đầy đủ bài tập nhóm.
