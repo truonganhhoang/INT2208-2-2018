@@ -8,12 +8,12 @@
 	+ Tự học CSS3 Youtube và framgia.
 	+ Tự học Git và GitHub tại framgia.
 	+ Tự học HTML5 trên Youtube và framgia.
-	+ Hoàn thành khóa học Software Engineering cùng bài tập cá nhân 
+	+ Hoàn thành khóa học Software Engineering cùng bài tập cá nhân tuần 6:
 		https://github.com/truonganhhoang/INT2208-2-2018/tree/master/VuDucDuy16022364
 
 -Báo cáo tiến độ làm bt nhóm:
- 	+ Tham Gia làm web tĩnh của nhóm, cùng nhóm hoàn thành bài tập lớn.
- 	+ Tham gia viết báo cáo của nhóm.
+ 	Tham gia viết báo cáo bài tập nhóm: https://docs.google.com/document/d/1PSt0JK8gl7i3VTp_l_H9uK71v7lyUe81sUKVzEEuk1A/edit#heading=h.fgxchfpvjt5f
+	Tham gia làm project nhóm và commit: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-HLT
 	+ Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.
 
 -Tổng kết:
