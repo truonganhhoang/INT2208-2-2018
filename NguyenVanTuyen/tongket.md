@@ -19,7 +19,7 @@ sử dụng và bảo trì phần mềm, đồng thời cũng tự học thêm m
 
 
 - Người Chấm : Trần Văn Tuấn.
-- Điểm : 9.
+- Điểm : 8.5.
 - Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
 
 Người chấm: Trần Văn Trung
