@@ -24,6 +24,5 @@ Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viên. Có đóng góp vào công việc của nhóm. Đặt file chưa đúng theo yêu cầu.
 
 3. Người chấm: Hoàng Mạnh Hưng
-
 - Điểm: 9
 - Nhận xét: hoàn thành các bài tập thầy giao. Có làm bài tập nhóm
