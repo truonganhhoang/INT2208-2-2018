@@ -24,3 +24,7 @@
 Người chấm: Trần Văn Hải
 Điểm: 9
 Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
+
++ Người chấm : Đoàn Trung Hiếu
++ Điểm : 8.5
++ Nhận xét : Báo cáo làm đẹp đấy. Nhưng bài tập nhóm làm còn chưa chăm lắm. Ý thức học chưa cao,trong lớp ngủ không chịu học. Đáng nhẽ cho 9 nhưng mà ngủ trong lớp nên cho 8.5 thôi.

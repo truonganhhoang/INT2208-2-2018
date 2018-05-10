@@ -28,3 +28,8 @@ Tổng kết : Qua khóa học Công nghệ phần mềm, em nhận thấy bản
 Người chấm: Trần Văn Trung
 Điểm: 8.5
 Nhận xét: Bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học online.
+---------------------------------------------------
+- Người chấm: Nguyễn Ngọc Tiến
+- Điểm: 8,5
+- Nhận xét: Các khóa học hoàn thành tốt, hoàn thành nhiều khóa học nhưng bài tập tuần 6 sơ sài, bài tập nhóm tốt, báo cáo chỉn chu.
+--------------------------------------------------
