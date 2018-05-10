@@ -17,3 +17,7 @@ Công nghệ Phần Mềm
     - Sử dụng **HTML** , **Bootstrap**, **CSS** Tham gia code giao diện cho sản phẩm nhóm link commit tại [đây](https://github.com/ACD-Team/INT2208-2-2018/commit/266cff9bb31e668bab5b775a7f3adbf907cb6d73)
     - Sử dụng **Nodejs**, **Mongodb**, **Jqery** code backend sản phẩm nhóm link commit tại [đây](https://github.com/ACD-Team/INT2208-2-2018/commit/101ad7772a53c5ade7e48d2d0fce166f830e6f23)
     - Tham gia viết [báo cáo phần mềm](https://docs.google.com/document/d/1RiJf14wc3N9LAEjKUz3MNv5BDz8cdqna4BmkhVaZKJo/edit) 
+
+- Người chấm: Nguyễn Tuấn Anh
+- Điểm: 10
+- Nhận xét: Tham gia hoạt động nhóm tích cực, hoàn thành bài tập cá nhân đầy đủ.

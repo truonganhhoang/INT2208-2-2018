@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<title>From đăng nhập</title>
+</head>
+<body>
+	<form action="" id="form1">
+		<label for="username" class="straight">Username <sup>(*)</sup>: </label>
+		<input type="text" id="username" class="username" placeholder="Username" name="username">
+		<span id="error_name" class="error"></span>
+		<br class="endrow">
+		<label for="birthday" class="straight">Ngày sinh <sup>(*)</sup>:</label>
+		<input type="text" id="birthday" class="birthday" placeholder="dd/mm/yyyy" name="birthday">
+		<span id="error_birthday" class="error"></span>
+		<br class="endrow">
+		<label for="sex" class="straight">Sex</label>
+		<input type="radio" id="male" name="sex" value="M" checked="checked"> Nam
+		<input type="radio" id="fimale" name="sex" value="F"> Nữ
+		<br class="endrow">
+		<label for="password" class="straight">Password: </label>
+		<input type="password" id="password" class="password" placeholder="Password" name="password">
+		<span id="error_pass" class="error"></span>
+		<br class="endrow">
+		<input type="submit" value="accept">
+	</form>
+	<script type="text/javascript" src="../javascript/form.js">
+		
+	</script>
+</body>
+</html>
