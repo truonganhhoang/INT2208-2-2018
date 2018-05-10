@@ -1,0 +1,144 @@
+.navbar-default .navbar-brand {
+	margin-top: -16px;
+    margin-bottom: 28px;
+}
+.navbar-brand>img {
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.navbar-default {
+	background-color: #32cdff;
+}
+.form-control {
+	margin-top: 5px;
+}
+.nav {
+	padding-top: 20px;
+}
+a{
+	padding:25px;
+	color: #DCDCDC;
+}
+.glyphicon-home:before {
+	margin-right: 5px;
+}
+.glyphicon-plus:before {
+	margin-right: 5px;
+}
+.glyphicon-user:before {
+	margin-right: 5px;
+}
+* {
+	font-weight: bold;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	color: white;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	padding-left: 200px;
+}
+.col-md-12 {
+	margin-top: 20px;
+}
+.tong {
+	padding: 20px 0;
+	border-bottom: 1px solid #CDCDCD;
+}
+.truong h3{
+	font-weight: bold;
+	margin-left: 70px;
+}
+.son {
+	padding-left: 320px;
+}
+.ndt {
+	margin-top: 70px;
+}
+.btn-info {
+	margin-top: 40px;
+}
+.MT {
+	width: 244px;
+	height: 270px;
+	border-radius: 30px;
+}
+section {
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 25px;
+}
+.TS a {
+	color :grey;
+}
+.TS a:hover{
+	color: #32cdff;
+}
+.img1 {
+	margin-top: 10px;
+}
+.center {
+	padding-top: 30px;
+}
+.IT {
+	background-color: white;
+}
+
+.id {
+	border-radius: 50px;
+}
+.hihi {
+	color :#32cdff;
+	padding: 10px;
+}
+.hihi:hover{
+	color :#32cdff;
+}
+.ahihi {
+	margin-top: 11px;
+}
+.btn-default1 {
+	width: 100%;
+	border:1px solid #32cdff;
+	height:42px;
+}
+.btn-default2 {
+	width: 100%;
+	border:1px solid #32cdff;
+	height:42px;
+}
+.navbar-toggle {
+	margin-top: 13px;
+}
+.DTT {
+	margin-bottom: 10px;
+}
+.DTT2 {
+	margin-bottom: 19px;
+}
+.DTT3 {
+	padding-top: 26px;
+}
+.btn-default1 {
+	background: white;
+}
+.last {
+	margin-bottom: 1px;
+}
+.btn-default2 {
+	background: white;
+}
+.last1 {
+	margin-right: 1px;
+}
+.lastpage1 {
+	margin-top: 100px;
+}
+.lastpage1 a {
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #c4c4c4;
+}
+.lastpage1 .row {
+	padding-left: 10px;
+}

@@ -1,0 +1,9 @@
+#body {
+	background-color: #6EC3C9;
+}
+#content {
+	display: block;
+	background-color: #CAE5E8;
+	margin-top: -3px;
+	margin-bottom: -10px;
+}
