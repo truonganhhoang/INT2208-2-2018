@@ -5,7 +5,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện được cá
 - Hoàn thành khóa học Công nghệ phần mềm trên Edx, thực hiện toàn bộ các quiz có thể làm
 (https://github.com/truonganhhoang/INT2208-2-2018/pull/427/commits/5833ebe893f12ba0a6ef9f7937fed638971d9211)
 - Tự học và hoàn thành các khóa học:
-+ Github: (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/HoangManhHung/HTML5/html.jpg)
++ Github: (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DoThanhTam/Git%20%26%20Github/git%20%26%20github.jpg)
 + HTML5: (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DoThanhTam/HTML5/html.jpg)
 + Bài tập tuần 6 đã được thực hiện: (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/DoThanhTam/index.html)
 + Đóng góp và hoàn thiện tài liệu môn học với lớp, thực hiện phần Introduction
