@@ -18,3 +18,8 @@
 	- [Hiểu và hoàn thiện bộ thẻ SEMAT cùng nhóm](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/nhom-4T/SEMAT.xlsx)
 
 Tổng kết : Qua khóa học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được thêm nhiều kiến thức về môn Công nghệ phần mềm, biết và hiểu thêm về quy trình làm một phần mềm, biết cách làm việc theo nhóm cũng như trách nhiệm của bản thân đối với một dự án phần mềm trong khi làm bài tập lớn.
+
+
+Người chấm: Trần Văn Trung
+Điểm: 8.5
+Nhận xét: Bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học online.
