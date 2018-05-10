@@ -14,3 +14,7 @@
 - Người chấm: Đặng Quang Tường.
 - Điểm: 10.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tích cực tìm hiểu các công nghệ khác (Laravel), tham gia hoạt động nhóm tích cực, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
