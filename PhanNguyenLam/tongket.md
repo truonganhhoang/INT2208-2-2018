@@ -14,3 +14,7 @@
 - tham gia viết báo cáo phần mềm : https://docs.google.com/document/d/161cTT8VulbtWLVfY7JURB7gESdgl9ezzXQQtfq2T7V0/edit
 - Biết và hiểu cách làm 1 phần mềm
 - Biết cách làm việc theo nhóm 
++ Chấm chéo:
++ Người chấm: Nguyễn Thị Hường
++ Điểm: 9
++ Nhận xét: Làm tốt các bài tâp thầy giao và hoàn thành đầy đủ các khóa học, tham gia tích cực và đóng góp ý kiến xây dựng phần mềm của nhóm, viết báo cáo và tóm tắt nộ dung môn học.
