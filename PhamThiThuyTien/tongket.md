@@ -21,3 +21,7 @@ Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân
 -- Người chấm: Đỗ Thanh Tâm
 - Điểm: 9
 - Nhận xét: Hoàn thành tốt các khóa học đã yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, tóm tắt khóa học, thực hiện đầy đủ bài tập cá nhân.
+
+-- Người chấm: Đoàn Thị Thoa
+-Điểm: 9
+-Nhận xét: Bài tập nhóm khá thành công, tham gia đủ các khóa học yêu cầu tuy nhiên còn thiếu phần thẻ SEMAT không biết bạn hay nhóm đã làm hay chưa.
