@@ -14,3 +14,7 @@ Tổng kết: Qua khóa học Công nghệ phần mềm, em đã học được 
 1.Hoàng Mạnh Hưng
 - Điểm: 8
 - nhận xét: tham gia làm bài tập nhóm , hoàn thành solfware engineer , chưa làm Git and GitHub
+
+2. Người chấm: Vũ Thanh Huyền
+Điểm: 8.
+Nhận xét: Thiếu url của báo cáo và semat.
