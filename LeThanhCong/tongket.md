@@ -15,7 +15,7 @@
 
 - Người chấm: Đặng Quang Tường.
 - Điểm: 9.
-- Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tích cực tìm hiểu các khoá học tuỳ chọn, tham gia tốt hoạt động nhóm.
+- Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tích cực tìm hiểu các khoá học tuỳ chọn, tham gia tốt hoạt động nhóm, nhưng chưa tham gia dịch tóm tắt khoá học.
 
 - Người chấm: Nguyễn Tuấn Anh
 - Điểm: 10.
