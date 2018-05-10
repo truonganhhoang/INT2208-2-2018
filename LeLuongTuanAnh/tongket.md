@@ -19,5 +19,13 @@
 ### Tổng kết: Qua khoá học Công nghệ phần mềm, em đã học được thêm nhiều kiến thức về xây dựng trang web, quy trình xây dựng phần mềm cũng như khả năng làm việc nhóm một cách hiệu quả.
 
 - Người chấm: Đặng Quang Tường.
-- Điểm: 10.
+- Điểm: 9.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tham gia tích cực vào dự án nhóm (có link các commit), có tham gia vào viết báo cáo phần mềm, SEMAT cũng như tóm tắt tài liệu khoá học.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
+
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.5
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu,tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học, viết báo cáo phần mềm.

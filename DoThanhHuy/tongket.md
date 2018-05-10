@@ -12,3 +12,6 @@
  1. Người chấm: Trần Vũ Hoàng
  * Điểm: 9.
  * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và      báo cáo phần mềm chi tiết.
+ 2. Người chấm: Nguyễn Thị Hợp
+ * Điểm: 10
+ * Nhận xét: Hoàn thành đủ bài tập hàng tuần và các khóa học thầy giao. Tích cực tham gia đóng góp cho phần mềm của nhóm. Báo cáo cá nhân đầy đủ chi tiết, chính xác.
