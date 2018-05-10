@@ -18,6 +18,14 @@ Trong thời gian 15 tuần của môn học này em đã :
 3.	Tổng kết: 
 Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn, kiến thức; các quy trình, công đoạn để hoàn thành một sản phẩm phần mềm; kĩ năng làm việc nhóm, cũng như trách nhiệm của bản thân đối với một dự án phần mềm.
 
--- Người chấm: Đỗ Thanh Tâm
+- Người chấm: Đỗ Thanh Tâm
 - Điểm: 9
 - Nhận xét: Hoàn thành tốt các khóa học đã yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, tóm tắt khóa học, thực hiện đầy đủ bài tập cá nhân.
+
+- Người chấm: Đoàn Thị Thoa
+- Điểm: 9
+- Nhận xét: Bài tập nhóm khá thành công, tham gia đủ các khóa học yêu cầu tuy nhiên còn thiếu phần thẻ SEMAT không biết bạn hay nhóm đã làm hay chưa.
+
+- Người chấm : Nguyễn Đức Thái
+- Điểm : 9
+- Nhận xét: hoàn thành đầy đủ và tốt các yêu cầu
