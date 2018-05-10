@@ -1,6 +1,3 @@
-# Công nghệ phần mềm
-# INT2208-2-2018
-
 ## Họ và tên: Phan Minh Ðức
 ## Lớp: K61-T
 ## MSSV: 16022069
@@ -15,4 +12,6 @@
 * Tham gia làm ứng dụng học tiếng anh của nhóm. Link bài tập nhóm tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-DDTANK).
 	
 
-		
+* Người chấm: Đại Văn Dương
+* Điểm: 10
+* Nhận xét: Hoàn thành các khóa học theo đúng yêu cầu, nộp bài tập cá nhân đúng hạn, tham gia tích cực vào việc xây dựng ứng dụng của nhóm.

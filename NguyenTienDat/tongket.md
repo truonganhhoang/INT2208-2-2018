@@ -15,3 +15,7 @@ Công việc đã làm:
 * Bài tập nhóm:
 	- Tham gia viết báo cáo bài tập nhóm: https://docs.google.com/document/d/1PSt0JK8gl7i3VTp_l_H9uK71v7lyUe81sUKVzEEuk1A/edit#heading=h.fgxchfpvjt5f
 	- Tham gia làm project nhóm và commit: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-HLT
+
+* Người chấm: Đại Văn Dương
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập được giao, tham gia tích cực và hoàn thành công việc của nhóm.
