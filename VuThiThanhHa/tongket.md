@@ -15,3 +15,8 @@
 +tham gia viết báo cáo nhóm Applicasoft
 
 -	Tổng kết: Qua 15 tuần học em đã rút được nhiều kinh nghiệm và kiến thức trong việc xây dựng phần mềm và trang web,góp phần cho việc xây dựng các phần mềm sau này
+
+## Chấm chéo:
+ * Người chấm: Nguyễn Quang Hà
+ * Điểm: 10
+ * Nhận xét: Có ý thức tốt về việc tự học. Tích cực tham gia làm bài tập nhóm, hoàn thành tốt các nhiệm vụ trên lớp.

@@ -17,3 +17,8 @@ Công nghệ phần mềm 2 - 2018
   + Xây dựng và lên ý tưởng bộ khung ban đầu cho ứng dụng cùng nhóm.
   + Góp ý chỉnh sửa hoàn thiện bản [Update cuối cùng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-DDTANK).
   + Tham gia viết [Tài liệu báo cáo](https://docs.google.com/document/d/1qLR-qvxi7L6LPCddOGcklxoBS2ZtSFLXLnNQ_AM5NvE/edit) cuối môn học của nhóm.
+
+ ## Chấm chéo:
+ * Người chấm: Nguyễn Quang Hà
+ * Điểm: 10
+ * Nhận xét: Hoàn thành tốt việc tự học. Bài tập nhóm làm chi tiết, hoàn thành tốt các nhiệm vụ trên lớp.
