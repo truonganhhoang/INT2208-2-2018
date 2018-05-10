@@ -17,3 +17,6 @@ Trong cả khóa học Công nghệ phần mềm - INT2208 2 em đã học và l
 
 • Góp phần làm báo cáo nhóm CMD: https://docs.google.com/document/d/1XRnG3fizFNlO0QmYwk8lUJIfaGhhLA9TOYRnh8gcILQ/edit
 
+Người chấm : Nguyễn Đức Minh 
+Điểm : 10
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
