@@ -18,9 +18,14 @@ Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em đã biết
 sử dụng và bảo trì phần mềm, đồng thời cũng tự học thêm một số kiến thức về lập trình trang web.
 
 
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
+
 Người chấm: Trần Văn Trung
 Điểm: 8
 Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học. Chưa tham gia dịch tóm tắt tài liệu môn học.
+
 
 - Người chấm: Hoàng Đức Tuấn
 - Điểm: 9
