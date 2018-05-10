@@ -13,3 +13,12 @@
 	-[Tham gia chấm chéo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit).
 
 **Tổng kết : Qua khóa học Công nghệ phần mềm em nhận thấy mình biết thêm 1 ngôn ngữ mới có thể tạo  trang web đơn giản theo ý mình và xa hơn nữa e có thể kiếm tiền từ nó.**
+
+- Người chấm: Đỗ Thanh Tâm
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học đã yêu cầu, tham gia hoạt động nhóm tích cực, tham gia làm báo cáo và tóm tắt môn học.
+
+# Chấm chéo
+- Người chấm: Tống Thanh Sơn
+- Điểm: 9,5
+- Nhận xét: Hoàn thành tốt các khóa học, có học bổ sung thêm ở ngoài chương trinhg học, tham gia tích cực hoạt động nhóm, viết và tóm tắt môn học.
