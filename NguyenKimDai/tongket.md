@@ -17,3 +17,9 @@ Bài tập nhóm:
 * Tham gia viết [báo cáo phần mềm](https://docs.google.com/document/d/1PSt0JK8gl7i3VTp_l_H9uK71v7lyUe81sUKVzEEuk1A/edit#heading=h.eqdupl8g2s7q).
 
 Tổng kết: Qua tham gia khóa học Công nghệ phần mềm, em đã học thêm nhiều kiến thức về việc xây dựng trang web, trách nhiệm của bản thân với dự án và khả năng làm việc nhóm
+
+
+* Người chấm: Đại Văn Dương
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm đúng hạn(có hình ảnh và commit), tích cực tham gia vào công việc của nhóm, năng nổ, nhiệt tình, đưa ra những ý kiến hay để hoàn thành bài tập nhóm.
+

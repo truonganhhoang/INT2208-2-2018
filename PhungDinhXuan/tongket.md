@@ -20,5 +20,13 @@
 ### Tổng kết: Qua học phần Công Nghệp Phần Mềm này em hiểu được cách tạo ra một trang web và học được nhiều kĩ năng như sử dụng Github cho làm việc nhóm, thêm được một số từ vựng và kiến thức khi học các khóa học và tìm hiểu kiến thức trong quá trình học.
 
 - Người chấm: Đặng Quang Tường.
-- Điểm: 10.
+- Điểm: 9.
 - Nhận xét: Hoàn thành tốt các khoá học yêu cầu, có tìm hiểu các khoá học tự chọn, có sản phẩm demo các khoá học tự chọn, tham gia tốt hoạt động nhóm.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
+
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu , tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.

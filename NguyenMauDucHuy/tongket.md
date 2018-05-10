@@ -15,3 +15,7 @@
  1. Người chấm: Trần Vũ Hoàng
  * Điểm: 9.
  * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, tuy còn chưa đặt 1 số thư mục đúng cách. Bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
+
+2. Người chấm: Đỗ Thành Huy
+Điểm: 9.
+Nhận xét: Hoàn thành đầy đủ các khóa học, bài tập, yêu cầu của giảng viên. Đặt tên 1 số file chưa chính xác, thừa 1 thư mục trong repository.
