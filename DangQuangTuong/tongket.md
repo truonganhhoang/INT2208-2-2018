@@ -19,3 +19,7 @@ Công nghệ phần mềm 2 - 2018
 	- [Thực hiện upload bài tập nhóm và báo cáo phần mềm](https://github.com/vuvihi/INT2208-2-2018/tree/master/nhom-4T).
 
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
