@@ -26,3 +26,7 @@ Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viê
 3. Người chấm: Vũ Thanh Huyền
 Điểm: 8.
 Nhận xét: Các yêu cầu đầy đủ. File chưa theo yêu cầu.
+
+4. Người chấm: Hoàng Mạnh Hưng
+- Điểm: 9
+- Nhận xét: hoàn thành các bài tập thầy giao. Có làm bài tập nhóm

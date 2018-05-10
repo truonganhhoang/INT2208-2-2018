@@ -21,3 +21,6 @@ Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 ** Tổng kết: Sau khi học xong môn công nghệ phần mềm, em thấy bản thân đã nắm được quy trình để xây dựng một phần mềm cả về lý thuyết và thực hành, cải thiện kỹ năng làm việc nhóm.
 
 
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 9,5.
+* Nhận xét: Bài tập làm đầy đủ, chất lượng tốt, có đóng góp vào bài tập nhóm và lớp.
