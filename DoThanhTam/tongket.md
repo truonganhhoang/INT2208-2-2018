@@ -1,4 +1,4 @@
-# Đỗ Thanh Tâm
+﻿# Đỗ Thanh Tâm
 # MSV 16022120
 # Báo cáo cá nhân môn học CNPM
 Trong thời gian 15 tuần của môn học, em đã thực hiện được các việc:
@@ -14,3 +14,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện được cá
 - Thực hiện làm báo cáo phần mềm: (https://docs.google.com/document/d/161cTT8VulbtWLVfY7JURB7gESdgl9ezzXQQtfq2T7V0/edit)
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm.
 - Biết cách làm việc theo nhóm khi làm bài tập lớn.
+-Chấm chéo:
++Người chấm: Nguyễn Trường Sơn
++Điểm: 9
++Nhận xét: Bạn đã hoàn thành rất tốt các khóa học theo yêu cầu, ngoài ra đã tham gia tích cực vào dự án nhóm. Tuy nhiên vẫn thiếu minh chứng cho các khóa Bootrap 4, CSS, JavaScript nữa nhé.

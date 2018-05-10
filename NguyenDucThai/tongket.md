@@ -13,3 +13,7 @@
 	-[Tham gia chấm chéo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit).
 
 **Tổng kết : Qua khóa học Công nghệ phần mềm em nhận thấy mình biết thêm 1 ngôn ngữ mới có thể tạo  trang web đơn giản theo ý mình và xa hơn nữa e có thể kiếm tiền từ nó.**
+-Chấm chéo:
++Người chấm: Nguyễn Trường Sơn
++Điểm: 9
++Nhận xét: Bạn đã hoàn thành rất tốt các khóa học theo yêu cầu, ngoài ra đã tham gia tích cực vào dự án nhóm. Tuy nhiên vẫn thiếu minh chứng khóa Git & GitHub.
