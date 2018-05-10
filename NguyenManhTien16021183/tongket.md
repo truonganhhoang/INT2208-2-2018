@@ -31,4 +31,6 @@ Qua đây em cũng xin cảm ơn thầy và các bạn trong nhóm ChildrenTeam 
 	Điểm: 10
 	Nhận xét: Hoàn thành các yêu cầu của giảng viên. Làm bài tập đầy đủ và đúng yêu cầu. 
 
-
+Người chấm: Nguyễn Mạnh Tiến (16021344)
+Điểm: 9
+Nhận xét: Bạn hoàn thành các khóa học yêu cầu và học thêm các khóa học tự chọn. Tham gia hoàn thiện bài tập nhóm và viết báo cáo
