@@ -18,3 +18,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện được cá
 - Người chấm: Tống Thanh Sơn
 - Điểm 9,5
 - Nhận xét: hoàn thành đủ mọi khóa học yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+-Người chấm: Hà Phi Sơn
+-Điểm: 9
+-Nhận xét: Bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có tham gia tự học kiến thức mới bằng các khoác học
