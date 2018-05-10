@@ -27,5 +27,5 @@ công nghệ phần mềm 2-2018
 * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
 
 2. Người chấm: Đỗ Thành Huy
-Điểm: 9.
-Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viên. Đóng góp tích cực trong công việc của nhóm, 1 số file đặt tên chưa chính xác.
+* Điểm: 9.
+* Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viên. Đóng góp tích cực trong công việc của nhóm, 1 số file đặt tên chưa chính xác.
