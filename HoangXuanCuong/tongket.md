@@ -21,3 +21,6 @@ Công nghệ Phần Mềm
 - Người chấm: Nguyễn Tuấn Anh
 - Điểm: 10
 - Nhận xét: Tham gia hoạt động nhóm tích cực, hoàn thành bài tập cá nhân đầy đủ.
+- Người chấm: Lê Lương Tuấn Anh
+- Điểm 9
+- Nhận xét: Tham gia tích cực vào bài tập nhóm(có link commit) cũng như viết báo cáo(có dẫn link cụ thể), có tham gia nhiều khóa học tự học (đã có link dẫn tới các dự án nhưng chưa có ảnh chụp các khóa học),chưa có link hoàn thành semat.
