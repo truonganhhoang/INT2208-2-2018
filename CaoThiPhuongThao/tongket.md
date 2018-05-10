@@ -19,3 +19,6 @@
  - Biết cách làm việc theo nhóm
 
 # Chấm chéo:
+- Người chấm: Đỗ Thanh Tâm
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
