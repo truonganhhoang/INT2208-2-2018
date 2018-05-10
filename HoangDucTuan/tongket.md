@@ -23,3 +23,7 @@ Tổng kết: Qua tham gia khoá học em đã tiếp thu thêm được nhiều
 - Người chấm: Trần Văn Trung
 - Điểm: 8
 - Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học.
+---------------------------------------------
+- Người chấm: Nguyễn Ngọc Tiến
+- Điểm: 9
+- Nhận xét: Các khóa học cơ bản chụp ảnh sơ sài, khóa SE hoàn thành tốt, bài tập lớn ổn và tài liệu dự án trình bày rất tốt.
