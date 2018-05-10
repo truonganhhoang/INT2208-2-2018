@@ -20,3 +20,7 @@ Em xin trân thành cảm ơn thầy đã dạy và hướng dẫn em môn học
 3. Người chấm: Đỗ Thành Huy
 * Điểm: 8
 * Nhận xét: Hoàn thành các yêu cầu của giảng viên. Thư mục đặt tên chưa chính xác. Chưa minh chứng rõ ràng cho các bài tập, yêu cầu bằng URL.
+
+4. Người chấm: Nguyễn Thị Hợp
+* Điểm: 8
+* Nhận xét: Hoàn thành khóa học thầy giao. Chưa đầy đủ các link dẫn chứng.
