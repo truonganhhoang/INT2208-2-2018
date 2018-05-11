@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #d5d5db;
+    height: 900px;
+}
+#wrap{
+    background-color: #ffffff;
+    width: 900px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+header{
+    background: #fe5d49;
+    color:#fff;
+    padding:16px;
+    font-family: inherit;
+    height: 194px;
+    font-style: bold;
+}
+header h1{
+    display:block;
+    text-align: center;
+    font-size: 38px;
+    padding: 20px;
+}
+header input, header #add{
+    line-height: 60px;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    margin: none;
+    font-size:26px;
+    margin-left: 83px;
+    width: 60%;
+}
+header #add{
+    margin-left: -4px;
+    width: 19%;
+    text-align: center;
+    transition: 0.25s;
+}
+header #add:hover{
+    background:#dfe30f;
+    color:black;
+}
+
+#main ul li{
+    position: relative;
+    padding-left: 97px;
+    list-style-type:none;
+    line-height: 60px;
+    font-size: 27px;
+    cursor: pointer;
+    color:
+}
+#main li:hover{
+    background:linear-gradient(#e5e5eb, #d9d9e1);
+}
+#main li .x{
+    position: absolute;
+    right:0;
+    padding: 0 25px;
+    box-sizing: border-box;
+    border:none;
+    background:none;
+    font-size:20px;
+    line-height: 60px;
+    transition:0.25s;
+}
+#main .x:hover{
+    background:#fe5d49;
+    color:#fff;
+}
+#main ul .completed{
+    text-decoration: line-through;
+    background-color: #877e7e;
+    }
+
+ #main ul .completed:before{
+    content: '';
+    position: absolute;
+    left: 1px;
+    padding: 22px 32px;
+    background: url('tick.svg') no-repeat top left;
+}

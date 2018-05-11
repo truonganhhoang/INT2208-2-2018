@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài thực hành 6</title>
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <div onchange="SelectBox(this)" >
+    <div class="flip3d" id="1">
+      <div id="front1"  class="front"  onclick="fronttoback('front1','back1')" >
+        <img src="images/320.png" class="imgflip" id="img"></div>
+        <div id="back1" class="back"  onclick="backtofront('front1','back1')">
+          <h1 class="fliptext">320</h1>
+        </div>
+      </div>
+      <div class="flip3d" id="2">
+        <div id="front2"  class="front"  onclick="fronttoback('front2','back2')" >
+          <img src="images/studio.png" class="imgflip" id="img">
+        </div>
+        <div id="back2" class="back"  onclick="backtofront('front2','back2')">
+          <h1 class="fliptext">Studio</h1>
+        </div>
+      </div>
+      <div class="flip3d" id="3">
+        <div id="front3"  class="front"  onclick="fronttoback('front3','back3')" >
+          <img src="images/myinstrucment.jpg" class="imgflip" id="img">
+        </div>
+        <div id="back3" class="back"  onclick="backtofront('front3','back3')">
+          <h1 class="fliptext">Bài</h1>
+        </div>
+      </div>
+      <div class="flip3d" id="4">
+        <div id="front4"  class="front"  onclick="fronttoback('front4','back4')" >
+          <img src="images/piano.jpg" class="imgflip" id="img"></div>
+          <div id="back4" class="back"  onclick="backtofront('front4','back4')">
+            <h1 class="fliptext">Thực</h1>
+          </div>
+        </div>
+        <div class="flip3d" id="5">
+          <div id="front5"  class="front"  onclick="fronttoback('front5','back5')" >
+            <img src="images/violin.jpg" class="imgflip" id="img">
+          </div>
+          <div id="back5" class="back"  onclick="backtofront('front5','back5')">
+            <h1 class="fliptext">Hành</h1>
+          </div>
+        </div>
+        <div class="flip3d" id="6">
+          <div id="front6"  class="front"  onclick="fronttoback('front6','back6')" >
+            <img src="images/flute.jpg" class="imgflip" id="img">
+          </div>
+          <div id="back6" class="back"  onclick="backtofront('front6','back6')">
+            <h1 class="fliptext">Tuần 6</h1>
+          </div>
+        </div>
+      </div>
+<!--       <div>
+        <button type="button" class="btn" onclick=>Next</button>
+      </div> -->
+      <script type="text/javascript" src="./javascript/index.js">
+      </script>
+    </body>
+    </html>

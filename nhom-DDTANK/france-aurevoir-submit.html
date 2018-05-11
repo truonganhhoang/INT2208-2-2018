@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Khóa học Tiếng Pháp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./image/icontag.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/france.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+
+    <style>
+        .lang-learn {
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #course {
+            background-color: #D3EDBA;
+            height: 100%;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body id="course">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1-0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                    <li role="presentation" ><a href="./page1-1.html">Trang chủ</a></li>
+                    <li role="presentation" class="active"><a href="page2-0.html">Khóa học</a></li>
+             </ul>
+        </div>
+    </nav>
+    <center>
+    	<div class="col-sm-12">
+   			<h1>Khóa Tiếng Pháp</h1>
+        </div>
+    </center>
+    <br><br><br><br>
+        <div class="container">
+            <div class="col-lg-6 col-sm-12">
+                <center>
+                    <br><br>
+                <img class="img-responsive" src="image/france-tambiet.jpg" height="400" width="400">
+                <br><br>
+                </center>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <p><strong>Chọn câu trả lời chính xác nhất</strong></p>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_false()" id="submit"><p>bonjour</p></button>
+                <br>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_true()" id="submitTrue"><p>au revoir</p></button>
+                <br>
+                <button type="button" class="btn-default btn-block btn-lg" onclick="submit_false1()" id="submit1"><p>patron</p></button>
+            </div>
+        </div>
+        <div ng-show="submit_true" style="visibility: hidden;" id="win">
+            <br><br>
+            <center>
+            <p class="alert alert-success container">
+                <strong>Chúc mừng!!!</strong>  
+                <a href="france-bonjour-text.html">
+                    <button class="btn btn-success">Qua màn kế tiếp</button>
+                </a>
+            </p>
+            </center>
+        </div>
+    <br><br><br><br><br><br>
+    
+
+</body>
+</html>
