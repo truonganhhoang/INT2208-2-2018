@@ -51,3 +51,11 @@ Các bước tham gia:
 - Người chấm: Nguyễn Mạnh Tiến
 - Điểm: 9,5
 - Hoàn thành khá tốt khóa học. tham gia đầy đủ bài tập nhóm.
+
+--Người chấm: Vũ Thủy Tiên 
+-Điểm: 9,75
+-Nhận xét: Bạn làm tốt bài tập cá nhân có dẫn chứng đầy đủ , bài tập nhóm làm việc có năng suất tốt 
+
+Người chấm: Nguyễn Bá Tiến
+	Điểm: 10
+	Nhận xét: Hoàn thành các yêu cầu của giảng viên. Làm bài tập đầy đủ và đúng yêu cầu.
