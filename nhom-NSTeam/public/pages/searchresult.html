@@ -21,7 +21,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="../index.html" id="page-name"><img id="logo" src="../img/logo.png" widht="40" height="24"> iTube</a>
+      <a class="navbar-brand" href="../index.html" id="page-name">
+        <img id="logo" src="../img/logo.png" widht="40" height="24"> iTube</a>
       <div class="input-group input-group-sm sm-3 col-6" id="search-box">
         <input type="text" class="form-control" placeholder="Search" id="keyword">
         <div class="input-group-append">
@@ -175,10 +176,16 @@
     <hr>
 
     <div id="list-video">
-          
+
     </div>
 
-    <button class="btn btn-primary" hidden>Load More</button>
+    <div id="loadmore">
+
+    </div>
+
+
+    <button class="btn btn-primary col" id="load-more-button">Load More</button>
+
 
 
   </div>
@@ -188,7 +195,7 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; iTube 2018</p>
-      <p class="m-0 text-center text-white">Powered by NS Team - 320 Studios</p>
+      <p class="m-0 text-center text-white">Powered by NSTeam</p>
     </div>
     <!-- /.container -->
   </footer>

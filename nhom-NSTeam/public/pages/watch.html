@@ -26,7 +26,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="../index.html" id="page-name"><img id="logo" src="../img/logo.png" widht="40" height="24"> iTube</a>
+      <a class="navbar-brand" href="../index.html" id="page-name">
+        <img id="logo" src="../img/logo.png" widht="40" height="24"> iTube</a>
       <div class="input-group input-group-sm sm-3 col-6" id="search-box">
         <input type="text" class="form-control" placeholder="Search" id="keyword">
         <div class="input-group-append">
@@ -186,7 +187,8 @@
           </video> -->
           <iframe src="" width="1000" height="450" frameborder="0" id="video-frame" allowfullscreen></iframe>
           <div class="card-body">
-            <h3 class="card-title" id="video-title">Video Title</h3>
+            <h3 class="card-title" id="video-title"></h3>
+            <p id="views"></p>
 
             <!-- <a href="#" class="btn btn-danger">SUBSCRIBE</a> -->
           </div>
@@ -196,7 +198,6 @@
         <div class="card card-outline-secondary my-4">
           <div class="card-header">
             <h3 id="channel-title" style="display:inline-block;"></h3>
-            <button type="button" class="btn btn-danger float-right" style="display:inline-block;">SUBSCRIBE</button>
           </div>
           <div class="card-body">
             <p class="card-text" id="video-description"></p>
@@ -225,7 +226,7 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; iTube 2018</p>
-      <p class="m-0 text-center text-white">Powered by NS Team - 320 Studios</p>
+      <p class="m-0 text-center text-white">Powered by NSTeam</p>
     </div>
     <!-- /.container -->
   </footer>

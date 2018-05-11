@@ -1,0 +1,78 @@
+.imgborder {
+			border-radius: 20px;
+		}
+
+.link:hover, .link:focus {
+  text-decoration: none;
+}
+
+.card-lessons {
+	height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: white;
+}
+.card-lessons p {
+	background: #EEF1F4;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 20px;
+	font-size: 30px;
+	color: black;
+}
+
+.card-gird {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.card-gird img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.card-gird h1 {
+	background: #FEDEE2;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 20px;
+}
+
+.card-quiz {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+.card-quiz img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.card-quiz h1 {
+	background: #FEDEE2;
+	text-align: center;
+	line-height: 400px;
+	border-radius: 20px;
+}
+
+.display-none {
+	display: none;
+}
+
+.img-quiz img{
+	height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.button-answer button {
+	margin: 25px auto;
+	height: 80px;
+	width: 600px;
+}
+
+#form7 p {
+	line-height: 600px;
+	font-size: 50px;
+}

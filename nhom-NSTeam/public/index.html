@@ -19,12 +19,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body>
-
+<body> 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#" id="page-name"><img id="logo" src="img/logo.png" id="logo" widht="40" height="24"> iTube</a>
+      <a class="navbar-brand" href="index.html" id="page-name"><img id="logo" src="img/logo.png" id="logo" widht="40" height="24"> iTube</a>
       <div class="input-group input-group-sm sm-3 col-6" id="search-box">
         <input type="text" class="form-control" placeholder="Search" id="keyword">
         <div class="input-group-append">
@@ -48,6 +47,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign up</a>
           </li>
+          <li class="nav-item"><div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div></li>
         </ul>
       </div>
     </div>
@@ -74,14 +74,14 @@
             </label>
             <input type="password" class="form-control" placeholder="Enter Password" name="passwordLogin" required>
 
-            <button class="btn btn-success" id="btnSignIn">Sign In</button>
+            <button class="btn btn-success btn-fix" id="btnSignIn">Sign In</button>
             <label>
               <input type="checkbox" checked="checked" id="remeberMeCheckBox"> Remember me
             </label>
           </form>
         </div>
         <div class="modal-footer">
-<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+            <div class="fb-login-button btn-fix" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false" onclick="reload()"></div>
         </div>
       </div>
 
@@ -179,21 +179,24 @@
     <div class="row">
 
       <div class="col-md-8">
-        <img class="img-fluid" src="http://placehold.it/750x450" alt="">
+        <a href="pages/watch.html" class="main-video"><img class="img-fluid" src="https://i.ytimg.com/vi/EV-91JV4Fws/maxresdefault.jpg" alt=""></a>
       </div>
 
       <div class="col-md-4">
-        <h3 class="my-3">Video Title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius
-          vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat,
-          felis enim.</p>
-        <h3 class="my-3">Video Details</h3>
-        <ul>
-          <li>Lorem Ipsum</li>
-          <li>Dolor Sit Amet</li>
-          <li>Consectetur</li>
-          <li>Adipiscing Elit</li>
-        </ul>
+        <a href="pages/watch.html" class="main-video">
+          <h3 class="my-3">Túy Âm - Xesi x Masew x Nhatnguyen</h3></a>
+          <p>Túy Âm - Xesi x Masew x Nhatnguyen <br>
+            Background by WLOP <br>
+
+            Để theo dõi những sản phẩm mới nhất của MASEW:<br>
+            ►  SUBSCRIBE CHANNEL: http://bit.ly/MasewChannel<br>
+
+            Để theo dõi những thông tin mới nhất của MASEW:<br>
+            ►  Facebook: https://www.facebook.com/masewproducer<br>
+            ►  Fanpage: https://www.facebook.com/masew.avn/<br>
+            ► Soundcloud: https://soundcloud.com/masew <br>
+          </p>
+        
       </div>
 
     </div>
@@ -205,30 +208,30 @@
     <div class="row">
 
       <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          <h4 class="text-center">Video Title</h4>
+        <a href="pages/watch.html" id="sub1">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/sCUEc7ZGGeU/maxresdefault.jpg" alt="">
+          <h4 class="text-center">How I Met Your Mother - TOP 5 Moments</h4>
         </a>
       </div>
 
       <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          <h4 class="text-center">Video Title</h4>
+        <a href="pages/watch.html" id="sub2">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/xLYN94jkiDo/maxresdefault.jpg" alt="">
+          <h4 class="text-center">RHYMASTIC - PHAN XET [ OFFICIAL MV ]</h4>
         </a>
       </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          <h4 class="text-center">Video Title</h4>
+      <div class="col-md-3 col-sm-6 mb-4" id="sub3">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/s9-exVFzz14/maxresdefault.jpg" alt="">
+          <h4 class="text-center">B TRAP - Super E x MC ILL x Jay Bach | Official MV</h4>
         </a>
       </div>
 
-      <div class="col-md-3 col-sm-6 mb-4">
-        <a href="#">
-          <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          <h4 class="text-center">Video Title</h4>
+      <div class="col-md-3 col-sm-6 mb-4" id="sub4">
+        <a href="pages/watch.html">
+          <img class="img-fluid" src="https://i.ytimg.com/vi/1u0ygl9vJHI/maxresdefault.jpg" alt="">
+          <h4 class="text-center">Ngọt - Bartender</h4>
         </a>
       </div>
 
@@ -242,7 +245,7 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; iTube 2018</p>
-      <p class="m-0 text-center text-white">Powered by NS Team - 320 Studios</p>
+      <p class="m-0 text-center text-white">Powered by NSTeam</p>
     </div>
     <!-- /.container -->
   </footer>
