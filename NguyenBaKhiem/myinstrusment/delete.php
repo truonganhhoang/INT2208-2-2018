@@ -1,6 +1,6 @@
 <?php 
 
-require_once '../instrusment/configPDO.php';
+require_once '../myinstrusment/configPDO.php';
 if(!isset($_GET['id'])) {
 	header('location:../myinstrusment/admin.php');
 } else {
@@ -8,7 +8,7 @@ if(!isset($_GET['id'])) {
 	$query = $db->prepare($query);
 	$query->bindParam(':id', $_GET['id']);
 	$query->execute();
-	header('location:../myinstrusment/admin.php');
+	header('location:../myinstrusment/admin.php#');
 }
 
  ?>

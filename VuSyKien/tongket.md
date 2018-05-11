@@ -24,3 +24,6 @@ Tổng kết: Qua khóa học Công nghệ phần mềm, em đã học được 
 - Điểm: 8.
 - Nhận xét: Thiếu url của báo cáo và semat.
 
+-Người chấm: Nguyễn Bá Khiêm.
+-Điểm: 9.
+-Nhận xét: Tham gia làm bài tập nhóm, hoàn thành tốt khóa Solfware Eng.

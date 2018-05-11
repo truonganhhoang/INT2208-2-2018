@@ -15,6 +15,8 @@
 - Biết và hiểu cách làm 1 phần mềm
 - Biết cách làm việc theo nhóm 
 
+
+
 ## Chấm chéo:
 + Người chấm: Nguyễn Thị Hường
 + Điểm: 9
@@ -27,3 +29,7 @@
 -Người chấm: Nguyễn Bá Khiêm.
 -Điểm: 9.
 -Nhận xét: Đặt tên chưa đúng, hoàn thành khóa học khá tốt, tích cực tham gia làm bài tâp nhóm.
+
+- Người chấm: Nguyễn Văn Lâm.
+- Điểm 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.

@@ -14,3 +14,8 @@
 * Người Chấm: Vũ Đức Duy
 * Điểm: 10
 * Nhận Xét: Hoàn thiện các khóa học cùng bài tập cá nhân. Tham Gia tích cực các bài tập lớn của nhóm.
+
+* Người chấm: Nguyễn Khánh Duy
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm. Tích cực trao đổi thảo luận đưa ra những ý kiến sáng giá cho cách học và hoàn thiện bài tập nhóm
+
