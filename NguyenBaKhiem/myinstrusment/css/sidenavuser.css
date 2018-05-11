@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.sidenav {
+    margin-top: 6%;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav button {
+    padding: 10px 10px;
+    margin: 2%;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: #818181;
+    border: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+    float: inherit;
+    border-radius: 4px;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.sidenav button:hover{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (min-width: 1000px) {
+    .sidenav {
+        margin-top: 10%;
+        height: 60%;
+    }
+    .sidenav button {
+        left: 3%;
+    }
+}
+@media screen and (max-height:  800px) {
+    .sidenav {
+        margin-top: 10%;
+        height: 100%;
+    }
+    .sidenav button {
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .sidenav {
+        margin-top: 10%;
+        height: 100%;
+    }
+    .sidenav button {
+
+    }
+}
+@media screen and (max-width: 566px) {
+    .sidenav {
+        margin-top: 55%;
+    }
+    .sidenav button {
+    }
+}
+}
+@media screen and (max-width: 768px) {
+ .sidenav button {
+    margin-left: 3%;
+    margin-right: 6%;
+}
+}

@@ -1,0 +1,31 @@
+.info {
+	margin-bottom: 5px;
+	   text-align: center;
+}
+.list-info {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+}
+.general, .profile, .security, .avatar {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background:-color: #ECECEC;
+}
+.avatar {
+	color: #fffb00;
+}
+.general {
+    color: #00ff80;
+}
+.profile {
+    color: #ffbf00;
+}
+.security {
+    color: #00bfff;
+}
+.avt {
+	margin: auto;
+}

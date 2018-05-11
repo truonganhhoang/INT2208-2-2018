@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Khóa học Tiếng Pháp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./image/icontag.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/tag1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/france.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+
+    <style>
+        .lang-learn {
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #course {
+            background-color: #D3EDBA;
+            height: 100%;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body id="course">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./page1-0.html">MEMRISE</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li role="presentation" ><a href="./page1-1.html">Trang chủ</a></li>
+                <li role="presentation"class="active"><a href="./page2-0.html">Khóa học</a></li>
+             </ul>
+        </div>
+    </nav>
+    <center>
+    	<div class="col-sm-12">
+   			<h1>Khóa Tiếng Pháp</h1>
+   		</div>
+    </center>
+    <center>
+        <div class="container" >
+            <img src="image/france-xinchao.jpg" class="img-responsive" style="height: 200px;">
+        </div>
+        <br><br>
+    </center>
+        <div ng-app="bonjour" ng-controller="myCtrl" class="container">
+            <center>
+            <p><strong>Đáp án của tôi là:</strong></p>
+            <input type="text" ng-model="result">
+            </br><br>
+            <input class="btn btn-primary btn-lg" type="button" value="Nộp" ng-click="check()">
+            <br><br>
+            <div ng-show="equal">
+                <p class="alert alert-success container">
+                    <strong>Chúc mừng!!!</strong>  
+                    <a href="france-aurevoir-text.html">
+                        <button class="btn btn-success">Qua màn kế tiếp</button>
+                    </a>
+                </p>
+            </div>
+            <div ng-show="!equal">
+                <p class="alert alert-danger container">
+                    <strong>Bạn đang nhập sai</strong>
+                </p>
+            </div>
+            </center>
+        </div>
+
+    <br><br><br><br>
+    
+</body>
+</html>

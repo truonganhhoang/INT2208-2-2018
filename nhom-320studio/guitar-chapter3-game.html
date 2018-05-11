@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Guitar-chapter3</title>
+
+    <!-- Bootstrap core CSS -->
+     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+      <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="css/shop-homepage.css" rel="stylesheet">
+     <link href="css/small-business.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="my instrument.html" title="home"><img src="img/my instrucment 4.jpg" class = "menupicture" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form action="" accept-charset="UTF-8" class="thanh-tim-kiem">
+          
+            <input autocomplete = "off"type="text" name="thanhtimkiem" placeholder=" search..." class="thanhtimkiem">
+            <button tabindex="-1" type="submit" class="skill-search-button"></button>
+          </form>
+          <label for="toggle2" class="search" ><img src="css/css.jpg" style="width: 100%;"></label>
+           <input type="checkbox" id="toggle2"/>
+          <div class="list-group menu2  " style=" min-width: 100%;" >
+            <form action="" accept-charset="UTF-8" class="thanh-tim-kiem2"  >
+            <input autocomplete = "off"type="text" name="thanhtimkiem" placeholder=" search..." class="thanhtimkiem1" style="width:100%;">
+          </form>
+          </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="my instrument.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#signInModal">Sign in</a>
+            </li>
+            <li class="nav-item  active">
+            <div class="dropdown">
+              <button type="button" class="btn btn-danger nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learning</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item musictheory-title" href="music theory.html">Music theory</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item guitar-title" href="guitar.html">Guitar</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item piano-title" href="#">Piano</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item violin-title" href="#">Violin</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item flute-title" href="#">Flute</a>
+                </div>
+            </div>
+            </li>
+            <li class="nav-item ">
+            <div class="dropdown">
+              <button type="button" class="btn btn-danger nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="word-spacing: 0.002em">Chord Library</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item guitar-title" href="chord library guitar c.html">Guitar</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item piano-title" href="#">Piano</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item violin-title" href="#">Violin</a>
+                </div>
+            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+     <div class="modal fade" id="signInModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content animate">
+         <div class="tab1 modal-header">
+            <button class="tablinks " onclick="openCity1(event, 'Signin')"" id="defaultOpen"><h4>Sign in</h4></button>
+            <button class="tablinks " onclick="openCity1(event, 'Signup')"><h4>Sign up</h4></button>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+        <div id="Signin" class ="tabcontent1">
+        <div class="modal-header ">
+          <h4 class="modal-title text-center">Sign in</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-group" style="float: left;width: 48%;" >
+            <label>
+              <b>Username</b>
+            </label>
+            <input type="text" class="form-control" placeholder="Enter Username" name="usernameLogin" required>
+
+            <label>
+              <b>Password</b>
+            </label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="passwordLogin" required>
+
+            <button class="btn btn-success" id="btnSignIn" style="margin-top: 15px;">Sign in</button>
+            <label >
+              <input type="checkbox" checked="checked" id="remeberMeCheckBox" > Remember me
+            </label>
+          </form>
+          <div style="float: right;width:48%; padding-top: 20px;" class="sign-in-with">
+          <a class="btn btn-block btn-social btn-facebook" style="color: white;">
+            <span class="fa fa-facebook"></span> Sign in with Facebook
+          </a>
+          <a class="btn btn-block btn-social btn-google" style="color: white;">
+            <span class="fa fa-google"></span> Sign in with Google
+          </a>
+          <a class="btn btn-block btn-social btn-twitter" style="color: white;">
+            <span class="fa fa-twitter"></span> Sign in with Twitter
+          </a>
+          </div>
+        </div>
+      </div>
+        <div id="Signup" class="tabcontent1" >
+        <div class="modal-header">
+          <h4 class="modal-title text-center fontT">
+            Sign up
+          </h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form" name="sign-up-form">
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">Username</label>
+              <div class="col-sm-12">
+                <input type="text" id="username" name="username" placeholder="Username" class="form-control" autofocus>
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="re-password" class="col-sm-3 control-label">ReEnter Password</label>
+              <div class="col-sm-12">
+                <input type="password" id="re-password" name="re-password" placeholder="ReEnter Password" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+              <div class="col-sm-12">
+                <input type="text" id="firstName" name="fullname" placeholder="Full Name" class="form-control text-capitalize">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-3 control-label">Email</label>
+              <div class="col-sm-12">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                <span class="error-msg"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+              <div class="col-sm-12">
+                <input type="date" id="birthDate" name="birthDate" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-lg-3">Gender</label>
+              <div class="col-sm-5">
+                <select name="gender" class="form-control">
+                  <option value="0">Female</option>
+                  <option value="1">Male</option>
+                  <option value="-1" selected>Unknown</option>
+                </select>
+              </div>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <div class="col-sm-9 col-sm-offset-3 col-lg-2">
+                <button type="button" class="btn btn-primary" id="sign-up-button">Create new Account</button>
+              </div>
+            </div>
+          </form>
+          <!-- /form -->
+        </div>
+        </div>
+        <div class="modal-footer">
+<!--           <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+       <div class="col-lg-3">
+           <label for="toggle"><h1 class="my-4 guitar-title" >Guitar</h1></label>
+           <input type="checkbox" id="toggle"/>
+           <div class="list-group menu1">
+            <a href="music theory.html" class="list-group-item guitar-chapter1-title">Chapter 1: Music theory</a>
+            <a href="guitar-chapter2.html" class="list-group-item guitar-chapter2-title">Chapter 2: Guitar overview </a>
+            <a href="#" class="list-group-item guitar-chapter3-title">Chapter 3: Chord</a>
+            <a href="#" class="list-group-item guitar-chapter4-title">Chapter 4: How to read TAB</a>
+            <a href="#" class="list-group-item guitar-chapter5-title">Chapter 5: Fingerstyle's skills</a>
+          </div>
+        
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100 guitar-chapter3-game1" style="border-color: blue">
+                <a href="#"><img class="card-img-top" src="img/guitar.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="guitar-chapter3-game-G,D,Em,C.html" class="guitar-chapter3-game1" style="color: blue;">G,D,Em,C</a>
+                  </h4>
+                  <h5 class="card-text">learn C,D,Em,C</h5>
+                </div>
+                <div class="card-footer">
+              <a href ="guitar-chapter3-game-G,D,Em,C.html" class="btn btn-primary">play</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100 guitar-chapter3-game1" style="border-color: blue">
+                <a href="#"><img class="card-img-top" src="img/acoustic-guitar-336479_960_720.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="guitar-chapter3-game-F,Am,E,D7.html" class="guitar-chapter3-game1" style="color: blue;">F,Am,E,D7</a>
+                  </h4>
+                  <h5 class="card-text">learn F,Am,E,D7</h5>
+                </div>
+                <div class="card-footer">
+              <a href ="guitar-chapter3-game-G,D,Em,C.html" class="btn btn-primary">play</a>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">My instrument 320 studio.inc</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+     function openCity1(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent1");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+      document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+   }
+
+document.getElementById("defaultOpen").click();
+ </script>
+  </body>
+
+</html>
