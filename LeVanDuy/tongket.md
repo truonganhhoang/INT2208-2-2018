@@ -27,3 +27,7 @@ Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu củ
 - Người chấm: Phạm Minh Cường
 - Điểm: 8
 - Nhận xét: Cơ bản hoàn thành được yêu cầu của 15 tuần học, hoàn thành tương đối các khóa học online nhưng cần thêm dẫn chứng về việc tự học.
+
+Người chấm: Bùi Mạnh Dũng
+Điểm: 8.5
+Nhận xét: Hoàn thành được đa số yêu cầu của 15 tuần học,cần thêm dẫn chứng về việc tự học.
