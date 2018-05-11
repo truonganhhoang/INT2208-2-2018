@@ -20,7 +20,9 @@
 3. Người chấm: Nguyễn Thị Hợp
  * Điểm: 10
  * Nhận xét: Hoàn thành đủ bài tập hàng tuần và các khóa học thầy giao. Tích cực tham gia đóng góp cho phần mềm của nhóm. Báo cáo cá nhân đầy đủ chi tiết, chính xác.
- 3. Người chấm: Tiêu Công Hoà
- * Điểm: 9
- * Nhận xét: Hoàn thành đủ bài tập hàng tuần và các khóa học . Tích cực tham gia đóng góp cho phần mềm của nhóm, . Báo cáo cá nhân đầy đủ .
 
+
+4. Người chấm: Dương Thanh Hòa
+  + Điểm: 9.5
+  + Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tự học và hoàn thành được nhiều các kiến thức mới, tích cực tham gia vào làm các công việc trong nhóm.
+ 
