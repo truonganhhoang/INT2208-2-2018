@@ -23,3 +23,8 @@
 Người chấm: Bùi Tiến Dũng<br />
 Điểm: 8<br />
 Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu của thầy đề ra, tự học được các khóa cơ bản về phát triển ứng dụng web và bộ môn CNPM, đóng góp cho nhóm về BTL. Tuy nhiên chưa có nhiều dẫn chứng cụ thể.<br />
+
+* Người chấm: Nguyễn Khánh Duy
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm. Tích cực giúp đỡ các thành viên trong nhóm và đưa ra các ý tưởng để hoàn thành tiến độ bài tập nhóm.
+

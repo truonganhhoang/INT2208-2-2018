@@ -10,6 +10,11 @@
 Qua khóa học thì em cũng đã tiếp thu được rất nhiều kinh nghiệm làm các dự án phần mềm cũng như tinh thần khi làm việc nhóm.
 
 # Chấm chéo: 
+
+-Người chấm: Trần Văn Phương
+- Điểm: 9,5.
+- Nhận xét: Hoàn thành tốt các khoá học và tham gia tích cực vào bài tập nhóm.
+
 - Người chấm: Trịnh Hải Quân 
 - Điểm: 9,5
 - Nhận xét: Bạn đã hoàn thành đầy đủ các khóa học được yêu cầu và học thêm được nhiều 

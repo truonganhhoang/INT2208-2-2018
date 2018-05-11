@@ -21,3 +21,8 @@ kiến thức sử dụng :
 	- html5
 	- css3
 	- bootstrap
+
+
+- Người chấm: Trần Văn Trung
+- Điểm: 8.5
+- Nhận xét: Bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học online.

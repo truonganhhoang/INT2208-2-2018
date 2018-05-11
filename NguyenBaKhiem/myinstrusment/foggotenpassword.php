@@ -1,28 +1,14 @@
 <?php session_start(); 
-if (isset($_SESSION['username'])) {
-	header('locaion:../myinstrusment/');
-} else {
-	header('locaion:../myinstrusment/login.php');
-}
 require_once 'configPDO.php';
 $username; $password; $error;
 $admin= "adminadm";
 $psadmin= "adminadm";
 if(isset($_POST['submit'])) {
 	$username = $_POST['username'];
-	$password = $_POST['password'];
-	$password1 = $_POST['password'];
-	if($admin==$_POST['username'] && $psadmin==$_POST['password']) {
-		header('locaion:../myinstrusment/admin.php');
-		die();
-	}
-	if (empty($username) or empty($password)) {
-		$error = 'Please enter username, password!';
+	if (empty($username)) {
+		$error = 'Please enter username!';
 	} 
 	if (!isset($error)) {
-
-		//$password =  Password_Hash($password, PASSWORD_);
-		$password = hash('sha256', $password);
 		$query = "SELECT username FROM users WHERE username = :username";
 		$stmt = $db->prepare($query);
 		$stmt->bindValue(':username', $username);
@@ -38,17 +24,6 @@ if(isset($_POST['submit'])) {
 			$stmt->execute();
 			$passwordrow = $stmt->fetch(PDO:: FETCH_ASSOC);
 			
-			if($stmt->rowCount()<1) {
-				$error=" Username or password is invalid!";
-			}
-			elseif ($stmt->rowCount()>0) {
-				$_SESSION['username'] = $username;
-				header('location:../myinstrusment/');
-				if (isset($_POST['remenber'])) {
-					setcookie('username', $username, time()+(86400*15),'/','',0,0);
-					setcookie('password1', $password1, time()+(86400*15),'/','',0,0);
-				}
-			}
 		}
 	}
 }
@@ -58,7 +33,7 @@ if(isset($_POST['submit'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
+	<title>Find Your Account</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/small-business.css">
 	<link rel="stylesheet" href="css/bootstrap-social.css">
@@ -121,37 +96,16 @@ if(isset($_POST['submit'])) {
 						<strong>Fail!</strong> <?php echo $error ?>
 					</div>
 				<?php endif ?>
-				<form action="../myinstrusment/login.php" class="form-signin" method="post">
-					<h2 class="form-signin-heading" id="ani">SIGN IN</h2>
+				<form action="../myinstrusment/foggotenpassword.php" class="form-signin" method="post">
+					<h2 class="form-signin-heading" id="ani">FIND YOUR ACCOUNT</h2>
 					<div class="row">
 						<div class="form-group col-md-12">
-							<input type="text" class="form-control" id="username" name="username" placeholder="Username" autofocus=""
-							onblur="javascript: this.value = ChuanhoaTen(this.value)"
-							value="<?php if(isset($_POST['submit'])) {
-								echo $_POST['username'];
-							} 
-							if(isset($_COOKIE['username']) && !isset($_POST['submit'])) {
-								echo $_COOKIE['username'];
-							}
-							?>">
+							<input type="text" class="form-control" id="username" name="username" placeholder="Your username" autofocus=""
+							onblur="javascript: this.value = ChuanhoaTen(this.value)">
 						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-md-12">
-							<input type="password" class="form-control" id="password" name="password" placeholder="Password" 
-							value="<?php if(isset($_COOKIE['password1'])) {
-								echo $_COOKIE['password1'];
-							} ?>">
-						</div>
-					</div>
-					<div class="custom-checkbox">
-						<input type="checkbox" class="remember" id="remember"  name="remenber" checked="">
-						<label for="remember">
-							<p style="margin-left: 5px;">Remember me</p>
-						</label>
 					</div>
 					<div class="row" style="margin-right: 1%; margin-left: 1%; " >
-						<button class="btn btn-lg btn-primary btn-block col-md-12" type="submit" name="submit">Login</button>
+						<button class="btn btn-lg btn-primary btn-block col-md-12" type="submit" name="submit">Find account</button>
 						<button class="btn btn-block btn-social btn-facebook col-md-12" style="color: white;">
 							<span class="fa fa-facebook"></span> Sign in with Facebook
 						</button>
@@ -160,7 +114,7 @@ if(isset($_POST['submit'])) {
 						</button>
 						<button class="btn btn-lg btn-block col-md-6" type="btn" name="register" ><a href="register.php" style="font-size: 16px;">Register</a></button>
 
-						<button class="btn btn-lg btn-block col-md-6" type="btn" name="foggotenpassword"><a href="foggotenpassword.php" style="font-size: 16px;">Forgot password</a></button>
+						<button class="btn btn-lg btn-block col-md-6" type="btn" name="foggotenpassword"><a href="login.php" style="font-size: 16px;">Sign In</a></button>
 					</div>
 				</form>
 			</div>

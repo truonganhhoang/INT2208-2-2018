@@ -58,7 +58,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 		//$stmt->setFetchMode(PDO::FETCH_ASSOC);
 		//$_SESSION('location: dashboard.php');
 		if($user) {
-			$error = "Tài khoản đã tồn tại.";
+			$error = "Account already exists.";
 		} else {
 			//$password =  Password_Hash($password, PASSWORD_DEFAULT);
 			$password = hash('sha256', $password);
@@ -197,7 +197,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 						<button class="btn btn-lg btn-primary btn-block " type="submit" name="submit" id="submit" disabled="">Register Account</button>	
 
 						<div class="col-md-10"></div>
-						<button class="btn btn-lg btn-block" type="btn" name="submit" style="margin-top: 8px;"><a href="../instrusment/login.php">Sign in with your account</a></button>
+						<button class="btn btn-lg btn-block" type="btn" name="submit" style="margin-top: 8px;"><a href="../myinstrusment/login.php">Sign in with your account</a></button>
 					</div>		
 				</form>
 			</div>
