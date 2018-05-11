@@ -26,3 +26,7 @@
 * Người chấm: Nguyễn Kim Đại
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm.
+
+* Người chấm: Lê Thuận Đức
+* Điểm: 9.5
+* Nhận xét: Hoàn thành đầy đủ các bài tập và nộp đúng hạn, tham gia tích cực vào bài tập lớn của nhóm, có trích dẫn nguồn cụ thể.

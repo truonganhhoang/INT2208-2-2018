@@ -28,8 +28,8 @@ Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích 
 
 - Người chấm: Hoàng Đức Tuấn
 - Điểm: 9
-- Nhận xét: Hoàn thành các khóa học, bài tập cá nhận đầy đủ.
-
-- Người chấm: Hoàng Đức Tuấn
-- Điểm: 9
 - Nhận xét: Hoàn thành các khóa học, bài tập cá nhân đầy đủ
+
+- Người chấm : Nguyễn Minh Tuấn
+- Điểm : 9
+- Nhận xét : hoàn thành khóa học với các hạng mục được giao

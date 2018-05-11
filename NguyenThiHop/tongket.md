@@ -27,5 +27,6 @@ https://xxam.herokuapp.com/<br />
  - Điểm: 9.5
  - Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tích cực tham gia vào làm các công việc trong nhóm.
  
-
-
+3. Người chấm: Trần Vũ Hoàng
+ * Điểm: 9.
+ * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ. Bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
