@@ -23,6 +23,11 @@ kiến thức sử dụng :
 	- bootstrap
 
 
+
 - Người chấm: Hoàng Đức Tuấn
 - Điểm: 8
 - Nhận xét: Hoàn thành cơ bản khóa học yêu cầu, bài tập cá nhân đầy đủ, tham gia tốt hoạt động nhóm.
+
+- Người chấm: Trần Văn Trung
+- Điểm: 8.5
+- Nhận xét: Bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học online.

@@ -1,4 +1,4 @@
-﻿# Báo cáo môn học Công Nghệ Phần Mềm – INT 2208 2
+# Báo cáo môn học Công Nghệ Phần Mềm – INT 2208 2
 
 _Giảng viên:_ [_PSG.TS Trương Anh Hoàng_](https://github.com/truonganhhoang)
 
@@ -23,14 +23,20 @@ Trong thời gian 15 tuần của môn học này, em đã thực hiện các vi
 
 Tổng kết: Qua khóa học Công Nghệ Phần Mềm, em thấy bản than mình học được thêm nhiều điều về quy trình làm ra một sản phẩm cũng như viết báo cáo mô tả cho sản phầm của mình và biết cách làm việc theo nhóm.
 
-- Người chấm: Nguyễn Tuấn Anh
+# Chấm chéo
+
+## Người chấm: Nguyễn Tuấn Anh
 - Điểm: 10
 - Nhận xét: Tham gia đầy đủ trong bài tập nhóm, thực hiện bài tập cá nhân đầy đủ.
 
-- Người chấm : Hoàng Xuân Cường
+## Người chấm : Hoàng Xuân Cường
 - Điểm : 9
 - Nhận xét: Tham gia đầy đủ hoàn thành bài tập nhóm cũng như bài tập cá nhân, có tự giác tham gia học tập kiến thức mới bằng các khoá học.
 
-- Người chấm : Nguyễn Đức Công
+## Người chấm : Nguyễn Đức Công
 - Điểm : 9
 - Nhận xét: Tham gia đầy đủ hoàn thành bài tập cá nhân và bài tập nhóm, hoàn thành các khóa học cần thiết, tuy nhiên cần để link rút gọn hoặc dán link khi đưa dẫn chứng.
+
+## Người chấm: Lê Thành Công
+- Điểm: 9
+- Nhận xét: Đã tích cực tham gia tự học, đã học và sử dụng các công nghệ phía client-side và server-side. Đã deploy được website lên mạng, sản phẩm hoạt động tốt, có value. Tuy nhiên chưa dẫn chứng link commit project của nhóm, link chứng minh học các công nghệ client-side chưa rõ ràng.

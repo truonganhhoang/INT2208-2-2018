@@ -2,14 +2,20 @@
 if (isset($_SESSION['username'])) {
 	header('locaion:../myinstrusment/');
 } else {
-	header('locaion:../myinstrusment/login.php?error=signin');
+	header('locaion:../myinstrusment/login.php');
 }
 require_once 'configPDO.php';
 $username; $password; $error;
+$admin= "adminadm";
+$psadmin= "adminadm";
 if(isset($_POST['submit'])) {
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 	$password1 = $_POST['password'];
+	if($admin==$_POST['username'] && $psadmin==$_POST['password']) {
+		header('locaion:../myinstrusment/admin.php');
+		die();
+	}
 	if (empty($username) or empty($password)) {
 		$error = 'Please enter username, password!';
 	} 
@@ -60,7 +66,7 @@ if(isset($_POST['submit'])) {
 	<link rel="stylesheet" href="css/ani.css">
 </head>
 <body id="background">
-	<nav class="navbar navbar-expand-lg fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
 		
 
@@ -112,11 +118,11 @@ if(isset($_POST['submit'])) {
 				<?php if (isset($error)): ?>
 					<div class="alert alert-danger">
 						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&nbsp;</button>
-						<strong>Lỗi!</strong> <?php echo $error ?>
+						<strong>Fail!</strong> <?php echo $error ?>
 					</div>
 				<?php endif ?>
 				<form action="../myinstrusment/login.php" class="form-signin" method="post">
-					<h2 class="form-signin-heading" id="ani">Đăng nhập hệ thống</h2>
+					<h2 class="form-signin-heading" id="ani">SIGN IN</h2>
 					<div class="row">
 						<div class="form-group col-md-12">
 							<input type="text" class="form-control" id="username" name="username" placeholder="Username" autofocus=""

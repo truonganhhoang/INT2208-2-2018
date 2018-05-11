@@ -4,7 +4,66 @@ if (!isset($_SESSION['username'])) {
   //header('locaion:../instrusment/');
   header('locaion:../myinstrusment/login.php');
 }
+
 ?>
+
+<?php 
+
+require ("../myinstrusment/emailer/class.phpmailer.php");
+require ("../myinstrusment/emailer/class.smtp.php");
+require_once 'configPDO.php';
+$query = "SELECT *  FROM users WHERE username =:username";
+$query = $db->prepare($query);
+$query->bindParam(':username', $_SESSION['username']);
+$query->execute();
+$infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
+foreach ($infouser as $key => $row) {
+  $user_id = $row['user_id'];
+  $fullname = $row['fullname'];
+  $email = $row['email'];
+} 
+if($_SERVER['REQUEST_METHOD']== 'POST') {
+
+  $fullname = $_POST["fullname"];
+  $phone = $_POST["phone"];
+  $email = $_POST["email"];
+  $subject = $_POST["subject"];
+  $content = $_POST["content"];
+
+  $mail = new PHPMailer;
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->Port = 587;
+  $mail->SMTPSecure = 'tls';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'duoinhungconmuak@gmail.com';
+  $mail->Password = '14111998k';
+  $mail->isHTML(true);
+  $mail->CharSet = "utf-8";
+  $mail->SetFrom($email,$_SESSION['username']);
+  $mail->addAddress('duoinhungconmuak@gmail.com','INSTRUSMENT');
+  $mail->AddReplyTo($email,$_SESSION['username']);
+  $mail->Subject = $_POST['subject'];
+  $mail->Body =$_POST['content'];
+  if (!$mail->send()) {
+    $error ='. Message could not be sent.';
+    $errorinfo= $mail->ErrorInfo;
+  } else {
+    $success = 'Thank you for contacting us. We will be in touch with you very soon..';
+    $query = "INSERT INTO contacts (user_id, subject, content) VALUES (:user_id, :subject, :content) ";
+    $stmt= $db->prepare($query);
+    $stmt->bindParam(':user_id', $user_id);
+    $stmt->bindParam(':subject', $subject);
+    $stmt->bindParam(':content', $content);
+    $stmt->execute();
+  }
+}
+
+
+
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +75,7 @@ if (!isset($_SESSION['username'])) {
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Contact</title>
+  <title>Contact Us Form</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -158,37 +217,56 @@ if (!isset($_SESSION['username'])) {
       <!-- Contact Form -->
       <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
       <div class="row">
+        <?php if (isset($error)):  ?>
+          <div class="alert alert-danger col-12 col-sm-12 col-md-6 col-xl-6 col-lg-6">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>ERROR!</strong> <?php 
+            echo $errorinfo;
+            echo $error; ?>  
+          </div>
+        <?php elseif (isset($success)): ?>
+          <div class="alert alert-success col-12 col-sm-12 col-md-6 col-xl-6 col-lg-6">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Hey!</strong> <?php echo $success; ?>
+          </div>
+        <?php endif ?>
         <div class="col-lg-8 mb-4">
           <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" method="POST" action="#">
+          <form name="frmcontact" id="contactForm" method="POST" action="">
             <div class="control-group form-group">
               <div class="controls">
                 <label>Full Name:</label>
-                <input type="text" class="form-control" id="name"  data-validation-required-message="Please enter your name.">
+                <input type="text" class="form-control" id="fullname" name="fullname" value=" <?php echo $fullname ?> ">
                 <p class="help-block"></p>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone"  data-validation-required-message="Please enter your phone number.">
+                <input type="tel" class="form-control" id="phone" name="phone" >
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Email Address:</label>
-                <input type="email" class="form-control" id="email"  data-validation-required-message="Please enter your email address.">
+                <input type="email" class="form-control" id="email" name="email" value=" <?php echo $email ?> ">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Subject:</label>
+                <input type="tel" class="form-control" id="subject" name="subject" >
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                <textarea rows="10" cols="100" class="form-control" id="content" name="content" maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
             <!-- For success/fail messages -->
-            <button type="submit"  name="submit"  class="btn btn-primary" id="sendMessageButton">Send Message</button>
+            <button type="submit"  name="submit"  class="btn btn-primary" id="submit" value="submit">Send Message</button>
           </form>
         </div>
 

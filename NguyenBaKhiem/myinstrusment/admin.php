@@ -59,6 +59,19 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
 $query = $db->prepare('SELECT * FROM users');
 $query ->execute();
 $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
+
+$query = $db->prepare('SELECT * FROM courses');
+$query ->execute();
+$infocourse= $query->FetchALL(PDO:: FETCH_ASSOC);
+
+$query = $db->prepare('SELECT * FROM courses_user');
+$query ->execute();
+$infocoursesuser= $query->fetchAll(PDO:: FETCH_ASSOC);
+
+$query = $db->prepare('SELECT * FROM contacts');
+$query ->execute();
+$infocontact= $query->fetchAll(PDO:: FETCH_ASSOC);
+
 ?>
 
 
@@ -68,7 +81,7 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Document</title>
+	<title>Admin</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/small-business.css">
 	<link rel="stylesheet" href="css/bootstrap-social.css">
@@ -140,6 +153,8 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 		<li class="active"><a data-toggle="tab" href="#userpanel" aria-explanded="true">User</a></li>
 		<li><a data-toggle="tab" href="#messagepanel" aria-explanded="true">Message</a></li>
 		<li><a data-toggle="tab" href="#coursespanel" aria-explanded="true">Courses</a></li>
+		<li><a data-toggle="tab" href="#coursesuserpanel" aria-explanded="true">Courses-user</a></li>
+		<li><a data-toggle="tab" href="#contactpanel" aria-explanded="true">Contact</a></li>
 	</ul>
 	<div class="tab-content">
 		<div id="userpanel" class="tab-pane in active">
@@ -170,17 +185,25 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 								<div class="form-group  col-12 col-sm-12 col-md-6 col-lg-6 col-xl-8">
 									<input type="text" class="form-control col-12 col-sm-12 col-md-6" name="username"  placeholder="Username" autofocus="" onblur="javascript: this.value = ChuanhoaTen(this.value)">
 									<input type="text" class="form-control col-12 col-sm-12 col-md-6" name="email" placeholder="Email">
+								</div>
+								<br><br>
+								<div class="form-group  col-12 col-sm-12 col-md-6 col-lg-6 col-xl-8">
 									<input type="password" class="form-control col-12 col-sm-12 col-md-6" name="password"  placeholder="Password">
 									<input type="text" class="form-control col-12 col-sm-12 col-md-6" name="fullname"  placeholder="Fullname" 
 									onblur="javascript: this.value = ChuanhoaTen(this.value)">
 								</div>
-								<button class="btn btn-primary col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">Add user</button>
+								<br><br>
+								<div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 ">
+									<button class="btn btn-primary">Add user</button>
+								</div>
 							</form>
 						</div>
 					</div>
+					<br>
+					<input class="form-control" id="myInput" type="text" placeholder="Search..">
 					<div class="row">
 						<div id="tableinfo" class="table-responsive">
-							<caption class="" id="captiontable"> USER PANEL</caption>
+							<caption class="captiontable" id="user"> USER PANEL</caption>
 							<br>
 							<br>
 							<table class="table table-striped table-hover table-bordered" >
@@ -194,7 +217,7 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 										<th class="deletetb1">Delete</th>
 									</tr>
 								</thead>
-								<tbody>
+								<tbody id="myTable">
 									<?php foreach ($infouser as $key => $row): ?>
 										<tr>
 											<td> <?php echo ($key+1) ?></td>
@@ -217,9 +240,10 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 			<div class="container" id="formadd">
 
 				<main class="container-fluid">
+					<input class="form-control" id="myInput1" type="text" placeholder="Search..">
 					<div class="row">
 						<div id="tableinfo" class="table-responsive">
-							<caption class="" id="captiontable"> MESSAGE PANEL</caption>
+							<caption class="captiontable" id="mesasage"> MESSAGE PANEL</caption>
 							<br>
 							<br>
 							<table class="table table-striped table-hover table-bordered" >
@@ -232,7 +256,7 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 										<th class="sendtb2">Send</th>
 									</tr>
 								</thead>
-								<tbody>
+								<tbody id="myTable1">
 									<?php foreach ($infouser as $key => $row): ?>
 										<tr>
 											<td> <?php echo ($key+1) ?></td>
@@ -251,6 +275,111 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 			</div>
 		</div>
 		<div id="coursespanel" class="tab-pane ">
+			<div class="container" id="formadd">
+
+				<main class="container-fluid">
+					<div class="row">
+						<div id="tableinfo" class="table-responsive">
+							<caption class="captiontable" id="course">COURSE PANEL</caption>
+							<br>
+							<br>
+							<table class="table table-striped table-hover table-bordered" >
+								<thead class="table table-info">
+									<tr>
+										<th class="numbertb1">Number</th>
+										<th class="idtb1">ID</th>
+										<th class="namecoursetb1"> Name Course</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php foreach ($infocourse as $key => $row): ?>
+										<tr>
+											<td> <?php echo ($key+1) ?></td>
+											<td> <?php echo $row['course_id'] ?></td>
+											<td> <?php echo $row['course_name'] ?></td>
+										</tr>
+									<?php endforeach ?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</main>
+
+			</div>
+		</div>
+		<div id="coursesuserpanel" class="tab-pane ">
+			<div class="container" id="formadd">
+
+				<main class="container-fluid">
+					<div class="row">
+						<div id="tableinfo" class="table-responsive">
+							<caption class="captiontable" id="course-user">COURSE-USER PANEL</caption>
+							<br>
+							<br>
+							<table class="table table-striped table-hover table-bordered" >
+								<thead class="table table-info">
+									<tr>
+										<th class="numbertb1">Number</th>
+										<th class="idtb1">User Id</th>
+										<th class="namecoursetb1">Course Id</th>
+										<th class="idtb1">Participate Date</th>
+										<th class="idtb1">Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php foreach ($infocoursesuser as $key => $row): ?>
+										<tr>
+											<td> <?php echo ($key+1) ?></td>
+											<td> <?php echo $row['user_id'] ?></td>
+											<td> <?php echo $row['course_id'] ?></td>
+											<td> <?php echo $row['participateDate'] ?></td>
+											<td> <?php echo $row['status'] ?></td>
+										</tr>
+									<?php endforeach ?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</main>
+
+			</div>
+		</div>
+		<div id="contactpanel" class="tab-pane ">
+			<div class="container" id="formadd">
+
+				<main class="container-fluid">
+					<div class="row">
+						<div id="tableinfo" class="table-responsive">
+							<caption class="captiontable" id="contact">CONTACT PANEL</caption>
+							<br>
+							<br>
+							<table class="table table-striped table-hover table-bordered" >
+								<thead class="table table-info">
+									<tr>
+										<th class="numbertb1">Number</th>
+										<th class="idtb1">User Id</th>
+										<th class="namecoursetb1">Subject</th>
+										<th class="idtb1">Content</th>
+										<th class="idtb1">Reply</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php foreach ($infocontact as $key => $row): ?>
+										<tr>
+											<td> <?php echo ($key+1) ?></td>
+											<td> <?php echo $row['user_id'] ?></td>
+											<td> <?php echo $row['subject'] ?></td>
+											<td> <?php echo $row['content'] ?></td>
+											<td><a href="../myinstrusment/sendmail.php?id=<?php echo $row['user_id'] ?>">Reply</a></td>
+										</tr>
+									<?php endforeach ?>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</main>
+
+			</div>
 		</div>
 	</div>
 
@@ -274,6 +403,24 @@ $infouser= $query->fetchAll(PDO:: FETCH_ASSOC);
 			});
 		});
 	</script> -->
+	<script>
+		$(document).ready(function(){
+			$("#myInput").on("keyup", function() {
+				var value = $(this).val().toLowerCase();
+				$("#myTable tr").filter(function() {
+					$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
+			});
+		});
+		$(document).ready(function(){
+			$("#myInput1").on("keyup", function() {
+				var value = $(this).val().toLowerCase();
+				$("#myTable1 tr").filter(function() {
+					$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
+			});
+		});
+	</script>
 
 
 </body>
