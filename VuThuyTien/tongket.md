@@ -18,6 +18,10 @@ Em xin chân thành cảm ơn thầy đã dạy và hướng dẫn em môn học
 - Điểm :9
 - Nhận xét : Vẫn còn nhiều thứ chưa cho link
 
+-Người chấm: Đoàn Thị Thoa
+-Điểm:8.5
+-Nhận xét: thiếu link,bài tập thiếu SEMAT
+
 - Người chấm : Cao Thị Phương Thảo
 - Điểm : 9
 - Nhận xét : Chưa dẫn link cụ thể
