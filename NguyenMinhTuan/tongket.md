@@ -21,3 +21,8 @@ kiến thức sử dụng :
 	- html5
 	- css3
 	- bootstrap
+
+
+- Người chấm: Hoàng Đức Tuấn
+- Điểm: 8
+- Nhận xét: Hoàn thành cơ bản khóa học yêu cầu, bài tập cá nhân đầy đủ, tham gia tốt hoạt động nhóm.
