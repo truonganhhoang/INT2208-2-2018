@@ -1,0 +1,13 @@
+.radio {
+	margin-left: 5px;
+}
+ .block {
+	display: block;
+}
+.poisition {
+	position: fixed;
+	right: 50px;
+	top: 50px;
+	margin: 20px;
+
+}

@@ -14,6 +14,10 @@ MSSV: 16021289.
   * Học cắt HTML bằng PSD.
   * Tự làm cho mình 1 trang [web](http://www.tieuconghoa.tk/)
   
-**Người chấm: Dương Thanh Hòa**
-  + Điểm: 10
-  + Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tự học và hoàn thành được nhiều các kiến thức mới, tích cực tham gia vào làm các công việc trong nhóm.
++ Người chấm: Dương Thanh Hòa
++ Điểm: 10
++ Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tự học và hoàn thành được nhiều các kiến thức mới, tích cực tham gia vào làm các công việc trong nhóm.
+  
++ Người chấm : Đoàn Trung Hiếu
++ Điểm : 9.5
++ Nhận xét : Học tốt, làm bài đẹp,đáng lẽ cho 10, nhưng làm báo cáo xấu,cho 9.5 để nhớ, đi làm mà báo cáo như này sếp đuổi việc ngay. Học có ý thức. Đóng góp tốt cho team.
