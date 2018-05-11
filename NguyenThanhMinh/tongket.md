@@ -17,3 +17,17 @@ Trong cả khóa học Công nghệ phần mềm - INT2208 2 em đã học và l
 
 • Góp phần làm báo cáo nhóm CMD: https://docs.google.com/document/d/1XRnG3fizFNlO0QmYwk8lUJIfaGhhLA9TOYRnh8gcILQ/edit
 
+# Chấm chéo
+# Người chấm : Phan Nguyên Lâm
+- Điểm : 9
+- Nhận xét : tham gia đầy đủ các khóa học,hoàn thành thẻ SEMAT, tham gia làm bài tập nhóm
+
+Người chấm : Nguyễn Đức Minh 
+Điểm : 10
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+
+Người chấm: Nguyễn Đức Mạnh
+Điểm: 8
+Nhận xét: Hoàn thành đầy đủ các khóa học được yêu cầu, có tham gia làm bài tập nhóm và báo cáo nhóm. Chưa tham gia vào làm thẻ SEMAT cũng như tóm tắt tài liệu khóa học.
+

@@ -8,9 +8,14 @@
 - Tham gia viết báo cáo dự án phần mềm: https://docs.google.com/document/d/1NjtcLUNGw_2CcpJKR_oYhgXJo2IRi8SfS0IAQqXYNsA/edit?usp=sharing
 - Tham gia viết câu hỏi trắc nghiệm: https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746
 Qua khóa học thì em cũng đã tiếp thu được rất nhiều kinh nghiệm làm các dự án phần mềm cũng như tinh thần khi làm việc nhóm.
-#Chấm chéo: 
+
+# Chấm chéo: 
 - Người chấm: Trịnh Hải Quân 
 - Điểm: 9,5
 - Nhận xét: Bạn đã hoàn thành đầy đủ các khóa học được yêu cầu và học thêm được nhiều 
 khóa học khác, tham gia tích cực vào các bài tập của nhóm và hoàn thành đầy đủ các bài
 tập trong tuần.
+
+Người chấm: Hà Phi sơn
+Điểm: 9
+Nhận xét: Bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có tham gia tự học kiến thức mới bằng các khoác học
