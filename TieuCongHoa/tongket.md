@@ -13,3 +13,8 @@ MSSV: 16021289.
   * PHP và các framework, WordPress ở mức cơ bản.
   * Học cắt HTML bằng PSD.
   * Tự làm cho mình 1 trang [web](http://www.tieuconghoa.tk/)
+  
+  
++ Người chấm : Đoàn Trung Hiếu
++ Điểm : 9.5
++ Nhận xét : Học tốt, làm bài đẹp,đáng lẽ cho 10, nhưng làm báo cáo xấu,cho 9.5 để nhớ, đi làm mà báo cáo như này sếp đuổi việc ngay. Học có ý thức. Đóng góp tốt cho team.
