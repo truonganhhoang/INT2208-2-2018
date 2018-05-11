@@ -29,3 +29,7 @@ Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân
 - Người chấm : Nguyễn Đức Thái
 - Điểm : 9
 - Nhận xét: hoàn thành đầy đủ và tốt các yêu cầu
+
+- Người chấm : Cao Thị Phương Thảo
+- Điểm : 10
+- Nhận xét : Hoàn thành đầy đủ các khóa học, bài tập nhóm, bài tập cá nhân
