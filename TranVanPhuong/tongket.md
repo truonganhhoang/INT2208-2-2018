@@ -33,7 +33,14 @@ https://int2208-2018.slack.com/messages/D8W58SVEY/team/U8VK3E1U0/
 
 Git & GitHub, Git Desktop
 	https://github.com/Tranvanphuong/INT2208-2-2018
+	
+
 #Chấm chéo 
+
+Người chấm : Nguyễn Văn Oai
+Điểm : 9.5
+Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
+
 - Người chấm: Đặng Văn Phúc 
 - Điểm: 9.5
 -Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc, tham gia đầy đủ hoạt động nhóm, hoàn thành đầy đủ bài tập được giao 
