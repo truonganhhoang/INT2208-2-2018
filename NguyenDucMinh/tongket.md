@@ -25,4 +25,7 @@ Người chấm: Nguyễn Đức Mạnh
 Điểm: 9.5
 Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tham gia tích cực và hiệu quả vào bài tập của nhóm, tham gia vào viết báo cáo phần mềm, làm SEMAT cũng như tóm tắt tài liệu khoá học.
 
+Người chấm: Mai Thị Lý
+Điểm: 10
+Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tham gia tích cực và hiệu quả vào bài tập của nhóm, tham gia vào viết báo cáo phần mềm, làm thẻ SEMAT cũng như tóm tắt tài liệu khoá học.
 

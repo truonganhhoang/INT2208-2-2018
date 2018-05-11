@@ -22,6 +22,8 @@ https://xxam.herokuapp.com/<br />
 1. Người chấm: Tiêu Công Hoà 
  - Điểm: 9
  - Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
- 
+2. Người chấm: Trần Vũ Hoàng
+ * Điểm: 9.
+ * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ. Bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
 
 
