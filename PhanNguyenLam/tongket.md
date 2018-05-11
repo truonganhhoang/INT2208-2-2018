@@ -26,6 +26,9 @@
 *	Điểm: 8,5.
 *	Nhận xét: Đặt tên chưa đúng yêu cầu, bài tập làm khá đầy đủ.
 
+-Người chấm: Nguyễn Bá Khiêm.
+-Điểm: 9.
+-Nhận xét: Đặt tên chưa đúng, hoàn thành khóa học khá tốt, tích cực tham gia làm bài tâp nhóm.
 
 - Người chấm: Nguyễn Văn Lâm.
 - Điểm 9.
