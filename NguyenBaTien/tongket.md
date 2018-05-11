@@ -21,6 +21,10 @@
 -Điểm: 9
 -Nhận xét: Nhận thấy bạn làm khá tốt các phần được giao tuy nhiên phần tự học không có dẫn chứng chứng minh tính xác thực và thiếu phần làm thẻ SEMAT.
 
+--Người chấm: Vũ Thủy Tiên 
+-Điểm: 9
+-Nhận xét: Bạn làm tốt tuy nhiên cần thêm dẫn chứng các phần và thiếu phần làm thẻ SEMAT
+
 - Người chấm : Cao Thị Phương Thảo
 - Điểm : 9
 - Nhận xét : Thiếu link khóa học bắt buộc Git and GitHub
