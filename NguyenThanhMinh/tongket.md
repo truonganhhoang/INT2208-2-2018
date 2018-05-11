@@ -17,3 +17,8 @@ Trong cả khóa học Công nghệ phần mềm - INT2208 2 em đã học và l
 
 • Góp phần làm báo cáo nhóm CMD: https://docs.google.com/document/d/1XRnG3fizFNlO0QmYwk8lUJIfaGhhLA9TOYRnh8gcILQ/edit
 
+# Chấm chéo
+
++ Trần Hưng Nhật
++ Điểm:9
++ Nhận xét: Có học và làm bài tập, đã hoàn thành khóa học online nhưng vẫn còn thiếu một vài link để chứng minh.
