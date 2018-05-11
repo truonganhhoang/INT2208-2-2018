@@ -72,7 +72,7 @@ if (!isset($_SESSION['username'])) {
           <div class="dropdown">
             <button type="button" class="btn btn-danger nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learning</button>
             <div class="dropdown-menu">
-              <a class="dropdown-item musictheory-title" href="music theory.php">Music theory</a>
+              <a class="dropdown-item musictheory-title" href="music-theory.php">Music theory</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item guitar-title" href="guitar.php">Guitar</a>
               <div class="dropdown-divider"></div>
@@ -130,6 +130,20 @@ if (!isset($_SESSION['username'])) {
         <a href="#" class="list-group-item musictheory-lesson7-title">Lesson 7: Time and barline</a>
         <a href="#" class="list-group-item musictheory-lesson8-title">Lesson 8: Read whole sheet music</a>
         <a href="#" class="list-group-item musictheory-game-title">Game</a>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block col-md-12" type="enroll" name="enroll"><a href="enroll.php?course_id=1">Enroll me</a></button>
+        <br>
+        <?php if (isset($_GET['success'])): ?>
+          <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Congratulation!</strong> Enroll successful.
+          </div>
+        <?php elseif(isset($_GET['fail'])) : ?>
+          <div class="alert alert-danger">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <strong>Fail!</strong> You have already enroll in the course.
+          </div>
+        <?php endif ?>
       </div>
 
     </div>

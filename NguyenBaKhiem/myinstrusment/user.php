@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
+	<title>User</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/small-business.css">
 	<link rel="stylesheet" href="css/bootstrap-social.css">
@@ -104,18 +104,32 @@ if (!isset($_SESSION['username'])) {
 			</div>
 		</nav>
 		<br>
-		<div class="container" id="content" style="padding-top:  40px; padding-bottom: 40px;">
-			<nav  class="row" id="menubar">
-				<div class="col-md-4">
-					<ul>	
-						<li><a href="">Contact and Basic info</a></li>
-						<li><a href="">Security</a></li>			
-					</ul>
+		<div class="container">
+			<div class="bgcolor">
+				<br><br><br>
+				<br><br><br>
+				<h1 class="info" id="ani" >Student info</h1>
+				<div class="row ">
+					<div class="col-3 col-md-3 col-sm-3 col-lg-3 col-xl-3 list-info">
+						<div>
+							<img src="images/avtlogin.png" alt="avatar" class="img-thumbnail">
+						</div>
+						<div class="list-group">
+							<a href="#" class="list-group-item avatar" id="avatar">Avatar</a>
+							<a href="#" class="list-group-item general" id="general">General</a>
+							<a href="#" class="list-group-item security">Security</a>
+						</div>
+					</div>
+					<div class="more col-9 col-md-9 col-sm-9 col-lg-9 col-xl-9" id="loadcontent">
+						<!-- <div class="col-8 col-md-8 col-sm-8 col-lg-8 col-xl-8">
+							<img src="images/avtlogin.png" alt="avatar" class="img-thumbnail avt">
+						</div> -->
+					</div>
 				</div>
-				<div class="col-md-6"></div>
-				<div class="col-md-2"></div>
-			</nav>
+				<br><br>
+			</div>
 		</div>
+
 		<!-- Footer -->
 		<footer class="py-5 bg-dark">
 			<div class="container">
@@ -129,12 +143,15 @@ if (!isset($_SESSION['username'])) {
 		<script src="js/bootstrap.js"></script>
 		<script src="js/sidenav.js"></script>
 		<script>
-			function setcook() {
-				<?php 
+			$(document).ready(function() {
 
+				$('#general').click(function() {
 
-				?>
-			} 
+					$('#loadcontent').load('general.html');
+
+				});
+
+			});
 		</script>
 	</body>
 	</html>
