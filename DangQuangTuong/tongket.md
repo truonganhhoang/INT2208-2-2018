@@ -34,3 +34,7 @@ Công nghệ phần mềm 2 - 2018
 - Người Chấm : Trần Văn Tuấn.
 - Điểm : 9.
 - Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
+
+- Người chấm : Nguyễn Minh Tuấn
+- Điểm : 9.5
+- Nhận xét : Chăm chỉ trong môn học,hoàn thành tốt các mục được giao
