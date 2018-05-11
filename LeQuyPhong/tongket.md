@@ -17,3 +17,7 @@ Báo cáo tiến độ học tập qua 15 môn học:
 + Viết báo cáo BT lớn của nhóm
  
 Tổng quan: Góp phần viết nên một ứng dụng,qua đó biết thêm dc cách thức và công cụ để viết các ứng dụng và phần mềm khác
+
+Người chấm điểm: Nguyễn Thị Hồng Nhung
+Điểm:6.5
+Nhận xét: Bạn mới nêu ra chứ chưa có dẫn chứng rõ ràng.
