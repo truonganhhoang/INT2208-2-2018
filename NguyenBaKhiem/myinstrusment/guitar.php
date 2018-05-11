@@ -106,7 +106,6 @@ if (!isset($_SESSION['username'])) {
 </nav>
 <!-- Page Content -->
 <div class="container">
-
   <div class="row">
 
    <div class="col-lg-3">
@@ -118,6 +117,21 @@ if (!isset($_SESSION['username'])) {
       <a href="guitar-chapter3.php" class="list-group-item guitar-chapter3-title">Chapter 3: Chord</a>
       <a href="#" class="list-group-item guitar-chapter4-title">Chapter 4: How to read TAB</a>
       <a href="#" class="list-group-item guitar-chapter5-title">Chapter 5: Fingerstyle's skills</a>
+      <a href="guitar-chapter3-game.php" class="list-group-item musictheory-game-title">Game</a>
+      <br>
+      <button class="btn btn-lg btn-primary btn-block col-md-12" type="enroll" name="enroll"><a href="enroll.php?course_id=2">Enroll me</a></button>
+      <br>
+      <?php if (isset($_GET['success'])): ?>
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+          <strong>Congratulation!</strong> Enroll successful.
+        </div>
+      <?php elseif(isset($_GET['fail'])) : ?>
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+          <strong>Fail!</strong> You have already enroll in the course.
+        </div>
+      <?php endif ?>
     </div>
     
   </div>
