@@ -35,7 +35,13 @@ Git & GitHub, Git Desktop
 	https://github.com/Tranvanphuong/INT2208-2-2018
 	
 
+
 #Chấm chéo 
+
+2. Người chấm: Lê Quý Phong.
+Điểm: 9.
+Nhận xét: Các yêu cầu đầy đủ.
+
 
 Người chấm : Nguyễn Văn Oai
 Điểm : 9.5
