@@ -29,5 +29,5 @@ MSSV: 16021260.
 
 ## Người chấm: Lê Thành Công
 - Điểm 8.5
-- Nhận xét: Link project của nhóm không vào được, chưa có link chứng minh commit trong project của nhóm
+- Nhận xét: Link project của nhóm không vào được, chưa có link chứng minh commit trong project của nhóm.
 
