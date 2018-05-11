@@ -1,7 +1,9 @@
 ﻿# INT2208-2-2018
 Công nghệ phần mềm 2 - 2018 
+
 ## [Đặng Quang Tường](https://github.com/vuvihi) MSV: 16021357
 ## Giảng viên: [PGS.TS Trương Anh Hoàng](http://www.uet.vnu.edu.vn/~hoangta/)
+
 # Báo cáo tổng kết môn học
 
 1. **Các khoá học cá nhân:**
@@ -19,3 +21,20 @@ Công nghệ phần mềm 2 - 2018
 	- [Thực hiện upload bài tập nhóm và báo cáo phần mềm](https://github.com/vuvihi/INT2208-2-2018/tree/master/nhom-4T).
 
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
+
+
+- Người chấm: Hoàng Đức Tuấn
+- Điểm: 9
+- Nhận xét: Hoàn thành các khóa học yêu cầu, bài tập cá nhân đầy đủ, tham gia tốt hoạt động nhóm.
+
+- Người chấm điểm: Nguyễn Văn Tuyền.
+- Điểm: 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc và một số các khóa học tùy chọn, đã tham gia làm bài tập nhóm.
+
+- Người Chấm : Trần Văn Tuấn.
+- Điểm : 9.
+- Nhận xét : Hoàn thành tốt các khóa học được yêu cầu (có link dẫn đầy đủ), tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
+
+- Người chấm : Nguyễn Minh Tuấn
+- Điểm : 9.5
+- Nhận xét : Chăm chỉ trong môn học,hoàn thành tốt các mục được giao

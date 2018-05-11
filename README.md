@@ -1,2 +1,2 @@
-ĐOÀN THỊ THOA
-MSV: 16022131
+﻿# INT2208-2-2018
+Công nghệ phần mềm 2 - 2018 

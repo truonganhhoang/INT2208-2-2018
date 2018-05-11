@@ -16,3 +16,15 @@
 	- Tham gia viết tóm tắt và chấm chéo [tài liệu môn học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#).
 
 ### Tổng kết: Qua khoá học Công nghệ phần mềm, em đã học được thêm nhiều kiến thức về xây dựng trang web, quy trình xây dựng phần mềm cũng như khả năng làm việc nhóm một cách hiệu quả.
+
+--Người chấm: Đoàn Thị Thoa
+-Điểm: 9
+-Nhận xét: Nhận thấy bạn làm khá tốt các phần được giao tuy nhiên phần tự học không có dẫn chứng chứng minh tính xác thực và thiếu phần làm thẻ SEMAT.
+
+--Người chấm: Vũ Thủy Tiên 
+-Điểm: 9
+-Nhận xét: Bạn làm tốt tuy nhiên cần thêm dẫn chứng các phần và thiếu phần làm thẻ SEMAT
+
+- Người chấm : Cao Thị Phương Thảo
+- Điểm : 9
+- Nhận xét : Thiếu link khóa học bắt buộc Git and GitHub
