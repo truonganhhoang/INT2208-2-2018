@@ -11,7 +11,16 @@
 # Thực hiện chấm chéo:
  1. Người chấm: Trần Vũ Hoàng
  * Điểm: 9.
- * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và      báo cáo phần mềm chi tiết.
- 2. Người chấm: Nguyễn Thị Hợp
+ * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ, đúng yêu cầu. Bên cạnh đó bài tập nhóm cũng đã hoàn thiện và      báo cáo phần mềm chi tiết.
+
+2. Người chấm: Tiêu Công Hoà 
+ - Điểm: 9.5
+ - Nhận xét: tham gia tích cực vào bài tập của nhóm, lớp, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
+
+3. Người chấm: Nguyễn Thị Hợp
  * Điểm: 10
  * Nhận xét: Hoàn thành đủ bài tập hàng tuần và các khóa học thầy giao. Tích cực tham gia đóng góp cho phần mềm của nhóm. Báo cáo cá nhân đầy đủ chi tiết, chính xác.
+ 3. Người chấm: Tiêu Công Hoà
+ * Điểm: 9
+ * Nhận xét: Hoàn thành đủ bài tập hàng tuần và các khóa học . Tích cực tham gia đóng góp cho phần mềm của nhóm, . Báo cáo cá nhân đầy đủ .
+
