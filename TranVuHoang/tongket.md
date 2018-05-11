@@ -31,10 +31,15 @@
   + Tham gia chỉnh sửa [SEMAT]( https://drive.google.com/open?id=1morO_O0RKPnylfjxXBhJIBUIFtKugEdRLqVGfWTFDdg) của nhóm.
   + Tham gia viết câu hỏi trắc nghiệm cuối kỳ phần [Construction](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746).
 
- - Người chấm: Tiêu Công Hoà 
- - Điểm: 9
- - Nhận xét: tham gia tích cực vào bài tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
-
 + Người chấm: Tiêu Công Hoà.
 + Điểm: 9.
 + Nhận xét: tham gia tích cực vào bai tập của nhóm, hoàn thành tốt khoá học Software Engineering và bài tập cá nhân các tuần.
+
+
++Người chấm: Dương Thanh Hòa
+  + Điểm: 9
+  + Nhận xét: Hoàn thành tốt bài tập cá nhân và bài tập nhóm, hoàn thành các khóa học tự học.
+
++ Người chấm : Đoàn Trung Hiếu
++ Điểm : 9
++ Nhận xét : Báo cáo làm đẹp,có ghi nhiều nội dung nhưng ý thức làm bài nhóm chưa cao, đáng lẽ cho 8.5 cộng thêm 0.5. Tham gia khóa học chịu khó nên như vậy là đẹp nhé.
