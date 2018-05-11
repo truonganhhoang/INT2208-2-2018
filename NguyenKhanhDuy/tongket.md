@@ -22,4 +22,8 @@ Chạy kiểm thử phần mềm do nhóm tạo lên
 
 Viết báo cáo nhóm Applicasoft https://drive.google.com/file/d/1iBijTu37hyGAQKoRJROt3uiS4MZF9CCF/view
 
+------
+Người chấm: Bùi Tiến Dũng
+Điểm: 8
+Nhận xét: Bạn có tham gia đóng góp vào hoạt động thực hiện bài tập nhóm, hoàn thành đúng chỉ tiêu khóa học CNPM và đã có ý thức tự học các khóa học.
 
