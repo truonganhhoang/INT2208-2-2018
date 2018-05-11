@@ -21,8 +21,15 @@ kiến thức sử dụng :
 	- html5
 	- css3
 	- bootstrap
+
 	
 ------------------------------
+
 - Người chấm: Nguyễn Ngọc Tiến
 - Điểm: 8
 - Nhận xét: thư mục chưa chuẩn chỉnh, hoàn thành đủ các khoá học bắt buộc, các khoá để làm btl chưa thấy có, hoặc dẫn chứng nơi học khác cũng chưa có, dự án tốt, tài liệu cần chăm chút hơn..
+
+
+- Người chấm: Trần Văn Trung
+- Điểm: 8.5
+- Nhận xét: Bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học online.

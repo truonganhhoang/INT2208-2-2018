@@ -20,6 +20,10 @@ GIT : https://github.com/dangvanphuchd3/INT2208-2-2018/tree/master/DangVanPhuc/G
 
 - Dong gop bao cao cho nhom : 
 
+2. Người chấm: Lê Quý Phong.
+Điểm: 8.
+Nhận xét: Khá đầy đủ những vẫn thiếu url báo cáo và tài liệu chung, semart.
+
 - Người chấm điểm: Trần Hưng Nhật.
 - Điểm: 8.
 - Nhận xét: Hoàn thành đủ các khóa học yêu cầu nhưng thiếu bài tập tuần 6 , Bài tập nhóm có tham gia , thiếu viết SEMAT và tóm tắt môn học.
