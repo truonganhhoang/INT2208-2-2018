@@ -12,9 +12,14 @@
 
 **Tổng kết : Qua khóa học, em thấy được để làm được một phần mèm chất lượng không hề đơn giản. Cần phải có kỹ năng làm việc nhóm và phải có kiến thức vững chắc để tạo ra một phần mềm tốt. Khóa học giúp em biết được thêm về rất nhiều điều mới mẻ như ngôn ngữ  HTML để viết ra một phần mềm trên web, cách làm cho phần mềm đó trở nên sinh động hơn với CSS3 hoặc Bootstrap hay dùng Javascript để phần mềm thực sự hoạt động. **
 
+- Người chấm: Phạm Thị Thùy Tiên
+- Số điểm: 8
+- Nhận xét: Các khóa học cá nhân dẫn chứng chưa rõ ràng không chứng minh được đã tham gia học, chưa có báo cáo bài tập nhóm.
+
 - Người chấm: Đoàn Thi Thoa
 - Số điểm: 8
 - Nhận xét: Hoàn thành các khóa học theo yêu cầu, tham gia bài tập nhóm nhưng chưa hoàn thiện được sản phẩm
+
 - Người chấm: Vũ Thủy Tiên
 - Số điểm: 9
 - Nhận xét: Bạn làm tốt bài tập cá nhân và bài tập nhóm 
