@@ -30,3 +30,20 @@ Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân
 
 
 
+# Chấm chéo
+- Người chấm: Phan Nguyên Lâm
+- Điểm: 9
+- Nhận xét: Hoàn thành dầy đủ các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, làm thẻ SEMAT, viết tóm tắt môn học.
+
+*	Người chấm: Vũ Sỹ Kiên.
+*	Điểm: 9,5.
+*	Nhận xét: Bài tập đầy đủ, đặt tên chưa đúng yêu cầu.
+
+
+-Người chấm: Nguyễn Bá Khiêm.
+-Điểm: 9.
+-Nhận xét: làm bài tập đầy đủ, tham gia tích cực làm bài tập nhóm, hoàn thành các khóa học.
+
+- Người chấm: Nguyễn Văn Lâm.
+- Điểm 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.
