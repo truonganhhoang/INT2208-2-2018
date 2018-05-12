@@ -18,18 +18,6 @@
 
 ## Chấm chéo
 
-+ Trần Văn Hải
-+ Điểm: 9
-+ Nhận xét: Hoàn thành bài tập cá nhân và khóa học online đầy đủ( có link để chứng minh), có tham gia vào hoàn thành bài tập lớn của nhóm( nhưng chưa có link để chứng minh)
-
-+ Đoàn Trung Hiếu
-+ Điểm: 10
-+ Nhận xét: Hoàn thành tốt bài tập cá nhân, khóa học online và có tham gia hoàn thành bài tập nhóm( có đầy đủ link để chứng minh)
-
-+ Nguyễn Trung Hiếu
-+ Điểm: 9
-+ Nhận xét: Hoàn thành các bài tập cá nhân và khóa học online( có link ảnh và file trong  thư mục, nhưng chưa đưa vào trong file tongket.md), có tham gia vào làm bài tập nhóm( đã có link để chúng minh)
-
  * Người chấm: Nguyễn Quang Hà
  * Điểm: 9
  * Nhận xét: Có ý thức tốt về việc tự học. Tích cực tham gia làm bài tập nhóm, hoàn thành tốt các nhiệm vụ trên lớp.
