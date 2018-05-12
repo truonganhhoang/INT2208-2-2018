@@ -27,3 +27,7 @@ Tổng quan: Góp phần viết nên một ứng dụng,qua đó biết 
 Người chấm : Nguyễn Đức Minh
 Điểm : 10
 Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+Người chấm : Nguyễn Thanh Minh
+Điểm : 9
+Nhận xét : Hoàn thành các khóa học được yêu cầu nhưng link chứng minh vẫn chưa đầy đủ
