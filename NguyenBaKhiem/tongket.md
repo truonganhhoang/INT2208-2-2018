@@ -21,3 +21,10 @@ Tự đánh giá bản thân trong 15 tuần học:
   1. Người chấm: Nguyễn Mậu Đức Huy
  * Điểm: 9.
  * Nhận xét: bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có minh chứng bằng các đường link. Các folder trong github sắp xếp hơi lộn xộn. file tongket.md khó đọc.
+
+
+
+
+3.Người chấm: Vũ Thanh Huyền
+ * Điểm: 8.
+ * Nhận xét: Khá đầy đủ. Nhưng nộp muộn.
