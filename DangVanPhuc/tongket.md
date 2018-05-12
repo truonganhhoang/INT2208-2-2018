@@ -31,3 +31,7 @@ Nhận xét: Khá đầy đủ những vẫn thiếu url báo cáo và tài li�
 Người chấm : Nguyễn Văn Oai -- MSV: 16022380
 Điểm : 8.5
 Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
+
+Người chấm: Nguyễn Thị Hồng Nhung
+Điểm: 8.5
+Nhận xét: Bày tập thiếu phần semat và phần dịch tài liêu và làm câu hỏi trắc nghiệm

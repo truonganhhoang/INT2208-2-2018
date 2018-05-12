@@ -16,3 +16,8 @@ Tự đánh giá bản thân trong 15 tuần học:
  -Hoàn thành bài tập lớn: ứng dụng học âm nhạc trên nền web:
   +Link github ứng dụng: https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenBaKhiem/myinstrusment .
   +Link video demo trang web: https://bit.ly/2KQWbdd .
+  
+  ### Chấm chéo:
+  1. Người chấm: Nguyễn Mậu Đức Huy
+ * Điểm: 9.
+ * Nhận xét: bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có minh chứng bằng các đường link. Các folder trong github sắp xếp hơi lộn xộn. file tongket.md khó đọc.
