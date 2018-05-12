@@ -33,4 +33,4 @@ Tổng kết: Qua tham gia khóa học Công nghệ phần mềm, em đã học 
 
 Người chấm: Lê Văn Duy
 Điểm: 10
-Nhận xét: Đã hoàn thành các khoá hịc online, tham gia vào hoàn thành bài tập nhóm,tuy nhiên cần nộp các bài tập đúng hạn!
+Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm
