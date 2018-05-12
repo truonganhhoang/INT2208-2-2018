@@ -19,3 +19,10 @@ Trong thời gian học tập và thực hành môn công nghệ phần mềm em
 		
 -Bài tập nhóm tham gia cùng các bạn nhóm goodApp làm Tinycard của Doulingo.
 Em xin trân thành cảm ơn thầy đã dạy hướng dẫn em môn học này.
+
+
+# Chấm chéo
+
+Người chấm : Nguyễn Thanh Minh
+Điểm : 10 
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
