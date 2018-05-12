@@ -1,4 +1,4 @@
-# INT2208-2-2018
+﻿# INT2208-2-2018
 Công nghệ phần mềm 2 - 2018 
 
 ## [Vũ Trường Quang] MSV: 16022384
@@ -16,3 +16,10 @@ Công nghệ phần mềm 2 - 2018
 	- [Thực hiện thêm câu hỏi trắc nhiệm](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/htmlview#).
 
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
+
+
+-Người chấm: Trần Văn Phương
+
+-Điểm: 9,5.
+
+-Nhận xét: Hoàn thành tốt các khoá học và tham gia tích cực vào bài tập nhóm.
