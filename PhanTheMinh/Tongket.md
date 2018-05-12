@@ -17,3 +17,6 @@ Trong quá trình học tập môn học, em đã học được một số ki�
 
 	- Được chia sẻ một số công cụ hay hỗ trợ học tập: Sublime Text 3 Full Page Screen Capture Slack https://int2208-2018.slack.com/messages/D8W58SVEY/team/U8VK3E1U0/
 
+Người chấm: Nguyễn Đức Mạnh
+Điểm: 8.5
+Nhận xét: Hoàn thành đầy đủ các khóa học được yêu cầu, tham gia vào bài tập nhóm và tài liệu môn học, chưa tham gia viết thẻ SEMAT.
