@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Tinycards - FlasCard</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="/image/logo_tiny.jpg" type="image/jpg">
+      <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+      <script src="/js/jquery/jquery-3.3.1.min.js"></script>
+      <script src="/js/bootstrap/bootstrap.min.js"></script>
+      <style>
+         a {
+         text-decoration: none !important;
+         }
+      </style>
+   </head>
+   <body class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+         <a class="navbar-brand ml-md-5" href="/home">
+         <img src="/image/tinycards.png" alt="logo" width="44" height="44">
+         <span class="text-white font-weight-bold">TinyCards</span>
+         </a>
+
+         <% if (user.local.email ) { %>
+         <p class="text-white font-weight-bold ml-md-auto text-right text-uppercase pt-3 mr-2 mr-md-5">
+            <%= user.local.email %>
+         </p>
+         <% } else if (user.twitter.token) { %>
+         <p class="text-white font-weight-bold ml-md-auto text-right text-uppercase pt-3 mr-2 mr-md-5">
+            <%= user.twitter.username %>
+         </p>
+         <% } else if (user.google.token) { %>
+         <p class="text-white font-weight-bold ml-md-auto text-right text-uppercase pt-3 mr-3 mr-md-5">
+            <%= user.google.name %>
+         </p>
+         <% } %>
+
+         <a href="/logout" class="text-primary font-weight-bold mr-md-3 rounded pt-2 pb-2 pl-2 pr-2 bg-light">LogOut</a>
+      </nav>
+      <div class="container">
+      <div class="row">
+         <div class="col-12 col-md-12 wrapper mt-5">
+            <div class="row text-center mb-5">
+               <p class="h3 col-12">Learn with TinyCards right now !</p>
+            </div>
+            <div class="row" id="lesson-list">
+            </div>
+         </div>
+      </div>
+      <script>
+         $(document).ready(() => {
+             $.ajax({
+                 url: '/api/lesson/',
+                 success: (docs) => {
+                     docs.forEach((doc) => {
+                         console.log(doc)
+                         $('#lesson-list').append(`<div class="col-5 col-md-3 card2 text-center mb-5 mb-md-0">
+                 <a href="/home/lesson/${doc.id}">
+                 <img width="144px" height="166px" src="${doc.imagePath}" alt="universe" class="rounded lesson2 pointer lesson">
+                 </a>
+             
+                 <div class="w-100"></div>
+                 <span class="text-dark font-weight-bold mt-3 d-inline-block">${doc.title}</span>
+                 </div>`)
+                     })
+                 }
+             })
+         
+             for (var i = 0; i < 4; i++) {
+         
+             }
+         
+         
+         })
+      </script>
+   </body>
+</html>
