@@ -1,4 +1,4 @@
-## Họ và tên: [Phùng Đình Xuân](https://github.com/Flashxu98)
+﻿## Họ và tên: [Phùng Đình Xuân](https://github.com/Flashxu98)
 ## MSV: 16022134
 ## Lớp [INT2208-2-2018](https://github.com/truonganhhoang/INT2208-2-2018), Giáo viên bộ môn: [PGS.TS Trương Anh Hoàng](http://www.uet.vnu.edu.vn/~hoangta/)
 # Báo cáo tổng kết môn học
@@ -30,3 +30,7 @@
 - Người Chấm : Trần Văn Tuấn.
 - Điểm : 9.
 - Nhận xét : Hoàn thành tốt các khóa học được yêu cầu , tham gia tích cực làm việc nhóm, có tham gia hoàn thiện báo cáo dự án, tóm tắt khoá học.
+
+- Người chấm : Nguyễn Minh Tuấn
+- Điểm : 9
+- Nhận xét : hoàn thành đầy đủ và tốt khóa học,chăm chỉ,khoa học
