@@ -10,3 +10,7 @@ Tự học html,css,bootraps,js ở mức cơ bản
 + Người chấm:Đoàn Trung Hiếu
 + Điểm:9
 + Nhận xét:Đồng chí có ý thức trong làm bài tập nhóm,học hành ok. Chăm nhất nhóm có tinh thần tuyên dương. Đáng lẽ cho 8 : bởi vì là làm báo cáo chán quá, xấu vãi. Nhưng ví ý thức học và làm nhóm nên cho thành 9.
+
++ Người chấm: Vũ Thị Thanh Hà
++ Điểm: 9
++ Nhận xét: Hoàn thành các bài tập cá nhân và khóa học online( có link ảnh và file trong  thư mục, nhưng chưa đưa vào trong file tongket.md), có tham gia vào làm bài tập nhóm( đã có link để chúng minh)
