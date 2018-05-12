@@ -17,3 +17,13 @@ Trong quá trình học tập môn học, em đã học được một số ki�
 
 	- Được chia sẻ một số công cụ hay hỗ trợ học tập: Sublime Text 3 Full Page Screen Capture Slack https://int2208-2018.slack.com/messages/D8W58SVEY/team/U8VK3E1U0/
 
+
+
+
+
+
+
+
+Người chấm : Nguyễn Đức Minh 
+Điểm : 10 
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
