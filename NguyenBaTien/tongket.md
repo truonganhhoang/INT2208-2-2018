@@ -17,9 +17,18 @@
 
 ### Tổng kết: Qua khoá học Công nghệ phần mềm, em đã học được thêm nhiều kiến thức về xây dựng trang web, quy trình xây dựng phần mềm cũng như khả năng làm việc nhóm một cách hiệu quả.
 
---Người chấm: Đoàn Thị Thoa
+-Người chấm: Đoàn Thị Thoa
 -Điểm: 9
 -Nhận xét: Nhận thấy bạn làm khá tốt các phần được giao tuy nhiên phần tự học không có dẫn chứng chứng minh tính xác thực và thiếu phần làm thẻ SEMAT.
+
+
+- Người chấm: Phạm Thị Thùy Tiên
+- Điểm: 9
+- Nhận xét: Phần bài tập cá nhân thiếu dẫn chứng, tích cực tham gia bài tập nhóm.
+
+--Người chấm: Vũ Thủy Tiên 
+-Điểm: 9
+-Nhận xét: Bạn làm tốt tuy nhiên cần thêm dẫn chứng các phần và thiếu phần làm thẻ SEMAT
 
 - Người chấm : Cao Thị Phương Thảo
 - Điểm : 9

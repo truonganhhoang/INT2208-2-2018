@@ -22,13 +22,9 @@ sử dụng và bảo trì phần mềm, đồng thời cũng tự học thêm m
 - Điểm : 8.5.
 - Nhận xét : Hoàn thành tốt các khóa học được yêu cầu, có tham gia làm việc nhóm, hoàn thiện báo cáo dự án,chưa tham gia dịch tóm tắt khoá học.
 
-Người chấm: Trần Văn Trung
-Điểm: 8
-Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học. Chưa tham gia dịch tóm tắt tài liệu môn học.
-
-- Người chấm: Hoàng Đức Tuấn
-- Điểm: 9
-- Nhận xét: Hoàn thành các khóa học, bài tập cá nhận đầy đủ.
+- Người chấm: Trần Văn Trung
+- Điểm: 8
+- Nhận xét: Qua những thông tin bạn cung cấp, bạn đã tham gia tích cực vào các hoạt động của lớp và hoàn thành tốt các nhiệm vụ và bài tập được giao, chủ động tự học các khóa học. Chưa tham gia dịch tóm tắt tài liệu môn học.
 
 - Người chấm: Hoàng Đức Tuấn
 - Điểm: 9
