@@ -27,3 +27,6 @@ Người chấm: Bùi Tiến Dũng<br />
 Điểm: 8<br />
 Nhận xét: Bạn có tham gia đóng góp vào hoạt động thực hiện bài tập nhóm, hoàn thành đúng chỉ tiêu khóa học CNPM và đã có ý thức tự học các khóa học.
 
+Người chấm: Bùi Mạnh Dũng
+Điểm: 8
+Nhận xét: Đã hoàn thành các khoá hịc online, tham gia vào hoàn thành bài tập nhóm,tuy nhiên cần nộp các bài tập đúng hạn!
