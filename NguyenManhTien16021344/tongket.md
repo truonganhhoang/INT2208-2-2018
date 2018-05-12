@@ -15,3 +15,7 @@
 - Người chấm: Đoàn Thi Thoa
 - Số điểm: 8
 - Nhận xét: Hoàn thành các khóa học theo yêu cầu, tham gia bài tập nhóm nhưng chưa hoàn thiện được sản phẩm
+- Người chấm: Vũ Thủy Tiên
+- Số điểm: 9
+- Nhận xét: Bạn làm tốt bài tập cá nhân và bài tập nhóm 
+
