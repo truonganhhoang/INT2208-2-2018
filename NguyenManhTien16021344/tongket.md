@@ -26,6 +26,6 @@
 
 --Người chấm: Nguyễn Bá Tiến
 -Điểm: 9.5
--Nhận xét:  Bạn làm khá tốt phần bài tập nhóm bạn thiếu phần làm thẻ SEMAT.
+-Nhận xét:  Bạn làm khá tốt phần bài tập nhóm bạn thiếu phần làm thẻ SEMAT.Hoàn thành khóa học theo yêu cầu
 
 
