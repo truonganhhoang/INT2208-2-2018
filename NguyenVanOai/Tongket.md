@@ -24,3 +24,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
   https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit
 + Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm.
 + Biết cách làm việc theo nhóm trong khi làm bài tập lớn.
+
+Người chấm điểm:  Nguyễn Thị Hồng Nhung
+Điểm: 9
+Nhân xét: Bài tập khá đầy đủ ngoài những khóa học mà thầy yêu cầu còn tìm hiểu thêm kiến thức bên ngoài nhưng phần làm thẻ bài tập cá nhân còn hơi sơ sài.

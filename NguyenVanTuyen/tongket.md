@@ -28,10 +28,6 @@ sử dụng và bảo trì phần mềm, đồng thời cũng tự học thêm m
 
 - Người chấm: Hoàng Đức Tuấn
 - Điểm: 9
-- Nhận xét: Hoàn thành các khóa học, bài tập cá nhận đầy đủ.
-
-- Người chấm: Hoàng Đức Tuấn
-- Điểm: 9
 - Nhận xét: Hoàn thành các khóa học, bài tập cá nhân đầy đủ
 
 - Người chấm : Nguyễn Minh Tuấn
