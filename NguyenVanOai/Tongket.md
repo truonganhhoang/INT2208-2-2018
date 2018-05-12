@@ -28,3 +28,7 @@ Trong thời gian 15 tuần của môn học, em đã thực hiện các việc:
 Người chấm điểm:  Nguyễn Thị Hồng Nhung
 Điểm: 9
 Nhân xét: Bài tập khá đầy đủ ngoài những khóa học mà thầy yêu cầu còn tìm hiểu thêm kiến thức bên ngoài nhưng phần làm thẻ bài tập cá nhân còn hơi sơ sài.
+
+Người chấm điểm:  Phan Thế Minh
+Điểm: 9
+Nhân xét: Làm bái khá đầy đủ đúng hạn tuy nhiên chém AOE hơi kém, cần luyện tập thêm
