@@ -11,7 +11,11 @@ Tự học html,css,bootraps,js ở mức cơ bản
 + Điểm:9
 + Nhận xét:Đồng chí có ý thức trong làm bài tập nhóm,học hành ok. Chăm nhất nhóm có tinh thần tuyên dương. Đáng lẽ cho 8 : bởi vì là làm báo cáo chán quá, xấu vãi. Nhưng ví ý thức học và làm nhóm nên cho thành 9.
 
-
 + Người chấm: Trần Văn Hải
 + Điểm: 8.5
 + Nhận xét: Hoàn thành tốt việc tự học, hơi ít dẫn chứng . Bài tập nhóm làm chi tiết, hoàn thành tốt các nhiệm vụ trên lớp.
+
+ Người chấm: nguyenthuhien
++ Điểm: 9.5
++ Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tự học và hoàn thành được nhiều các kiến thức mới, tích cực tham gia vào làm các công việc trong nhóm.
+  
