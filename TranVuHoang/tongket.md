@@ -43,3 +43,10 @@
 + Người chấm : Đoàn Trung Hiếu
 + Điểm : 9
 + Nhận xét : Báo cáo làm đẹp,có ghi nhiều nội dung nhưng ý thức làm bài nhóm chưa cao, đáng lẽ cho 8.5 cộng thêm 0.5. Tham gia khóa học chịu khó nên như vậy là đẹp nhé.
+
++ Người chấm : Nguyễn Trung Hiếu
++ Điểm : 9
++ Nhận xét :
+  Đã có thông tin bài tập 9-12.
+  Đã có thông tin tư học html, css, js.
+  Đã có thông tin về đóng góp bài tập nhóm.
