@@ -2,13 +2,14 @@
 **Mã SV : 16021344**
 
 1. **Khóa học cá nhân**
-	- Hoàn thành [Git & Github](https://classroom.udacity.com/courses/ud775)
+	- Hoàn thành [Git & Github](https://classroom.udacity.com/courses/ud775) - [Dẫn chứng](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/NguyenManhTien16021344/git-github.jpg)
 	- Hoàn thành [HTML5](https://www.coursera.org/learn/html).
 	- Hoàn thành [Boostrap4](https://www.w3schools.com/bootstrap4/default.asp).
-	- Hoàn thành [Software Engineering: Introduction](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/)
+	- Hoàn thành [Software Engineering: Introduction](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/) - [Dẫn chứng](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenManhTien16021344)
 2. **Nhóm**
 	- Đóng góp và hoàn thiện bài tập nhóm [Tinycards](https://github.com/HerraMonsters/INT2208-2-2018/tree/master/NguyenManhTien16021344/Tinycards).
 	- THam gia tóm tắt tài liều khóa học [High lever Design](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/)
+	- Tham gia viết [Báo cáo bài tập nhóm](https://docs.google.com/document/d/1UdkkluUVnnC4wToDBs4sCzoC039qEqEPDnE6aYhH0A0/edit)
 
 **Tổng kết : Qua khóa học, em thấy được để làm được một phần mèm chất lượng không hề đơn giản. Cần phải có kỹ năng làm việc nhóm và phải có kiến thức vững chắc để tạo ra một phần mềm tốt. Khóa học giúp em biết được thêm về rất nhiều điều mới mẻ như ngôn ngữ  HTML để viết ra một phần mềm trên web, cách làm cho phần mềm đó trở nên sinh động hơn với CSS3 hoặc Bootstrap hay dùng Javascript để phần mềm thực sự hoạt động. **
 

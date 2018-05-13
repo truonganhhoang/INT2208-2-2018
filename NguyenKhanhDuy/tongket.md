@@ -30,3 +30,7 @@ Nhận xét: Bạn có tham gia đóng góp vào hoạt động thực hiện b�
 Người chấm: Bùi Mạnh Dũng
 Điểm: 8
 Nhận xét: Đã hoàn thành các khoá hịc online, tham gia vào hoàn thành bài tập nhóm,tuy nhiên cần nộp các bài tập đúng hạn!
+
+Người chấm: Lê Văn Duy
+Điểm: 9
+Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm.
