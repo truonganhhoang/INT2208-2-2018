@@ -35,3 +35,7 @@ Tổng kết: Qua khóa học Công nghệ phần mềm, em đã học được 
 Người chấm:Trần Văn Phương
 - Điểm: 9
 - Nhận xét: Hoàn thành đầy đủ các khoá học online , làm đầy đủ bài tập cá nhân và tham gia tích cực vào bài tập nhóm
+
+Người chấm :Nguyễn Văn Phúc 
+-Điểm 9 
+-Nhận xét : tích cực tham gia hoạt động làm bài tập lớn, hoàn thành đầy đủ các khóa học online
