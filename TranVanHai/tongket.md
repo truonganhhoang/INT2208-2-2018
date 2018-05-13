@@ -16,7 +16,7 @@ Trong 15 tuần vừa qua em đã làm được những công việc như sau:
 •	Tham gia viết báo cáo nhóm 
 •	Học HTML5 ở web : http://www.w3school.com/html/
 •	Học CSS3 ở web :  https://www.w3schools.com/css/
-•	Hoàn thành khóa học  Software Engineering : [Construction] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Construction.png.png) , [Highleveldesign] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/HighLevelDesign.png.png), [Lowleveldesign] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/LowLevelDesign.png.png), [Process] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Process.png.png), [Specifications] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Specifications.png.png), [Testing] (https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Testing.png.png) .  
+•	Hoàn thành khóa học  Software Engineering : [Construction](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Construction.png.png) , [Highleveldesign](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/HighLevelDesign.png.png), [Lowleveldesign](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/LowLevelDesign.png.png), [Process](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Process.png.png), [Specifications](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Specifications.png.png), [Testing](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/TranVanHai/B%C3%A0i%20t%E1%BA%ADp%20tu%E1%BA%A7n%20%209%20-%2012/Testing.png.png) .  
 •	Tham gia thiết kế câu hỏi trắc nghiệm kì thi cuối kì
 •	Góp phần xây dựng khung HTML tĩnh
 •	Tham gia thảo luận thiết kế giao diện Boostrap bài tập nhóm
@@ -36,4 +36,10 @@ Tổng kết : Qua khóa học Công nghệ phần mềm, em đã học được
  * Người chấm: Nguyễn Quang Hà
  * Điểm: 8.5
  * Nhận xét: Trình bày báo cáo rối mắt. Đã có ý thức tự học nhưng chưa có bằng chứng rõ ràng. Tham gia đầy đủ vào bài tập nhóm và trên lớp. 
+ 
+ + Người chấm: Vũ Thị Thanh Hà
++ Điểm: 9
++ Nhận xét: Hoàn thành bài tập cá nhân và khóa học online đầy đủ( có link để chứng minh), có tham gia vào hoàn thành bài tập lớn của nhóm( nhưng chưa có link để chứng minh)
+
+
  
