@@ -1,4 +1,4 @@
-**Nguyễn Mạnh Tiến**
+﻿**Nguyễn Mạnh Tiến**
 **Mã SV : 16021344**
 
 1. **Khóa học cá nhân**
@@ -24,4 +24,9 @@
 - Người chấm: Vũ Thủy Tiên
 - Số điểm: 9
 - Nhận xét: Bạn làm tốt bài tập cá nhân và bài tập nhóm 
+
+--Người chấm: Nguyễn Bá Tiến
+-Điểm: 9.5
+-Nhận xét:  Bạn làm khá tốt phần bài tập nhóm bạn thiếu phần làm thẻ SEMAT.Hoàn thành khóa học theo yêu cầu
+
 

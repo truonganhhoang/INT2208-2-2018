@@ -24,6 +24,16 @@ Công nghệ phần mềm 2 - 2018
  * Điểm: 8.5
  * Nhận xét: Hoàn thành tốt việc tự học. Bài tập nhóm làm chi tiết, hoàn thành tốt các nhiệm vụ trên lớp.
 
+
+Người chấm: Trần Văn Hải
+Điểm: 9
+Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
+
++ Người chấm: Vũ Thị Thanh Hà
++ Điểm: 10
++ Nhận xét: Hoàn thành tốt bài tập cá nhân, khóa học online và có tham gia hoàn thành bài tập nhóm( có đầy đủ link để chứng minh)
+
+
  * Người chấm: Trần Văn Hải
  * Điểm: 9
  * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.

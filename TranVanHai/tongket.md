@@ -37,3 +37,9 @@ Tổng kết : Qua khóa học Công nghệ phần mềm, em đã học được
  * Điểm: 8.5
  * Nhận xét: Trình bày báo cáo rối mắt. Đã có ý thức tự học nhưng chưa có bằng chứng rõ ràng. Tham gia đầy đủ vào bài tập nhóm và trên lớp. 
  
+ + Người chấm: Vũ Thị Thanh Hà
++ Điểm: 9
++ Nhận xét: Hoàn thành bài tập cá nhân và khóa học online đầy đủ( có link để chứng minh), có tham gia vào hoàn thành bài tập lớn của nhóm( nhưng chưa có link để chứng minh)
+
+
+ 
