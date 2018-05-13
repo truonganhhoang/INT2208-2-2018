@@ -27,3 +27,7 @@ Tổng kết: Qua khóa học Công nghệ phần mềm, em đã học được 
 - Người chấm: Trịnh Hải Quân 
 - Điểm : 8,5
 - Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tích cực tham gia vào bài tập nhóm.
+
+#  Người chấm: Vũ Trường Quang
+- Điểm: 9
+- Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.
