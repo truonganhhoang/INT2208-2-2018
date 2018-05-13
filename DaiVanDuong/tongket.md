@@ -19,3 +19,6 @@
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm. Tích cực trao đổi thảo luận đưa ra những ý kiến sáng giá cho cách học và hoàn thiện bài tập nhóm
 
+* Người chấm: Lê Văn Duy
+* Điểm: 10
+* Nhận Xét:Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm, biết giúp đỡ cái thành viên trong nhóm để bắt kịp tiến độ môn học
