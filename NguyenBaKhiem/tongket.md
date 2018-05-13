@@ -25,3 +25,7 @@ Tự đánh giá bản thân trong 15 tuần học:
   2. Người chấm: Hoàng Mạnh Hưng
  * Điểm: 8.
  * Nhận xét: bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ nhưng chưa có minh chứng cho các khóa HTML5, CSS3, BOOTSTRAP,...
+
+3.Người chấm: Vũ Thanh Huyền
+ * Điểm: 8.
+ * Nhận xét: Khá đầy đủ. Nhưng nộp muộn.
