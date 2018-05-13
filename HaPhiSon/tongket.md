@@ -1,4 +1,4 @@
-**Báo cáo cá nhân môn Công nghệ phần mềm**
+﻿**Báo cáo cá nhân môn Công nghệ phần mềm**
 
 **Sinh viên: Hà Phi Sơn – MSSV: 16021126**
 
@@ -31,3 +31,7 @@ Tổng kết: Qua khóa học Công nghệ phần mềm, em đã học được 
 #  Người chấm: Vũ Trường Quang
 - Điểm: 9
 - Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.
+
+Người chấm:Trần Văn Phương
+- Điểm: 9
+- Nhận xét: Hoàn thành đầy đủ các khoá học online , làm đầy đủ bài tập cá nhân và tham gia tích cực vào bài tập nhóm
