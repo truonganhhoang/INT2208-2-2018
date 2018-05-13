@@ -16,6 +16,8 @@ Báo cáo tiến độ học tập qua 15 môn học:
 + góp phần xây dựng khung HTML tĩnh 
 + Viết báo cáo BT lớn của nhóm: https://drive.google.com/file/d/14iB7oATpDAjKFjJBCnyswDXvVO-MZOB6/view
  
-Người chấm: Nguyễn Đức Mạnh
-Điểm: 7.5
-Nhận xét: Đã hoàn thành các khóa học yêu cầu, có tham gia vào làm bài tập nhóm, chưa tham gia viết thẻ SEMAT cũng như tài liệu môn học.
+
+#Chấm chéo
+- Người chấm : Mai Thị Lý 
+- Điểm 8.5
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.
