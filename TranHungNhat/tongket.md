@@ -17,3 +17,19 @@ Báo cáo tiến độ học tập qua 15 môn học:
 + Viết báo cáo BT lớn của nhóm
  
 Tổng quan: Góp phần viết nên một ứng dụng,qua đó biết thêm dc cách thức và công cụ để viết các ứng dụng và phần mềm khác
+
+
+Người chấm : Nguyễn Đức Minh
+Điểm : 10
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+Người chấm : Nguyễn Thanh Minh
+Điểm : 9
+Nhận xét : Hoàn thành các khóa học được yêu cầu nhưng link chứng minh vẫn chưa đầy đủ
+
+Người chấm : Phan Thế Minh
+Điểm : 10 
+
+Người chấm : Nguyễn Tuấn Minh
+Điểm : 9
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.

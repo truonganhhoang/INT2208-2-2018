@@ -19,6 +19,11 @@ Trong cả khóa học Công nghệ phần mềm - INT2208 2 em đã học và l
 
 
 # Chấm chéo
+
++ Trần Hưng Nhật
++ Điểm:9
++ Nhận xét: Có học và làm bài tập, đã hoàn thành khóa học online nhưng vẫn còn thiếu một vài link để chứng minh.
+
 - Người chấm : Phan Nguyên Lâm
 - Điểm : 9
 - Nhận xét : tham gia đầy đủ các khóa học,hoàn thành thẻ SEMAT, tham gia làm bài tập nhóm

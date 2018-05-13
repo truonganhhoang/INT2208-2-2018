@@ -24,3 +24,6 @@ Nhận xét: Bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ
 +Điểm: 9
 +Nhận xét: Bạn đã hoàn thành rất tốt các khóa học theo yêu cầu, ngoài ra đã tham gia tích cực vào dự án nhóm. Tuy nhiên vẫn thiếu minh chứng cho các khóa Bootrap 4, CSS, JavaScript nữa nhé.
 
+#  Người chấm: Vũ Trường Quang
+- Điểm: 9
+- Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.

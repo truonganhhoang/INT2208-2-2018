@@ -35,7 +35,13 @@ Git & GitHub, Git Desktop
 	https://github.com/Tranvanphuong/INT2208-2-2018
 	
 
+
 #Chấm chéo 
+
+2. Người chấm: Lê Quý Phong.
+Điểm: 9.
+Nhận xét: Các yêu cầu đầy đủ.
+
 
 Người chấm : Nguyễn Văn Oai
 Điểm : 9.5
@@ -44,4 +50,8 @@ Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động 
 - Người chấm: Đặng Văn Phúc 
 - Điểm: 9.5
 -Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc, tham gia đầy đủ hoạt động nhóm, hoàn thành đầy đủ bài tập được giao 
+
+- Người chấm: Nguyễn Văn Phúc
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
 

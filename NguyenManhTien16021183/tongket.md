@@ -28,6 +28,11 @@ Trong 15 tuần học vừaa qua em dã hoàn thành các khóa học cá nhân 
 
 Qua đây em cũng xin cảm ơn thầy và các bạn trong nhóm ChildrenTeam dã giúp đỡ em trong suốt thời gian học tập vừa qua. Cảm ơn mọi người rất nhiều.
 
+
+- Người chấm: Phạm Thị Thùy Tiên
+- Điểm: 10
+- Nhận xét: Hoàn thành tốt các khóa học đã yêu cầu, tham gia tích cực vào bài tập nhóm, viết báo cáo, tóm tắt khóa học, thực hiện đầy đủ bài tập cá nhân.
+
 --Người chấm: Vũ Thủy Tiên
 -Điểm: 9
 -Nhận xét:  Bạn làm khá tốt phần bài tập nhóm bạn thiếu phần làm thẻ SEMAT và thiếu phần làm sản phẩm cá nhân 

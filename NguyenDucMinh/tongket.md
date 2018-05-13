@@ -29,3 +29,11 @@ Người chấm: Mai Thị Lý
 Điểm: 10
 Nhận xét: Hoàn thành tốt các khoá học yêu cầu, tham gia tích cực và hiệu quả vào bài tập của nhóm, tham gia vào viết báo cáo phần mềm, làm thẻ SEMAT cũng như tóm tắt tài liệu khoá học.
 
+- Người chấm: Nguyễn Văn Lâm.
+- Điểm 9.
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia tích cực vào xây dựng nhóm và bài tập thầy giao.
+
+# Chám chéo 
+# Người chấm : Phan Nguyên Lâm
+- Điểm : 9.5
+- Nhận xét : hành thành đầy đủ các khóa học, tham gia tích cực vào bài tập nhóm, có làm thẻ SEMAT và tóm tắt khóa học
