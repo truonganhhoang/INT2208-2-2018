@@ -18,6 +18,12 @@ Công nghệ phần mềm 2 - 2018
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
 
 
+
+# Chấm chéo 
++# Người chấm : Lê Quý Phong
++- Điểm : 9.5
++- Nhận xét : hoàn thành đầy đủ các khóa học, tham gia tích cực vào bài tập nhóm, có làm thẻ SEMAT và tóm tắt khóa học
+
  Người chấm: Đặng Văn Phúc
   * Điểm: 9.
   * Nhận xét: bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có minh chứng bằng các đường link.
