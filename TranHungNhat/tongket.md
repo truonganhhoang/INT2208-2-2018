@@ -31,3 +31,7 @@ Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cự
 Người chấm : Nguyễn Thanh Minh
 Điểm : 9
 Nhận xét : Hoàn thành các khóa học được yêu cầu nhưng link chứng minh vẫn chưa đầy đủ
+
+Người chấm : Nguyễn Tuấn Minh
+Điểm : 9
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
