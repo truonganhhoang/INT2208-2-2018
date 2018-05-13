@@ -2,7 +2,7 @@
 Họ và tên: Nguyễn Đức Công
 MSSV: 16021260.
 * Link folder cá nhân: xem tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenDucCong).
-* Link bài tập nhóm: xem tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-(everest)).
+* Link bài tập nhóm: xem tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/nhom-everest).
 * Nội dung mình đóng góp:
    * Trang chủ.
    * Một số thẻ.
