@@ -22,3 +22,8 @@ Trong các khóa học Công nghệ phần mềm - INT2208 2 em đã học và l
 * Người chấm: Phan Minh Đức
 * Điểm: 9.5
 * Nhận xét: Hoàn thành bài tập cá nhân và bài tập nhóm được giao, có ý thức tham gia vào công việc của nhóm
+
+## Chấm chéo
+* Người chấm: Nguyễn Quang Hà
+* Điểm: 9
+* Nhận xét: Báo cáo hơi sơ sài, đã hoàn thành được các bài tập được giao, chưa có dẫn chứng đầy đủ
