@@ -51,3 +51,7 @@ Nhận xét:Bài tập cá nhân làm đầy đủ, có tham gia hoạt động 
 - Điểm: 9.5
 -Nhận xét: Hoàn thành đầy đủ các khóa học bắt buộc, tham gia đầy đủ hoạt động nhóm, hoàn thành đầy đủ bài tập được giao 
 
+- Người chấm: Nguyễn Văn Phúc
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
+
