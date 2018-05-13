@@ -44,4 +44,4 @@
 
 * Người chấm: Lê Thuận Đức
 * Điểm: 9
-* Nhận xét: Xinh Gái
+* Nhận xét: Hoàn thành bài tập cá nhân, tham giao bài tập nhóm.
