@@ -24,3 +24,7 @@ tập trong tuần.
 Người chấm: Hà Phi sơn
 Điểm: 9
 Nhận xét: Bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có tham gia tự học kiến thức mới bằng các khoác học
+
+#  Người chấm: Vũ Trường Quang
+- Điểm: 9
+- Nhận xét: Bài tập cá nhân làm khá đầy đủ, có tham gia hoạt động nhóm, có học các công nghệ làm web được yêu cầu.
