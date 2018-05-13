@@ -30,3 +30,10 @@ https://xxam.herokuapp.com/<br />
 3. Người chấm: Trần Vũ Hoàng
  * Điểm: 9.
  * Nhận xét: Các khóa học và các bài tập cá nhân bạn đã hoàn thành đầy đủ. Bài tập nhóm cũng đã hoàn thiện và báo cáo phần mềm chi tiết.
+
++ Người chấm : Nguyễn Trung Hiếu
++ Điểm : 10
++ Nhận xét :
+  Đã có thông tin bài tập 9-12.
+  Đã có thông tin tư học html, css, js.
+  Đã có thông tin về đóng góp bài tập nhóm.
