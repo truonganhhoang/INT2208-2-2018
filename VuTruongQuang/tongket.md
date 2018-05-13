@@ -17,6 +17,11 @@ Công nghệ phần mềm 2 - 2018
 
 **Tổng kết: Qua tham gia khoá học Công nghệ phần mềm, em nhận thấy bản thân tiếp thu được nhiều điều về mặt chuyên môn cũng như trách nhiệm của bản thân đối với một dự án phần mềm.**
 
+
  Người chấm: Đặng Văn Phúc
   * Điểm: 9.
   * Nhận xét: bài tập cá nhân và bài tập nhóm hoàn thành đầy đủ, có minh chứng bằng các đường link.
+
+- Người chấm: Nguyễn Văn Phúc
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
