@@ -22,7 +22,7 @@
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các bài tập được giao, tham gia tích cực và hoàn thành công việc của nhóm.
 * Người chấm: Vũ Đức Duy
-* Điểm: 10
+* Điểm: 9
 * Nhận Xét: Hoàn thành các bài tập cá nhân được giao, tham gia và hoàn thành các bài tập nhóm.
 
 * Người chấm: Nguyễn Kim Đại
