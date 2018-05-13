@@ -10,7 +10,7 @@ MSSV: 16021260.
 * Học và làm bài tập (Có thể xem kết quả tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenDucCong)) trên khóa học [Software Engineering](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/).
 * Đóng góp làm tóm tắt [khóa học](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M).
 * Bài tập cá nhân tuần 9-12: xem tại [đây](https://github.com/truonganhhoang/INT2208-2-2018/tree/master/NguyenDucCong/Tinycard).
-* Biết các sử dụng git và github ở mức cơ bản.
+* Biết các sử dụng [git và github](https://github.com/truonganhhoang/INT2208-2-2018/blob/master/NguyenDucCong/GitandGitHub.PNG) ở mức cơ bản.
 * Tự học một số ngôn ngữ web: HTML, CSS, Bootstrap, Javascript ở mức cơ bản.
 
 # Chấm chéo
