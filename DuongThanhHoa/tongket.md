@@ -21,10 +21,16 @@
   + Thực hiện [câu hỏi trắc nghiệm](https://docs.google.com/spreadsheets/d/1nYhXQ4Zyw5RZxdw37dMWKhO-TpJ7bJgl2-mVbd6kjq4/edit#gid=53497746) cho khóa học.
   + Thực hiện tài liệu [SEMAT](https://docs.google.com/spreadsheets/d/1morO_O0RKPnylfjxXBhJIBUIFtKugEdRLqVGfWTFDdg/edit?usp=drive_web).
 
-Người chấm: Trần Văn Hải
-Điểm: 9
-Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
++ Người chấm: Trần Văn Hải
++ Điểm: 9
++ Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
 
 + Người chấm : Đoàn Trung Hiếu
 + Điểm : 8.5
+
 + Nhận xét : Báo cáo làm đẹp đấy. Nhưng bài tập nhóm làm còn chưa chăm lắm. Ý thức học chưa cao,trong lớp ngủ không chịu học. Đáng nhẽ cho 9 nhưng mà ngủ trong lớp nên cho 8.5 thôi.
+Người chấm: nguyenthuhien
+Điểm: 10
+Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
+
++ Nhận xét : Báo cáo làm đẹp đấy.Có ý thức làm bài tập nhóm. Ý thức học chưa cao,trong lớp ngủ không chịu học. Đáng nhẽ cho 9 nhưng mà ngủ trong lớp nên cho 8.5 thôi.

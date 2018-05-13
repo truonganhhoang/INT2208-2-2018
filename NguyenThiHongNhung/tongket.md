@@ -26,3 +26,16 @@ Em xin trân thành cảm ơn thầy đã dạy hướng dẫn em môn học nà
 Người chấm : Nguyễn Thanh Minh
 Điểm : 10 
 Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+
+Người chấm : Trần Hưng Nhật
+Điểm : 10 
+Hoàn thành tất cả các bài tập và khóa học,đống góp rất tích cực cho bt nhóm
+
+Người chấm : Phan Thế Minh
+Điểm : 10 
+Nhận xét : Hoàn thành các khóa học theo yêu cầu, tham gia tích cực vào bài tập nhóm.
+
+Người chấm điểm:  Nguyễn tuấn minh
++Điểm: 9
++Nhân xét: hoàn thành các khóa học, tham gia tích cực bài tập nhóm
