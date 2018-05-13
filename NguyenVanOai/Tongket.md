@@ -30,6 +30,10 @@ Người chấm điểm:  Nguyễn Thị Hồng Nhung
 Nhân xét: Bài tập khá đầy đủ ngoài những khóa học mà thầy yêu cầu còn tìm hiểu thêm kiến thức bên ngoài nhưng phần làm thẻ bài tập cá nhân còn hơi sơ sài.
 
 
+Người chấm điểm:  Phan Thế Minh
+Điểm: 9
+Nhân xét: Làm bái khá đầy đủ đúng hạn tuy nhiên chém AOE hơi kém, cần luyện tập thêm
+
 Người chấm : Trần Hưng nhật
 Điểm : 9
 Nhận xét: Bài tập cá nhân làm đầy đủ, có tham gia hoạt động nhóm, học được các công nghệ làm web được yêu cầu. Hoàn thành tốt các khóa học.
