@@ -34,3 +34,10 @@ Người chấm: nguyenthuhien
 Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
 
 + Nhận xét : Báo cáo làm đẹp đấy.Có ý thức làm bài tập nhóm. Ý thức học chưa cao,trong lớp ngủ không chịu học. Đáng nhẽ cho 9 nhưng mà ngủ trong lớp nên cho 8.5 thôi.
+
++ Người chấm : Nguyễn Trung Hiếu
++ Điểm : 9
++ Nhận xét :
+  Đã có thông tin bài tập 9-12.
+  Đã có thông tin tư học html, css, js.
+  Đã có thông tin về đóng góp bài tập nhóm.
