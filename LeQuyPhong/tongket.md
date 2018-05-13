@@ -22,6 +22,10 @@ Người chấm điểm: Nguyễn Thị Hồng Nhung
 Điểm:6.5
 Nhận xét: Bạn mới nêu ra chứ chưa có dẫn chứng rõ ràng.
 
+Người chấm: Trần Hưng Nhật
+điểm :9 
+Nhận xét: thực hiện đủ các khóa học và bài tập,có đóng góp cho bt nhóm
+
 Người chấm : Nguyễn Văn Oai
 Điểm : 8
 Nhận xét:Bạn chưa có link dẫn rõ ràng mới chỉ nêu ra được một vài cái 
