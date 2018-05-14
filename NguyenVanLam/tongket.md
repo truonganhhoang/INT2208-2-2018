@@ -30,6 +30,6 @@
 *	Điểm: 8,5.
 * Nhận xét: Hoàn thành bài tập đầy đủ nhưng chưa chứng minh hết.
 
--Người chấm: Nguyễn Bá Khiêm.
--Điểm: 9.
--Nhận xét: Hoàn thành tốt bài tập nhóm, hoàn thành đầy đủ bài tập, cần thêm dẫn chứng làm bài.
+* Người chấm: Nguyễn Bá Khiêm.
+* Điểm: 9.
+* Nhận xét: Hoàn thành tốt bài tập nhóm, hoàn thành đầy đủ bài tập, cần thêm dẫn chứng làm bài.
