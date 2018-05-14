@@ -31,4 +31,9 @@ Nhận xét: Có hoàn thành các khoá học online, tham gia làm bài tập 
 
 Người chấm : Hoàng Xuân Cường
 Điểm 7
-Nhận xét: Đã hoàn thành các khoá học online và các bài tập,nhưng nộp không đúng hạn, link commit bài tập nhóm chưa rõ ràng.
+Nhận xét: Đã hoàn thành các khoá học online và các bài tập,nhưng nộp không đúng hạn, link commit bài tập nhóm chưa rõ ràng.<br />
+
+Người chấm: Bùi Tiến Dũng<br/>
+Điểm: 7<br/>
+Nhận xét: Chưa có tinh thần tự học, nộp bài chậm muộn. Có đóng góp vào bài tập nhóm.<br/>
+
