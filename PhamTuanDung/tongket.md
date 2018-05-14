@@ -37,3 +37,6 @@ Người chấm: Bùi Tiến Dũng<br/>
 Điểm: 7<br/>
 Nhận xét: Chưa có tinh thần tự học, nộp bài chậm muộn. Có đóng góp vào bài tập nhóm.<br/>
 
+Người chấm : Phạm Minh Cường
+Điểm: 7
+Nhận xét: Đã hoàn thành các khoá học online và các bài tập,nhưng nộp không đúng hạn, link commit bài tập nhóm chưa rõ ràng, nộp bài muộn, cần nộp đúng hạn hơn.<br />
