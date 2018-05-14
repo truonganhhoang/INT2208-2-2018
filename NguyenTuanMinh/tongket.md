@@ -25,3 +25,12 @@ Báo cáo tiến độ học tập qua 15 môn học:
 - Người chấm : Nguyễn Thanh Minh
 - Điểm 9
 - Nhận xét: Hoàn thành đủ các khóa học yêu cầu nhưng thiếu bài tập tuần 6 , Bài tập nhóm có tham gia , thiếu viết SEMAT và tóm tắt môn học.
+
+
+
+Người chấm : Nguyễn Đức Minh 
+
+Điểm 9
+
+Nhận xét: Hoàn thành đủ các khóa học yêu cầu nhưng thiếu bài tập tuần 6 , Bài tập nhóm có tham gia , thiếu viết SEMAT và tóm tắt môn học.
+
