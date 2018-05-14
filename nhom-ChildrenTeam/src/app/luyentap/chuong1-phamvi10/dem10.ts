@@ -4,9 +4,9 @@ import { CountQuestion } from "../count-question";
 
 @Component({
     selector: 'dem10',
-    styleUrls: ['./dem10.css'],
+    styleUrls: ['../../css/dem10.css'],
     template: `
-    <section>
+<section>
     <h1>Bài 1 - Chương 1: Đếm trong phạm vi 10</h1>
     <h2 class="type" >Điền số thích hợp vào ô trống.</h2>
     <div class="container">
@@ -18,8 +18,8 @@ import { CountQuestion } from "../count-question";
                 <div class="panel panel-body panel-primary" id="divQues">
                     <div *ngIf="showAns">
                         <!-- hiển thị câu hỏi -->
-                        <h3><strong>{{QUESTIONES[x].name_ques}}</strong></h3>
-                        <div id="getImgQues"><img src={{QUESTIONES[x].link_img}} /></div>
+                        <h3><strong>{{QUESTIONES[count].name_ques}}</strong></h3>
+                        <div id="getImgQues"><img src={{QUESTIONES[count].link_img}} /></div>
                         <div id="ans" >
                             <input type="text" style="text-align: center" #result id="ketqua">
                         </div>
@@ -27,12 +27,11 @@ import { CountQuestion } from "../count-question";
                             <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
                         </div>
                     </div>
-
                     <!-- chuyển sang bài tiếp theo -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
                             <!-- hoàn thành cả 10 câu hỏi đúng -->
-                            <div *ngIf="endLessPer">
+                            <div *ngIf="endPer">
                                 <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>
                                 <h2>Bạn đã đạt được 10/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
@@ -46,10 +45,8 @@ import { CountQuestion } from "../count-question";
                             <router-outlet></router-outlet>
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <!-- cột hiển thị số sao -->
             <div class="col-sm-4">
                 <!-- số sao hiện trong panel -->
@@ -113,54 +110,42 @@ export class dem10 {
 
     showAns = true; // hiện câu hỏi 
     nextLess = false;
-    x = 0;
-
-    count_true = 0;
-    endLessPer = false;
-    endLess = false;
-
+    count = 0; //số câu hỏi
+    count_true = 0; //số câu trả lời đúng
+    endPer = false; //trả lời đúng hết tất cả các câu hỏi
+    endLess = false; 
 
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
-
     }
 
     checkAns(value) {
-        if (parseInt(value) == this.QUESTIONES[this.x].true_ans) {
+        if (parseInt(value) == this.QUESTIONES[this.count].true_ans) {
             this.rightAns();          // thêm 1 ngôi sao vào trong khung 
             this.count_true += 1;     // số câu đúng tăng thêm 1
-            if (this.x <= this.QUESTIONES.length)
-                this.x += 1;            // chỉ số đối tượng tăng lên 1
-
-            if (this.x == this.QUESTIONES.length && this.count_true == this.QUESTIONES.length) {  // chỉ số bằng độ dài, số câu đúng = độ dài
-                
+            if (this.count <= this.QUESTIONES.length)
+                this.count += 1;            // chỉ số đối tượng tăng lên 1
+            if (this.count_true == this.QUESTIONES.length ) {  // chỉ số bằng độ dài, số câu đúng = độ dài                
                 this.showAns = false;
                 this.nextLess = true;
-                this.endLessPer = true;
-
+                this.endPer = true;
             }
-
-        } else {
-
-            if (this.x <= this.QUESTIONES.length)
-                this.x += 1;
-            if (this.x == this.QUESTIONES.length) {
-                
-                this.showAns = false;
-                this.nextLess = true;
-                this.endLess = true;
-                if (this.count_true == 0) {
-                    var para = document.createElement("P");
-                    var t = document.createTextNode("Bạn không đạt được sao nào, cố gắng lần sau nhé!");
-                    para.appendChild(t);
-                    document.getElementById("panel_star").appendChild(para);
-                }
-            }
-
+        } else { 
+            if (this.count <= this.QUESTIONES.length)
+                this.count += 1;
         }
-
-
+        if (this.count == this.QUESTIONES.length && this.endPer == false) {                
+            this.showAns = false;
+            this.nextLess = true;
+            this.endLess = true;
+            if (this.count_true == 0) {
+                var para = document.createElement("P");
+                var t = document.createTextNode("Bạn không đạt được sao nào, cố gắng lần sau nhé!");
+                para.appendChild(t);
+                document.getElementById("panel_star").appendChild(para);
+            }
+        }
     }
 }

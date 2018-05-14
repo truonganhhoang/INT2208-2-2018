@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'kiemtra',
     templateUrl: 'kiemtra.html',
-    styleUrls: ['kiemtra.css'],
+    styleUrls: ['../css/kiemtra.css'],
     
 })
 export class kiemTra {

@@ -14,10 +14,8 @@ let providers = {
 };
 
 import { AppRoutingModule } from 'app/routing/app-routing.module';
-
 import { app } from './app';
 import { home } from './home';
-
 
 // chương 1
 import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
@@ -99,6 +97,7 @@ import { de5 } from 'app/kiemtra/de5';
   providers: [],
   bootstrap: [app]
 })
+
 export class AppModule { 
   constructor(){}
 }

@@ -4,7 +4,7 @@ import { test } from './test';
 @Component({
     selector: 'de1',
     templateUrl: 'de.html',
-    styleUrls: ['de.css'],
+    styleUrls: ['../css/de.css'],
 
 })
 
@@ -99,7 +99,6 @@ export class de1 {
         document.getElementById(id).appendChild(img);
     }
 
-
     cauhoi() {
         this.showGuide = false;
         for (var i = 0; i < this.tests.length; i++) {
@@ -125,12 +124,11 @@ export class de1 {
             var ip = document.createElement("INPUT");
             ip.setAttribute("type", "text");
             ip.setAttribute("id", "ip" + i);
-            ip.setAttribute("style", "text-align: center");
+            ip.setAttribute("style", "text-align: center ");
             document.getElementById("q" + i).appendChild(ip);
         }
         this.showChoice = true;
         this.showChoiceCheck = true;
-
     }
 
     checkAns() {

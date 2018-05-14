@@ -3,11 +3,9 @@ import { MinMaxQuestion } from 'app/luyentap/chuong1-phamvi10/min-max-class';
 
 @Component({
     selector: 'min-max-20',
-    styleUrls: ['min-max-20.css'],
+    styleUrls: ['../../css/min-max.css'],
     templateUrl: 'min-max-20.html',
-}
-
-)
+})
 
 export class minMax20 {
     MINMAX: MinMaxQuestion[] = [
@@ -57,17 +55,20 @@ export class minMax20 {
             true_ans: 17
         }
     ];
-    x = 0;
+
+    count = 0;
     showAns = true;
     count_true = 0;
     nextLess = false;
     endPer = false;
     endLess = false;
+
     imgTrue(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/dung.png");
         document.getElementById(id).appendChild(img);
     }
+
     imgFalse(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/sai.png");
@@ -75,25 +76,23 @@ export class minMax20 {
     }
 
     checkAns(value) {
-        if (value == this.MINMAX[this.x].true_ans) {
+        if (value == this.MINMAX[this.count].true_ans) {
             this.count_true += 1;
-            this.imgTrue(this.x);
-            if (this.x <= this.MINMAX.length) this.x += 1;
-            if (this.count_true == this.MINMAX.length && this.x == 5) {
+            this.imgTrue(this.count);
+            if (this.count <= 5) this.count += 1;
+            if (this.count_true == 5) {
                 this.showAns = false;
                 this.endPer = true;
-                this.nextLess = true;
-           
+                this.nextLess = true;          
             }
         } else {
-            this.imgFalse(this.x);
-            if (this.x <= this.MINMAX.length) this.x += 1;
-            if (this.x == 5) {
-                this.showAns = false;
-                this.endLess = true;
-                this.nextLess = true;
-               
-            }
+            this.imgFalse(this.count);
+            if (this.count <= 5) this.count += 1;
+        }       
+        if (this.count == 5 && this.endPer == false) {
+            this.showAns = false;
+            this.endLess = true;
+            this.nextLess = true;              
         }
     }
 }
