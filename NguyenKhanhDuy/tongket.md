@@ -34,3 +34,7 @@ Nhận xét: Đã hoàn thành các khoá hịc online, tham gia vào hoàn thà
 Người chấm: Lê Văn Duy
 Điểm: 9
 Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm.
+
+Người chấm: Phạm Tuấn Dũng 
+Điểm: 8,5 
+Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm. cần nộp đúng hạn hơn.
