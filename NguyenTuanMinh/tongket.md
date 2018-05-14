@@ -33,4 +33,6 @@ Người chấm : Nguyễn Đức Minh
 Điểm 9
 
 Nhận xét: Hoàn thành đủ các khóa học yêu cầu nhưng thiếu bài tập tuần 6 , Bài tập nhóm có tham gia , thiếu viết SEMAT và tóm tắt môn học.
-
+- Người chấm: Nguyễn Đức Mạnh
+- Điểm: 8.5
+- Nhận xét: Hoàn thành đầy đủ các khóa học yêu cầu, tham gia vào bài tập nhóm, thiếu viết thẻ SEMAT.
