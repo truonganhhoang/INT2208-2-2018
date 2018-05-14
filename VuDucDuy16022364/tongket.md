@@ -31,3 +31,7 @@ Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu củ
 Người chấm: Bùi Mạnh Dũng
 Điểm: 10
 Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm.
+
+Người chấm: Phạm Tuấn Dũng
+Điểm: 10 
+Nhận xét: Đã hoàn thành các khoá hịc online, tích cực tham gia vào hoàn thành bài tập nhóm, có ý tưởng tốt.
