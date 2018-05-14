@@ -20,7 +20,7 @@ Tự học html,css,bootraps,js ở mức cơ bản
 + Điểm: 8.5
 + Nhận xét: Hoàn thành tốt việc tự học, hơi ít dẫn chứng . Bài tập nhóm làm chi tiết, hoàn thành tốt các nhiệm vụ trên lớp.
 
- Người chấm: nguyenthuhien
+ Người chấm: Nguyễn Thu Hiền
 + Điểm: 9.5
 + Nhận xét: Hoàn thành đầy đủ bài tập cá nhân và bài tập nhóm, tự học và hoàn thành được nhiều các kiến thức mới, tích cực tham gia vào làm các công việc trong nhóm.
   
