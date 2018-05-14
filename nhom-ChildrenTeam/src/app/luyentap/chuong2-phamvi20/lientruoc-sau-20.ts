@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'lien-truoc-sau-20',
-    styleUrls:['lientruoc-sau.css'],
+    styleUrls:['../../css/lientruoc-sau.css'],
     templateUrl: 'lientruoc-sau-20.html',
 })
 
@@ -12,10 +12,11 @@ export class lienTruocSau20 {
     _nameAns = 'Số liền trước là : ';
     showAns = true;
     nextLess = false;
-    endLessPer = false;
+    endPer = false;
     endLess = false;
     count = 0;
     count_true = 0;
+
     init() {
         var _signal = Math.floor(Math.random() * 2 + 1);
         if (_signal == 1) {
@@ -32,8 +33,8 @@ export class lienTruocSau20 {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
-
     }
+
     checkAns(value) {
         if (this._nameQues == "Tìm số liền trước của: ") {
             if (value == '') {
@@ -44,20 +45,20 @@ export class lienTruocSau20 {
                 this.count += 1;
                 this.count_true += 1;
                 this.init();
-                if (this.count == 10) {
+                if (this.count_true == 10) {
                     this.showAns = false;
                     this.nextLess = true;
-                    this.endLessPer = true;
+                    this.endPer = true;
                 }
             }
             else {
                 this.count += 1;
                 this.init();
-                if (this.count == 10) {
-                    this.showAns = false;
-                    this.nextLess = true;
-                    this.endLess = true;
-                }
+            }
+            if (this.count == 10 && this.endPer == false) {
+                this.showAns = false;
+                this.nextLess = true;
+                this.endLess = true;
             }
         } else {
             if (parseInt(value) == (this._num + 1)) {
@@ -65,24 +66,21 @@ export class lienTruocSau20 {
                 this.count += 1;
                 this.count_true += 1;
                 this.init();
-                if (this.count == 10) {
+                if (this.count_true == 10) {
                     this.showAns = false;
                     this.nextLess = true;
-                    this.endLessPer = true;
+                    this.endPer = true;
                 }
             }
             else {
                 this.count += 1;
-                this.init();
-                if (this.count == 10) {
-                    this.showAns = false;
-                    this.nextLess = true;
-                    this.endLess = true;
-                }
+                this.init();                
+            }
+            if (this.count == 10 && this.endPer == false) {
+                this.showAns = false;
+                this.nextLess = true;
+                this.endLess = true;
             }
         }
-
     }
-
-
 }

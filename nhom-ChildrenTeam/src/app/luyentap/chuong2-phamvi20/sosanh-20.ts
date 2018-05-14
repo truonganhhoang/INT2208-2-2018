@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'so-sanh-20',
     templateUrl: 'sosanh-20.html',
-    styleUrls: ['sosanh-20.css'],
+    styleUrls: ['../../css/sosanh.css'],
 })
 
 export class soSanh20 {
@@ -12,15 +12,15 @@ export class soSanh20 {
     showAns = true;
     count = 0;
     nextLess = false;
-    endLessPer = false;
+    endPer = false;
     endLess = false;
     count_true = 0;
 
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
+        this.count_true += 1;
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
-
     }
 
     rand() {
@@ -32,35 +32,28 @@ export class soSanh20 {
         if (this.num_1 < this.num_2 && value == "<") {
             this.count += 1;
             this.rightAns();
-            this.count_true +=1;
             this.rand();
         } else if (this.num_1 > this.num_2 && value == ">") {
             this.count += 1;
             this.rightAns();
-            this.count_true +=1;
             this.rand();
             this.num_2 = Math.floor((Math.random() * 10) + 0);
         } else if (this.num_1 == this.num_2 && value == "=") {
             this.count += 1;
             this.rightAns();
-            this.count_true +=1;
             this.rand();
         } else {
             this.count += 1;
             this.rand();
         }
-        if (this.count == 10 && this.count_true == 10) {
-
+        if (this.count_true == 10) {
             this.showAns = false;
             this.nextLess = true;
-            this.endLessPer = true;
+            this.endPer = true;
         } else if(this.count == 10) {
             this.showAns = false;
             this.nextLess = true;
             this.endLess = true;   
         }
-
     }
-
-
 }

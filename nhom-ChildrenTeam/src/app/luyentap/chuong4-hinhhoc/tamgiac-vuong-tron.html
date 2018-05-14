@@ -4,7 +4,6 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-1"></div>
-
             <div class="col-sm-10">
                 <div id="tableCheck">
                     <table>
@@ -36,17 +35,15 @@
                             <button type="button" #vl1 value={{hinh[x].ans_A}} (click)="checkAns(vl1.value)">{{hinh[x].ans_A}}</button>
                             <button type="button" #vl2 value={{hinh[x].ans_B}} (click)="checkAns(vl2.value)">{{hinh[x].ans_B}}</button>
                             <button type="button" #vl3 value={{hinh[x].ans_C}} (click)="checkAns(vl3.value)">{{hinh[x].ans_C}}</button>
-
                         </form>
                     </div>
                     <div *ngIf="theEnd">
                         <h2><strong>Chúc mừng bạn đã hoàn thành bài học 2!</strong></h2>
-                        <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                        <h2>Bạn đã đạt được {{count_true}}/6 sao.</h2>
                         <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                         <h2><a routerLink="/demtamgiac" routerLinkActive="active">Bài 3 - chương 4 - Đếm tam giác. </a></h2>
                         <router-outlet></router-outlet>
-                    </div>
-                    
+                    </div>                    
                 </div>
             </div>
         </div>

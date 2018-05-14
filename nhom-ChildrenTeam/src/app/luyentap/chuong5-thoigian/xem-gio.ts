@@ -3,7 +3,7 @@ import { Clock } from './clock';
 
 @Component({
     selector: 'xem-gio',
-    styleUrls:['clock.css'],
+    styleUrls:['../../css/clock.css'],
     templateUrl: 'xem-gio.html',
 })
 
@@ -46,7 +46,7 @@ export class xemGio {
         }
     ];
 
-    x = 0;
+    count = 0;
     showAns = true;
     count_true = 0;
     nextLess = false;
@@ -57,6 +57,7 @@ export class xemGio {
         img.setAttribute("src", "./assets/image/dung.png");
         document.getElementById(id).appendChild(img);
     }
+
     imgFalse(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/sai.png");
@@ -64,23 +65,22 @@ export class xemGio {
     }
 
     checkAns(value) {
-        if (value == this.clocks[this.x].true_ans) {
+        if (value == this.clocks[this.count].true_ans) {
             this.count_true += 1;
-            this.imgTrue(this.x);
-            if (this.x < this.clocks.length) this.x += 1;
-            if (this.count_true == 5 && this.x == 5) {
+            this.imgTrue(this.count);
+            if (this.count < this.clocks.length) this.count += 1;
+            if (this.count_true == 5) {
                 this.showAns = false;
                 this.theEnd = true;
             }
-
         } else {
-            this.imgFalse(this.x);
-            if (this.x < this.clocks.length) this.x += 1;
-            if (this.x == 5) {
-                this.showAns = false;
-                this.nextLess = true;
-                this.theEnd = true;
-            }
+            this.imgFalse(this.count);
+            if (this.count < this.clocks.length) this.count += 1;
+        }
+        if (this.count == 5) {
+            this.showAns = false;
+            this.nextLess = true;
+            this.theEnd = true;
         }
     }
 }

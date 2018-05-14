@@ -3,11 +3,9 @@ import { MinMaxQuestion} from 'app/luyentap/chuong1-phamvi10/min-max-class';
 
 @Component({
     selector: 'min-max-100',
-    styleUrls: ['min-max-100.css'],
+    styleUrls: ['../../css/min-max.css'],
     templateUrl:'min-max-100.html',
-}
-
-)
+})
 
 export class minMax100 {
     MINMAX: MinMaxQuestion[] =[
@@ -57,44 +55,44 @@ export class minMax100 {
             true_ans: 70
         }
     ];
-    x = 0;
+
+    count = 0;
     showAns = true;
     count_true = 0 ;
     nextLess = false;
     endPer = false;
     endLess = false;
     
-    imgTrue(id){
+    imgTrue(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/dung.png");
         document.getElementById(id).appendChild(img);
     }
-    imgFalse(id){
+
+    imgFalse(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/sai.png");
         document.getElementById(id).appendChild(img);
     }
 
-    checkAns(value){
-        if(value == this.MINMAX[this.x].true_ans){
+    checkAns(value) {
+        if(value == this.MINMAX[this.count].true_ans) {
             this.count_true += 1;
-            this.imgTrue(this.x);
-            if( this.x <= this.MINMAX.length) this.x += 1;
-            if(this.count_true == this.MINMAX.length && this.x == 5){
+            this.imgTrue(this.count);
+            if( this.count <= this.MINMAX.length) this.count += 1;
+            if(this.count_true == 5) {
                 this.showAns = false;
                 this.endPer = true;
-                this.nextLess = true;
-                
+                this.nextLess = true;               
             }
         } else {
-            this.imgFalse(this.x);
-            if( this.x <= this.MINMAX.length) this.x += 1;
-            if(this.x == 5 ){
-                this.showAns = false;
-                this.endLess = true;
-                this.nextLess = true;
-               
-            }
+            this.imgFalse(this.count);
+            if( this.count <= this.MINMAX.length) this.count += 1;
+        }
+        if(this.count == 5 && this.endPer == false) {
+            this.showAns = false;
+            this.endLess = true;
+            this.nextLess = true;              
         }
     }
 }

@@ -17,11 +17,10 @@
             <div class="col-sm-6">
                 <!-- câu hỏi hiện trong panel -->
                 <div class="panel panel-body panel-primary" id="divQues">
-
                     <div *ngIf="showAns">
                         <!-- hiển thị câu hỏi -->
-                        <h3><strong>{{countques[x].name_ques}}</strong></h3>
-                        <div id="getImgQues"><img src={{countques[x].link_img}} /></div>
+                        <h3><strong>{{countques[count].name_ques}}</strong></h3>
+                        <div id="getImgQues"><img src={{countques[count].link_img}} /></div>
                         <div id="ans">
                             <input type="text" #result id="ketqua">
                         </div>
@@ -29,34 +28,33 @@
                             <button type="button" (click)="checkAns(result.value); result.value=''" id="kiemtra">Kiểm tra</button>
                         </div>
                     </div>
-
                     <!-- chuyển sang bài tiếp theo  -->
                     <div *ngIf="nextLess">
                         <div id="newLess">
                              <!-- hoàn thành cả 10 câu hỏi đúng  -->
                              <div *ngIf="bai2_chuong4">
-                                <div *ngIf="endLessPer">
+                                <div *ngIf="endPer">
                                     <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 1!</strong></h2>
-                                    <h2>Bạn đã đạt được 10/10 sao.</h2>
+                                    <h2>Bạn đã đạt được 5/5 sao.</h2>
                                     <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                                 </div>
                                  <div *ngIf="endLess">
                                     <h2><strong>Chúc mừng bạn đã hoàn thành bài học 1!</strong></h2>
-                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                                    <h2>Bạn đã đạt được {{count_true}}/5 sao.</h2>
                                     <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                                 </div>        
                                 <h2><a routerLink="/tamgiacvuongtron" routerLinkActive="active">Bài 2 - chương 4: Hình tam giác, hình vuông, hình tròn. </a></h2>
                                 <router-outlet></router-outlet>
                             </div>
                             <div *ngIf="bai1_chuong5">
-                                <div *ngIf="endLessPer">
+                                <div *ngIf="endPer">
                                     <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 3!</strong></h2>
-                                    <h2>Bạn đã đạt được 10/10 sao.</h2>
+                                    <h2>Bạn đã đạt được 5/5 sao.</h2>
                                     <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                                 </div>
                                 <div *ngIf="endLess">
                                     <h2><strong>Chúc mừng bạn đã hoàn thành bài học 3!</strong></h2>
-                                    <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                                    <h2>Bạn đã đạt được {{count_true}}/5 sao.</h2>
                                     <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                                 </div>
                                 <h2><a routerLink="/xemgio" routerLinkActive="active">Bài 1 - chương 5: Xem giờ. </a></h2>
@@ -64,10 +62,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <!-- cột hiển thị số sao -->
             <div class="col-sm-4">
                 <!-- số sao hiện trong panel -->

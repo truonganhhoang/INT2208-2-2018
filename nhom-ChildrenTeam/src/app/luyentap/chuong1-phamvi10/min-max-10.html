@@ -3,7 +3,6 @@
     <h2 class="type">Chọn đáp án đúng.</h2>
     <div class="row">
         <div class="col-md-2"></div>
-
         <div class="col-md-8">
             <div id="tableCheck">
                 <table>
@@ -26,30 +25,29 @@
             <br>
             <div class="panel panel-body panel-primary" id="divQues">
                 <div *ngIf="showAns">
-                    <h2> {{MINMAX[x].name_ques}} </h2>
+                    <h2> {{MINMAX[count].name_ques}} </h2>
                     <br>
                     <form>
-                        <button type="button" #vl1 value={{MINMAX[x].n_1}} (click)="checkAns(vl1.value)">{{MINMAX[x].n_1}}</button>
-                        <button type="button" #vl2 value={{MINMAX[x].n_2}} (click)="checkAns(vl2.value)">{{MINMAX[x].n_2}}</button>
-                        <button type="button" #vl3 value={{MINMAX[x].n_3}} (click)="checkAns(vl3.value)">{{MINMAX[x].n_3}}</button>
-                        <button type="button" #vl4 value={{MINMAX[x].n_4}} (click)="checkAns(vl4.value)">{{MINMAX[x].n_4}}</button>
-                        <button type="button" #vl5 value={{MINMAX[x].n_5}} (click)="checkAns(vl5.value)">{{MINMAX[x].n_5}}</button>
+                        <button type="button" #vl1 value={{MINMAX[count].n_1}} (click)="checkAns(vl1.value)">{{MINMAX[count].n_1}}</button>
+                        <button type="button" #vl2 value={{MINMAX[count].n_2}} (click)="checkAns(vl2.value)">{{MINMAX[count].n_2}}</button>
+                        <button type="button" #vl3 value={{MINMAX[count].n_3}} (click)="checkAns(vl3.value)">{{MINMAX[count].n_3}}</button>
+                        <button type="button" #vl4 value={{MINMAX[count].n_4}} (click)="checkAns(vl4.value)">{{MINMAX[count].n_4}}</button>
+                        <button type="button" #vl5 value={{MINMAX[count].n_5}} (click)="checkAns(vl5.value)">{{MINMAX[count].n_5}}</button>
                     </form>
                 </div>
                 <div *ngIf="nextLess">
                     <div *ngIf="endPer">
                         <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 4!</strong></h2>
-                        <h2>Bạn đã đạt được 10/10 sao.</h2>
+                        <h2>Bạn đã trả lời đúng 5/5 câu.</h2>
                         <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
                     <div *ngIf="endLess">
                         <h2><strong>Chúc mừng bạn đã hoàn thành bài học 4!</strong></h2>
-                        <h2>Bạn đã đạt được {{count_true}}/10 sao.</h2>
+                        <h2>Bạn đã trả lời đúng {{count_true}}/5 câu.</h2>
                         <h2><strong>Chuyển đến bài học mới nào</strong></h2>
                     </div>
                     <h2><a routerLink="/sosanh20" routerLinkActive="active">Bài 1 - chương 2 - So sánh 2 số trong phạm vi 20. </a></h2>
                     <router-outlet></router-outlet>
-
                 </div>
             </div>
         </div>

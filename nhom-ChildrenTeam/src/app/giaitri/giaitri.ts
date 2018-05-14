@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'giai-tri',
-    styleUrls: ['./giaitri.css'],
+    styleUrls: ['../css/giaitri.css'],
     template: `
     <div class="container">
         <div class="row">
@@ -60,7 +60,6 @@ import { Component } from '@angular/core';
                 </h3> 
                 </strong>
             </div>
-
             <div class="col-md-6">
                 <h2>
                 <b>
@@ -128,5 +127,31 @@ import { Component } from '@angular/core';
 })
 
 export class giaiTri {
-
+    titles = [
+        "TRUYỆN NGẮN",
+        "QUÀ TẶNG CUỘC SỐNG"
+      ];
+    
+      stories = [
+        "Ba lưỡi rìu",
+        "Sự tích hoa sen",
+        "Miếng trầu kì diệu",
+        "Cậu bé Tích Chu", 
+        "Bát canh hẹ", 
+        "Ăn khế trả vàng",
+        "Con cóc không vâng lời",
+        "Cô bé hai mắt"
+      ];
+      
+      videos = [
+        "Mừng sinh nhật",
+        "Ăn cơm với muối",
+        "Thư của bố",
+        "Tấm vé về tuổi thơ",
+        "Lời nói dối", 
+        "Sao băng",
+        "Trái tim của bố",
+        "Lớp học hy vọng"
+      ];
+    
 }
