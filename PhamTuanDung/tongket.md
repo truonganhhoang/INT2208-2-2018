@@ -28,3 +28,7 @@ CSS:  [https://github.com/truonganhhoang/INT2208-2-2018/tree/master/PhamTuanDung
 Người chấm: Bùi Mạnh Dũng
 Điểm: 8
 Nhận xét: Có hoàn thành các khoá học online, tham gia làm bài tập nhóm, tuy nhiên cần nộp bài tập đúng hạn!
+
+Người chấm : Hoàng Xuân Cường
+Điểm 7
+Nhận xét: Đã hoàn thành các khoá học online và các bài tập,nhưng nộp không đúng hạn, link commit bài tập nhóm chưa rõ ràng.
