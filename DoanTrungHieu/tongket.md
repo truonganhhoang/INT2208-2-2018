@@ -37,7 +37,7 @@ Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cá
  * Người chấm: Trần Văn Hải
  * Điểm: 9
  * Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia viết báo cáo và làm bài tập nhóm.
-
-Người chấm: Nguyễn Thu Hiền
-Điểm: 10
-Nhận xét:Tinh thần tự học cao. Bài tập nhóm làm chi tiết, hoàn chỉnh. Báo cáo đầy đủ chi tiết.
+ 
++ Người chấm:Nguyễn Thu Hiền
++ Điểm: 10
++ Nhận xét:Tinh thần tự học cao. Bài tập nhóm làm chi tiết, hoàn chỉnh. Báo cáo đầy đủ chi tiết.
