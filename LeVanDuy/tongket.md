@@ -31,3 +31,7 @@ Nhận xét: Bạn đã cơ bản hoàn thiện được những yêu cầu củ
 Người chấm: Bùi Mạnh Dũng
 Điểm: 8.5
 Nhận xét: Hoàn thành được đa số yêu cầu của 15 tuần học,cần thêm dẫn chứng về việc tự học.
+Người chấm: Phạm Tuấn Dũng<br />
+Điểm: 8
+Nhận xét: Hoàn thành cơ bản yêu cầu của 15 tuần học, cần thêm dẫn chứng về việc tự học.
+
