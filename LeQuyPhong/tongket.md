@@ -1,4 +1,4 @@
-Báo cáo cá nhân môn Công nghệ phần mềm
+﻿Báo cáo cá nhân môn Công nghệ phần mềm
 
 Sinh viên: Lê Quý Phong- MSSV:16021325
 
@@ -29,3 +29,7 @@ Nhận xét: thực hiện đủ các khóa học và bài tập,có �
 Người chấm : Nguyễn Văn Oai
 Điểm : 8
 Nhận xét:Bạn chưa có link dẫn rõ ràng mới chỉ nêu ra được một vài cái 
+
+Người chấm : Phan Thế Minh
+Điểm : 8
+Nhận xét: Bạn chưa đưa ra link chưng minh rõ ràng 
