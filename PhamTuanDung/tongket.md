@@ -25,3 +25,6 @@ CSS:  [https://github.com/truonganhhoang/INT2208-2-2018/tree/master/PhamTuanDung
 - Đóng góp vào hoàn thiện tài liệu môn học với lớp, thực hiện phần Processing:
  [ https://bit.ly/2GKLuqb]( https://bit.ly/2GKLuqb)
 - Biết và hiểu thêm về quy trình làm 1 sản phẩm phần mềm, cách team work khi làm bài tập lớn
+Người chấm: Bùi Mạnh Dũng
+Điểm: 8
+Nhận xét: Có hoàn thành các khoá học online, tham gia làm bài tập nhóm, tuy nhiên cần nộp bài tập đúng hạn!
