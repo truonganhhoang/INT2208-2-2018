@@ -1,4 +1,4 @@
-export class Clock{
+export class Clock {
     link_img : string;
     ans_A : string;
     ans_B: string;

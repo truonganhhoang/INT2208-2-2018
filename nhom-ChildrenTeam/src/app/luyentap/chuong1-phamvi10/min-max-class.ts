@@ -1,5 +1,4 @@
-export class MinMaxQuestion {
-    
+export class MinMaxQuestion {  
     name_ques: string;
     n_1: number;
     n_2: number;

@@ -4,7 +4,7 @@ import { test } from './test';
 @Component({
     selector: 'de5',
     templateUrl: 'de.html',
-    styleUrls: ['de.css'],
+    styleUrls: ['../css/de.css'],
 
 })
 
@@ -98,7 +98,6 @@ export class de5 {
         document.getElementById(id).appendChild(img);
     }
 
-
     cauhoi() {
         this.showGuide = false;
         for (var i = 0; i < this.tests.length; i++) {
@@ -129,7 +128,6 @@ export class de5 {
         }
         this.showChoice = true;
         this.showChoiceCheck = true;
-
     }
 
     checkAns() {

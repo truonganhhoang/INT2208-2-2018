@@ -4,7 +4,6 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-1"></div>
-
             <div class="col-sm-10">
                 <div id="tableCheck">
                     <table>
@@ -28,16 +27,17 @@
                 <div class="panel panel-body panel-primary" id="divQues">
                     <div *ngIf="showAns">
                         <h2 class="type"> Đồng hồ chỉ mấy giờ??? </h2>
-                        <img src={{clocks[x].link_img}}/>
+                        <img src={{clocks[count].link_img}}/>
                         <br>
                         <form class="form-inline">
-                            <button type="button" #vl1 value={{clocks[x].ans_A}} (click)="checkAns(vl1.value)">{{clocks[x].ans_A}}</button>
-                            <button type="button" #vl2 value={{clocks[x].ans_B}} (click)="checkAns(vl2.value)">{{clocks[x].ans_B}}</button>
-                            <button type="button" #vl3 value={{clocks[x].ans_C}} (click)="checkAns(vl3.value)">{{clocks[x].ans_C}}</button>
-
+                            <button type="button" #vl1 value={{clocks[count].ans_A}} (click)="checkAns(vl1.value)">{{clocks[count].ans_A}}</button>
+                            <button type="button" #vl2 value={{clocks[count].ans_B}} (click)="checkAns(vl2.value)">{{clocks[count].ans_B}}</button>
+                            <button type="button" #vl3 value={{clocks[count].ans_C}} (click)="checkAns(vl3.value)">{{clocks[count].ans_C}}</button>
                         </form>
                     </div>
                     <div *ngIf="theEnd">
+                        <h2><strong>Chúc mừng bạn đã hoàn thành bài học!</strong></h2>
+                        <h2>Bạn đã đạt được {{count_true}}/5 sao.</h2>
                         <h2>Kết thúc bài học.</h2>
                         <h2>Cảm ơn bạn đã chọn trang web của chúng tôi.</h2>
                     </div>

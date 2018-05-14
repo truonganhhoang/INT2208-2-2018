@@ -4,7 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { app } from  'app/app';
 import { home } from 'app/home';
 
-
 import { dem10 } from 'app/luyentap/chuong1-phamvi10/dem10';
 import { sub10 } from 'app/luyentap/chuong1-phamvi10/sub-10';
 import { sum10 } from 'app/luyentap/chuong1-phamvi10/sum-10';
@@ -29,8 +28,6 @@ import { demTamgiac } from 'app/luyentap/chuong4-hinhhoc/dem-so-tamgiac';
 
 import { xemGio} from 'app/luyentap/chuong5-thoigian/xem-gio';
 
-
-// kiểm tra
 import { kiemTra } from 'app/kiemtra/kiemtra';
 import { de1 } from 'app/kiemtra/de1';
 import { de2 } from 'app/kiemtra/de2';
@@ -82,4 +79,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+
+export class AppRoutingModule {}

@@ -33,6 +33,7 @@ if (isset($_POST['send'])) {
 	$mail->CharSet = "utf-8";
 	$mail->SetFrom('duoinhungconmuak@gmail.com','INSTRUSMENT');
 	$mail->addAddress($_POST['email'],$_POST['username']);
+	$mail->AddReplyTo('duoinhungconmuak@gmail.com','INSTRUSMENT');
 	$mail->Subject = $_POST['subject'];
 	$mail->Body =$_POST['content'];
 	if (!$mail->send()) {

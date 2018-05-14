@@ -10,3 +10,19 @@
 * Bài tập nhóm:
 	- Tham gia viết báo cáo cuối khóa: https://docs.google.com/document/d/1PSt0JK8gl7i3VTp_l_H9uK71v7lyUe81sUKVzEEuk1A/edit#heading=h.eqdupl8g2s7q
 	- Tham gia làm ứng dụng của nhóm: https://github.com/truonganhhoang/INT2208-2-2018/pull/405/commits/117bfa64cfaa6c0fc393521337f0a69346ae1796 
+
+* Người Chấm: Vũ Đức Duy
+* Điểm: 9
+* Nhận Xét: Hoàn thiện các khóa học cùng bài tập cá nhân. Tham Gia tích cực các bài tập lớn của nhóm.
+
+* Người chấm: Nguyễn Khánh Duy
+* Điểm: 10
+* Nhận xét: Hoàn thành đầy đủ các bài tập, tham gia làm báo cáo và tóm tắt môn học, tích cực hoàn thành công việc của nhóm. Tích cực trao đổi thảo luận đưa ra những ý kiến sáng giá cho cách học và hoàn thiện bài tập nhóm
+
+* Người chấm: Lê Văn Duy
+* Điểm: 10
+* Nhận Xét:Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm, biết giúp đỡ cái thành viên trong nhóm để bắt kịp tiến độ môn học
+
+Người chấm: Phạm Tuấn DŨng
+Điểm: 10
+Nhận Xét: Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm.

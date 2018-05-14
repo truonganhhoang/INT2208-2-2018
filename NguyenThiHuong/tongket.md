@@ -18,3 +18,15 @@ Công nghệ phần mềm- Giảng viên: Trương Anh Hoàng
 1. Người chấm: Nguyễn Mậu Đức Huy 
 * Điểm: 8.
 * Nhận xét: Bài tập cá nhân và bài tập nhóm đầy đủ. Tuy nhiên báo cáo bài tập nhóm format chưa được chính xác hoàn toàn. file tongket.md trình bày bố cục hơi khó nhìn.
+
+2. Người chấm: Đỗ Thành Huy
+Điểm: 8.
+Nhận xét: Hoàn thành đầy đủ bài tập, yêu cầu của giảng viên. Có đóng góp vào công việc của nhóm. Đặt file chưa đúng theo yêu cầu.
+
+3. Người chấm: Vũ Thanh Huyền
+Điểm: 8.
+Nhận xét: Các yêu cầu đầy đủ. File chưa theo yêu cầu.
+
+4. Người chấm: Hoàng Mạnh Hưng
+- Điểm: 9
+- Nhận xét: hoàn thành các bài tập thầy giao. Có làm bài tập nhóm

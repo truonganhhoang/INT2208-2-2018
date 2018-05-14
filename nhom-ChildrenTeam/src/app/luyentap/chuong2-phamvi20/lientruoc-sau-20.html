@@ -3,11 +3,8 @@
     <h2 class="type">Điền số thích hợp vào ô trống</h2>
     <div class="container">
         <div class="row">
-
             <div class="col-md-6">
                 <div class="panel panel-body panel-primary" id="divQues">
-
-
                     <div *ngIf="showAns">
                         <h2>{{_nameQues}} {{_num}}</h2>
                         <br>
@@ -20,7 +17,7 @@
                     <div *ngIf="nextLess">
                         <div id="newLess">
                             <!-- hoàn thành cả 5 câu hỏi đúng -->
-                            <div *ngIf="endLessPer">
+                            <div *ngIf="endPer">
                                 <h2><strong>Chúc mừng bạn đã hoàn thành xuất sắc bài học 5!</strong></h2>
                                 <h2>Bạn đã đạt được 10/10 sao.</h2>
                                 <h2><strong>Chuyển đến bài học mới nào</strong></h2>
@@ -34,9 +31,7 @@
                             <router-outlet></router-outlet>
                         </div>
                     </div>
-
                 </div>
-
             </div>
             <div class="col-md-4">
                 <!-- số sao hiện trong panel -->

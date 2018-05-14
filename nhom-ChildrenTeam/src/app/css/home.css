@@ -1,0 +1,13 @@
+.container{
+    height: 200px;
+    
+}
+h3{
+    color: orangered;
+}
+section{
+     background: url("../../assets/image/background.jpg") fixed no-repeat;
+}
+img{
+    width: 100%;
+}

@@ -19,3 +19,18 @@
  - Biết cách làm việc theo nhóm
 
 # Chấm chéo:
+* Người chấm: Nguyễn Trường Sơn
+* Điểm: 9
+* Nhận xét: Các khóa học cá nhân và bài tập nhóm bạn đều đã làm rất tốt và đầy đủ.Tuy nhiên bạn nên cho thêm link các khóa học HTML, CSS, JavaScript nữa nhé. 
+
+- Người chấm: Đỗ Thanh Tâm
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học yêu cầu, tham gia tích cực vào bài tập nhóm, tham gia viết báo cáo và tóm tắt khóa học. 
+
+- Người chấm: Tống Thanh Sơn
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học và bài tập yêu cầu.
+
+- Người chấm: Nguyễn Đúc Thái
+- Điểm: 9
+- Nhận xét: Hoàn thành tốt các khóa học và bài tập yêu cầu.

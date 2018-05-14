@@ -3,7 +3,7 @@ import { Hinh } from './hinh';
 
 @Component({
     selector: 'tam-giac-vuong-tron',
-    styleUrls:['hinh.css'],
+    styleUrls:['../../css/hinh.css'],
     templateUrl: 'tamgiac-vuong-tron.html',
 })
 
@@ -64,6 +64,7 @@ export class tamGiacVuongTron {
         img.setAttribute("src", "./assets/image/dung.png");
         document.getElementById(id).appendChild(img);
     }
+
     imgFalse(id) {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/sai.png");
@@ -79,7 +80,6 @@ export class tamGiacVuongTron {
                 this.showAns = false;
                 this.theEnd = true;
             }
-
         } else {
             this.imgFalse(this.x);
             if (this.x < this.hinh.length) this.x += 1;

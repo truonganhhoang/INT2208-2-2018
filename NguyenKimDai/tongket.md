@@ -23,3 +23,14 @@ Tổng kết: Qua tham gia khóa học Công nghệ phần mềm, em đã học 
 * Điểm: 10
 * Nhận xét: Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm đúng hạn(có hình ảnh và commit), tích cực tham gia vào công việc của nhóm, năng nổ, nhiệt tình, đưa ra những ý kiến hay để hoàn thành bài tập nhóm.
 
+* Người chấm: Vũ Đức Duy
+* Điểm: 9
+* Nhận Xét:Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm, đưa ra những ý kiến hay để hoàn thành bài tập nhóm.
+
+* Người chấm: Nguyễn Khánh Duy
+* Điểm: 10
+* Nhận Xét:Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm, biết giúp đỡ cái thành viên trong nhóm để bắt kịp tiến độ môn học
+
+Người chấm: Lê Văn Duy
+Điểm: 10
+Nhận xét: Đã hoàn thành các khoá hịc online,tích cực tham gia vào hoàn thành bài tập nhóm

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'so-sanh-100',
-    styleUrls:['sosanh-100.css'],
+    styleUrls:['../../css/sosanh.css'],
     templateUrl: 'sosanh-100.html',
 })
 
@@ -13,7 +13,7 @@ export class soSanh100 {
     count = 0;
     count_true = 0;
     nextLess = false;
-    endLessPer = false;
+    endPer = false;
     endLess = false;
 
     rightAns(): void {      // trả lời đúng thêm một sao vào khối có id = starAward
@@ -21,12 +21,11 @@ export class soSanh100 {
         var img = document.createElement("IMG");
         img.setAttribute("src", "./assets/image/true.png");
         document.getElementById("starAward").appendChild(img);
-
     }
+
     rand() {
         this.num_1 = Math.floor((Math.random() * 100) + 1);
         this.num_2 = Math.floor((Math.random() * 100) + 1);
-
     }
 
     checkAns(value) {
@@ -47,13 +46,14 @@ export class soSanh100 {
             this.count += 1;
             this.rand();
         }
-        if (this.count == 10) {
-
+        if (this.count_true == 10) {
             this.showAns = false;
             this.nextLess = true;
-            this.endLessPer = true;
+            this.endPer = true;
+        } else if (this.count == 10) {
+            this.showAns = false;
+            this.nextLess = true;
+            this.endLess = true;
         }
     }
-
-
 }
