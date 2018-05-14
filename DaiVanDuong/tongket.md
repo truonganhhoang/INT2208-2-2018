@@ -22,3 +22,7 @@
 * Người chấm: Lê Văn Duy
 * Điểm: 10
 * Nhận Xét:Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm, biết giúp đỡ cái thành viên trong nhóm để bắt kịp tiến độ môn học
+
+Người chấm: Phạm Tuấn DŨng
+Điểm: 10
+Nhận Xét: Hoàn thành đầy đủ các khóa học, hoàn thành bài bập cá nhân và nhóm , tích cực tham gia vào công việc của nhóm.
